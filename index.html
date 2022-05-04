@@ -1,11 +1,111 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Tranlator3000</title>
-</head>
 
-<body>
-    <a href="documentation/test.html">Тест.</a>
-</body>
+    <head>
+
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        <title>Translator3000</title>
+
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+           (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+           m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+           (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+           ym(88691983, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true,
+                webvisor:true
+           });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/88691983" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+
+        <!-- Main JS. -->
+        <script type="text/javascript">
+
+            async function loadJSON(url) {
+                const response = await fetch(url);
+                let result;
+                if (response.ok) {
+                    result = await response.json();
+                    return result;
+                };
+                result = await response.text();
+                throw result;
+            };
+
+            function setActualVersionData(jsonResult) {
+
+                let element;
+
+                element = document.getElementById("actualVersion");
+                element.innerHTML = jsonResult.version;
+
+                element = document.getElementById("downloadBoosty");
+                element.href = jsonResult.boostyLink;
+
+                element = document.getElementById("downloadPatreon");
+                element.href = jsonResult.patreonLink;
+
+            };
+
+        </script>
+        <!-- /Main JS. -->
+
+    </head>
+
+    <body>
+
+        <h1 align="center" style="margin-bottom: 50px">Translator3000</h1>
+
+        <div id="downloadLinks" style="margin-bottom: 100px" align="right">
+            <div style="margin-bottom: 5px">
+                <div style="display: inline-block">Актуальная версия:</div>
+                <div id="actualVersion" style="display: inline-block"></div>
+            </div>
+            <a id="downloadBoosty">Скачать с Boosty.</a>
+            <br>
+            <a id="downloadPatreon">Скачать с Patreon.</a>
+        </div>
+
+        <script type="text/javascript">
+            let actualVersionPromise = loadJSON("actualVersion.json");
+            actualVersionPromise.then(setActualVersionData);
+        </script>
+
+        <h2 style="margin-bottom: 50px">Ведутся технические работы...</h2>
+
+        <div id="someLinks" style="display: inline-flex; align-items: flex-end; width: 100%; margin-top: 10px">
+
+            <div id="suppportAndDiscordLinks" style="width: 100%">
+                <a href="https://boosty.to/nyashniyvladya">
+                    <img src="images/boosty/Color.png" height="30px" alt="Boosty Logo">
+                    <div class="supportLinks">Поддержать на Boosty</div>
+                </a>
+                <br>
+
+                <a href="https://www.patreon.com/bePatron?u=62209932">
+                    <img src="images/patreon/Digital-Patreon-Logo_FieryCoral.png" height="30px" alt="Patreon Logo">
+                    <div class="supportLinks">Поддержать на Patreon</div>
+                </a>
+            </div>
+
+            <iframe
+                    src="https://discord.com/widget?id=939992812496232520&theme=dark"
+                    width="350"
+                    height="500"
+                    allowtransparency="true"
+                    frameborder="0"
+                    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+            >
+                Обновите Ваш браузер.
+            </iframe>
+
+        </div>
+
+    </body>
+
 </html>
