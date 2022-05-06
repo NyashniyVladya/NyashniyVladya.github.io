@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@keyframes bodyBackground {
+    to {
+        background-position: right;
+    }
+}
+
+@keyframes linkHover {
+    to {
+        text-shadow: 1px 1px 1px #000, 3px 3px 3px #000;
+    }
+}
