@@ -45,35 +45,35 @@
 
 
 1. ## [Описание настроечного файла.](../settingDescription/RU.md#описание-настроек-и-настроечного-файла)
-    1. ### [gameLanguage](../settingDescription/RU.md#gamelanguage-1)
+    1. ### [gameLanguage](../settingDescription/RU.md#gamelanguage-)
 
-    1. ### [directionOfTranslation](../settingDescription/RU.md#directionoftranslation-1)
+    1. ### [directionOfTranslation](../settingDescription/RU.md#directionoftranslation-)
 
-    1. ### [prescanOnStartup](../settingDescription/RU.md#prescanonstartup-2)
+    1. ### [prescanOnStartup](../settingDescription/RU.md#prescanonstartup-)
 
-    1. ### [realtimeTranslationOnStartup](../settingDescription/RU.md#realtimetranslationonstartup-2)
+    1. ### [realtimeTranslationOnStartup](../settingDescription/RU.md#realtimetranslationonstartup-)
 
-    1. ### [_debug_mode](../settingDescription/RU.md#_debug_mode-2)
+    1. ### [_debug_mode](../settingDescription/RU.md#_debug_mode-)
 
-    1. ### [translationService](../settingDescription/RU.md#translationservice-1)
+    1. ### [translationService](../settingDescription/RU.md#translationservice-)
 
-    1. ### [workMethod](../settingDescription/RU.md#workmethod-1)
+    1. ### [workMethod](../settingDescription/RU.md#workmethod-)
 
-    1. ### [originalInHistory](../settingDescription/RU.md#originalinhistory-2)
+    1. ### [originalInHistory](../settingDescription/RU.md#originalinhistory-)
 
-    1. ### [requestsFrequency](../settingDescription/RU.md#requestsfrequency-3)
+    1. ### [requestsFrequency](../settingDescription/RU.md#requestsfrequency-)
 
-    1. ### [splitTextAsSentences](../settingDescription/RU.md#splittextassentences-2)
+    1. ### [splitTextAsSentences](../settingDescription/RU.md#splittextassentences-)
 
-    1. ### [googleHost](../settingDescription/RU.md#googlehost-1)
+    1. ### [googleHost](../settingDescription/RU.md#googlehost-)
 
-    1. ### [seleniumStartMode](../settingDescription/RU.md#seleniumstartmode-1)
+    1. ### [seleniumStartMode](../settingDescription/RU.md#seleniumstartmode-)
 
-    1. ### [seleniumInputSplitMethod](../settingDescription/RU.md#seleniuminputsplitmethod-1)
+    1. ### [seleniumInputSplitMethod](../settingDescription/RU.md#seleniuminputsplitmethod-)
 
     1. ### [extraTextOptions](../settingDescription/RU.md#extratextoptions)
 
-        1. #### [font](../settingDescription/RU.md#font-1)
-        1. #### [size](../settingDescription/RU.md#size-1)
-        1. #### [italic](../settingDescription/RU.md#italic-2)
-        1. #### [bold](../settingDescription/RU.md#bold-2)
+        1. #### [font](../settingDescription/RU.md#font-)
+        1. #### [size](../settingDescription/RU.md#size-)
+        1. #### [italic](../settingDescription/RU.md#italic-)
+        1. #### [bold](../settingDescription/RU.md#bold-)
