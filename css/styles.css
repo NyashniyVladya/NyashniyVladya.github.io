@@ -22,6 +22,10 @@ body {
     display: none !important;
 }
 
+.language-json.highlighter-rouge {
+    text-shadow: none;
+}
+
 h1 {
     font-size: 30pt;
 }
