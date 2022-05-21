@@ -19,16 +19,33 @@ body {
 }
 
 .markdown-body .highlight pre, .markdown-body .highlight {
-    background-color: #38403A;
-    background-image: linear-gradient(222deg, #15161A, #242B2C);
+    background-color: #36393F;
+    background-image: linear-gradient(73deg, #15161A, #242B2C);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: left;
     text-align: left;
     color: #eee;
-    margin: 5px 30px;
     text-shadow: none;
+}
+
+.highlight .nl {
+    color: #479982;
+    font-weight: bold;
+}
+
+.highlight .s2 {
+    color: #6292c3;
+}
+
+.highlight .c1 {
+    color: #9ea1a5a8;
+    font-style: italic;
+}
+
+.highlight .kc, .highlight .s, .highlight .sa {
+    color: #0b8b73;
 }
 
 
