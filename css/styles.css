@@ -8,22 +8,13 @@ body {
     background-color: #36393F;
     background-image: linear-gradient(222deg, #15161A, #242B2C);
     background-repeat: no-repeat;
-    background-size: 250%;
+    background-size: cover;
     background-attachment: fixed;
     background-position: left;
     text-align: left;
     color: #eee;
     text-shadow: 0px 0px 1px #000, 1px 1px 2px #000;
     margin: 5px 30px;
-    
-    
-    animation-name: bodyBackground;
-    animation-duration: 100s;
-    animation-fill-mode: both;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    
 }
 
 h1 {
