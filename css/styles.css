@@ -3,7 +3,7 @@
 
 @import url("animations.css");
 
-body, .markdown-body .highlight pre, .markdown-body .highlight {
+body {
 
     background-color: #36393F;
     background-image: linear-gradient(222deg, #15161A, #242B2C);
@@ -19,6 +19,15 @@ body, .markdown-body .highlight pre, .markdown-body .highlight {
 }
 
 .markdown-body .highlight pre, .markdown-body .highlight {
+    background-color: #38403A;
+    background-image: linear-gradient(222deg, #15161A, #242B2C);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+    text-align: left;
+    color: #eee;
+    margin: 5px 30px;
     text-shadow: none;
 }
 
