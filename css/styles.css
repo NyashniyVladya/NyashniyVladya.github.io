@@ -15,6 +15,7 @@ body {
     color: #eee;
     text-shadow: 0px 0px 1px #000, 1px 1px 2px #000;
     margin: 5px 30px;
+    top: 0px;
 }
 
 h1 {
@@ -42,4 +43,8 @@ a:hover {
     font-size: 25pt;
     margin-left: 10px;
     margin-bottom: 5px;
+}
+
+.goog-te-banner-frame.skiptranslate {
+    display: none;
 }
