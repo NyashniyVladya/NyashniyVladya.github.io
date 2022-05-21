@@ -29,6 +29,34 @@
                 );
             };
 
+            function getCookie(name) {
+                let rawCookie = document.cookie.split(/;\s*/);
+                for (let i = 0; i < rawCookie.length; i++) {
+                    let [key, value] = rawCookie[i].split('=', 2);
+                    if (key === name) {
+                        return value;
+                    };
+                };
+                return undefined;
+            };
+
+            function cycleCheckCookies() {
+
+                let translateDirection = getCookie("googtrans");
+                if (translateDirection !== undefined) {
+                    let [_from, _to] = translateDirection.slice(1).split('/');
+                    if (_from == _to) {
+                        document.cookie = "googtrans=; expires=0;"
+                        window.location.reload();
+                    };
+                };
+
+                setTimeout(cycleCheckCookies, 100);
+            };
+
+            cycleCheckCookies();
+
+
         </script>
         <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" defer></script>
 
