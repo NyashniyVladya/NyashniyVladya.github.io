@@ -23,6 +23,7 @@ body {
 }
 
 .language-json.highlighter-rouge {
+    color: #000;
     text-shadow: none;
 }
 
