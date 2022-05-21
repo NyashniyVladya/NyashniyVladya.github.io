@@ -33,7 +33,10 @@
 
             function googleTranslateElementInit() {
                 new google.translate.TranslateElement(
-                    {pageLanguage: "ru"},
+                    {
+                        pageLanguage: "ru",
+                        autoDisplay: false
+                    },
                     "google_translate_element"
                 );
             };
