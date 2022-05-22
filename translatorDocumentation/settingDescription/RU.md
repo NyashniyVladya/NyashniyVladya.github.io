@@ -6,10 +6,10 @@ ___
 
 <!-- Типы данных. -->
 [^text]: Текстовый тип данных. Ожидается ввод значения, экранированного кавычками.
-[^bool]: Булевый тип данных. true/false.
+[^bool]: Булевый тип данных. <span class="notranslate">true/false</span>.
 [^positive]: Положительный числовой тип данных. Ожидается ввод числа из множества положительных вещественных чисел.
 
-[^GUI]: Graphical User Interface. Графический интерфейс. Окно настройки, появляющееся в игре.
+[^GUI]: <span class="notranslate">Graphical User Interface.</span> Графический интерфейс. Окно настройки, появляющееся в игре.
 [^inSettingMenu]: Название параметра в графическом интерфейсе.
 
 ## Общий вид настроечного файла:
@@ -48,7 +48,7 @@ ___
             * Текстовый тип данных: [^text]
                 * Ожидается ввод значения, экранированного кавычками.
             * Булевый тип данных: [^bool]
-                * ___true___ / ___false___
+                *  <span class="notranslate">___true___ / ___false___</span>
             * Положительный числовой тип данных: [^positive]
                 * Ожидается ввод числа из множества положительных вещественных чисел.
     * На следующей строке указывается название соответствующего пункта в GUI[^GUI].
@@ -80,41 +80,41 @@ ___
 ## Описание параметров.
 
 
-1. ### ___gameLanguage___: [^text]
+1. ###  <span class="notranslate">___gameLanguage___</span>: [^text]
     * __"Исходный язык игры."__ [^inSettingMenu]
 
     * Язык игры с которой нужен перевод.
         * Код языка от конкретного сервиса, либо название языка на английском.
             * Примеры допустимых параметров:
-                * "en"
-                * "en-GB"
-                * "Portuguese"
-                * "Polish"
-                * "Chinese"
+                *  <span class="notranslate">"en"</span>
+                *  <span class="notranslate">"en-GB"</span>
+                *  <span class="notranslate">"Portuguese"</span>
+                *  <span class="notranslate">"Polish"</span>
+                *  <span class="notranslate">"Chinese"</span>
 
 
-1. ### ___directionOfTranslation___: [^text]
+1. ### <span class="notranslate">___directionOfTranslation___</span>: [^text]
     * __"Направление перевода."__ [^inSettingMenu]
 
     * Язык игры на которую нужен перевод.
-        * Формат указываемых данных идентичен параметру ___gameLanguage___.
+        * Формат указываемых данных идентичен параметру <span class="notranslate">___gameLanguage___</span>.
 
 
-1. ### ___prescanOnStartup___: [^bool]
+1. ### <span class="notranslate">___prescanOnStartup___</span>: [^bool]
     * __"Предварительное сканирование при запуске игры."__ [^inSettingMenu]
 
     * При активированном параметре запускает прескан в момент запуска игры.
     * Не рекомендуется к использованию, за исключением особых ситуаций, т.к. сильно отнимает время, если в игре присутствуют начальные заставки и т.п.
 
 
-1. ### ___realtimeTranslationOnStartup___: [^bool]
+1. ### <span class="notranslate">___realtimeTranslationOnStartup___</span>: [^bool]
     * __"Перевод в реальном времени при запуске игры."__ [^inSettingMenu]
 
     * При активированном параметре запускает перевод в реальном времени при запуске игры.
     * Так же, как и в предыдущем пункте, не рекомендуется к использованию, за исключением особых ситуаций, по тем же причинам.
 
 
-1. ### ___\_debug_mode___: [^bool]
+1. ### <span class="notranslate">___\_debug_mode___</span>: [^bool]
     * __"Режим отладки."__ [^inSettingMenu]
 
     * Режим отладки.

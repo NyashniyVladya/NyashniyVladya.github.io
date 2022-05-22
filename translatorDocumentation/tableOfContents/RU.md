@@ -45,35 +45,35 @@
 
 
 1. ## [Описание настроечного файла.](../settingDescription/RU.md#описание-настроек-и-настроечного-файла)
-    1. ### [gameLanguage](../settingDescription/RU.md#gamelanguage-)
+    1. ### [<span class="notranslate">gameLanguage</span>](../settingDescription/RU.md#gamelanguage-)
 
-    1. ### [directionOfTranslation](../settingDescription/RU.md#directionoftranslation-)
+    1. ### [<span class="notranslate">directionOfTranslation</span>](../settingDescription/RU.md#directionoftranslation-)
 
-    1. ### [prescanOnStartup](../settingDescription/RU.md#prescanonstartup-)
+    1. ### [<span class="notranslate">prescanOnStartup</span>](../settingDescription/RU.md#prescanonstartup-)
 
-    1. ### [realtimeTranslationOnStartup](../settingDescription/RU.md#realtimetranslationonstartup-)
+    1. ### [<span class="notranslate">realtimeTranslationOnStartup</span>](../settingDescription/RU.md#realtimetranslationonstartup-)
 
-    1. ### [_debug_mode](../settingDescription/RU.md#_debug_mode-)
+    1. ### [<span class="notranslate">_debug_mode</span>](../settingDescription/RU.md#_debug_mode-)
 
-    1. ### [translationService](../settingDescription/RU.md#translationservice-)
+    1. ### [<span class="notranslate">translationService</span>](../settingDescription/RU.md#translationservice-)
 
-    1. ### [workMethod](../settingDescription/RU.md#workmethod-)
+    1. ### [<span class="notranslate">workMethod</span>](../settingDescription/RU.md#workmethod-)
 
-    1. ### [originalInHistory](../settingDescription/RU.md#originalinhistory-)
+    1. ### [<span class="notranslate">originalInHistory</span>](../settingDescription/RU.md#originalinhistory-)
 
-    1. ### [requestsFrequency](../settingDescription/RU.md#requestsfrequency-)
+    1. ### [<span class="notranslate">requestsFrequency</span>](../settingDescription/RU.md#requestsfrequency-)
 
-    1. ### [splitTextAsSentences](../settingDescription/RU.md#splittextassentences-)
+    1. ### [<span class="notranslate">splitTextAsSentences</span>](../settingDescription/RU.md#splittextassentences-)
 
-    1. ### [googleHost](../settingDescription/RU.md#googlehost-)
+    1. ### [<span class="notranslate">googleHost</span>](../settingDescription/RU.md#googlehost-)
 
-    1. ### [seleniumStartMode](../settingDescription/RU.md#seleniumstartmode-)
+    1. ### [<span class="notranslate">seleniumStartMode</span>](../settingDescription/RU.md#seleniumstartmode-)
 
-    1. ### [seleniumInputSplitMethod](../settingDescription/RU.md#seleniuminputsplitmethod-)
+    1. ### [<span class="notranslate">seleniumInputSplitMethod</span>](../settingDescription/RU.md#seleniuminputsplitmethod-)
 
-    1. ### [extraTextOptions](../settingDescription/RU.md#extratextoptions)
+    1. ### [<span class="notranslate">extraTextOptions</span>](../settingDescription/RU.md#extratextoptions)
 
-        1. #### [font](../settingDescription/RU.md#font-)
-        1. #### [size](../settingDescription/RU.md#size-)
-        1. #### [italic](../settingDescription/RU.md#italic-)
-        1. #### [bold](../settingDescription/RU.md#bold-)
+        1. #### [<span class="notranslate">font</span>](../settingDescription/RU.md#font-)
+        1. #### [<span class="notranslate">size</span>](../settingDescription/RU.md#size-)
+        1. #### [<span class="notranslate">italic</span>](../settingDescription/RU.md#italic-)
+        1. #### [<span class="notranslate">bold</span>](../settingDescription/RU.md#bold-)
