@@ -8,8 +8,8 @@
 
     1. ### [Ссылки.](../FAQ/RU.md#ссылки)
         1. #### [<span class="notranslate">Discord.</span>](../FAQ/RU.md#discord-сообщество)
-        1. #### [Patreon.](../FAQ/RU.md#patreon)
-        1. #### [Boosty.](../FAQ/RU.md#boosty)
+        1. #### [<span class="notranslate">Patreon.</span>](../FAQ/RU.md#patreon)
+        1. #### [<span class="notranslate">Boosty.</span>](../FAQ/RU.md#boosty)
 
     1. ### [О версиях.](../FAQ/RU.md#о-версиях)
         1. #### [Ознакомительная версия.](../FAQ/RU.md#ознакомительная-версия)
