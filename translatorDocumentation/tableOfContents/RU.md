@@ -7,7 +7,7 @@
     1. ### [О проекте в целом.](../FAQ/RU.md#что-это-за-проект-такой)
 
     1. ### [Ссылки.](../FAQ/RU.md#ссылки)
-        1. #### [Discord.](../FAQ/RU.md#discord-сообщество)
+        1. #### [<span class="notranslate">Discord.</span>](../FAQ/RU.md#discord-сообщество)
         1. #### [Patreon.](../FAQ/RU.md#patreon)
         1. #### [Boosty.](../FAQ/RU.md#boosty)
 
