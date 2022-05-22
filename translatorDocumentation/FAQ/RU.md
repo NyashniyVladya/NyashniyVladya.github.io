@@ -25,7 +25,7 @@ ___
     1. #### [<span class="notranslate">Patreon.</span>](https://patreon.com/NyashniyVladya)
         * Тут можно поддержать автора проекта и скачать последнюю актуальную версию.
     1. #### [<span class="notranslate">Boosty.</span>](https://boosty.to/nyashniyvladya)
-        * Аналогично '[<span class="notranslate">Patreon</span>](https://patreon.com/NyashniyVladya)', но для рублёвой валюты.
+        * Аналогично&#160;[<span class="notranslate">Patreon</span>](https://patreon.com/NyashniyVladya), но для рублёвой валюты.
 
 
 1. ### О версиях.
