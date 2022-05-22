@@ -118,7 +118,7 @@ ___
         * После успешного импорта импортируемый файл удалится.
         * ___Важно:___
             * Как было указано ранее, перевод составляется с подстановкой введённых данных, так что, если составитель базы ввёл иные данные, то строки, содержащие эти данные, потребуется перевести под новый ввод.
-        * Готовые БД можно найти в [___<span class="notranslate">Discord </span>сообществе___](https://discord.gg/FqsQXNH6Fg).
+        * Готовые БД можно найти в [___<span class="notranslate"> Discord </span>сообществе___](https://discord.gg/FqsQXNH6Fg).
 
     * #### Форматы БД.
         * Несмотря на то, что форматы БД менялись в процессе развития переводчика, импорт старых форматов работает.
@@ -127,8 +127,8 @@ ___
 1. ### О браузерной логике.
 
     * Некоторые сервисы используют для перевода действия в реальном браузере.
-    * #### Для автоматизации используется связка [<span class="notranslate">selenium</span>](https://www.selenium.dev)/[<span class="notranslate">chromedriver</span>](https://chromedriver.chromium.org/home).
-    * #### Для корректной работы в ОС должен быть установлен [браузер <span class="notranslate">Google Chrome</span>](https://www.google.com/chrome).
+    * #### Для автоматизации используется связка '[<span class="notranslate">selenium</span>](https://www.selenium.dev)'/'[<span class="notranslate">chromedriver</span>](https://chromedriver.chromium.org/home)'.
+    * #### Для корректной работы в ОС должен быть установлен [браузер<span class="notranslate"> Google Chrome</span>](https://www.google.com/chrome).
         * Поддерживаются версии новее 70.
             * Лучше, конечно, использовать последнюю.
 
