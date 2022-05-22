@@ -10,22 +10,22 @@ ___
 
 1. ### Что это за проект такой.
 
-    * **Translator3000** - автоматический переводчик игр (новелл), сделанных на движке Ren'Py, с лёгкой установкой и удобным интерфейсом.
+    * <span class="notranslate">**Translator3000** </span>- автоматический переводчик игр (новелл), сделанных на движке Ren'Py, с лёгкой установкой и удобным интерфейсом.
 
     * Хотите почитать новеллу, а у неё нет перевода на Ваш язык?
-        * Всё что Вам нужно - это скопировать файл **Translator3000.rpa** в папку с игрой.
+        * Всё что Вам нужно - это скопировать файл <span class="notranslate">**Translator3000.rpa**</span> в папку с игрой.
             * Подробнее о установке [здесь](./RU.md#с-чего-начать).
 
     * Более подробная информация о принципах работы и особенностях переводчика предоставлена в дальнейших разделах документации.
 
 
 1. ### Ссылки.
-    1. #### [Discord сообщество.](https://discord.gg/FqsQXNH6Fg)
+    1. #### [<span class="notranslate">Discord </span>сообщество.](https://discord.gg/FqsQXNH6Fg)
         * Тут можно найти ссылку на последнюю актуальную версию, пообщаться с другими пользователями переводчика и поискать ответ на свой вопрос в соответствующем канале.
-    1. #### [Patreon.](https://patreon.com/NyashniyVladya)
+    1. #### [<span class="notranslate">Patreon.</span>](https://patreon.com/NyashniyVladya)
         * Тут можно поддержать автора проекта и скачать последнюю актуальную версию.
-    1. #### [Boosty.](https://boosty.to/nyashniyvladya)
-        * Аналогично [Patreon](https://patreon.com/NyashniyVladya), но для рублёвой валюты.
+    1. #### [<span class="notranslate">Boosty.</span>](https://boosty.to/nyashniyvladya)
+        * Аналогично [<span class="notranslate">Patreon</span>](https://patreon.com/NyashniyVladya), но для рублёвой валюты.
 
 
 1. ### О версиях.
@@ -39,8 +39,8 @@ ___
 
         1. #### Основная версия.
 
-            * Подписаться и скачать можно на [Patreon](https://www.patreon.com/NyashniyVladya?filters[tag]=new%20version) и [Boosty](https://boosty.to/nyashniyvladya?postsTagsIds=124156).
-                * __*Подписчики [Patreon](https://patreon.com/NyashniyVladya) и [Boosty](https://boosty.to/nyashniyvladya) имеют абсолютно равные привелегии. Контент всегда дублируется на обоих площадках.*__
+            * Подписаться и скачать можно на [<span class="notranslate">Patreon</span>](https://www.patreon.com/NyashniyVladya?filters[tag]=new%20version) и [<span class="notranslate">Boosty</span>](https://boosty.to/nyashniyvladya?postsTagsIds=124156).
+                * __*Подписчики [<span class="notranslate">Patreon</span>](https://patreon.com/NyashniyVladya) и [<span class="notranslate">Boosty</span>](https://boosty.to/nyashniyvladya) имеют абсолютно равные привелегии. Контент всегда дублируется на обоих площадках.*__
 
             * Распространяется по принципу [подписной модели](https://ru.wikipedia.org/wiki/Подписка).
 
@@ -55,9 +55,9 @@ ___
 
 1. ### С чего начать?
 
-    * Вот Вы подписались на [Patreon](https://patreon.com/NyashniyVladya)/[Boosty](https://boosty.to/nyashniyvladya), скачали ___Translator3000.rpa___ и не знаете что с ним делать. Сейчас объясню.
+    * Вот Вы подписались на [<span class="notranslate">Patreon</span>](https://patreon.com/NyashniyVladya)/[Boosty](https://boosty.to/nyashniyvladya), скачали <span class="notranslate">___Translator3000.rpa___</span> и не знаете что с ним делать. Сейчас объясню.
 
-    1. Копируем файл в папку ___game___ в директории игры, для которой нужен перевод.
+    1. Копируем файл в папку <span class="notranslate">___game___</span> в директории игры, для которой нужен перевод.
     1. Запускаем игру.
     1. В левом верхнем углу появится окно графического интерфейса переводчика.
         * Настраиваем в нём нужные параметры.
@@ -86,7 +86,7 @@ ___
             * Если строки нет в базе данных переводов (ни разу не выводилась и не было прескана), будет неизбежное "подвисание", т.к. идёт обращение к сервису перевода.
 
     * #### Наилучший (оптимальный для комфортного чтения) вариант использования следующий:
-        1. Запустить новеллу с **де**активированными параметрами [prescanOnStartup](../settingDescription/RU.md#prescanonstartup-) и [realtimeTranslationOnStartup](../settingDescription/RU.md#realtimetranslationonstartup-).
+        1. Запустить новеллу с **де**активированными параметрами [<span class="notranslate">prescanOnStartup</span>](../settingDescription/RU.md#prescanonstartup-) и [<span class="notranslate">realtimeTranslationOnStartup</span>](../settingDescription/RU.md#realtimetranslationonstartup-).
         1. Дойти до места где игра запрашивает ввод имени/иных данных (если такое есть).
             * Если ввода данных нет, то просто запустить игру в любом месте.
         1. Ввести нужные данные (если требуется).
@@ -113,12 +113,12 @@ ___
 
     * #### Импорт БД.
         * Если кто либо уже прошёл (либо перевёл пресканом) конкретную новеллу, он может поделиться своей БД (локальной, или глобальной).
-        * Чтобы использовать перевод от другого человека, достаточно скопировать его базу данных в папку [___imported translations___](./RU.md#noveldirlocal-translationsservicenameimported-translations).
+        * Чтобы использовать перевод от другого человека, достаточно скопировать его базу данных в папку [<span class="notranslate">___imported translations___</span>](./RU.md#noveldirlocal-translationsservicenameimported-translations).
         * После запуска, игра импортирует перевод в локальную БД конкретной игры и глобальную БД.
         * После успешного импорта импортируемый файл удалится.
         * ___Важно:___
             * Как было указано ранее, перевод составляется с подстановкой введённых данных, так что, если составитель базы ввёл иные данные, то строки, содержащие эти данные, потребуется перевести под новый ввод.
-        * Готовые БД можно найти в [___Discord сообществе___](https://discord.gg/FqsQXNH6Fg).
+        * Готовые БД можно найти в [<span class="notranslate">___Discord </span>сообществе___](https://discord.gg/FqsQXNH6Fg).
 
     * #### Форматы БД.
         * Несмотря на то, что форматы БД менялись в процессе развития переводчика, импорт старых форматов работает.
@@ -127,8 +127,8 @@ ___
 1. ### О браузерной логике.
 
     * Некоторые сервисы используют для перевода действия в реальном браузере.
-    * #### Для автоматизации используется связка [selenium](https://www.selenium.dev)/[chromedriver](https://chromedriver.chromium.org/home).
-    * #### Для корректной работы в ОС должен быть установлен [браузер Google Chrome](https://www.google.com/chrome).
+    * #### Для автоматизации используется связка [<span class="notranslate">selenium</span>](https://www.selenium.dev)/[<span class="notranslate">chromedriver</span>](https://chromedriver.chromium.org/home).
+    * #### Для корректной работы в ОС должен быть установлен [браузер <span class="notranslate">Google Chrome</span>](https://www.google.com/chrome).
         * Поддерживаются версии новее 70.
             * Лучше, конечно, использовать последнюю.
 
@@ -142,93 +142,93 @@ ___
 
     * Будут использоваться следующие условные обозначения:
 
-        * ___%UserName%___:
+        * <span class="notranslate">___%UserName%___</span>:
             * Имя текущего пользователя.
 
-        * ___%userprofile%___:
+        * <span class="notranslate">___%userprofile%___</span>:
             * Путь до домашней папки пользователя. Может быть разный на разных системах.
                 * По умолчанию в Windows:
-                    * ___С:\\Users\\%UserName%___
+                    * <span class="notranslate">___С:\\Users\\%UserName%___</span>
                 * По умолчанию в UNIX:
-                    * ___/home/%UserName%___
+                    * <span class="notranslate">___/home/%UserName%___</span>
                 * По умолчанию в Mac:
-                    * ___/Users/%UserName%___
+                    * <span class="notranslate">___/Users/%UserName%___</span>
 
-        * ___%ServiceName%___:
+        * <span class="notranslate">___%ServiceName%___</span>:
             * Название какого либо сервиса перевода.
 
-        * ___%NovelDir%___:
+        * <span class="notranslate">___%NovelDir%___</span>:
             * Директория игры.
-                * Та в которой папки ___game___, ___renpy___ и исполняемый файл запуска.
+                * Та в которой папки<span class="notranslate"> ___game___</span>,<span class="notranslate"> ___renpy___ </span>и исполняемый файл запуска.
 
     * Пути будут писаться в формате Windows (с обратными слешами), при необходимости смените на прямые.
 
     * Приведён полный список рабочих путей. В зависимости от использования переводчика, некоторых из них может не быть.
 
-    1. #### __*%userprofile%\\vladya's projects database*__:
+    1. #### <span class="notranslate">__*%userprofile%\\vladya's projects database*__</span>:
         * Основная папка для хранения данных.
 
-    1. #### __*%userprofile%\\vladya's projects database\\selenium*__:
-        * Основная папка модуля __selenium__, отвечающего за браузерную логику.
+    1. #### <span class="notranslate">__*%userprofile%\\vladya's projects database\\selenium*__</span>:
+        * Основная папка модуля<span class="notranslate"> __selenium__</span>, отвечающего за браузерную логику.
 
-    1. #### __*%userprofile%\\vladya's projects database\\selenium\\chromedriver*__:
-        * Папка с исполняемыми файлами __cromedriver__, отвечающего за автоматизацию действий в браузере.
-        * Содержит папки с номерами версий браузера, которые содержат папки с номерами версий ___chromedriver___, которые содержат исполняемый файл ___chromedriver___.
+    1. #### <span class="notranslate">__*%userprofile%\\vladya's projects database\\selenium\\chromedriver*__</span>:
+        * Папка с исполняемыми файлами<span class="notranslate"> __cromedriver__</span>, отвечающего за автоматизацию действий в браузере.
+        * Содержит папки с номерами версий браузера, которые содержат папки с номерами версий<span class="notranslate"> ___chromedriver___</span>, которые содержат исполняемый файл<span class="notranslate"> ___chromedriver___</span>.
 
-    1. #### __*%userprofile%\\vladya's projects database\\translator3000*__:
+    1. #### <span class="notranslate">__*%userprofile%\\vladya's projects database\\translator3000*__</span>:
         * Основная папка переводчика.
 
-    1. #### __*%userprofile%\\vladya's projects database\\translator3000\\%ServiceName%*__:
+    1. #### <span class="notranslate">__*%userprofile%\\vladya's projects database\\translator3000\\%ServiceName%*__</span>:
         * Папка с глобальной (для всех новелл) базой данных переводов конкретного сервиса.
         * Содержит папки с номерами версий базы данных, которые содержат файл базы данных ___translations___ (формат может быть различный).
 
-    1. #### __*%userprofile%\\vladya's projects database\\translator3000\\Ren'Py MuitiGame Data.pickle*__:
+    1. #### <span class="notranslate">__*%userprofile%\\vladya's projects database\\translator3000\\Ren'Py MuitiGame Data.pickle*__</span>:
         * Файл, хранящий данные переноса между играми и использованные шрифты.
 
-    1. #### __*%NovelDir%\\_translator3000_setting.json*__:
+    1. #### <span class="notranslate">__*%NovelDir%\\_translator3000_setting.json*__</span>:
         * Файл с настройками переводчика для конкретной новеллы.
         * [Информация по содержанию файла.](../settingDescription/RU.md#описание-настроек-и-настроечного-файла)
 
-    1. #### __*%NovelDir%\\local translations*__:
+    1. #### <span class="notranslate">__*%NovelDir%\\local translations*__</span>:
         * Папка с локальной (для конкретной новеллы) базой данных переводов конкретного сервиса.
-        * Содержит папки с номерами версий базы данных, которые содержат файл базы данных ___translations___ (формат может быть различный).
-        * Так же содержит папку [___imported translations___](./RU.md#noveldirlocal-translationsservicenameimported-translations) для импорта готовых переводов.
+        * Содержит папки с номерами версий базы данных, которые содержат файл базы данных<span class="notranslate"> ___translations___ </span>(формат может быть различный).
+        * Так же содержит папку [<span class="notranslate">___imported translations___</span>](./RU.md#noveldirlocal-translationsservicenameimported-translations) для импорта готовых переводов.
 
-    1. #### __*%NovelDir%\\local translations\\%ServiceName%\\imported translations*__:
+    1. #### <span class="notranslate">__*%NovelDir%\\local translations\\%ServiceName%\\imported translations*__</span>:
         * Папка для импорта готовых переводов.
         * Инструкция по импорту переводов описана [выше](./RU.md#импорт-бд).
 
-    1. #### __*%NovelDir%\\_translator3000Data*__:
+    1. #### <span class="notranslate">__*%NovelDir%\\_translator3000Data*__</span>:
         * Папка для рабочих файлов, для конкретной новеллы.
 
-    1. #### __*%NovelDir%\\_translator3000Data*__:
+    1. #### <span class="notranslate">__*%NovelDir%\\_translator3000Data*__</span>:
         * Папка для рабочих файлов, для конкретной новеллы.
 
-    1. #### __*%NovelDir%\\_translator3000Data\\debug*__:
+    1. #### <span class="notranslate">__*%NovelDir%\\_translator3000Data\\debug*__</span>:
         * Файлы для отладки работы переводчика.
 
-    1. #### __*%NovelDir%\\_translator3000Data\\debug\\lastLog.log*__:
+    1. #### <span class="notranslate">__*%NovelDir%\\_translator3000Data\\debug\\lastLog.log*__</span>:
         * Лог файл, описывающий действия переводчика.
-        * Если включён параметр [___\_debug_mode___](../settingDescription/RU.md#_debug_mode-), в файл будет записываться полная информация, в противном случае только базовые данные и информация о ошибках.
+        * Если включён параметр [<span class="notranslate">___\_debug_mode___</span>](../settingDescription/RU.md#_debug_mode-), в файл будет записываться полная информация, в противном случае только базовые данные и информация о ошибках.
 
-    1. #### __*%NovelDir%\\_translator3000Data\\temp*__:
+    1. #### <span class="notranslate">__*%NovelDir%\\_translator3000Data\\temp*__</span>:
         * Временные файлы переводчика.
 
-    1. #### __*%NovelDir%\\_translator3000Data\\temp\\cacert.pem*__:
-        * Файл сертификата для модуля ___requests___.
+    1. #### <span class="notranslate">__*%NovelDir%\\_translator3000Data\\temp\\cacert.pem*__</span>:
+        * Файл сертификата для модуля<span class="notranslate"> ___requests___</span>.
         * Создаётся только в старых версиях Ren'Py.
-            * В версиях Ren'Py, новее 7.4.0, модуль ___requests___ [является частью движка](https://www.renpy.org/doc/html/changelog.html#renpy-7-4).
+            * В версиях Ren'Py, новее 7.4.0, модуль<span class="notranslate"> ___requests___ </span>[является частью движка](https://www.renpy.org/doc/html/changelog.html#renpy-7-4).
 
-    1. #### __*%NovelDir%\\game\\Translator3000.rpa*__:
+    1. #### <span class="notranslate">__*%NovelDir%\\game\\Translator3000.rpa*__</span>:
         * Сам переводчик.
 
-    1. #### __*%NovelDir%\\game\\translator3000_ingame_files*__:
+    1. #### <span class="notranslate">__*%NovelDir%\\game\\translator3000_ingame_files*__</span>:
         * Папка с файлами переводчика, используемыми в новелле.
 
-    1. #### __*%NovelDir%\\game\\translator3000_ingame_files\\multigame_fonts*__:
+    1. #### <span class="notranslate">__*%NovelDir%\\game\\translator3000_ingame_files\\multigame_fonts*__</span>:
         * Папка куда будут копироваться шрифты из других новелл, при их выборе.
 
-    1. #### __*%NovelDir%\\game\\translator3000_ingame_files\\pc_fonts*__:
+    1. #### <span class="notranslate">__*%NovelDir%\\game\\translator3000_ingame_files\\pc_fonts*__</span>:
         * Папка куда будут копироваться шрифты при выборе их в графическом интерфейсе из файлов компьютера.
 
 
@@ -258,12 +258,12 @@ ___
             1. Информацию о настройках.
                 * Режим работы переводчика, сервис и т.д.
 
-            1. Файл ___traceback.txt___ лежащий в директории игры.
+            1. Файл<span class="notranslate"> ___traceback.txt___ </span>лежащий в директории игры.
                 * Если он имеется.
 
             1. Информацию о том, какие действия привели к ошибке.
 
-            1. Если ошибка возникает с сервисом перевода с [браузерной логикой](./RU.md#о-браузерной-логике), установить параметр ___"default"___ для пункта настройки [___"seleniumStartMode"___](../settingDescription/RU.md#seleniumstartmode-) и добавить в сообщение о ошибке информацию, повлияло ли это на работу.
+            1. Если ошибка возникает с сервисом перевода с [браузерной логикой](./RU.md#о-браузерной-логике), установить параметр<span class="notranslate"> ___"default"___ </span>для пункта настройки [___"seleniumStartMode"___](../settingDescription/RU.md#seleniumstartmode-) и добавить в сообщение о ошибке информацию, повлияло ли это на работу.
 
             1. Любые дополнительные данные, которые сочтёте нужными в контексте данного вопроса.
 
@@ -274,7 +274,7 @@ ___
 
         * Тип ошибки будет написан в трейсбеке, перед описанием ошибки, либо в конце, после текста перевода.
 
-        1. ##### ___ShadowBan___:
+        1. ##### <span class="notranslate">___ShadowBan___</span>:
             * Ошибка "теневого" бана. Может возникать у сервисов, которые распознали автоматизацию.
             * Возникает в случае долгого и последовательного перевода крайне больших новелл.
 
@@ -289,7 +289,7 @@ ___
         * [Инструкция по установке шрифта.](../settingDescription/RU.md#font-)
         * ### ___Где я могу найти шрифты?___
             * По запросу "шрифты скачать" в любом поисковике.
-        * Поддерживаются шрифты TrueType/OpenType.
+        * Поддерживаются шрифты<span class="notranslate"> TrueType</span>/<span class="notranslate">OpenType</span>.
 
 
 1. ### ___Игра \<вставить имя игры\> не переводится/не запускается/работает некорректно.___
@@ -298,7 +298,7 @@ ___
 
 1. ### ___Как вызвать графический интерфейс переводчика?___
 
-    * Комбинация (одновременное нажатие) клавиш ***Alt***+***~*** (тильда).
+    * Комбинация (одновременное нажатие) клавиш<span class="notranslate"> ***Alt***+***~*** </span>(тильда).
 
         1. #### Почему такой странный выбор?
             * Из за вопроса совместимости. Я стараюсь делать переводчик наиболее универсальным, а такую комбинацию вряд ли где будут использовать.
@@ -308,9 +308,9 @@ ___
 
 1. ### Переводчик удаляет теги из оригинальной игры (курсив, жирный текст, цвет и прочее).
 
-    * Есть такое. А ещё удаляет текстовые теги вида ***{w}***/***{nw}*** и подобные.
+    * Есть такое. А ещё удаляет текстовые теги вида<span class="notranslate"> ***{w}***</span>/<span class="notranslate">***{nw}*** </span>и подобные.
     * Сделано это потому что теги нельзя экранировать при обращении к сервису перевода.
-        * На ***"{color=...}"*** сервис вполне может вернуть ***"{цвет=...}"***, что, разумеется, приведёт к ошибке.
+        * На<span class="notranslate"> ***"{color=...}"*** </span>сервис вполне может вернуть<span class="notranslate"> ***"{цвет=...}"***</span>, что, разумеется, приведёт к ошибке.
         * Можно, конечно, переводить частями (отрывок до тега, отрывок после него и т.д.), но в этом случае сильно пострадает качество самого перевода, т.к. слова переведутся без учёта всего контекста и будут не связаны между собой.
         * Я не вижу способа "безболезненно" сохранить теги, поэтому принял решение убрать их вообще.
 
@@ -322,7 +322,7 @@ ___
 
 
 1. ### ___Я не нашёл ответа на свой вопрос в этой документации.___
-    * Посмотрите канал вопросов в [Discord сообществе](https://discord.gg/FqsQXNH6Fg) переводчика. Скорее всего, там уже отвечали на подобный вопрос.
+    * Посмотрите канал вопросов в [<span class="notranslate">Discord </span>сообществе](https://discord.gg/FqsQXNH6Fg) переводчика. Скорее всего, там уже отвечали на подобный вопрос.
     * Если ответа нет, то задайте свой вопрос там.
         * ___Именно на канале вопросов.___
             * ___Не в личных сообщениях автору переводчика.___
