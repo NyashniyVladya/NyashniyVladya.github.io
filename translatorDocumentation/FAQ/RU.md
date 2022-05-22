@@ -39,7 +39,7 @@ ___
 
         1. #### Основная версия.
 
-            * Подписаться и скачать можно на '[<span class="notranslate">Patreon</span>](https://www.patreon.com/NyashniyVladya?filters[tag]=new%20version)' и '[<span class="notranslate">Boosty</span>](https://boosty.to/nyashniyvladya?postsTagsIds=124156)'.
+            * Подписаться и скачать можно на&#160;[<span class="notranslate">Patreon</span>](https://www.patreon.com/NyashniyVladya?filters[tag]=new%20version)&#160;и&#160;[<span class="notranslate">Boosty</span>](https://boosty.to/nyashniyvladya?postsTagsIds=124156).
                 * __*Подписчики '[<span class="notranslate">Patreon</span>](https://patreon.com/NyashniyVladya)' и '[<span class="notranslate">Boosty</span>](https://boosty.to/nyashniyvladya)' имеют абсолютно равные привелегии. Контент всегда дублируется на обоих площадках.*__
 
             * Распространяется по принципу [подписной модели](https://ru.wikipedia.org/wiki/Подписка).
