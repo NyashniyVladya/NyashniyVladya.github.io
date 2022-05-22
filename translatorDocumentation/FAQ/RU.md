@@ -13,7 +13,7 @@ ___
     * <span class="notranslate">**Translator3000** </span>- автоматический переводчик игр (новелл), сделанных на движке Ren'Py, с лёгкой установкой и удобным интерфейсом.
 
     * Хотите почитать новеллу, а у неё нет перевода на Ваш язык?
-        * Всё что Вам нужно - это скопировать файл <span class="notranslate">**Translator3000.rpa**</span> в папку с игрой.
+        * Всё что Вам нужно - это скопировать файл<span class="notranslate"> **Translator3000.rpa** </span>в папку с игрой.
             * Подробнее о установке [здесь](./RU.md#с-чего-начать).
 
     * Более подробная информация о принципах работы и особенностях переводчика предоставлена в дальнейших разделах документации.
@@ -25,7 +25,7 @@ ___
     1. #### [<span class="notranslate">Patreon.</span>](https://patreon.com/NyashniyVladya)
         * Тут можно поддержать автора проекта и скачать последнюю актуальную версию.
     1. #### [<span class="notranslate">Boosty.</span>](https://boosty.to/nyashniyvladya)
-        * Аналогично [<span class="notranslate">Patreon</span>](https://patreon.com/NyashniyVladya), но для рублёвой валюты.
+        * Аналогично '[<span class="notranslate">Patreon</span>](https://patreon.com/NyashniyVladya)', но для рублёвой валюты.
 
 
 1. ### О версиях.
@@ -39,8 +39,8 @@ ___
 
         1. #### Основная версия.
 
-            * Подписаться и скачать можно на [<span class="notranslate">Patreon</span>](https://www.patreon.com/NyashniyVladya?filters[tag]=new%20version) и [<span class="notranslate">Boosty</span>](https://boosty.to/nyashniyvladya?postsTagsIds=124156).
-                * __*Подписчики [<span class="notranslate">Patreon</span>](https://patreon.com/NyashniyVladya) и [<span class="notranslate">Boosty</span>](https://boosty.to/nyashniyvladya) имеют абсолютно равные привелегии. Контент всегда дублируется на обоих площадках.*__
+            * Подписаться и скачать можно на '[<span class="notranslate">Patreon</span>](https://www.patreon.com/NyashniyVladya?filters[tag]=new%20version)' и '[<span class="notranslate">Boosty</span>](https://boosty.to/nyashniyvladya?postsTagsIds=124156)'.
+                * __*Подписчики '[<span class="notranslate">Patreon</span>](https://patreon.com/NyashniyVladya)' и '[<span class="notranslate">Boosty</span>](https://boosty.to/nyashniyvladya)' имеют абсолютно равные привелегии. Контент всегда дублируется на обоих площадках.*__
 
             * Распространяется по принципу [подписной модели](https://ru.wikipedia.org/wiki/Подписка).
 
@@ -55,9 +55,9 @@ ___
 
 1. ### С чего начать?
 
-    * Вот Вы подписались на [<span class="notranslate">Patreon</span>](https://patreon.com/NyashniyVladya)/[Boosty](https://boosty.to/nyashniyvladya), скачали <span class="notranslate">___Translator3000.rpa___</span> и не знаете что с ним делать. Сейчас объясню.
+    * Вот Вы подписались на '[<span class="notranslate">Patreon</span>](https://patreon.com/NyashniyVladya)'/'[Boosty](https://boosty.to/nyashniyvladya)', скачали<span class="notranslate"> ___Translator3000.rpa___ </span>и не знаете что с ним делать. Сейчас объясню.
 
-    1. Копируем файл в папку <span class="notranslate">___game___</span> в директории игры, для которой нужен перевод.
+    1. Копируем файл в папку<span class="notranslate"> ___game___ </span>в директории игры, для которой нужен перевод.
     1. Запускаем игру.
     1. В левом верхнем углу появится окно графического интерфейса переводчика.
         * Настраиваем в нём нужные параметры.
@@ -86,7 +86,7 @@ ___
             * Если строки нет в базе данных переводов (ни разу не выводилась и не было прескана), будет неизбежное "подвисание", т.к. идёт обращение к сервису перевода.
 
     * #### Наилучший (оптимальный для комфортного чтения) вариант использования следующий:
-        1. Запустить новеллу с **де**активированными параметрами [<span class="notranslate">prescanOnStartup</span>](../settingDescription/RU.md#prescanonstartup-) и [<span class="notranslate">realtimeTranslationOnStartup</span>](../settingDescription/RU.md#realtimetranslationonstartup-).
+        1. Запустить новеллу с **де**активированными параметрами '[<span class="notranslate">___prescanOnStartup___</span>](../settingDescription/RU.md#prescanonstartup-)' и '[<span class="notranslate">___realtimeTranslationOnStartup___</span>](../settingDescription/RU.md#realtimetranslationonstartup-)'.
         1. Дойти до места где игра запрашивает ввод имени/иных данных (если такое есть).
             * Если ввода данных нет, то просто запустить игру в любом месте.
         1. Ввести нужные данные (если требуется).
@@ -113,12 +113,12 @@ ___
 
     * #### Импорт БД.
         * Если кто либо уже прошёл (либо перевёл пресканом) конкретную новеллу, он может поделиться своей БД (локальной, или глобальной).
-        * Чтобы использовать перевод от другого человека, достаточно скопировать его базу данных в папку [<span class="notranslate">___imported translations___</span>](./RU.md#noveldirlocal-translationsservicenameimported-translations).
+        * Чтобы использовать перевод от другого человека, достаточно скопировать его базу данных в папку[<span class="notranslate"> ___imported translations___</span>](./RU.md#noveldirlocal-translationsservicenameimported-translations).
         * После запуска, игра импортирует перевод в локальную БД конкретной игры и глобальную БД.
         * После успешного импорта импортируемый файл удалится.
         * ___Важно:___
             * Как было указано ранее, перевод составляется с подстановкой введённых данных, так что, если составитель базы ввёл иные данные, то строки, содержащие эти данные, потребуется перевести под новый ввод.
-        * Готовые БД можно найти в [<span class="notranslate">___Discord </span>сообществе___](https://discord.gg/FqsQXNH6Fg).
+        * Готовые БД можно найти в [___<span class="notranslate">Discord </span>сообществе___](https://discord.gg/FqsQXNH6Fg).
 
     * #### Форматы БД.
         * Несмотря на то, что форматы БД менялись в процессе развития переводчика, импорт старых форматов работает.
