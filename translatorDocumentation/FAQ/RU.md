@@ -20,7 +20,7 @@ ___
 
 
 1. ### Ссылки.
-    1. #### [<span class="notranslate">Discord </span>сообщество.](https://discord.gg/FqsQXNH6Fg)
+    1. #### [<span class="notranslate">Discord</span>&#160;сообщество.](https://discord.gg/FqsQXNH6Fg)
         * Тут можно найти ссылку на последнюю актуальную версию, пообщаться с другими пользователями переводчика и поискать ответ на свой вопрос в соответствующем канале.
     1. #### [<span class="notranslate">Patreon.</span>](https://patreon.com/NyashniyVladya)
         * Тут можно поддержать автора проекта и скачать последнюю актуальную версию.
