@@ -209,7 +209,7 @@ ___
 
     * Хост для сервиса перевода<span class="notranslate"> __*google_rpc*__</span>.
         * __При выборе иных сервисов параметр игнорируется.__
-    * Для стран, где стандартный</span> ___translate.google.com___ </span>работает некорректно (или медленно).
+    * Для стран, где стандартный<span class="notranslate"> ___translate.google.com___ </span>работает некорректно (или медленно).
     * Например:
         * Для Латвии:
             * <span class="notranslate">___"translate.google.lv"___</span>
