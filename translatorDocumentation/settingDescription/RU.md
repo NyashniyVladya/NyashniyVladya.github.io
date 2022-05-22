@@ -253,7 +253,6 @@ ___
             * Возможно обнаружение браузером автоматизации.
 
         * <span class="notranslate">___"strings"___</span>:
-
             * Текст будет введён по строкам.
 
         * <span class="notranslate">___"symbols"___</span>:
