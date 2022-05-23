@@ -97,7 +97,7 @@ ___
     * __"Направление перевода."__ [^inSettingMenu]
 
     * Язык игры на которую нужен перевод.
-        * Формат указываемых данных идентичен параметру&#160;<span class="notranslate"> ___gameLanguage___</span>.
+        * Формат указываемых данных идентичен параметру&#160;<span class="notranslate">___gameLanguage___</span>.
 
 
 1. ### <span class="notranslate">___prescanOnStartup___</span>: [^bool]
