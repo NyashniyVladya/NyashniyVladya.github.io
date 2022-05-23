@@ -6,10 +6,10 @@ ___
 
 <!-- Типы данных. -->
 [^text]: Текстовый тип данных. Ожидается ввод значения, экранированного кавычками.
-[^bool]: Булевый тип данных.<span class="notranslate"> true/false</span>.
+[^bool]: Булевый тип данных.&#160;<span class="notranslate">true/false</span>.
 [^positive]: Положительный числовой тип данных. Ожидается ввод числа из множества положительных вещественных чисел.
 
-[^GUI]: <span class="notranslate">Graphical User Interface. </span>Графический интерфейс. Окно настройки, появляющееся в игре.
+[^GUI]: <span class="notranslate">Graphical User Interface.</span>&#160;Графический интерфейс. Окно настройки, появляющееся в игре.
 [^inSettingMenu]: Название параметра в графическом интерфейсе.
 
 ## Общий вид настроечного файла:
@@ -97,7 +97,7 @@ ___
     * __"Направление перевода."__ [^inSettingMenu]
 
     * Язык игры на которую нужен перевод.
-        * Формат указываемых данных идентичен параметру<span class="notranslate"> ___gameLanguage___</span>.
+        * Формат указываемых данных идентичен параметру <span class="notranslate"> ___gameLanguage___</span>.
 
 
 1. ### <span class="notranslate">___prescanOnStartup___</span>: [^bool]
@@ -137,11 +137,11 @@ ___
 
         * <span class="notranslate">__*"google_client5"*__</span>:
             * __Небраузерная логика.__
-            * Сервис с посредственным (по крайней мере в ___"ru"___ направлении) качеством перевода, но хорошей скоростью.
+            * Сервис с посредственным (по крайней мере в <span class="notranslate">___"ru"___</span> направлении) качеством перевода, но хорошей скоростью.
 
         * <span class="notranslate">__*"google_rpc"*__</span>:
             * __Небраузерная логика.__
-            * Полностью идентичен<span class="notranslate"> ___"google_client5"___</span>, но с возможностью менять хост сервиса (параметр<span class="notranslate"> ___"googleHost"___</span>).
+            * Полностью идентичен <span class="notranslate">___"google_client5"___</span>, но с возможностью менять хост сервиса (параметр <span class="notranslate">___"googleHost"___</span>).
 
         * <span class="notranslate">__*"selenium_deepl"*__</span>:
             * __Браузерная логика.__
@@ -199,17 +199,17 @@ ___
         # Python RE logic.
         r"(?P<text>[^!?….\r\n]+)(?P<end_mark>[!?….]*)"
         ```
-    * Некоторые сервисы перевода (например<span class="notranslate"> __*google_client5*__</span>) возвращают некорректный перевод, если в тексте присутствуют излишние знаки препинания. Данная настройка позволяет избежать подобного.
-    * В некоторых сервисах этот параметр активирован по умолчанию и настройка игнорируется (например ранее обозначенный<span class="notranslate"> __*google_client5*__</span>).
+    * Некоторые сервисы перевода (например <span class="notranslate">__*google_client5*__</span>) возвращают некорректный перевод, если в тексте присутствуют излишние знаки препинания. Данная настройка позволяет избежать подобного.
+    * В некоторых сервисах этот параметр активирован по умолчанию и настройка игнорируется (например ранее обозначенный <span class="notranslate">__*google_client5*__</span>).
     * Активировать данный параметр не рекомендуется.
         * В тех сервисах где он нужен, он активирован по умолчанию.
 
 
 1. ### <span class="notranslate">___googleHost___</span>: [^text]
 
-    * Хост для сервиса перевода<span class="notranslate"> __*google_rpc*__</span>.
+    * Хост для сервиса перевода <span class="notranslate">__*google_rpc*__</span>.
         * __При выборе иных сервисов параметр игнорируется.__
-    * Для стран, где стандартный<span class="notranslate"> ___translate.google.com___ </span>работает некорректно (или медленно).
+    * Для стран, где стандартный <span class="notranslate">___translate.google.com___</span> работает некорректно (или медленно).
     * Например:
         * Для Латвии:
             * <span class="notranslate">___"translate.google.lv"___</span>
@@ -230,7 +230,7 @@ ___
             * Браузер запустится в обычном режиме.
                 * При перезапусках браузер так же вернётся в обычный режим, даже если пользователь свернёт окно.
         * <span class="notranslate">___"minimized"___</span>:
-            * Идентично параметру<span class="notranslate"> ___"default"___</span>, но, после запуска, браузер свернётся.
+            * Идентично параметру <span class="notranslate">___"default"___</span>, но, после запуска, браузер свернётся.
 
     * Важно:
         * т.к. браузерная логика автоматизирована, вмешательство пользователя (как в примере ниже) может помешать корректной работе:
@@ -268,7 +268,7 @@ ___
     1. ### <span class="notranslate">___font___</span>: [^text]
         * __"Шрифт."__ [^inSettingMenu]
         * Шрифт с которым будет выводиться текст.
-        * Путь к файлу шрифта задаётся относительно папке<span class="notranslate"> ___"%NovelDir%\\game"___</span>, где<span class="notranslate"> __%NovelDir%__ </span>- папка с игрой.
+        * Путь к файлу шрифта задаётся относительно папке <span class="notranslate">___"%NovelDir%\\game"___</span>, где <span class="notranslate">__%NovelDir%__</span> - папка с игрой.
             * К примеру, шрифт лежит в папке:
                 * <span class="notranslate">_"C:\\Games\\MyNovel\\game\\fonts\\Comic Sans.otf"_</span>
             * Значит в файле следует прописать:
