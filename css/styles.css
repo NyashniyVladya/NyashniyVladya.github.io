@@ -1,32 +1,37 @@
 @charset "utf-8";
 /* CSS Document */
 
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("animations.css");
 
 body {
-
+    width: 68%;
     background-color: #36393F;
-    background-image: linear-gradient(222deg, #15161A, #242B2C);
+    background-image: linear-gradient(170deg, #112b2e, #010607);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: left;
     text-align: left;
-    color: #eee;
-    text-shadow: 0px 0px 1px #000, 1px 1px 2px #000;
-    margin: 5px 30px;
+    font-family: 'Noto Serif', serif;
+    color: rgba(238, 238, 238, 0.829);
+    text-shadow: none;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 5px;
     top: 0px !important;
 }
 
 .markdown-body .highlight pre, .markdown-body .highlight {
+    width: 68%;
     background-color: #36393F;
-    background-image: linear-gradient(73deg, #15161A, #242B2C);
+    background-image: linear-gradient(170deg, #082124, #0c3d42);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: left;
     text-align: left;
-    color: #eee;
+    color: rgba(238, 238, 238, 0.829);
     text-shadow: none;
 }
 
@@ -55,20 +60,19 @@ body {
 
 
 h1 {
-    font-size: 30pt;
+    font-size: 35pt;
 }
 
 a {
     text-decoration: none;
-    color: #eee;
-    text-shadow: 1px 1px 1px #000;
+    color: rgba(76, 174, 199, 0.712);
+    text-shadow: none;
 }
 
 a:hover {
-    color: #fff;
-    text-shadow: 1px 1px 1px #000, 1px 1px 3px #000;
+    color: rgba(76, 174, 199, 0.712);
     animation-name: linkHover;
-    animation-duration: 1s;
+    animation-duration: .61s;
     animation-direction: normal;
     animation-fill-mode: forwards;
     animation-timing-function: ease-out;

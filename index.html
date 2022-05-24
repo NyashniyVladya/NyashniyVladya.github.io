@@ -107,28 +107,41 @@
 
     <body>
 
-        <span class="notranslate"><h1 align="center" style="margin-bottom: 50px">Translator3000</h1></span>
+        <h1 align="center" style="margin-bottom: 100px"><span class="notranslate">Translator3000</span></h1>
 
-        <div id="downloadLinks" style="margin-bottom: 100px" align="right">
-            <div style="margin-bottom: 5px">
-                <div style="display: inline-block">Актуальная версия:</div>
-                <div id="actualVersion" style="display: inline-block"></div>
+        <div align="center" style="margin-bottom: 300px">
+
+            <div id="leftDiv" align="left" style="width: 61.8%; height: 100%; float: left"> <!-- Left div. -->
+
+                <div>Автоматический переводчик игр на&#160;движке&#160;Ren'Py с&#160;лёгкой&#160;установкой и&#160;дружелюбным&#160;интерфейсом.</div>
+                <br>
+                <div>Скопируйте файл переводчика в папку с игрой и наслаждайтесь.</div>
+                <div>Подробнее <a href="translatorDocumentation/FAQ/RU.html#с-чего-начать">здесь</a>.</div>
+
             </div>
-            <a id="downloadBoosty">Скачать с&#160;<span class="notranslate">Boosty.</span></a>
-            <br>
-            <a id="downloadPatreon">Скачать с&#160;<span class="notranslate">Patreon.</span></a>
+
+            <div id="rightDiv" align="right" style="height: 100%; float: right"> <!-- Right div. -->
+                <div style="margin-bottom: 5px">
+                    <div style="display: inline-block">Актуальная версия:</div>
+                    <div id="actualVersion" style="display: inline-block"></div>
+                </div>
+                <a id="downloadBoosty">Скачать с&#160;<span class="notranslate">Boosty.</span></a>
+                <br>
+                <a id="downloadPatreon">Скачать с&#160;<span class="notranslate">Patreon.</span></a>
+                <br>
+                <h3><a href="translatorDocumentation/tableOfContents/RU.html">Читать документацию.</a></h3>
+            </div>
+
+            <script type="text/javascript">
+                let actualVersionPromise = loadJSON("actualVersion.json");
+                actualVersionPromise.then(setActualVersionData);
+            </script>
+
         </div>
 
-        <script type="text/javascript">
-            let actualVersionPromise = loadJSON("actualVersion.json");
-            actualVersionPromise.then(setActualVersionData);
-        </script>
+        <div id="someLinks" align="left" style="width: 100%; margin-top: 10px; display: inline-flex">
 
-        <h2 style="margin-bottom: 50px"><a href="translatorDocumentation/tableOfContents/RU.html">Читать документацию</a></h2>
-
-        <div id="someLinks" style="display: inline-flex; align-items: flex-end; width: 100%; margin-top: 10px">
-
-            <div id="suppportAndDiscordLinks" style="width: 100%">
+            <div id="suppportAndDiscordLinks" style="float: left; margin-top: auto; margin-right: auto;">
                 <a href="https://boosty.to/nyashniyvladya">
                     <img src="images/boosty/Color.png" height="30px" alt="Boosty Logo">
                     <div class="supportLinks">Поддержать на&#160;<span class="notranslate">Boosty</span></div>
@@ -141,16 +154,18 @@
                 </a>
             </div>
 
-            <iframe
-                    src="https://discord.com/widget?id=939992812496232520&theme=dark"
-                    width="350"
-                    height="500"
-                    allowtransparency="true"
-                    frameborder="0"
-                    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-            >
-                Обновите Ваш браузер.
-            </iframe>
+            <div id="discordFrame" align="right" style="float: right; margin-top: auto; margin-left: auto;">
+                <iframe
+                        src="https://discord.com/widget?id=939992812496232520&theme=dark"
+                        width="350"
+                        height="500"
+                        allowtransparency="true"
+                        frameborder="0"
+                        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+                >
+                    Обновите Ваш браузер.
+                </iframe>
+            </div>
 
         </div>
 
