@@ -1,14 +1,11 @@
 <!doctype html>
 <html>
 
-    <!-- Для самых внимательных. -->
-    <!-- Видеоинструкция как бесплатно скачать Patreon/Boosty версию: https://youtu.be/aXJKLjiw3o8 -->
-
     <head>
 
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/styles.css">
-        <span class="notranslate"><title>Translator3000</title></span>
+        <title>Translator3000</title>
 
         <!-- Yandex.Metrika counter -->
         <script type="text/javascript" >
@@ -25,51 +22,6 @@
         </script>
         <noscript><div><img src="https://mc.yandex.ru/watch/88691983" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
         <!-- /Yandex.Metrika counter -->
-
-        <!-- Google Translate -->
-
-            <div id="googleTranslateElement"></div>
-            <script type="text/javascript" defer>
-
-                function googleTranslateElementInit() {
-                    new google.translate.TranslateElement(
-                        {pageLanguage: "ru"},
-                        "googleTranslateElement"
-                    );
-                };
-
-                function getCookie(name) {
-                    let rawCookie = document.cookie.split(/;\s*/);
-                    for (let i = 0; i < rawCookie.length; i++) {
-                        let [key, value] = rawCookie[i].split('=', 2);
-                        if (key === name) {
-                            return value;
-                        };
-                    };
-                    return undefined;
-                };
-
-                function cycleCheckCookies() {
-
-                    let translateDirection = getCookie("googtrans");
-                    if (translateDirection !== undefined) {
-                        let [_from, _to] = translateDirection.slice(1).split('/');
-                        if (_from == _to) {
-                            document.cookie = "googtrans=; expires=0;"
-                            window.location.reload();
-                        };
-                    };
-
-                    setTimeout(cycleCheckCookies, 100);
-                };
-
-                cycleCheckCookies();
-
-
-            </script>
-            <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" defer></script>
-
-        <!-- /Google Translate -->
 
         <!-- Main JS. -->
         <script type="text/javascript">
@@ -107,7 +59,7 @@
 
     <body>
 
-        <h1 align="center" style="margin-bottom: 100px"><span class="notranslate">Translator3000</span></h1>
+        <h1 align="center" style="margin-bottom: 100px">Translator3000</h1>
 
         <div align="center" style="margin-bottom: 300px">
 
@@ -125,9 +77,9 @@
                     <div style="display: inline-block">Актуальная версия:</div>
                     <div id="actualVersion" style="display: inline-block"></div>
                 </div>
-                <a id="downloadBoosty">Скачать с&#160;<span class="notranslate">Boosty.</span></a>
+                <a id="downloadBoosty">Скачать с Boosty.</a>
                 <br>
-                <a id="downloadPatreon">Скачать с&#160;<span class="notranslate">Patreon.</span></a>
+                <a id="downloadPatreon">Скачать с Patreon.</a>
                 <br>
                 <h3><a href="translatorDocumentation/tableOfContents/RU.html">Читать документацию.</a></h3>
             </div>
@@ -144,13 +96,13 @@
             <div id="suppportAndDiscordLinks" style="float: left; margin-top: auto; margin-right: auto;">
                 <a href="https://boosty.to/nyashniyvladya">
                     <img src="images/boosty/Color.png" height="30px" alt="Boosty Logo">
-                    <div class="supportLinks">Поддержать на&#160;<span class="notranslate">Boosty</span></div>
+                    <div class="supportLinks">Поддержать на Boosty</div>
                 </a>
                 <br>
 
                 <a href="https://www.patreon.com/bePatron?u=62209932">
                     <img src="images/patreon/Digital-Patreon-Logo_FieryCoral.png" height="30px" alt="Patreon Logo">
-                    <div class="supportLinks">Поддержать на&#160<span class="notranslate">Patreon</span></div>
+                    <div class="supportLinks">Поддержать на Patreon</div>
                 </a>
             </div>
 

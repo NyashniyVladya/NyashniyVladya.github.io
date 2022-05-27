@@ -19,7 +19,6 @@ body {
     margin-left: auto;
     margin-right: auto; 
     margin-top: 5px;
-    top: 0px !important;
 }
 
 .markdown-body .highlight pre, .markdown-body .highlight {
@@ -31,6 +30,7 @@ body {
     background-attachment: fixed;
     background-position: left;
     text-align: left;
+    font-family: 'Noto Serif', serif;
     color: rgba(238, 238, 238, 0.829);
     text-shadow: none;
 }
@@ -52,12 +52,6 @@ body {
 .highlight .kc, .highlight .s, .highlight .sa {
     color: #0b8b73;
 }
-
-
-.goog-te-banner-frame.skiptranslate {
-    display: none !important;
-}
-
 
 h1 {
     font-size: 35pt;
