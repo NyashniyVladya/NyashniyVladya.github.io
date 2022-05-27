@@ -5,8 +5,8 @@
 @import url("animations.css");
 
 body {
-    width: 68%;
-    background-color: #36393F;
+    width: 90%;
+    background-color: #363f3f;
     background-image: linear-gradient(170deg, #112b2e, #010607);
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,7 +23,7 @@ body {
 }
 
 .markdown-body .highlight pre, .markdown-body .highlight {
-    width: 68%;
+    width: 90%;
     background-color: #36393F;
     background-image: linear-gradient(170deg, #082124, #0c3d42);
     background-repeat: no-repeat;
