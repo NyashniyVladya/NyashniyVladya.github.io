@@ -276,7 +276,7 @@ ___
         1. ##### Prepare the following data needed by the developer for debugging:
 
             1. Log file:
-                * How to correctly generate a log file::
+                * How to correctly generate a log file:
                     1. Activate [debug mode](../settingDescription/RU.md#_debug_mode-).
                     1. Go to the point where the error occurs.
                 * Where is the log file?
@@ -344,7 +344,7 @@ ___
 1. ### The translator removes tags from the original game (italics, bold text, color, etc.).
 
     * Yep. It does that. It also removes tags like ***{w}***/***{nw}*** and the like.
-    * This is done because tags cannot be escaped when accessing a translation service.
+    * This is done because tags cannot be escaped when requesting a translation service.
         * To ***"{color=...}"*** the service may return ***"{цвет=...}"***, which of course will cause an error.
         * It is possible, of course, to translate in parts (a passage before the tag, a passage after it, etc.), but in this case the quality of the translation will suffer greatly, because the words will be translated without taking into account all the context and will not be connected to each other.
         * I see no way to "painlessly" keep the tags, so I decided to remove them altogether.

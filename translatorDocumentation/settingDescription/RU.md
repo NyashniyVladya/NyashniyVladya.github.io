@@ -20,7 +20,7 @@ ___
     "prescanOnStartup": false,
     "realtimeTranslationOnStartup": false,
     "_debug_mode": false,
-    "translationService": "google_client5",
+    "translationService": "selenium_deepl",
     "workMethod": "dialogueOnly",
     "originalInHistory": false,
     "requestsFrequency": null,
@@ -74,7 +74,7 @@ ___
 1. ###  ___gameLanguage___: [^text]
     * __"Исходный язык игры."__ [^inSettingMenu]
 
-    * Язык игры с которой нужен перевод.
+    * Язык самой игры (с которого нужен перевод).
         * Код языка от конкретного сервиса, либо название языка на английском.
             * Примеры допустимых параметров:
                 *  "en"
@@ -88,7 +88,7 @@ ___
 
     * __"Направление перевода."__ [^inSettingMenu]
 
-    * Язык игры на которую нужен перевод.
+    * Язык на который нужно перевести игру.
         * Формат указываемых данных идентичен параметру ___gameLanguage___.
 
 

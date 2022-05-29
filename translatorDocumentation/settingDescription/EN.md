@@ -1,26 +1,26 @@
 
-# Описание настроек и настроечного файла.
+# Description of the parameters and settings file.
 
 ___
 
-<!-- Типы данных. -->
-[^text]: Текстовый тип данных. Ожидается ввод значения, экранированного кавычками.
-[^bool]: Булевый тип данных. true/false.
-[^positive]: Положительный числовой тип данных. Ожидается ввод числа из множества положительных вещественных чисел.
+<!-- Data Types. -->
+[^text]: A text data type. A value escaped by quotation marks is expected.
+[^bool]: Boolean data type. true/false.
+[^positive]: Positive numeric data type. A number from a set of positive real numbers is expected.
 
-[^GUI]: Graphical User Interface. Графический интерфейс. Окно настройки, появляющееся в игре.
-[^inSettingMenu]: Название параметра в графическом интерфейсе.
+[^GUI]: Graphical User Interface. The setting window that shows up in the game.
+[^inSettingMenu]: Parameter name in the GUI.
 
-## Общий вид настроечного файла:
+## Example of a setting file:
 
 ```json
 {
-    "gameLanguage": "en",
-    "directionOfTranslation": "ru",
+    "gameLanguage": "ja",
+    "directionOfTranslation": "en",
     "prescanOnStartup": false,
     "realtimeTranslationOnStartup": false,
     "_debug_mode": false,
-    "translationService": "google_client5",
+    "translationService": "selenium_deepl",
     "workMethod": "dialogueOnly",
     "originalInHistory": false,
     "requestsFrequency": null,
@@ -39,44 +39,44 @@ ___
 
 ___
 
-* Формат описания следующий:
-    * Сначала идёт название параметра в настроечном файле.
-        * На этой же строке указывается номер-сноска типа допустимых данных.
-            * Текстовый тип данных: [^text]
-                * Ожидается ввод значения, экранированного кавычками.
-            * Булевый тип данных: [^bool]
+* The format of the description is as follows:
+    * First the name of the parameter in the configuration file is specified.
+        * On the same line there is a number-note of the allowed data type.
+            * A text data type: [^text]
+                * A value escaped by quotation marks is expected.
+            * Boolean data type: [^bool]
                 *  ___true___ / ___false___
-            * Положительный числовой тип данных: [^positive]
-                * Ожидается ввод числа из множества положительных вещественных чисел.
-    * На следующей строке указывается название соответствующего пункта в GUI[^GUI].
-        * Только если он имеется. т.к. присутствуют параметры, недоступные в GUI[^GUI].
-    * Далее следует объяснение специфики пункта.
+            * Positive numeric data type: [^positive]
+                * A number from a set of positive real numbers is expected.
+    * The next line contains the name of the corresponding item in the GUI[^GUI].
+        * Only if there is one, as there are parameters that are not available in the GUI[^GUI].
+    * This is followed by an explanation of the specifics of the item.
 
 ___
 
-* В тексте могут встречаться следующие термины: ___прескан___, ___рилтайм перевод___, etc. Информацию о них можно найти в соответсвующих разделах [FAQ](../FAQ/RU.md).
+* The following terms may appear in the text: ___prescan___, ___real-time translation___, and so on. Information about them can be found in the corresponding sections of the [FAQ](../FAQ/RU.md).
 
-* Если в документации имеются пункты настройки, которых пока нет в переводчике, их следует игнорировать, т.к. документация пишется одновременно с обновлением переводчика и, на данный момент, эти пункты ещё в бета-тесте.
-
-___
-
-* ### Дисклеймер:
-
-    1. Информация, представленная в этой документации, исключительно ознакомительного характера.
-    1. Все необходимые настройки лучше проводить в GUI[^GUI].
-    1. Крайне не рекомендуется менять что либо в настроечном файле, без полного понимания своих действий.
-    1. Создатель переводчика не несёт никакой ответственности за некорректную работу, при ручном изменении настроечного файла.
+* If there are settings in this documentation that are not yet in the translator, you should ignore them, because the documentation is being written at the same time as the update of the translator and, at the moment, these items are still in beta-test.
 
 ___
 
-## Описание параметров.
+* ### Disclamer:
+
+    1. The information provided in this documentation is for informational purposes only.
+    1. It is better to make all necessary settings in the GUI[^GUI].
+    1. It is highly recommended not to change anything in the configuration file, without a full understanding of your actions.
+    1. The creator of the translator does not take any responsibility for the incorrect work, if you manually change the settings file.
+
+___
+
+## Parameter Description.
 
 1. ###  ___gameLanguage___: [^text]
-    * __"Исходный язык игры."__ [^inSettingMenu]
+    * __"The original language of the game."__ [^inSettingMenu]
 
-    * Язык игры с которой нужен перевод.
-        * Код языка от конкретного сервиса, либо название языка на английском.
-            * Примеры допустимых параметров:
+    * The language of the game itself (from which you need a translation).
+        * Language code from a specific service, or the name of the language in English.
+            * Examples of valid parameters:
                 *  "en"
                 *  "en-GB"
                 *  "Portuguese"
@@ -86,218 +86,217 @@ ___
 
 1. ### ___directionOfTranslation___: [^text]
 
-    * __"Направление перевода."__ [^inSettingMenu]
+    * __"Direction of translation."__ [^inSettingMenu]
 
-    * Язык игры на которую нужен перевод.
-        * Формат указываемых данных идентичен параметру ___gameLanguage___.
+    * The language in which to translate the game.
+        * The format of the specified data is identical to parameter ___gameLanguage___.
 
 
 1. ### ___prescanOnStartup___: [^bool]
 
-    * __"Предварительное сканирование при запуске игры."__ [^inSettingMenu]
+    * __"Prescan at the start of the game."__ [^inSettingMenu]
 
-    * При активированном параметре запускает прескан в момент запуска игры.
-    * Не рекомендуется к использованию, за исключением особых ситуаций, т.к. сильно отнимает время, если в игре присутствуют начальные заставки и т.п.
+    * When this option is activated, it starts a prescan at the moment the game starts.
+    * Not recommended for use except in special situations, as it is very time-consuming if the game has an initial splash screen, etc.
 
 
 1. ### ___realtimeTranslationOnStartup___: [^bool]
 
-    * __"Перевод в реальном времени при запуске игры."__ [^inSettingMenu]
+    * __"Realtime translation at the start of the game."__ [^inSettingMenu]
 
-    * При активированном параметре запускает перевод в реальном времени при запуске игры.
-    * Так же, как и в предыдущем пункте, не рекомендуется к использованию, за исключением особых ситуаций, по тем же причинам.
+    * When this option is activated, it starts a real-time translation when the game starts.
+    * Just as in the previous paragraph, it is not recommended for use, except in special situations, for the same reasons.
 
 
 1. ### ___\_debug_mode___: [^bool]
 
-    * __"Режим отладки."__ [^inSettingMenu]
+    * __"Debug mode."__ [^inSettingMenu]
 
-    * Режим отладки.
-    * При активированном параметре работа переводчика меняется следующим образом:
-        * При возникновении ошибки, будет брошен трейсбек.
-        * Будет активировано логирование действий переводчика.
-    * За исключением особых случаев, в активации этого параметра нет необходимости.
+    * When this option is activated, translator work changes as follows:
+        * If an error occurs, traceback will be raised.
+        * Logging of the translator's actions will be enabled.
+    * Except in special cases, you should not activate this option.
 
 
 1. ### ___translationService___: [^text]
 
-    * __"Сервис перевода."__ [^inSettingMenu]
+    * __"Translation service."__ [^inSettingMenu]
 
-    * Сервис который будет осуществлять перевод.
-    * Доступны следующие значения:
+    * The service that will do the translation.
+    * The following values are valid:
 
         * __*"google_gtx"*__:
 
-            * __Небраузерная логика.__
-            * Сервис с самым лучшим (из небраузерных) качеством перевода.
-            * т.к. Google банит при подозрении на автоматизацию, скорость запросов принудительно снижена до 8 запросов в минуту.
+            * __Non-browser logic.__
+            * The service with the best (among non-browser) translation quality.
+            * Since Google bans on suspicion of automation, the request frequency is forcibly reduced to 8 requests per minute.
 
         * __*"google_client5"*__:
 
-            * __Небраузерная логика.__
-            * Сервис с посредственным (по крайней мере в ___"ru"___ направлении) качеством перевода, но хорошей скоростью.
+            * __Non-browser logic.__
+            * A service with poor translation quality but good speed.
 
         * __*"google_rpc"*__:
 
-            * __Небраузерная логика.__
-            * Полностью идентичен ___"google_client5"___, но с возможностью менять хост сервиса (параметр ___"googleHost"___).
+            * __Non-browser logic.__
+            * Completely identical to ___"google_client5"___, but with the ability to change the service host (parameter ___"googleHost"___).
 
         * __*"selenium_deepl"*__:
 
-            * __Браузерная логика.__
-            * Сервис с лучшим, из всех имеющихся, качеством перевода.
-            * Присутствуют минусы, характерные для переводчиков с браузерной логикой.
-                * Подробнее можно ознакомиться в соответствующем разделе в [FAQ](../FAQ/RU.md#о-браузерной-логике).
+            * __Browser logic.__
+            * Service with the best, among the presented, translation quality.
+            * There are disadvantages, typical for translators with browser logic.
+                * You can read more in the relevant section in the [FAQ](../FAQ/RU.md#о-браузерной-логике).
 
 
 1. ### ___workMethod___: [^text]
 
-    * __"Способ работы переводчика."__ [^inSettingMenu]
+    * __"Method of work of the translator."__ [^inSettingMenu]
 
-    * Способ работы переводчика.
-    * Доступны следующие значения:
+    * Translator's work method.
+    * The following values are valid:
 
         * ___"dialogueOnly"___:
-            * __"Перевод диалогов и меню."__ [^inSettingMenu]
-            * Переводчик будет использовать для работы параметр [__config.say_menu_text_filter__](https://www.renpy.org/doc/html/config.html#var-config.say_menu_text_filter).
-            * Будут переведён основной текст (в диалоговом окне) и меню выбора.
-            * В большинстве случаев рекомендуется использовать именно этот параметр.
+            * __"Translation of dialogs and choice menus."__ [^inSettingMenu]
+            * Translator will use parameter [__config.say_menu_text_filter__](https://www.renpy.org/doc/html/config.html#var-config.say_menu_text_filter) to work.
+            * The main text (in the dialog box) and the choice menu will be translated.
+            * In most cases it is recommended to use this parameter.
 
         * ___"allText"___:
-            * __"Перевод всего текста в игре (Бета)."__ [^inSettingMenu]
-            * Переводчик будет использовать для работы перезапись метода [__Text.set_text__](https://github.com/renpy/renpy/blob/df628ea0f54c434d790a7e7527a47efc16092e41/renpy/text/text.py#L1672).
-            * Будет переведён весь выводимый на экран текст.
-            * Режим находится в бета стадии и не рекомендуется к использованию без крайней необходимости.
-            * Так как при активации параметра будет переведён весь текст на экране, возможно длительное "зависание" игры.
-            * Абсолютно противопоказано к использованию, если игра демонстрирует динамические данные.
-                * Такие как:
-                    * _Время._
-                    * _Изменяющиеся статы персонажа._
+            * __"Translation of all text in the game (Beta)."__ [^inSettingMenu]
+            * Translator will overwrite the built-in [__Text.set_text__](https://github.com/renpy/renpy/blob/df628ea0f54c434d790a7e7527a47efc16092e41/renpy/text/text.py#L1672) method.
+            * All displayed text on the screen will be translated.
+            * The mode is in beta stage and is not recommended for use unless absolutely necessary.
+            * Since when this option is activated all the text on the screen will be translated, it is possible long "freeze" in the game.
+            * Absolutely contraindicated for use if the game demonstrates dynamic data.
+                * Such as:
+                    * _Time._
+                    * _Changing a character's stats._
                     * _etc._
-                * Потому как переводчик будет пытаться перевести каждое из новых значений, что приведёт к полному зависанию процесса.
+                * Because the translator will try to translate each of the new values, which will cause the process to freeze completely.
 
 
 1. ### ___originalInHistory___: [^bool]
 
-    * __"Сохранять оригинал в истории."__ [^inSettingMenu]
+    * __"Save the original text in the history."__ [^inSettingMenu]
 
-    * При активированном параметре на [экран "истории"](https://www.renpy.org/doc/html/history.html#dialogue-history) будет выводиться оригинальный текст, вместо перевода.
+    * If this option is enabled, the ["history" screen](https://www.renpy.org/doc/html/history.html#dialogue-history) will display the original text instead of the translation.
 
 
 1. ### ___requestsFrequency___: [^positive]
 
-    * __"Частота запросов."__ [^inSettingMenu]
+    * __"Frequency of requests."__ [^inSettingMenu]
 
-    * Частота обращений к сервису перевода.
-        * Количество запросов в минуту.
-    * Для некоторых сервисов перевода значение фиксировано.
-    * Для браузерной логики игнорируется.
+    * Frequency of requests to the translation service.
+        * Number of requests per minute.
+    * For some translation services, the value is fixed and unchangeable.
+    * For services with browser logic the value is ignored.
 
 
 1. ### ___splitTextAsSentences___: [^bool]
 
-    * __"Разделять предложения при переводе."__ [^inSettingMenu]
+    * __"Split sentences during translation."__ [^inSettingMenu]
 
-    * При активированном параметре, перед переводом текст будет разделён на "предложения" по [паттерну](https://docs.python.org/2.7/library/re.html):
+    * If this option is activated, the text will be divided into "sentences" according to the following [pattern](https://docs.python.org/2.7/library/re.html) before translation:
 
         ```python
         # Python RE logic.
         r"(?P<text>[^!?….\r\n]+)(?P<end_mark>[!?….]*)"
         ```
 
-    * Некоторые сервисы перевода (например __*google_client5*__) возвращают некорректный перевод, если в тексте присутствуют излишние знаки препинания. Данная настройка позволяет избежать подобного.
-    * В некоторых сервисах этот параметр активирован по умолчанию и настройка игнорируется (например ранее обозначенный __*google_client5*__).
-    * Активировать данный параметр не рекомендуется.
-        * В тех сервисах где он нужен, он активирован по умолчанию.
+    * Some translation services (e.g. __*google_client5*__) return an incorrect translation if there are excessive punctuation marks in the text. This setting prevents this from happening.
+    * In some services, this parameter is activated by default and a user value is ignored (for example, in the previously mentioned service __*google_client5*__).
+    * It is not recommended to activate this option.
+        * In those services where it is required, it is activated by default.
 
 
 1. ### ___googleHost___: [^text]
 
-    * Хост для сервиса перевода __*google_rpc*__.
-        * __При выборе иных сервисов параметр игнорируется.__
-    * Для стран, где стандартный ___translate.google.com___ работает некорректно (или медленно).
-    * Например:
-        * Для Латвии:
+    * Host for translation service __*google_rpc*__.
+        * __When selecting other services, this option will be ignored.__
+    * For countries where the standard ___translate.google.com___ does not work correctly (or slowly).
+    * For example:
+        * For Latvia:
             * ___"translate.google.lv"___
-        * Для Китая:
+        * For China:
             * ___"translate.google.cn"___
-        * И так далее...
+        * And so on.
 
 
 1. ### ___seleniumStartMode___: [^text]
 
-    * Режим запуска браузера для работы браузерной логики.
-        * Подробнее о браузерной логике в соответствующем разделе в [FAQ](../FAQ/RU.md#о-браузерной-логике).
+    * Browser startup mode for services with browser logic.
+        * Read more about the browser logic in the relevant section in the [FAQ](../FAQ/RU.md#о-браузерной-логике).
 
-    * Доступны следующие значения:
+    * The following values are valid:
         * ___"hide"___:
-            * Браузер будет запущен как фоновый процесс и не будет мешаться на панели задач.
+            * The browser will run as a background process and will not interfere with the taskbar.
         * ___"default"___:
-            * Браузер запустится в обычном режиме.
-                * При перезапусках браузер так же вернётся в обычный режим, даже если пользователь свернёт окно.
+            * The browser will start in default mode (as if it were started by the user).
+                * When restarting, the browser will also return to default mode, even if the user minimizes the window.
         * ___"minimized"___:
-            * Идентично параметру ___"default"___, но, после запуска, браузер свернётся.
+            * Identical to parameter ___"default"___, but, after starting, the browser is minimized.
 
-    * Важно:
-        * т.к. браузерная логика автоматизирована, вмешательство пользователя (как в примере ниже) может помешать корректной работе:
-            * Нажатие кнопок на странице перевода.
-            * Открытие вкладок.
-            * Закрытие окна перевода.
+    * Important:
+        * Since the browser logic is automated, user intervention (as in the examples below) can interfere with correct work:
+            * Clicking buttons on pages.
+            * Opening tabs.
+            * Closing the browser window.
             * etc.
-        * В случае подобного вмешательства жалобы на некорректную работу не принимаются.
+        * In the case of such user intervention complaints about incorrect work are not accepted.
 
 1. ### ___seleniumInputSplitMethod___: [^text]
 
-    * Режим разделения вводимого текста, для сервисов с [браузерной логикой](../FAQ/RU.md#о-браузерной-логике).
+    * Split input text mode, for services with [browser logic](../FAQ/RU.md#о-браузерной-логике).
 
-    * Доступны следующие значения:
+    * The following values are valid:
 
         * ___"all"___:
-            * Весь текст будет введён сразу.
-            * Возможно подвисание, если текст вел**и**к.
-            * Возможно обнаружение браузером автоматизации.
+            * All text will be entered at once.
+            * It may freeze if the text is large.
+            * Browser automation may be detected.
 
         * ___"strings"___:
-            * Текст будет введён по строкам.
+            * The text will be entered line by line.
 
         * ___"symbols"___:
-            * Текст будет введён посимвольно, без паузы между вводом.
+            * The text will be entered character by character, with no pause between entries.
 
         * ___"humanTyping"___:
-            * Имитация ввода человеком со средней скоростью печати - 450 символов в минуту (реальное значение рандомизируется).
+            * Simulated human input with an average typing speed of 450 characters per minute (the real value is randomized).
 
 
 1. ### ___extraTextOptions___:
 
-    * __"Настройки отображаемого текста."__ [^inSettingMenu]
+    * __"Settings for the displayed text."__ [^inSettingMenu]
 
     1. ### ___font___: [^text]
 
-        * __"Шрифт."__ [^inSettingMenu]
-        * Шрифт с которым будет выводиться текст.
-        * Путь к файлу шрифта задаётся относительно папке ___"%NovelDir%\\game"___, где __%NovelDir%__ - папка с игрой.
-            * К примеру, шрифт лежит в папке:
+        * __"Font."__ [^inSettingMenu]
+        * The font with which the text will be displayed.
+        * The path to the font file is set relative to the folder ___"%NovelDir%\\game"___, where __%NovelDir%__ is the folder with the game.
+            * For example, the font is in a folder:
                 * _"C:\\Games\\MyNovel\\game\\fonts\\Comic Sans.otf"_
-            * Значит в файле следует прописать:
+            * So in the file you have to write:
                 * _"fonts/Comic Sans.otf"_
-                    * Все обратные слеши (___\\___), если они имеются в пути, следует заменить на прямые (___/___).
-        * Выбрав шрифт один раз - операцию не обязательно повторять для каждой игры.
-            * Все используемые шрифты кешируются.
-                * При указании в другой игре шрифта, который уже был выбран ранее, файл добавится автоматически.
-                * Так же шрифт можно выбрать в GUI[^GUI] в пункте ___"Выбрать из использовавшихся ранее"___.
+                    * All backslashes (___\\___), if present in the path, should be replaced by forward slashes (___/___).
+        * Selecting a font once does not have to be repeated for every game.
+            * All used fonts are cached.
+                * If you specify in another game a font that was already selected earlier, the file will be added automatically.
+                * You can also select a font in the GUI[^GUI] under ___"Pick from the previously used ones"___.
 
     1. ### ___size___: [^text]
 
-        * __"Размер."__ [^inSettingMenu]
-        * Размер выводимого текста.
-        * Принимается положительное целое число, либо [выражение в формате Ren'Py](https://www.renpy.org/doc/html/text.html#text-tag-size).
+        * __"Size."__ [^inSettingMenu]
+        * The size of the displayed text.
+        *A positive integer is valid, or an [expression in Ren'Py format](https://www.renpy.org/doc/html/text.html#text-tag-size).
 
     1. ### ___italic___: [^bool]
 
-        * __"Курсивный текст."__ [^inSettingMenu]
-        * При активированном параметре делает выводимый текст курсивным.
+        * __"Italic text."__ [^inSettingMenu]
+        * When this option is activated, italicizes the displayed text.
 
     1. ### ___bold___: [^bool]
 
-        * __"Жирный текст."__ [^inSettingMenu]
-        * При активированном параметре делает выводимый текст жирным.
+        * __"Bold text."__ [^inSettingMenu]
+        * When this option is activated, it makes the displayed text bold.
