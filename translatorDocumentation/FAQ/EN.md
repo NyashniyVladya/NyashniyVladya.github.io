@@ -11,7 +11,7 @@ ___
 
     * Want to read a visual novel and it doesn't have a translation in your language?
         * All you need to do is copy the file **Translator3000.rpa** into the folder with the game.
-            * Read more about installation [here](./RU.md#с-чего-начать).
+            * Read more about installation [here](./EN.md#where-to-begin).
 
     * More information about the functions and features of the translator is provided in the following sections of the documentation.
 
@@ -53,7 +53,7 @@ ___
                 * Only the latest version is supported.
                 * Bug reports are only accepted for the latest version.
                     * As the translator is constantly being worked on, an error that occurred in earlier versions may no longer be present in later versions.
-                    * [More about the format of bug reports](./RU.md#о-багах-и-ошибках).
+                    * [More about the format of bug reports](./EN.md#about-bugs-and-errors).
 
 
 1. ### Where to begin?
@@ -64,9 +64,9 @@ ___
     1. Launch the game.
     1. In the upper left corner you will see the GUI window of the translator.
         * Here you can set up the parameters you need.
-        * The settings can also be made via a [configuration file](./RU.md#noveldir_translator3000_settingjson).
-        * See the [parameter description page](../settingDescription/RU.md#описание-параметров) for details.
-    1. [Enjoy the game.](./RU.md#наилучший-оптимальный-для-комфортного-чтения-вариант-использования-следующий)
+        * The settings can also be made via a [configuration file](./EN.md#noveldir_translator3000_settingjson).
+        * See the [parameter description page](../settingDescription/EN.md#parameter-description) for details.
+    1. [Enjoy the game.](./EN.md#the-best-optimal-for-comfortable-reading-use-is-as-follows)
 
 
 1. ### About translator work modes.
@@ -92,7 +92,7 @@ ___
 
     * #### The best (optimal for comfortable reading) use is as follows:
 
-        1. Run the novel with [___prescanOnStartup___](../settingDescription/RU.md#prescanonstartup-) and [___realtimeTranslationOnStartup___](../settingDescription/RU.md#realtimetranslationonstartup-) parameters **de**activated.
+        1. Run the novel with [___prescanOnStartup___](../settingDescription/EN.md#prescanonstartup-) and [___realtimeTranslationOnStartup___](../settingDescription/EN.md#realtimetranslationonstartup-) parameters **de**activated.
         1. Get to the place where the game asks you to enter the player name / other dynamic data (if any).
             * If there is no dynamic data input, just run the game anywhere.
         1. Enter data (if required).
@@ -122,7 +122,7 @@ ___
     * #### Database Import.
 
         * If anyone has already completed the novel, he can share his database (local, or global).
-        * To use a translation from another person, just copy their database to the [___imported translations___](./RU.md#noveldirlocal-translationsservicenameimported-translations) folder.
+        * To use a translation from another person, just copy their database to the [___imported translations___](./EN.md#noveldirlocal-translationsservicenameimported-translations) folder.
         * After launching, the game imports the translation into the local game database and the global database.
         * After a successful import, the imported file will be deleted.
         * ___Important:___
@@ -147,7 +147,7 @@ ___
 
     * #### By default, the graphical part of the browser is disabled.
 
-        * You can enable it if you want. Read more in the [documentation of the setup file](../settingDescription/RU.md#seleniumstartmode-).
+        * You can enable it if you want. Read more in the [documentation of the setup file](../settingDescription/EN.md#seleniumstartmode-).
 
 
 1. ### Where is what and what files the translator uses and creates.
@@ -206,18 +206,18 @@ ___
     1. #### __*%NovelDir%\\_translator3000_setting.json*__:
 
         * File with the translator settings for a particular game.
-        * [File content information.](../settingDescription/RU.md#описание-настроек-и-настроечного-файла)
+        * [File content information.](../settingDescription/EN.md#description-of-the-parameters-and-settings-file)
 
     1. #### __*%NovelDir%\\local translations\\%ServiceName%*__:
 
         * A folder with a local (for a particular novel) database of translations for one of the services.
         * Contains folders with database version numbers, which contain database file ___translations___ (the format can be different).
-        * It also contains the [___imported translations___](./RU.md#noveldirlocal-translationsservicenameimported-translations) folder for importing completed translations.
+        * It also contains the [___imported translations___](./EN.md#noveldirlocal-translationsservicenameimported-translations) folder for importing completed translations.
 
     1. #### __*%NovelDir%\\local translations\\%ServiceName%\\imported translations*__:
 
         * A folder for importing completed translations.
-        * The instructions for importing translations are described [above](./RU.md#импорт-бд).
+        * The instructions for importing translations are described [above](./EN.md#database-import).
 
     1. #### __*%NovelDir%\\_translator3000Data*__:
 
@@ -230,7 +230,7 @@ ___
     1. #### __*%NovelDir%\\_translator3000Data\\debug\\lastLog.log*__:
 
         * Log file containing technical information about the translator's actions.
-        * If parameter [___\_debug_mode___](../settingDescription/RU.md#_debug_mode-) is activated, full information will be written to the file, otherwise only basic data and error information will be written.
+        * If parameter [___\_debug_mode___](../settingDescription/EN.md#_debug_mode-) is activated, full information will be written to the file, otherwise only basic data and error information will be written.
 
     1. #### __*%NovelDir%\\_translator3000Data\\temp*__:
 
@@ -262,14 +262,14 @@ ___
 1. ### About bugs and errors.
 
     * Bug reports are only accepted for the latest actual version.
-        * [Read more here.](./RU.md#важно)
+        * [Read more here.](./EN.md#important)
 
     * #### What to do when errors occur:
 
-        1. Make sure you have the [latest version of the translator](./RU.md#важно).
+        1. Make sure you have the [latest version of the translator](./EN.md#important).
 
         1. Replay the situation in another novel and make sure the error repeats itself.
-            * If the error occurs in a single novel, read the [corresponding paragraph of the FAQ](./RU.md#игра-вставить-имя-игры-не-переводитсяне-запускаетсяработает-некорректно).
+            * If the error occurs in a single novel, read the [corresponding paragraph of the FAQ](./EN.md#the-game-insert-game-name-does-not-translatedoes-not-startdoes-not-work-correctly).
 
         1. If an error occurs during a prescan, click "Raise traceback" in the GUI to generate an error report.
 
@@ -277,10 +277,10 @@ ___
 
             1. Log file:
                 * How to correctly generate a log file:
-                    1. Activate [debug mode](../settingDescription/RU.md#_debug_mode-).
+                    1. Activate [debug mode](../settingDescription/EN.md#_debug_mode-).
                     1. Go to the point where the error occurs.
                 * Where is the log file?
-                    * Read the [previous section of the documentation, describing the paths](./RU.md#noveldir_translator3000datadebuglastloglog).
+                    * Read the [previous section of the documentation, describing the paths](./EN.md#noveldir_translator3000datadebuglastloglog).
 
             1. Information about the settings.
                 * Translator's work mode, service, etc.
@@ -290,11 +290,11 @@ ___
 
             1. Information about what actions caused the error.
 
-            1. If the error occurs with the translation service with [browser logic](./RU.md#о-браузерной-логике), set the ___"default"___ value for the [___"seleniumStartMode"___](../settingDescription/RU.md#seleniumstartmode-) setting and add information in the error message about whether it affected the operation.
+            1. If the error occurs with the translation service with [browser logic](./EN.md#about-browser-logic), set the ___"default"___ value for the [___"seleniumStartMode"___](../settingDescription/EN.md#seleniumstartmode-) setting and add information in the error message about whether it affected the operation.
 
             1. Any other information you deem relevant in the context of this question.
 
-        1. Read [this section of the documentation](./RU.md#я-не-нашёл-ответа-на-свой-вопрос-в-этой-документации) and, if your question has not yet been answered, ask it in the question channel.
+        1. Read [this section of the documentation](./EN.md#i-did-not-find-an-answer-to-my-question-in-this-documentation) and, if your question has not yet been answered, ask it in the question channel.
 
 
     * Description of some errors:
@@ -315,7 +315,7 @@ ___
 1. ### ___I have "squares" instead of text.___
 
     * Change the font to one that supports the language you want.
-        * [Instructions for installing the font.](../settingDescription/RU.md#font-)
+        * [Instructions for installing the font.](../settingDescription/EN.md#font-)
 
         * ### ___Where can I find fonts?___
 
@@ -370,7 +370,7 @@ ___
             * Not at all.
             * Not. At. All.
 
-        * If you report an error, be sure to [attach the data necessary to resolve the error](./RU.md#подготовить-следующие-данные-необходимые-разработчику-для-отладки).
+        * If you report an error, be sure to [attach the data necessary to resolve the error](./EN.md#prepare-the-following-data-needed-by-the-developer-for-debugging).
 
 
 1. ### ___I still don't understand something in this documentation. Can I write to you in a private message, on a social network, by e-mail, or anywhere else?___

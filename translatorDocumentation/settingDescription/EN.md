@@ -54,7 +54,7 @@ ___
 
 ___
 
-* The following terms may appear in the text: ___prescan___, ___real-time translation___, and so on. Information about them can be found in the corresponding sections of the [FAQ](../FAQ/RU.md).
+* The following terms may appear in the text: ___prescan___, ___real-time translation___, and so on. Information about them can be found in the corresponding sections of the [FAQ](../FAQ/EN.md).
 
 * If there are settings in this documentation that are not yet in the translator, you should ignore them, because the documentation is being written at the same time as the update of the translator and, at the moment, these items are still in beta-test.
 
@@ -146,7 +146,7 @@ ___
             * __Browser logic.__
             * Service with the best, among the presented, translation quality.
             * There are disadvantages, typical for translators with browser logic.
-                * You can read more in the relevant section in the [FAQ](../FAQ/RU.md#о-браузерной-логике).
+                * You can read more in the relevant section in the [FAQ](../FAQ/EN.md#about-browser-logic).
 
 
 1. ### ___workMethod___: [^text]
@@ -226,7 +226,7 @@ ___
 1. ### ___seleniumStartMode___: [^text]
 
     * Browser startup mode for services with browser logic.
-        * Read more about the browser logic in the relevant section in the [FAQ](../FAQ/RU.md#о-браузерной-логике).
+        * Read more about the browser logic in the relevant section in the [FAQ](../FAQ/EN.md#about-browser-logic).
 
     * The following values are valid:
         * ___"hide"___:
@@ -247,7 +247,7 @@ ___
 
 1. ### ___seleniumInputSplitMethod___: [^text]
 
-    * Split input text mode, for services with [browser logic](../FAQ/RU.md#о-браузерной-логике).
+    * Split input text mode, for services with [browser logic](../FAQ/EN.md#about-browser-logic).
 
     * The following values are valid:
 
