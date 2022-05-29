@@ -1,79 +1,80 @@
 
-# Содержание документации.
+# Table of Contents.
 
 
-1. ## [Общая информация о переводчике.](../FAQ/RU.md#общая-информация)
+1. ## [General information about translator.](../FAQ/EN.md#general-information)
 
-    1. ### [О проекте в целом.](../FAQ/RU.md#что-это-за-проект-такой)
+    1. ### [About the project in brief.](../FAQ/EN.md#what-kind-of-project-is-this)
 
-    1. ### [Ссылки.](../FAQ/RU.md#ссылки)
-        1. #### [Discord.](../FAQ/RU.md#discord-сообщество)
-        1. #### [Patreon.](../FAQ/RU.md#patreon)
-        1. #### [Boosty.](../FAQ/RU.md#boosty)
+    1. ### [Links.](../FAQ/EN.md#links)
+        1. #### [Discord.](../FAQ/EN.md#discord-community)
+        1. #### [Patreon.](../FAQ/EN.md#patreon)
+        1. #### [Boosty.](../FAQ/EN.md#boosty)
 
-    1. ### [О версиях.](../FAQ/RU.md#о-версиях)
-        1. #### [Ознакомительная версия.](../FAQ/RU.md#ознакомительная-версия)
-        1. #### [Основная версия.](../FAQ/RU.md#основная-версия)
+    1. ### [About Versions.](../FAQ/EN.md#about-versions)
+        1. #### [Trial version.](../FAQ/EN.md#trial-version)
+        1. #### [Main version.](../FAQ/EN.md#main-version)
 
-    1. ### [С чего начать?](../FAQ/RU.md#с-чего-начать)
+    1. ### [Where to begin?](../FAQ/EN.md#where-to-begin)
 
-    1. ### [О режимах работы.](../FAQ/RU.md#о-режимах-работы)
-        1. #### [Предварительное сканирование (т.н. прескан).](../FAQ/RU.md#предварительное-сканирование-тн-прескан)
-        1. #### [Перевод в реальном времени (т.н. рилтайм перевод).](../FAQ/RU.md#перевод-в-реальном-времени)
+    1. ### [About translator work modes.](../FAQ/EN.md#about-translator-work-modes)
+        1. #### [Prescan.](../FAQ/EN.md#prescan)
+        1. #### [Real-time translation.](../FAQ/EN.md#real-time-translation)
 
-    1. ### [О базе данных.](../FAQ/RU.md#о-базе-данных)
-        1. #### [Глобальная БД.](../FAQ/RU.md#глобальная-бд)
-        1. #### [Локальная БД.](../FAQ/RU.md#локальная-бд)
-        1. #### [Импорт БД.](../FAQ/RU.md#импорт-бд)
-        1. #### [Форматы БД.](../FAQ/RU.md#форматы-бд)
+    1. ### [About Database.](../FAQ/EN.md#about-database)
+        1. #### [Global DB.](../FAQ/EN.md#global-database)
+        1. #### [Local DB.](../FAQ/EN.md#local-database)
+        1. #### [DB Import.](../FAQ/EN.md#database-import)
+        1. #### [About DB formats.](../FAQ/EN.md#about-database-formats)
 
-    1. ### [О браузерной логике.](../FAQ/RU.md#о-браузерной-логике)
+    1. ### [About “browser logic”.](../FAQ/EN.md#about-browser-logic)
 
-    1. ### [Где что лежит и какие файлы создаёт/использует переводчик.](../FAQ/RU.md#где-что-лежит-и-какие-файлы-создаётиспользует-переводчик)
+    1. ### [Where is what and what files the translator uses and creates.](../FAQ/EN.md#where-is-what-and-what-files-the-translator-uses-and-creates)
 
-    1. ### [О багах и ошибках.](../FAQ/RU.md#о-багах-и-ошибках)
+    1. ### [About bugs and errors.](../FAQ/EN.md#about-bugs-and-errors)
 
-1. ## [FAQ (вопрос - ответ).](../FAQ/RU.md#вопрос---ответ)
+1. ## [Q&A.](../FAQ/EN.md#qa)
 
-    1. ### [У меня "квадратики" вместо текста.](../FAQ/RU.md#у-меня-квадратики-вместо-текста)
-    1. ### [Игра \<вставить имя игры\> работает некорректно.](../FAQ/RU.md#игра-вставить-имя-игры-не-переводитсяне-запускаетсяработает-некорректно)
-    1. ### [Как вызвать графический интерфейс переводчика?](../FAQ/RU.md#как-вызвать-графический-интерфейс-переводчика)
-    1. ### [Переводчик удаляет теги из оригинальной игры.](../FAQ/RU.md#переводчик-удаляет-теги-из-оригинальной-игры-курсив-жирный-текст-цвет-и-прочее)
-    1. ### [О мобильных устройствах.](../FAQ/RU.md#а-как-запустить-переводчик-на-ос-android)
-    1. ### [Я не нашёл ответа на свой вопрос в этой документации.](../FAQ/RU.md#я-не-нашёл-ответа-на-свой-вопрос-в-этой-документации)
-    1. ### [О вопросах автору переводчика.](../FAQ/RU.md#я-всё-ещё-что-то-не-понял-в-этой-документации-можно-всё-таки-написать-вам-в-личные-сообщенияв-мессенджерна-почту)
+    1. ### [I have “squares” instead of text.](../FAQ/EN.md#i-have-squares-instead-of-text)
+    1. ### [The game \<insert game name\> does not work correctly.](../FAQ/EN.md#the-game-insert-game-name-does-not-translatedoes-not-startdoes-not-work-correctly)
+    1. ### [How do I launch the GUI of the translator?](../FAQ/EN.md#how-do-i-launch-the-gui-of-the-translator)
+    1. ### [The translator removes tags from game.](../FAQ/EN.md#the-translator-removes-tags-from-the-original-game-italics-bold-text-color-etc)
+    1. ### [About mobile devices.](../FAQ/EN.md#how-do-i-run-the-translator-on-android)
+    1. ### [I did not find an answer to my question in this documentation.](../FAQ/EN.md#i-did-not-find-an-answer-to-my-question-in-this-documentation)
+    1. ### [About the questions to the translator's author.](../FAQ/EN.md#i-still-dont-understand-something-in-this-documentation-can-i-write-to-you-in-a-private-message-on-a-social-network-by-e-mail-or-anywhere-else)
 
 
-1. ## [Описание настроечного файла.](../settingDescription/RU.md#описание-настроек-и-настроечного-файла)
-    1. ### [gameLanguage](../settingDescription/RU.md#gamelanguage-)
+1. ## [Description of the settings file.](../settingDescription/EN.md#description-of-the-parameters-and-settings-file)
 
-    1. ### [directionOfTranslation](../settingDescription/RU.md#directionoftranslation-)
+    1. ### [gameLanguage](../settingDescription/EN.md#gamelanguage-)
 
-    1. ### [prescanOnStartup](../settingDescription/RU.md#prescanonstartup-)
+    1. ### [directionOfTranslation](../settingDescription/EN.md#directionoftranslation-)
 
-    1. ### [realtimeTranslationOnStartup](../settingDescription/RU.md#realtimetranslationonstartup-)
+    1. ### [prescanOnStartup](../settingDescription/EN.md#prescanonstartup-)
 
-    1. ### [_debug_mode](../settingDescription/RU.md#_debug_mode-)
+    1. ### [realtimeTranslationOnStartup](../settingDescription/EN.md#realtimetranslationonstartup-)
 
-    1. ### [translationService](../settingDescription/RU.md#translationservice-)
+    1. ### [_debug_mode](../settingDescription/EN.md#_debug_mode-)
 
-    1. ### [workMethod](../settingDescription/RU.md#workmethod-)
+    1. ### [translationService](../settingDescription/EN.md#translationservice-)
 
-    1. ### [originalInHistory](../settingDescription/RU.md#originalinhistory-)
+    1. ### [workMethod](../settingDescription/EN.md#workmethod-)
 
-    1. ### [requestsFrequency](../settingDescription/RU.md#requestsfrequency-)
+    1. ### [originalInHistory](../settingDescription/EN.md#originalinhistory-)
 
-    1. ### [splitTextAsSentences](../settingDescription/RU.md#splittextassentences-)
+    1. ### [requestsFrequency](../settingDescription/EN.md#requestsfrequency-)
 
-    1. ### [googleHost](../settingDescription/RU.md#googlehost-)
+    1. ### [splitTextAsSentences](../settingDescription/EN.md#splittextassentences-)
 
-    1. ### [seleniumStartMode](../settingDescription/RU.md#seleniumstartmode-)
+    1. ### [googleHost](../settingDescription/EN.md#googlehost-)
 
-    1. ### [seleniumInputSplitMethod](../settingDescription/RU.md#seleniuminputsplitmethod-)
+    1. ### [seleniumStartMode](../settingDescription/EN.md#seleniumstartmode-)
 
-    1. ### [extraTextOptions](../settingDescription/RU.md#extratextoptions)
+    1. ### [seleniumInputSplitMethod](../settingDescription/EN.md#seleniuminputsplitmethod-)
 
-        1. #### [font](../settingDescription/RU.md#font-)
-        1. #### [size](../settingDescription/RU.md#size-)
-        1. #### [italic](../settingDescription/RU.md#italic-)
-        1. #### [bold](../settingDescription/RU.md#bold-)
+    1. ### [extraTextOptions](../settingDescription/EN.md#extratextoptions)
+
+        1. #### [font](../settingDescription/EN.md#font-)
+        1. #### [size](../settingDescription/EN.md#size-)
+        1. #### [italic](../settingDescription/EN.md#italic-)
+        1. #### [bold](../settingDescription/EN.md#bold-)

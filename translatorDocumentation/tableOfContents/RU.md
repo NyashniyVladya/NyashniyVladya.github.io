@@ -45,6 +45,7 @@
 
 
 1. ## [Описание настроечного файла.](../settingDescription/RU.md#описание-настроек-и-настроечного-файла)
+
     1. ### [gameLanguage](../settingDescription/RU.md#gamelanguage-)
 
     1. ### [directionOfTranslation](../settingDescription/RU.md#directionoftranslation-)
