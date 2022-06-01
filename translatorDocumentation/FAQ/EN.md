@@ -23,11 +23,11 @@ ___
 
     1. #### [Patreon.](https://patreon.com/NyashniyVladya)
 
-        * Here you can support the author of the project and download the latest version.
+        * Here you can support the project and download the latest version of the translator.
 
     1. #### [Boosty.](https://boosty.to/nyashniyvladya)
 
-        * The same as [Patreon](https://patreon.com/NyashniyVladya), but for Russian-speaking users.
+        * An alternative to [Patreon](https://patreon.com/NyashniyVladya).
 
 1. ### About Versions.
 

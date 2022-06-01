@@ -23,11 +23,11 @@ ___
 
     1. #### [Patreon.](https://patreon.com/NyashniyVladya)
 
-        * Тут можно поддержать автора проекта и скачать последнюю актуальную версию.
+        * Тут можно поддержать проект и скачать последнюю актуальную версию переводчика.
 
     1. #### [Boosty.](https://boosty.to/nyashniyvladya)
 
-        * Аналогично [Patreon](https://patreon.com/NyashniyVladya), но для рублёвой валюты.
+        * Площадка альтернативная [Patreon](https://patreon.com/NyashniyVladya).
 
 
 1. ### О версиях.
