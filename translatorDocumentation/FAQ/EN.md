@@ -21,13 +21,9 @@ ___
 
         * Here you can find a link to the latest version, chat with other translator users, and search for an answer to your question in the Question Channel.
 
-    1. #### [Patreon.](https://patreon.com/NyashniyVladya)
-
-        * Here you can support the project and download the latest version of the translator.
-
     1. #### [Boosty.](https://boosty.to/nyashniyvladya)
 
-        * An alternative to [Patreon](https://patreon.com/NyashniyVladya).
+        * Here you can support the project and download the latest version of the translator.
 
 1. ### About Versions.
 
@@ -41,8 +37,7 @@ ___
 
         1. #### Main version.
 
-            * You can subscribe and download on [Patreon](https://www.patreon.com/NyashniyVladya?filters[tag]=new%20version) or [Boosty](https://boosty.to/nyashniyvladya?postsTagsIds=124156).
-                * __*[Patreon](https://patreon.com/NyashniyVladya) and [Boosty](https://boosty.to/nyashniyvladya) subscribers have completely equal privileges and opportunities. Content is always duplicated on both platforms.*__
+            * You can subscribe and download on [Boosty](https://boosty.to/nyashniyvladya?postsTagsIds=124156).
 
             * The version is distributed according to the [subscription model](https://en.wikipedia.org/wiki/Subscription_business_model).
 
@@ -58,7 +53,7 @@ ___
 
 1. ### Where to begin?
 
-    * So. You signed up for [Patreon](https://patreon.com/NyashniyVladya) or [Boosty](https://boosty.to/nyashniyvladya), downloaded ___Translator3000.rpa___ and don't know what to do with it. Let me explain.
+    * So. You signed up for [Boosty](https://boosty.to/nyashniyvladya), downloaded ___Translator3000.rpa___ and don't know what to do with it. Let me explain.
 
     1. Copy the file to the folder __game__ in the directory of the game for which you need a translation.
     1. Launch the game.

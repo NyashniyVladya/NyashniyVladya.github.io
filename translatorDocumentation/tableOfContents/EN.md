@@ -8,7 +8,6 @@
 
     1. ### [Links.](../FAQ/EN.md#links)
         1. #### [Discord.](../FAQ/EN.md#discord-community)
-        1. #### [Patreon.](../FAQ/EN.md#patreon)
         1. #### [Boosty.](../FAQ/EN.md#boosty)
 
     1. ### [About Versions.](../FAQ/EN.md#about-versions)

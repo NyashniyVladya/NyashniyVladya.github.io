@@ -21,13 +21,9 @@ ___
 
         * Тут можно найти ссылку на последнюю актуальную версию, пообщаться с другими пользователями переводчика и поискать ответ на свой вопрос в соответствующем канале.
 
-    1. #### [Patreon.](https://patreon.com/NyashniyVladya)
-
-        * Тут можно поддержать проект и скачать последнюю актуальную версию переводчика.
-
     1. #### [Boosty.](https://boosty.to/nyashniyvladya)
 
-        * Площадка альтернативная [Patreon](https://patreon.com/NyashniyVladya).
+        * Тут можно поддержать проект и скачать последнюю актуальную версию переводчика.
 
 
 1. ### О версиях.
@@ -42,9 +38,7 @@ ___
 
         1. #### Основная версия.
 
-            * Подписаться и скачать можно на [Patreon](https://www.patreon.com/NyashniyVladya?filters[tag]=new%20version) и [Boosty](https://boosty.to/nyashniyvladya?postsTagsIds=124156).
-
-                * __*Подписчики [Patreon](https://patreon.com/NyashniyVladya) и [Boosty](https://boosty.to/nyashniyvladya) имеют абсолютно равные привелегии. Контент всегда дублируется на обоих площадках.*__
+            * Подписаться и скачать можно на [Boosty](https://boosty.to/nyashniyvladya?postsTagsIds=124156).
 
             * Распространяется по принципу [подписной модели](https://ru.wikipedia.org/wiki/Подписка).
 
@@ -60,7 +54,7 @@ ___
 
 1. ### С чего начать?
 
-    * Вот Вы подписались на [Patreon](https://patreon.com/NyashniyVladya)/[Boosty](https://boosty.to/nyashniyvladya), скачали ___Translator3000.rpa___ и не знаете что с ним делать. Сейчас объясню.
+    * Вот Вы подписались на [Boosty](https://boosty.to/nyashniyvladya), скачали ___Translator3000.rpa___ и не знаете что с ним делать. Сейчас объясню.
 
     1. Копируем файл в папку ___game___ в директории игры, для которой нужен перевод.
     1. Запускаем игру.
