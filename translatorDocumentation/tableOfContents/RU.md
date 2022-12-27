@@ -50,7 +50,7 @@
 
     1. ### [directionOfTranslation](../settingDescription/RU.md#directionoftranslation-)
 
-    1. ### [modeOnStartup](../settingDescription/RU.md#modeOnStartup-)
+    1. ### [modeOnStartup](../settingDescription/RU.md#modeonstartup-)
 
     1. ### [_debug_mode](../settingDescription/RU.md#_debug_mode-)
 
