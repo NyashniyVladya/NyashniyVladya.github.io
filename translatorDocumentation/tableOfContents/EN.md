@@ -17,8 +17,9 @@
     1. ### [Where to begin?](../FAQ/EN.md#where-to-begin)
 
     1. ### [About translator work modes.](../FAQ/EN.md#about-translator-work-modes)
-        1. #### [Prescan.](../FAQ/EN.md#prescan)
+        1. #### [Translation only from the database.](../FAQ/EN.md#translation-only-from-the-database)
         1. #### [Real-time translation.](../FAQ/EN.md#real-time-translation)
+        1. #### [Prescan.](../FAQ/EN.md#prescan)
 
     1. ### [About Database.](../FAQ/EN.md#about-database)
         1. #### [Global DB.](../FAQ/EN.md#global-database)
@@ -49,9 +50,7 @@
 
     1. ### [directionOfTranslation](../settingDescription/EN.md#directionoftranslation-)
 
-    1. ### [prescanOnStartup](../settingDescription/EN.md#prescanonstartup-)
-
-    1. ### [realtimeTranslationOnStartup](../settingDescription/EN.md#realtimetranslationonstartup-)
+    1. ### [modeOnStartup](../settingDescription/EN.md#modeonstartup-)
 
     1. ### [_debug_mode](../settingDescription/EN.md#_debug_mode-)
 

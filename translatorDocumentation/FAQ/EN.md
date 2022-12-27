@@ -66,7 +66,22 @@ ___
 
 1. ### About translator work modes.
 
-    * Translator can work in two modes:
+    * Translator can work in three switchable modes:
+
+        1. #### Real-time translation.
+
+            * The translation takes place at the moment when the game passes the string to the display.
+            * If there is a string in the translations database, the cached translation is displayed immediately.
+            * if the string isn't in the translation database (the string has never been displayed and there was no prescan), there will be a request to the translation service.
+                * This will inevitably cause a "freeze", because a network request will be executed.
+
+        1. #### Translation only from the database.
+
+            * Similar to the previous mode, but with one important change:
+                * If a string isn't in the translation database, it will not be translated, but the original text will be displayed.
+
+            * This mode is very useful in novels-sandboxes, where there is a lot of permanently updated data.
+                * When this mode is activated, with the performed prescan, the permanent text (dialogues, etc.) will be translated, while the dynamic data (date, game time, etc.) will be output as it is.
 
         1. #### Prescan.
 
@@ -75,31 +90,19 @@ ___
             * If the game has dynamic data (player name, etc.), it is better to enter it __before__ running the prescan.
                 * This is needed to correctly translate strings where dynamic data substitution is used.
             * If a novel is large, the process can take a long time.
-            * WWhen prescan mode is activated, it restarts every 5 minutes.
-                * Just in case there are new dynamic data in the novel.
-                * If a restart is not necessary, pause the prescan when it is complete.
-
-        1. #### Real-time translation.
-
-            * Main work mode.
-            * The translation takes place when the game sends a string to the screen.
-            * If the string is not in the translation database (it has never been displayed and there was no prescan), the game will inevitably "freeze", because there is an request to the translation service.
 
     * #### The best (optimal for comfortable reading) use is as follows:
 
-        1. Run the novel with [___prescanOnStartup___](../settingDescription/EN.md#prescanonstartup-) and [___realtimeTranslationOnStartup___](../settingDescription/EN.md#realtimetranslationonstartup-) parameters **de**activated.
+        1. Run the novel.
         1. Get to the place where the game asks you to enter the player name / other dynamic data (if any).
             * If there is no dynamic data input, just run the game anywhere.
         1. Enter data (if required).
-        1. Start the prescan via the item of the same name in the GUI.
+        1. Start the translator in prescan mode with the corresponding item in the GUI.
         1. Wait for the prescan to complete.
             * Depending on the size of the novel, prescanning can take a long time.
             * If the novel is extremely large, it makes sense to leave it in the translation process and do something else in the meantime until the translation is complete.
-        1. Pause the prescan with the same button that started the prescan earlier.
-        1. Start a real-time translation.
+        1. Switch to the translation mode ___"only from the database"___.
         1. Hide the translator's GUI and enjoy the novel.
-
-    * It is highly discouraged to use both modes at the same time, as it can cause extreme "freezes".
 
 
 1. ### About Database.

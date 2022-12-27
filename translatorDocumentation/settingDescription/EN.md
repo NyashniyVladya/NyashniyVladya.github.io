@@ -17,8 +17,7 @@ ___
 {
     "gameLanguage": "ja",
     "directionOfTranslation": "en",
-    "prescanOnStartup": false,
-    "realtimeTranslationOnStartup": false,
+    "modeOnStartup": "off",
     "_debug_mode": false,
     "translationService": "selenium_deepl",
     "workMethod": "dialogueOnly",
@@ -91,22 +90,27 @@ ___
     * The language in which to translate the game.
         * The format of the specified data is identical to parameter ___gameLanguage___.
 
+1. ### ___modeOnStartup___: [^text]
 
-1. ### ___prescanOnStartup___: [^bool]
+    * Translator mode at game start.
 
-    * __"Prescan at the start of the game."__ [^inSettingMenu]
+    * The following 4 parameters can be used:
 
-    * When this option is activated, it starts a prescan at the moment the game starts.
-    * Not recommended for use except in special situations, as it is very time-consuming if the game has an initial splash screen, etc.
+        *  __*"off"*__:
+            * Nothing happens on startup. Necessary mode is activated manually.
+            * This is the recommended use case.
 
+        *  __*"db_only"*__:
+            * On startup, the translation mode "from database only" is activated.
+            * [Read more about this mode here.](../FAQ/EN.md#translation-only-from-the-database)
 
-1. ### ___realtimeTranslationOnStartup___: [^bool]
+        *  __*"realtime"*__:
+            * On startup, "realtime" translation mode is activated.
+            * [Read more about this mode here.](../FAQ/EN.md#real-time-translation)
 
-    * __"Realtime translation at the start of the game."__ [^inSettingMenu]
-
-    * When this option is activated, it starts a real-time translation when the game starts.
-    * Just as in the previous paragraph, it is not recommended for use, except in special situations, for the same reasons.
-
+        *  __*"prescan"*__:
+            * On startup, the prescan is activated.
+            * [Read more about this mode here.](../FAQ/EN.md#prescan)
 
 1. ### ___\_debug_mode___: [^bool]
 
