@@ -17,8 +17,9 @@
     1. ### [С чего начать?](../FAQ/RU.md#с-чего-начать)
 
     1. ### [О режимах работы.](../FAQ/RU.md#о-режимах-работы)
-        1. #### [Предварительное сканирование (т.н. прескан).](../FAQ/RU.md#предварительное-сканирование-тн-прескан)
+        1. #### [Перевод только из базы данных](../FAQ/RU.md#перевод-только-из-базы-данных)
         1. #### [Перевод в реальном времени (т.н. рилтайм перевод).](../FAQ/RU.md#перевод-в-реальном-времени)
+        1. #### [Предварительное сканирование (т.н. прескан).](../FAQ/RU.md#предварительное-сканирование-тн-прескан)
 
     1. ### [О базе данных.](../FAQ/RU.md#о-базе-данных)
         1. #### [Глобальная БД.](../FAQ/RU.md#глобальная-бд)
@@ -49,9 +50,7 @@
 
     1. ### [directionOfTranslation](../settingDescription/RU.md#directionoftranslation-)
 
-    1. ### [prescanOnStartup](../settingDescription/RU.md#prescanonstartup-)
-
-    1. ### [realtimeTranslationOnStartup](../settingDescription/RU.md#realtimetranslationonstartup-)
+    1. ### [modeOnStartup](../settingDescription/RU.md#modeOnStartup-)
 
     1. ### [_debug_mode](../settingDescription/RU.md#_debug_mode-)
 
