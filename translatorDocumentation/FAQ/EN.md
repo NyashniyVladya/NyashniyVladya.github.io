@@ -131,6 +131,11 @@ ___
 
         * Although database formats have changed as the translator has evolved, importing databases in the old format works.
 
+    * #### About backups.
+        * If your database is broken for some reason, the translator always creates, next to the database files, a backup copy of the previous version with the ___.oldBackup___ extension.
+        * To restore the database, delete the original database file and rename the backup file, removing the ending ___.oldBackup___ from it.
+            * Your system may have turned off the display of file name extensions. In this case, enable this feature in the way that your operating system does.
+
 
 1. ### About "browser logic".
 

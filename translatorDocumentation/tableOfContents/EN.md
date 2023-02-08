@@ -26,6 +26,8 @@
         1. #### [Local DB.](../FAQ/EN.md#local-database)
         1. #### [DB Import.](../FAQ/EN.md#database-import)
         1. #### [About DB formats.](../FAQ/EN.md#about-database-formats)
+        1. #### [About backups.](../FAQ/EN.md#about-backups)
+
 
     1. ### [About “browser logic”.](../FAQ/EN.md#about-browser-logic)
 
