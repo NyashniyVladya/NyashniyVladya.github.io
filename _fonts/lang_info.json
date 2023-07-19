@@ -1,0 +1,155 @@
+{
+    "default": "NotoSans",
+    "fonts": {
+        "Akshar": [
+            "Hindi",
+            "Marathi"
+        ],
+        "AnekBangla": [
+            "Assamese",
+            "Bengali"
+        ],
+        "Battambang": [
+            "Khmer"
+        ],
+        "NotoNaskhArabic": [
+            "Arabic",
+            "Persian",
+            "Urdu"
+        ],
+        "NotoSans": [
+            "Bambara",
+            "Greek",
+            "Dogri",
+            "Ewe",
+            "Hausa",
+            "Hawaiian",
+            "Igbo",
+            "Konkani",
+            "Krio",
+            "Lingala",
+            "Nepali",
+            "Sanskrit",
+            "Sindhi",
+            "Yoruba"
+        ],
+        "NotoSansArmenian": [
+            "Armenian"
+        ],
+        "NotoSansEthiopic": [
+            "Amharic",
+            "Tigrinya",
+            "Luganda"
+        ],
+        "NotoSansGeorgian": [
+            "Georgian"
+        ],
+        "NotoSansHebrew": [
+            "Hebrew",
+            "Yiddish"
+        ],
+        "NotoSansJP": [
+            "Japanese"
+        ],
+        "NotoSansKR": [
+            "Korean"
+        ],
+        "NotoSansTagalog": [
+            "Tagalog"
+        ],
+        "NotoSansThai": [
+            "Thai"
+        ],
+        "NotoSerifTC": [
+            "Chinese (Simplified)",
+            "Chinese (Traditional)"
+        ],
+        "Roboto": [
+            "Afrikaans",
+            "Albanian",
+            "Aymara",
+            "Azerbaijani",
+            "Bashkir",
+            "Basque",
+            "Belarusian",
+            "Bosnian",
+            "Bulgarian",
+            "Catalan",
+            "Cebuano",
+            "Chuvash",
+            "Corsican",
+            "Croatian",
+            "Czech",
+            "Danish",
+            "Dutch",
+            "English",
+            "Esperanto",
+            "Estonian",
+            "Filipino",
+            "Finnish",
+            "French",
+            "Galician",
+            "German",
+            "Guarani",
+            "Haitian",
+            "Hmong",
+            "Hungarian",
+            "Icelandic",
+            "Indonesian",
+            "Irish",
+            "Italian",
+            "Javanese",
+            "Kazakh",
+            "Kazakh (Latin)",
+            "Kinyarwanda",
+            "Kurdish (Kurmanji)",
+            "Kurdish (Sorani)",
+            "Kyrgyz",
+            "Latin",
+            "Latvian",
+            "Lithuanian",
+            "Luxembourgish",
+            "Macedonian",
+            "Malagasy",
+            "Malay",
+            "Maltese",
+            "Maori",
+            "Mari",
+            "Mongolian",
+            "Norwegian",
+            "Nyanja",
+            "Oromo",
+            "Papiamento",
+            "Polish",
+            "Portuguese",
+            "Quechua",
+            "Romanian",
+            "Russian",
+            "Samoan",
+            "Scottish Gaelic",
+            "Serbian",
+            "Shona",
+            "Slovak",
+            "Slovenian",
+            "Somali",
+            "Spanish",
+            "Sundanese",
+            "Swahili",
+            "Swedish",
+            "Tajik",
+            "Tatar",
+            "Tsonga",
+            "Turkish",
+            "Turkmen",
+            "Udmurt",
+            "Ukrainian",
+            "Uyghur",
+            "Uzbek",
+            "Uzbek (Cyrillic)",
+            "Vietnamese",
+            "Welsh",
+            "Xhosa",
+            "Zulu"
+        ]
+    }
+}
