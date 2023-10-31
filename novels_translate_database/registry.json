@@ -1,9 +1,54 @@
 {
+    "A Ren'Py Game": {
+        "EP7_Part_2_v1.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "7b3dffd62dba240170e158d10931d6a8.tr3000db"
+                }
+            }
+        }
+    },
     "Area69": {
         "0.79": {
             "google_gtx": {
                 "en": {
                     "ru": "0c4cbef0f726637a1828527d0ce212b0.tr3000db"
+                }
+            }
+        }
+    },
+    "Ataegina Act II": {
+        "0.8.7": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "e169f5ac0ef7b8b45a32270fb8716204.tr3000db"
+                }
+            }
+        }
+    },
+    "Bad Hero Ep2": {
+        "v2.6.4p": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "c54b9ca272b30effd089d17aedb77d76.tr3000db"
+                }
+            }
+        }
+    },
+    "Bright Lord": {
+        "0.6c_Elite": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "d492fc4d8bec058260cb504c46bb129b.tr3000db"
+                }
+            }
+        }
+    },
+    "Bright Lord p2": {
+        "0.9PART3": {
+            "google_gtx": {
+                "en": {
+                    "ru": "721550c1ec1580e5fce6df712d39b7c5.tr3000db"
                 }
             }
         }
@@ -62,6 +107,15 @@
             }
         }
     },
+    "Life in Santa County": {
+        "0.8.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "b8ed2030274be248dd4603efe8d9f4ba.tr3000db"
+                }
+            }
+        }
+    },
     "Light of my Life": {
         "0.7.0": {
             "selenium_deepl": {
@@ -89,11 +143,56 @@
             }
         }
     },
+    "MyPigPrincess": {
+        "0.6.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "ed08c23975bb447de044588e1597f701.tr3000db"
+                }
+            }
+        }
+    },
+    "Panic Attack                           Teddy Bundy": {
+        "S03": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "f6f8afc631752c1364c3323aea9f34d4.tr3000db"
+                }
+            }
+        }
+    },
+    "Panic Attack S04": {
+        "S04": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "43e65031b4cd4c1abeb01fef0067b678.tr3000db"
+                }
+            }
+        }
+    },
     "Park After Dark": {
         "0.19p": {
             "google_gtx": {
                 "en": {
                     "ru": "c00291b3393d139e8c4a21e43cabcb10.tr3000db"
+                }
+            }
+        }
+    },
+    "SS": {
+        "0.12": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "d6f65c11d85e0979842208f627f516f6.tr3000db"
+                }
+            }
+        }
+    },
+    "Uncontrollable": {
+        "0.8": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "8c284bf085d52b83ac81c3afd4581944.tr3000db"
                 }
             }
         }
