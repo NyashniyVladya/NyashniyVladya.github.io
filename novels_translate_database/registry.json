@@ -1,13 +1,4 @@
 {
-    "A Ren'Py Game": {
-        "EP7_Part_2_v1.0": {
-            "selenium_deepl": {
-                "en": {
-                    "ru-RU": "7b3dffd62dba240170e158d10931d6a8.tr3000db"
-                }
-            }
-        }
-    },
     "Area69": {
         "0.79": {
             "google_gtx": {
@@ -71,6 +62,15 @@
             }
         }
     },
+    "Friend Harem": {
+        "0.22": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "04a812d28c91f4d0b7403925edc8d6c9.tr3000db"
+                }
+            }
+        }
+    },
     "Gates Motel": {
         "0.6": {
             "selenium_deepl": {
@@ -98,6 +98,24 @@
             }
         }
     },
+    "HottestSummer0.3(public)": {
+        "VERSION 0.3": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "02a325f73de85bf20738adc4fd4ce9ac.tr3000db"
+                }
+            }
+        }
+    },
+    "Isekai Brothel": {
+        "0.22": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "bef2b03fdb7292b43e63c4a4d43bd22d.tr3000db"
+                }
+            }
+        }
+    },
     "Kindread: The Redburns": {
         "1.0": {
             "selenium_deepl": {
@@ -121,6 +139,24 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "d9ef68c6f86e0f7447f45e5329fa2424.tr3000db"
+                }
+            }
+        }
+    },
+    "Lustia": {
+        "0.4.3a": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "bfeb0bd970342244a661dfca172f0379.tr3000db"
+                }
+            }
+        }
+    },
+    "Mad World": {
+        "4.1.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "fbb6773ccdadcab44c5a4142d0fa1b95.tr3000db"
                 }
             }
         }
@@ -179,11 +215,92 @@
             }
         }
     },
+    "Pill King": {
+        "v0.12_(Public)": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "58b42eb01fffaee17e22a270b0a24e9f.tr3000db"
+                }
+            }
+        }
+    },
+    "Raptus_RedStarStudios": {
+        "EP7_Part_2_v1.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "aa6da1b7d6e5896112c510e4accb58b3.tr3000db"
+                }
+            }
+        }
+    },
+    "Rick and Morty: Another Way Home (r3.6)": {
+        "r3.6": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "ba240ec696e7d73703b55a6fa1f59cde.tr3000db"
+                }
+            }
+        }
+    },
     "SS": {
         "0.12": {
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "d6f65c11d85e0979842208f627f516f6.tr3000db"
+                }
+            }
+        }
+    },
+    "Shard of My Soul": {
+        "1.5": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "6d1970554f2b9ffa5b3dd5f359745fd3.tr3000db"
+                }
+            }
+        }
+    },
+    "Sofias Dark Fantasies": {
+        "1.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "d4b12c1c9eeb19e0ac1dbd4a04e50d59.tr3000db"
+                }
+            }
+        }
+    },
+    "Tales of the Eclipse: Goblin Encounter": {
+        "0.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "ce7f25f1d16487bfea1db712e9b2e251.tr3000db"
+                }
+            }
+        }
+    },
+    "The Lost Crown": {
+        "1.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "4156fa58aae2223645535595453b836c.tr3000db"
+                }
+            }
+        }
+    },
+    "The taming of the brat": {
+        "v.94": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "ea00c1bdc5a32e90f4144c58deab12f5.tr3000db"
+                }
+            }
+        }
+    },
+    "The_Spinney": {
+        "0.15": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "7af3af2437a6fd2dbdc1079cd61de69b.tr3000db"
                 }
             }
         }
