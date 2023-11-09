@@ -17,6 +17,15 @@
             }
         }
     },
+    "AresRevenge": {
+        "0.4F": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "d21d5b2061e5c480e63b136eeebd1e4b.tr3000database"
+                }
+            }
+        }
+    },
     "Ataegina Act II": {
         "0.8.7": {
             "selenium_deepl": {
@@ -31,6 +40,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "1cc1ea2dfee1d03f227371773bad7a39.tr3000database"
+                }
+            }
+        }
+    },
+    "Becoming The Hangman": {
+        "0.25": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "2a4cdfd9b6b9c7d805eda479586f94b8.tr3000database"
                 }
             }
         }
@@ -89,6 +107,15 @@
             }
         }
     },
+    "Driven Affairs Chapter 5": {
+        "0.05": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "8d2b6e5d027e252faef341a0dc4659df.tr3000database"
+                }
+            }
+        }
+    },
     "Friend Harem": {
         "0.22": {
             "selenium_deepl": {
@@ -138,7 +165,25 @@
         "VERSION 0.3": {
             "selenium_deepl": {
                 "en": {
-                    "ru-RU": "6cb00c7d61dda256d35fe089baaed3f5.tr3000database"
+                    "ru-RU": "f51ec01b9eabeb33c21ce09bc21b0b22.tr3000database"
+                }
+            }
+        }
+    },
+    "Idol Island": {
+        "0.04a": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "110302af179349d8336e52e7ec587cfc.tr3000database"
+                }
+            }
+        }
+    },
+    "Imparagon": {
+        "1.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "507e5e0fd90ae5952e19cf600071fd4f.tr3000database"
                 }
             }
         }
@@ -157,6 +202,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "6f30607dc6e364a45573366f02f8e54d.tr3000database"
+                }
+            }
+        }
+    },
+    "Let The Nightshine In": {
+        "Chapter-2": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "9b0f78c48b616849a935c977e78ec2a4.tr3000database"
                 }
             }
         }
@@ -260,11 +314,29 @@
             }
         }
     },
+    "NightcumonthestreetsofMilfrim": {
+        "null": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "f4e298b80f54b3c7cf01807ab4d61c2b.tr3000database"
+                }
+            }
+        }
+    },
     "Ntrs": {
         "0.1": {
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "9fcce12961959c0f2f780c53f5f4e94e.tr3000database"
+                }
+            }
+        }
+    },
+    "PMC Promiscuity Beta - Chapter 15": {
+        "1.15.5": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "bfa8670a239f090d90bf21677fa1e933.tr3000database"
                 }
             }
         }
@@ -314,6 +386,15 @@
             }
         }
     },
+    "Red Brim": {
+        "0.7_alpha": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "03108fb04a53a67140465760cea88cb1.tr3000database"
+                }
+            }
+        }
+    },
     "Rick and Morty: Another Way Home (r3.6)": {
         "r3.6": {
             "selenium_deepl": {
@@ -341,11 +422,29 @@
             }
         }
     },
+    "SnowStorm": {
+        "v0.5-BB": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "f886f09d40591a0130a16a722d3ea813.tr3000database"
+                }
+            }
+        }
+    },
     "Sofias Dark Fantasies": {
         "1.0": {
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "f0cdfa9735432675944bda40c4d4d030.tr3000database"
+                }
+            }
+        }
+    },
+    "Steven On The Run": {
+        "0.9.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "d665a63103381c447435fb1f74fa152a.tr3000database"
                 }
             }
         }
