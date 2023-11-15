@@ -26,6 +26,15 @@
             }
         }
     },
+    "Artificial Awakening": {
+        "0.9": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "e8d07ad7cf8543f05b3f09e4f7d03780.tr3000database"
+                }
+            }
+        }
+    },
     "Ataegina Act II": {
         "0.8.7": {
             "selenium_deepl": {
@@ -40,6 +49,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "1cc1ea2dfee1d03f227371773bad7a39.tr3000database"
+                }
+            }
+        }
+    },
+    "BangCity v0.13e": {
+        "null": {
+            "google_gtx": {
+                "en": {
+                    "ru": "b112270da1c36fedbac3f019af83761f.tr3000database"
                 }
             }
         }
@@ -89,11 +107,29 @@
             }
         }
     },
+    "Charlotte is Wet": {
+        "0.01": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "a95d5572909578a9475b1f99fb37cd74.tr3000database"
+                }
+            }
+        }
+    },
     "Corrupted Hearts": {
         "0.2": {
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "0dae9b7a5414051d59cc601ba2beffd4.tr3000database"
+                }
+            }
+        }
+    },
+    "Cosy Cafe": {
+        "0.6.1": {
+            "google_gtx": {
+                "en": {
+                    "ru": "9bf80a9a7a76511fe20fab54ca917716.tr3000database"
                 }
             }
         }
@@ -112,6 +148,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "8d2b6e5d027e252faef341a0dc4659df.tr3000database"
+                }
+            }
+        }
+    },
+    "Fighting for Love": {
+        "1.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "552eaf57d2ca929c6a00c8518d396784.tr3000database"
                 }
             }
         }
@@ -157,6 +202,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "fb9d44e4fb99e7eb1fcbc88956b5ca5b.tr3000database"
+                }
+            }
+        }
+    },
+    "Hero To Villain Remastered - Offical Version": {
+        "0.3.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "44a7c275ac1cbccfff34d04fd58d1d64.tr3000database"
                 }
             }
         }
@@ -449,11 +503,29 @@
             }
         }
     },
+    "Summer's Gone": {
+        "null": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "0f5e17b91fe401ed449908bf4f51e6d4.tr3000database"
+                }
+            }
+        }
+    },
     "Tales of the Eclipse: Goblin Encounter": {
         "0.1": {
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "bc3b429d4aa405583498b01da09e1020.tr3000database"
+                }
+            }
+        }
+    },
+    "The Fiery Scion": {
+        "Update_13b": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "261bf934a227f8207d757379098667af.tr3000database"
                 }
             }
         }
@@ -490,6 +562,24 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "6c050e0e418a3cbc82a278e655d2a934.tr3000database"
+                }
+            }
+        }
+    },
+    "Timeless Vendetta": {
+        "0.1.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "1121a92e2a8c19a3fe1acabfa6d5ff44.tr3000database"
+                }
+            }
+        }
+    },
+    "To lala_ru": {
+        "prologue": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "34b689e01c4fa5d86567d531df5512f1.tr3000database"
                 }
             }
         }
