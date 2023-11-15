@@ -503,6 +503,15 @@
             }
         }
     },
+    "Strings of Fate": {
+        "v0.5.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "59064e89d632747b3b887b7beb2bd1c1.tr3000database"
+                }
+            }
+        }
+    },
     "Summer's Gone": {
         "null": {
             "selenium_deepl": {
