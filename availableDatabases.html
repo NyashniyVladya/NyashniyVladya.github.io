@@ -37,6 +37,46 @@
                 throw result;
             };
 
+            function setLangName(srcLang, dstLang, cellElement) {
+
+                let langTablePromise = loadJSON("lang_codes.json");
+
+                langTablePromise.then(jsonResult => {
+
+                    function _textUnificator(lngData) {
+                        lngData = lngData.toLowerCase().trim();
+                        var parts = lngData.replaceAll("_", "-").split("-");
+                        if (parts.length == 2) {
+                            var a = parts[0];
+                            var b = parts[1];
+                            if (a == b) {
+                                lngData = a;
+                            };
+                        };
+                        return lngData.replaceAll("-", "_");
+                    };
+
+                    function getName(_lngData) {
+                        var lngData = _textUnificator(_lngData);
+                        for (const [langName, _variants] of Object.entries(jsonResult)) {
+                            var variants = [];
+                            variants.push(_textUnificator(langName));
+                            variants = variants.concat(_variants.map(_textUnificator));
+                            if (variants.includes(lngData)) {
+                                return langName;
+                            };
+                        };
+                        return _lngData;
+                    };
+
+                    srcLang = getName(srcLang);
+                    dstLang = getName(dstLang);
+
+                    cellElement.innerHTML = `${srcLang} - ${dstLang}`;
+
+                });
+            };
+
             function setTable(jsonResult) {
 
                 var databaseTable = document.getElementById("databasesTable");
@@ -66,7 +106,9 @@
                                     gameNameCell.innerHTML = gameName;
                                     versionCell.innerHTML = version;
                                     serviceCell.innerHTML = trService;
-                                    directionCell.innerHTML = `${sourceLang} - ${destLang}`;
+
+                                    directionCell.innerHTML = "Loading..."
+                                    setLangName(sourceLang, destLang, directionCell);
 
                                 });
                             });
