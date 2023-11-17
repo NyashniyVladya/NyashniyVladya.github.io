@@ -5,7 +5,7 @@
 
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/styles.css">
-        <title>Translator3000</title>
+        <title>Translator3000. Available DBs.</title>
 
         <!-- Yandex.Metrika counter -->
         <script type="text/javascript" >
@@ -37,12 +37,67 @@
                 throw result;
             };
 
+            function setTable(jsonResult) {
+
+                var databaseTable = document.getElementById("databasesTable");
+
+                var games = Object.keys(jsonResult).sort();
+                games.forEach(gameName => {
+                    var gameObject = jsonResult[gameName];
+                    var versions = Object.keys(gameObject).sort();
+                    versions.forEach(version => {
+                        var versionObject = gameObject[version];
+                        var trServices = Object.keys(versionObject).sort();
+                        trServices.forEach(trService => {
+                            var trServiceObject = versionObject[trService];
+                            var sourceLangs = Object.keys(trServiceObject).sort();
+                            sourceLangs.forEach(sourceLang => {
+                                var sourceLangObject = trServiceObject[sourceLang];
+                                var destLangs = Object.keys(sourceLangObject).sort();
+                                destLangs.forEach(destLang => {
+
+                                    var row = databaseTable.insertRow(-1);
+
+                                    var gameNameCell = row.insertCell(0);
+                                    var versionCell = row.insertCell(1);
+                                    var serviceCell = row.insertCell(2);
+                                    var directionCell = row.insertCell(3);
+
+                                    gameNameCell.innerHTML = gameName;
+                                    versionCell.innerHTML = version;
+                                    serviceCell.innerHTML = trService;
+                                    directionCell.innerHTML = `${sourceLang} - ${destLang}`;
+
+                                });
+                            });
+                        });
+                    });
+                });
+            };
+
         </script>
         <!-- /Main JS. -->
 
     </head>
 
-    <body>
+    <body style="margin: 1%;">
+
+        <div>
+            <table id="databasesTable" border="5" cellpadding="20" cellspacing="5" align="center">
+                <tr>
+                    <td><h2>Game name</h3></td>
+                    <td><h2>Version</h2></td>
+                    <td><h2>Service</h2></td>
+                    <td><h2>Direction</h2></td>
+                </tr>
+            </table>
+        </div>
+
+        <script type="text/javascript">
+            let databasesPromise = loadJSON("novels_translate_database/registry.json");
+            databasesPromise.then(setTable);
+        </script>
+
     </body>
 
 </html>
