@@ -1,4 +1,13 @@
 {
+    "A Mother's Love": {
+        "Part12": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "1607a8806493a0d1c4178335d0f9bb83.tr3000database"
+                }
+            }
+        }
+    },
     "Angels Blood": {
         "0.01": {
             "selenium_deepl": {
@@ -134,11 +143,29 @@
             }
         }
     },
+    "Deathable": {
+        "0.3.2": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "e2a967956dbabd757427d2f6e259a85a.tr3000database"
+                }
+            }
+        }
+    },
     "Dominant Witches": {
         "1.0.2": {
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "c27705293104cca94389ebfdb24960aa.tr3000database"
+                }
+            }
+        }
+    },
+    "Doors": {
+        "Part-1_v1.0.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "3f50853a3aa34ff9277f93e5cc67b015.tr3000database"
                 }
             }
         }
@@ -152,11 +179,29 @@
             }
         }
     },
+    "Fate and Life The Mystery of Vaulinhorn": {
+        "8.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "3679385d60747c1bf6cca009c15e95a5.tr3000database"
+                }
+            }
+        }
+    },
     "Fighting for Love": {
         "1.0": {
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "552eaf57d2ca929c6a00c8518d396784.tr3000database"
+                }
+            }
+        }
+    },
+    "Free Pass": {
+        "1.22": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "954a07e0c873601a2a48ddffb554d62b.tr3000database"
                 }
             }
         }
@@ -184,6 +229,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "acb56805323cbb24cb7395a3768cc3c4.tr3000database"
+                }
+            }
+        }
+    },
+    "GiBC": {
+        "1.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "6da83729983ec3af2f7ba07c22266e70.tr3000database"
                 }
             }
         }
@@ -247,6 +301,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "801be95d12097d7e991ae97c835627c2.tr3000database"
+                }
+            }
+        }
+    },
+    "It could be worse": {
+        "2.4.2": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "4ad79b443b2a9680433504395e7900e5.tr3000database"
                 }
             }
         }
@@ -413,6 +476,15 @@
             }
         }
     },
+    "Paprika Trainer": {
+        "1.2.0.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "0133c0b16ce30cf9c1ccb2c408045adb.tr3000database"
+                }
+            }
+        }
+    },
     "Park After Dark": {
         "0.19p": {
             "google_gtx": {
@@ -427,6 +499,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "849cefdcbb26a7411404a68a31d443d8.tr3000database"
+                }
+            }
+        }
+    },
+    "QoT": {
+        "1.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "3caeb149d5d1d1c2dcbbbd6aa85af763.tr3000database"
                 }
             }
         }
@@ -449,6 +530,15 @@
             }
         }
     },
+    "Red Lucy": {
+        "0.8": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "e41c14499bdab0c274892fa1c5ce3ff4.tr3000database"
+                }
+            }
+        }
+    },
     "Rick and Morty: Another Way Home (r3.6)": {
         "r3.6": {
             "selenium_deepl": {
@@ -463,6 +553,24 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "95e691871edb1aadd72286b35eec074e.tr3000database"
+                }
+            }
+        }
+    },
+    "Seeking Closure": {
+        "0.4": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "c7d0f4bdfbb01b520feb90adc371062d.tr3000database"
+                }
+            }
+        }
+    },
+    "Shadows of Deception": {
+        "0.20": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "dd80d809452409cd5ba3c7ee74ca6502.tr3000database"
                 }
             }
         }
@@ -508,6 +616,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "59064e89d632747b3b887b7beb2bd1c1.tr3000database"
+                }
+            }
+        }
+    },
+    "Summer Heat": {
+        "0.5.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "235e3caceab6c32e3f4954560e9686b4.tr3000database"
                 }
             }
         }
@@ -584,6 +701,15 @@
             }
         }
     },
+    "To Love Honor and Betray": {
+        "7.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "48b4e6a3e1fad0ef6a0d3db0abb19b1c.tr3000database"
+                }
+            }
+        }
+    },
     "To lala_ru": {
         "prologue": {
             "selenium_deepl": {
@@ -611,6 +737,15 @@
             }
         }
     },
+    "Village Slut Transformation": {
+        "1.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "4af2749964b8538c50855e8bd2f1f66f.tr3000database"
+                }
+            }
+        }
+    },
     "Where The Heart Is": {
         "Ep24": {
             "selenium_deepl": {
@@ -629,11 +764,38 @@
             }
         }
     },
+    "Wifey's Dilemma Revisited": {
+        "0.37": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "0fd8fc75517a9817e8d0e291952eeee7.tr3000database"
+                }
+            }
+        }
+    },
+    "_ARTEMIS": {
+        "0.5.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "5b99a249395826989b7f61b12c37c669.tr3000database"
+                }
+            }
+        }
+    },
     "rick and morty_perviest central finite curve": {
         "2.8": {
             "google_gtx": {
                 "en": {
                     "ru": "477000e3b238cf1af9eedeef7fa5e14f.tr3000database"
+                }
+            }
+        }
+    },
+    "{b}Breaking Becky{/b}": {
+        "1.2.4f": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "61024ae137c17e43c590ee6c6eda6811.tr3000database"
                 }
             }
         }
