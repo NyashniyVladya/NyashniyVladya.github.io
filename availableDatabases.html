@@ -37,6 +37,24 @@
                 throw result;
             };
 
+            function _textSort(a, b) {
+                _a = a.toLowerCase();
+                _b = b.toLowerCase();
+                if (_a == _b) {
+                    if (a == b) {
+                        return 0;
+                    } else if (a > b) {
+                        return 1;
+                    } else {
+                        return (-1);
+                    }
+                } else if (_a > _b) {
+                    return 1;
+                } else {
+                    return (-1);
+                };
+            };
+
             function setLangName(srcLang, dstLang, cellElement) {
 
                 let langTablePromise = loadJSON("lang_codes.json");
@@ -81,19 +99,19 @@
 
                 var databaseTable = document.getElementById("databasesTable");
 
-                var games = Object.keys(jsonResult).sort();
+                var games = Object.keys(jsonResult).sort(_textSort);
                 games.forEach(gameName => {
                     var gameObject = jsonResult[gameName];
-                    var versions = Object.keys(gameObject).sort();
+                    var versions = Object.keys(gameObject).sort(_textSort);
                     versions.forEach(version => {
                         var versionObject = gameObject[version];
-                        var trServices = Object.keys(versionObject).sort();
+                        var trServices = Object.keys(versionObject).sort(_textSort);
                         trServices.forEach(trService => {
                             var trServiceObject = versionObject[trService];
-                            var sourceLangs = Object.keys(trServiceObject).sort();
+                            var sourceLangs = Object.keys(trServiceObject).sort(_textSort);
                             sourceLangs.forEach(sourceLang => {
                                 var sourceLangObject = trServiceObject[sourceLang];
-                                var destLangs = Object.keys(sourceLangObject).sort();
+                                var destLangs = Object.keys(sourceLangObject).sort(_textSort);
                                 destLangs.forEach(destLang => {
 
                                     var row = databaseTable.insertRow(-1);
