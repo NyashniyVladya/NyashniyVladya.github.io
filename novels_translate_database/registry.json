@@ -8,11 +8,47 @@
             }
         }
     },
+    "A Touch of Magic": {
+        "0.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "bde49e16ebbb4df34e665567cbfed2c6.tr3000database"
+                }
+            }
+        }
+    },
+    "ATR 4k": {
+        "null": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "02b8dc4fad4d99c0bdfce6273a0e62cd.tr3000database"
+                }
+            }
+        }
+    },
+    "Alenja's_Adventures_REMASTER_0.18_Final": {
+        "0.18_Final": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "320dac622a98a8a94957cd3a728a68b1.tr3000database"
+                }
+            }
+        }
+    },
     "Angels Blood": {
         "0.01": {
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "754baef054fc226a5ae04012bfb25a48.tr3000database"
+                }
+            }
+        }
+    },
+    "Apocalust": {
+        "0.06": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "e0876f77122dcee581d2cb3455e4df17.tr3000database"
                 }
             }
         }
@@ -49,6 +85,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "88b8f5fcf1aa25198b895e3e4b1e7af7.tr3000database"
+                }
+            }
+        }
+    },
+    "Babysitters": {
+        "0.0.9.": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "90937bc67ab21fd0e22a1ccff43740dc.tr3000database"
                 }
             }
         }
@@ -148,6 +193,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "e2a967956dbabd757427d2f6e259a85a.tr3000database"
+                }
+            }
+        }
+    },
+    "Diatima's Isekai": {
+        "0.15": {
+            "google_gtx": {
+                "en": {
+                    "ru": "20409cfe8e492dde0bbc03c1297a163f.tr3000database"
                 }
             }
         }
@@ -616,6 +670,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "59064e89d632747b3b887b7beb2bd1c1.tr3000database"
+                }
+            }
+        },
+        "v0.6.3": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "430d8237975628f1cb58f7af73c8c8c6.tr3000database"
                 }
             }
         }
