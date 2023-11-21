@@ -17,11 +17,29 @@
             }
         }
     },
+    "A Very Full House": {
+        "0.20.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "fb054409984f43dd141cfda160471ace.tr3000database"
+                }
+            }
+        }
+    },
     "ATR 4k": {
         "null": {
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "02b8dc4fad4d99c0bdfce6273a0e62cd.tr3000database"
+                }
+            }
+        }
+    },
+    "AWAM Aiden's Revenge 0.84": {
+        "0.84": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "016ed2dfaad633711617341a86cdc750.tr3000database"
                 }
             }
         }
@@ -166,6 +184,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "a95d5572909578a9475b1f99fb37cd74.tr3000database"
+                }
+            }
+        }
+    },
+    "Come Home": {
+        ".6.15.1": {
+            "google_gtx": {
+                "en": {
+                    "ru": "1b2e042aefc3a17a81647e6d3b089345.tr3000database"
                 }
             }
         }
@@ -607,6 +634,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "95e691871edb1aadd72286b35eec074e.tr3000database"
+                }
+            }
+        }
+    },
+    "Saving Paula": {
+        "0.0.30b": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "6f8b21d77cf5c2456a01a7540ef8dff0.tr3000database"
                 }
             }
         }
