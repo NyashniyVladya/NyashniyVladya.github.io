@@ -57,16 +57,16 @@
 
             function setLangName(srcLang, dstLang, cellElement) {
 
-                let langTablePromise = loadJSON("lang_codes.json");
+                const langTablePromise = loadJSON("lang_codes.json");
 
                 langTablePromise.then(jsonResult => {
 
                     function _textUnificator(lngData) {
                         lngData = lngData.toLowerCase().trim();
-                        var parts = lngData.replaceAll("_", "-").split("-");
+                        const parts = lngData.replaceAll("_", "-").split("-");
                         if (parts.length == 2) {
-                            var a = parts[0];
-                            var b = parts[1];
+                            const a = parts[0];
+                            const b = parts[1];
                             if (a == b) {
                                 lngData = a;
                             };
@@ -75,9 +75,9 @@
                     };
 
                     function getName(_lngData) {
-                        var lngData = _textUnificator(_lngData);
+                        const lngData = _textUnificator(_lngData);
                         for (const [langName, _variants] of Object.entries(jsonResult)) {
-                            var variants = [];
+                            let variants = [];
                             variants.push(_textUnificator(langName));
                             variants = variants.concat(_variants.map(_textUnificator));
                             if (variants.includes(lngData)) {
@@ -97,29 +97,29 @@
 
             function setTable(jsonResult) {
 
-                var databaseTable = document.getElementById("databasesTable");
+                const databaseTable = document.getElementById("databasesTable");
 
-                var games = Object.keys(jsonResult).sort(_textSort);
+                const games = Object.keys(jsonResult).sort(_textSort);
                 games.forEach(gameName => {
-                    var gameObject = jsonResult[gameName];
-                    var versions = Object.keys(gameObject).sort(_textSort);
+                    const gameObject = jsonResult[gameName];
+                    const versions = Object.keys(gameObject).sort(_textSort);
                     versions.forEach(version => {
-                        var versionObject = gameObject[version];
-                        var trServices = Object.keys(versionObject).sort(_textSort);
+                        const versionObject = gameObject[version];
+                        const trServices = Object.keys(versionObject).sort(_textSort);
                         trServices.forEach(trService => {
-                            var trServiceObject = versionObject[trService];
-                            var sourceLangs = Object.keys(trServiceObject).sort(_textSort);
+                            const trServiceObject = versionObject[trService];
+                            const sourceLangs = Object.keys(trServiceObject).sort(_textSort);
                             sourceLangs.forEach(sourceLang => {
-                                var sourceLangObject = trServiceObject[sourceLang];
-                                var destLangs = Object.keys(sourceLangObject).sort(_textSort);
+                                const sourceLangObject = trServiceObject[sourceLang];
+                                const destLangs = Object.keys(sourceLangObject).sort(_textSort);
                                 destLangs.forEach(destLang => {
 
-                                    var row = databaseTable.insertRow(-1);
+                                    const row = databaseTable.insertRow(-1);
 
-                                    var gameNameCell = row.insertCell(0);
-                                    var versionCell = row.insertCell(1);
-                                    var serviceCell = row.insertCell(2);
-                                    var directionCell = row.insertCell(3);
+                                    const gameNameCell = row.insertCell(0);
+                                    const versionCell = row.insertCell(1);
+                                    const serviceCell = row.insertCell(2);
+                                    const directionCell = row.insertCell(3);
 
                                     gameNameCell.innerHTML = gameName;
                                     versionCell.innerHTML = version;
@@ -154,7 +154,7 @@
         </div>
 
         <script type="text/javascript">
-            let databasesPromise = loadJSON("novels_translate_database/registry.json");
+            const databasesPromise = loadJSON("novels_translate_database/registry.json");
             databasesPromise.then(setTable);
         </script>
 

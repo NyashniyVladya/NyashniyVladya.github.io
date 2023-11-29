@@ -44,6 +44,15 @@
             }
         }
     },
+    "Adverse Effect": {
+        "1.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "a0114f895d2eb2f4aaec3595cd5ecae5.tr3000database"
+                }
+            }
+        }
+    },
     "Alenja's_Adventures_REMASTER_0.18_Final": {
         "0.18_Final": {
             "selenium_deepl": {
@@ -422,6 +431,15 @@
             }
         }
     },
+    "Life in Middle East": {
+        "v0.1.8": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "efa11cf121110ba5e27a12e8c1ea7281.tr3000database"
+                }
+            }
+        }
+    },
     "Life in Santa County": {
         "0.8.1": {
             "selenium_deepl": {
@@ -530,6 +548,15 @@
             }
         }
     },
+    "Of Birds and BeesV06": {
+        "Full": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "e0798afe8ed57d18369f31185095c479.tr3000database"
+                }
+            }
+        }
+    },
     "PMC Promiscuity Beta - Chapter 15": {
         "1.15.5": {
             "selenium_deepl": {
@@ -602,6 +629,15 @@
             }
         }
     },
+    "Ravenous": {
+        "0.091.Beta": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "cfeaa4542f07ecf35a90de741837476b.tr3000database"
+                }
+            }
+        }
+    },
     "Red Brim": {
         "0.7_alpha": {
             "selenium_deepl": {
@@ -616,6 +652,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "e41c14499bdab0c274892fa1c5ce3ff4.tr3000database"
+                }
+            }
+        }
+    },
+    "Refuge of Embers": {
+        "0.13c": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "4e498bca222fe574065b92fb5da58a20.tr3000database"
                 }
             }
         }
@@ -638,6 +683,15 @@
             }
         }
     },
+    "Sandy Bay": {
+        "v.60": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "c038c502d32058aecc7c9225c0ee8a83.tr3000database"
+                }
+            }
+        }
+    },
     "Saving Paula": {
         "0.0.30b": {
             "selenium_deepl": {
@@ -652,6 +706,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "c7d0f4bdfbb01b520feb90adc371062d.tr3000database"
+                }
+            }
+        }
+    },
+    "SexNote": {
+        "0.21.0d": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "ffbabf5a5e6b0ac1a4fe30d54ec88a1a.tr3000database"
                 }
             }
         }
@@ -697,6 +760,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "d665a63103381c447435fb1f74fa152a.tr3000database"
+                }
+            }
+        }
+    },
+    "Straitened Times": {
+        "0.44.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "fb0542075f9319403c9a424a04dabec1.tr3000database"
                 }
             }
         }
