@@ -1,4 +1,13 @@
 {
+    "53X Homecoming": {
+        "0.2.8.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "ebce2e31c2b4f47046297198078cf002.tr3000database"
+                }
+            }
+        }
+    },
     "A Mother's Love": {
         "Part12": {
             "selenium_deepl": {
@@ -179,6 +188,15 @@
             }
         }
     },
+    "Campus Confidential": {
+        "0.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ko-KO": "99a946865746001433cbbd69a0d1903b.tr3000database"
+                }
+            }
+        }
+    },
     "Cartel Sim": {
         "0.1": {
             "selenium_deepl": {
@@ -193,6 +211,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "a95d5572909578a9475b1f99fb37cd74.tr3000database"
+                }
+            }
+        }
+    },
+    "Children of Morn": {
+        "0.3": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "cf40e3801b94918c9eafb6b21bf84caf.tr3000database"
                 }
             }
         }
@@ -224,6 +251,15 @@
             }
         }
     },
+    "Curse of the Night Stalker": {
+        "1.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ko-KO": "2d36d2589e778b20e133ef1550a36535.tr3000database"
+                }
+            }
+        }
+    },
     "Deathable": {
         "0.3.2": {
             "selenium_deepl": {
@@ -234,6 +270,13 @@
         }
     },
     "Depth's Revival": {
+        "Chapter10.5": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "99d3a42e5410b57476b16c48b8a9cc56.tr3000database"
+                }
+            }
+        },
         "ChapterX": {
             "google_gtx": {
                 "en": {
@@ -503,6 +546,15 @@
             }
         }
     },
+    "MIST": {
+        "1.0.3": {
+            "google_gtx": {
+                "ru": {
+                    "ru": "6b415e73def9e40e841647e0cadc701b.tr3000database"
+                }
+            }
+        }
+    },
     "Mad World": {
         "4.1.0": {
             "selenium_deepl": {
@@ -598,6 +650,24 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "cfc9c24d200f88eca933b00dbdeb2ae8.tr3000database"
+                }
+            }
+        }
+    },
+    "Oh Daddy": {
+        "V0.9": {
+            "selenium_deepl": {
+                "en": {
+                    "ko-KO": "38ef8b453ad18e59c5e0bf841301967e.tr3000database"
+                }
+            }
+        }
+    },
+    "OnceinaLifetime": {
+        "1.0": {
+            "google_gtx": {
+                "en": {
+                    "ru": "ba72ca9767487c01e467fd92d29f47f4.tr3000database"
                 }
             }
         }
@@ -719,6 +789,15 @@
             }
         }
     },
+    "Ripples": {
+        "0.6.0": {
+            "google_gtx": {
+                "en": {
+                    "ru": "24e79c4e843f71a34fb0d7c3a0a626f6.tr3000database"
+                }
+            }
+        }
+    },
     "SS": {
         "0.12": {
             "selenium_deepl": {
@@ -778,6 +857,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "c29714ba32405f1a42e65a7c9426d5d7.tr3000database"
+                }
+            }
+        }
+    },
+    "Single Again 1.21": {
+        "1.21": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "9e5524db4f2d4d4541932547fbd31a6e.tr3000database"
                 }
             }
         }
@@ -933,6 +1021,15 @@
             }
         }
     },
+    "Twisted Memories": {
+        "v0.7d": {
+            "google_gtx": {
+                "en": {
+                    "ru": "47a6bc0aa621cf53c7c4e225dff9327d.tr3000database"
+                }
+            }
+        }
+    },
     "Umichan Splashing Surprise": {
         "0.3": {
             "selenium_deepl": {
@@ -1001,6 +1098,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "0fd8fc75517a9817e8d0e291952eeee7.tr3000database"
+                }
+            }
+        }
+    },
+    "Witch Hunter Trainer": {
+        "spring fresh ver. mac.": {
+            "selenium_deepl": {
+                "en": {
+                    "ko-KO": "fc3e65b6be4bef21b61877e3fa7d35ae.tr3000database"
                 }
             }
         }
