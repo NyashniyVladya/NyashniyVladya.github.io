@@ -8,6 +8,24 @@
             }
         }
     },
+    "A Foreign World": {
+        "Episode-4-02": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "f0d8306a67e9aa2020b9f60eec37c66a.tr3000database"
+                }
+            }
+        }
+    },
+    "A Man For All - Episode 12 v0.30": {
+        "0.30": {
+            "google_gtx": {
+                "en": {
+                    "ru": "e43f8b925a8f9d5ae1863607ee60a5ea.tr3000database"
+                }
+            }
+        }
+    },
     "A Mother's Love": {
         "Part12": {
             "selenium_deepl": {
@@ -58,6 +76,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "a0114f895d2eb2f4aaec3595cd5ecae5.tr3000database"
+                }
+            }
+        }
+    },
+    "Agent Horny": {
+        "0.5_(Full)": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "7c4d659a4263952a5541bcbbdc98dc47.tr3000database"
                 }
             }
         }
@@ -161,6 +188,15 @@
             }
         }
     },
+    "Between Two Worlds": {
+        "Chapter7": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "753675146857b28e2739fe53714a5c7a.tr3000database"
+                }
+            }
+        }
+    },
     "Bright Lord": {
         "0.6c_Elite": {
             "selenium_deepl": {
@@ -248,6 +284,11 @@
                 "en": {
                     "ru": "9bf80a9a7a76511fe20fab54ca917716.tr3000database"
                 }
+            },
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "601aeb7911c3f47eaea0f5062d35055a.tr3000database"
+                }
             }
         }
     },
@@ -321,11 +362,34 @@
             }
         }
     },
+    "Eden Prime": {
+        "0.2": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "9eaff804a56ef6a1c1e30ba953091fff.tr3000database"
+                }
+            }
+        }
+    },
     "Eternum": {
         "0.6.2": {
             "google_gtx": {
                 "en": {
                     "ru": "2b5aa675652f2125181cee6ceaa8d293.tr3000database"
+                }
+            },
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "b1f3b6c41de5c3d82f886616679057f5.tr3000database"
+                }
+            }
+        }
+    },
+    "Evermore": {
+        "0.5": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "bcdd758b5a8e3fa08f4f0581ac60ff31.tr3000database"
                 }
             }
         }
@@ -588,6 +652,11 @@
                 "en": {
                     "ru": "59b21beda806e528f28a097c2313e455.tr3000database"
                 }
+            },
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "71a75dfc011256b33a5f577174cc4df7.tr3000database"
+                }
             }
         }
     },
@@ -798,6 +867,15 @@
             }
         }
     },
+    "Royal Switch": {
+        "0.06": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "ba6caa7a527179ee7ef736eb4c1afa56.tr3000database"
+                }
+            }
+        }
+    },
     "SS": {
         "0.12": {
             "selenium_deepl": {
@@ -954,6 +1032,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "261bf934a227f8207d757379098667af.tr3000database"
+                }
+            }
+        }
+    },
+    "The Golden Boy": {
+        "0.5.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "97577c9c03d6aaf349f075bdfc96d777.tr3000database"
                 }
             }
         }
