@@ -23,6 +23,11 @@
                 "en": {
                     "ru": "e43f8b925a8f9d5ae1863607ee60a5ea.tr3000database"
                 }
+            },
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "210329df0f013059e7350145e83c73d0.tr3000database"
+                }
             }
         }
     },
@@ -301,6 +306,15 @@
             }
         }
     },
+    "Curvy Moments": {
+        "0.13e": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "ee3c59d4f9b0be60191af81d01adb5e3.tr3000database"
+                }
+            }
+        }
+    },
     "Deathable": {
         "0.3.2": {
             "selenium_deepl": {
@@ -466,6 +480,47 @@
             }
         }
     },
+    "Grandma's House": {
+        "0.37": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "8dbe3b4933ac6412e3438fd8df110a3d.tr3000database"
+                }
+            }
+        },
+        "0.42": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "0126869ea6cb985aebcaa392793a525e.tr3000database"
+                }
+            }
+        },
+        "V0.16": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "db05dbc3ac92864bded530a67981d231.tr3000database"
+                }
+            }
+        }
+    },
+    "HARD DAYS": {
+        "v_0.3.5": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "dae11d9dfaac8a8116045787f4f820c6.tr3000database"
+                }
+            }
+        }
+    },
+    "Hard Times": {
+        "Ch.13": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "6207b9cf60435234364b6cf4808375b8.tr3000database"
+                }
+            }
+        }
+    },
     "HeartProblems": {
         "Chapter8": {
             "selenium_deepl": {
@@ -592,6 +647,15 @@
             }
         }
     },
+    "Lost at Birth": {
+        "0.7": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "e90dec6f729aa9868b75e4f5eda64fdb.tr3000database"
+                }
+            }
+        }
+    },
     "Love & Sex : Second Base - 23.9.0e": {
         "23.9.0e": {
             "google_gtx": {
@@ -646,6 +710,15 @@
             }
         }
     },
+    "Moving Out": {
+        "Day-8b": {
+            "google_gtx": {
+                "en": {
+                    "ru": "e122acf2c1fe2b542f45fd73a28b8524.tr3000database"
+                }
+            }
+        }
+    },
     "My Dorm": {
         "v0.12.0": {
             "google_gtx": {
@@ -687,6 +760,15 @@
             }
         }
     },
+    "NaughtyNeighbours": {
+        "0.13": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "b7e6fe134763399df8378daae6698160.tr3000database"
+                }
+            }
+        }
+    },
     "NightcumonthestreetsofMilfrim": {
         "null": {
             "selenium_deepl": {
@@ -701,6 +783,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "9fcce12961959c0f2f780c53f5f4e94e.tr3000database"
+                }
+            }
+        }
+    },
+    "Nudist School": {
+        "0.11": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "14cf2b7de00ec4f8176878025726f7ef.tr3000database"
                 }
             }
         }
@@ -804,6 +895,15 @@
             }
         }
     },
+    "Radiant": {
+        "0.5.2": {
+            "google_gtx": {
+                "en": {
+                    "ru": "c7d7af1c140f476fea22cc039bed52e9.tr3000database"
+                }
+            }
+        }
+    },
     "Raptus_RedStarStudios": {
         "EP7_Part_2_v1.0": {
             "selenium_deepl": {
@@ -899,6 +999,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "6f8b21d77cf5c2456a01a7540ef8dff0.tr3000database"
+                }
+            }
+        }
+    },
+    "Seeds of Chaos": {
+        "0.0.05": {
+            "google_gtx": {
+                "en": {
+                    "ru": "ac15de5db6bce315c2306f7f7e5c26c1.tr3000database"
                 }
             }
         }
@@ -1063,6 +1172,15 @@
             }
         }
     },
+    "The Way Love Goes": {
+        "Chapter_23": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "0b5db22f0c57a1d1e2e48df4f086dc61.tr3000database"
+                }
+            }
+        }
+    },
     "The taming of the brat": {
         "v.94": {
             "selenium_deepl": {
@@ -1194,6 +1312,15 @@
             "selenium_deepl": {
                 "en": {
                     "ko-KO": "fc3e65b6be4bef21b61877e3fa7d35ae.tr3000database"
+                }
+            }
+        }
+    },
+    "Yesterday's Crossroads": {
+        "v.0.3.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "ae236f5da66324d37ae064bd4b91610f.tr3000database"
                 }
             }
         }
