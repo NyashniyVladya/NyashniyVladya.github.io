@@ -315,11 +315,29 @@
             }
         }
     },
+    "DDL": {
+        "0.053": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "763b0b3a1806227beb1ca6a129cdb6f1.tr3000database"
+                }
+            }
+        }
+    },
     "Deathable": {
         "0.3.2": {
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "e2a967956dbabd757427d2f6e259a85a.tr3000database"
+                }
+            }
+        }
+    },
+    "Defending Lydia Collier": {
+        "v.0.15.8": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "f5a3fe4c298c2e59949795dde33f47f8.tr3000database"
                 }
             }
         }
@@ -719,6 +737,15 @@
             }
         }
     },
+    "MurMur": {
+        "0.6.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "eff29f08c1a9b6c3e000ed9eb6b9bee6.tr3000database"
+                }
+            }
+        }
+    },
     "My Dorm": {
         "v0.12.0": {
             "google_gtx": {
@@ -828,6 +855,15 @@
             "google_gtx": {
                 "en": {
                     "ru": "ba72ca9767487c01e467fd92d29f47f4.tr3000database"
+                }
+            }
+        }
+    },
+    "Our Red String": {
+        "v12.1_BETA": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "cf8fb706f81fb768975a7f0f9a1ff5b4.tr3000database"
                 }
             }
         }
@@ -1075,6 +1111,15 @@
             }
         }
     },
+    "Steps of Debauchery": {
+        "2.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "1a429b6c96c9c20be65b1609c11b8b77.tr3000database"
+                }
+            }
+        }
+    },
     "Steven On The Run": {
         "0.9.1": {
             "selenium_deepl": {
@@ -1258,6 +1303,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "e98bf3ea8053352cefa40061f89a5370.tr3000database"
+                }
+            }
+        }
+    },
+    "Victoria in Big City 0.5": {
+        "0.5": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "c2bc96de27e03c09d8e9c46403193bb8.tr3000database"
                 }
             }
         }
