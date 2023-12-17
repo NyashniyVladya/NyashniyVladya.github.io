@@ -193,6 +193,15 @@
             }
         }
     },
+    "Being a DIK": {
+        "0.10.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "35c2328062ded25d639099d3653c33d6.tr3000database"
+                }
+            }
+        }
+    },
     "Between Two Worlds": {
         "Chapter7": {
             "selenium_deepl": {
@@ -519,6 +528,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "0126869ea6cb985aebcaa392793a525e.tr3000database"
+                }
+            }
+        },
+        "0.44": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "4d4939f5bde6c196a073ffeb17c4aae9.tr3000database"
                 }
             }
         },
@@ -922,6 +938,15 @@
             }
         }
     },
+    "Peerless Lust": {
+        "0.30": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "1159b27eaa246243796feb983391c874.tr3000database"
+                }
+            }
+        }
+    },
     "Pill King": {
         "v0.12_(Public)": {
             "selenium_deepl": {
@@ -990,6 +1015,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "4e498bca222fe574065b92fb5da58a20.tr3000database"
+                }
+            }
+        }
+    },
+    "Reunion": {
+        "0.65": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "49bd6650f1054e66536f67a234f55525.tr3000database"
                 }
             }
         }
@@ -1190,6 +1224,15 @@
             }
         }
     },
+    "The Escort - Special Edition": {
+        "1.01": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "a6da9e6ec7b5e8510914b26f5f350225.tr3000database"
+                }
+            }
+        }
+    },
     "The Fiery Scion": {
         "Update_13b": {
             "selenium_deepl": {
@@ -1303,6 +1346,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "faa20cfa0405f9b436990c3b0eb60da6.tr3000database"
+                }
+            }
+        }
+    },
+    "UnseenInstincts": {
+        "v0.25": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "c0bf84fd7d8b3540a51dfd6e8a262245.tr3000database"
                 }
             }
         }
