@@ -157,6 +157,15 @@
             }
         }
     },
+    "AwayFromHome": {
+        "Episode[1-21]": {
+            "google_gtx": {
+                "en": {
+                    "ru": "a35445f19f7fbcbf12e81c5f8e8e3a19.tr3000database"
+                }
+            }
+        }
+    },
     "Babysitters": {
         "0.0.9.": {
             "selenium_deepl": {
@@ -369,6 +378,15 @@
             }
         }
     },
+    "Cyberheart": {
+        "0.3": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "c7434088c336ef53c242e03b4f0b4908.tr3000database"
+                }
+            }
+        }
+    },
     "DDL": {
         "0.053": {
             "selenium_deepl": {
@@ -408,6 +426,15 @@
             "google_gtx": {
                 "en": {
                     "ru": "a20a48370532d2fb1d11ef3318849153.tr3000database"
+                }
+            }
+        }
+    },
+    "Desire of Fate": {
+        "Ep2_V_2_Final_Compressed": {
+            "google_gtx": {
+                "en": {
+                    "ru": "0ac582b56fba127cfad0e35964916a91.tr3000database"
                 }
             }
         }
@@ -767,6 +794,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "df7ac4fbbfd2e78ca269877c73fa51a3.tr3000database"
+                }
+            }
+        }
+    },
+    "Limitless": {
+        "Day6_Part2": {
+            "google_gtx": {
+                "en": {
+                    "ru": "8a52db0090db24332e2cd998509a17f2.tr3000database"
                 }
             }
         }
@@ -1404,6 +1440,15 @@
             }
         }
     },
+    "That New Teacher": {
+        "Day3.5": {
+            "google_gtx": {
+                "en": {
+                    "ru": "9aec3b0fd1a44d4015754fc9da0a4d29.tr3000database"
+                }
+            }
+        }
+    },
     "The Escort - Special Edition": {
         "1.01": {
             "selenium_deepl": {
@@ -1418,6 +1463,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "261bf934a227f8207d757379098667af.tr3000database"
+                }
+            }
+        },
+        "Update_14a": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "a4e5a52f29016d4333163801bdb93735.tr3000database"
                 }
             }
         }
