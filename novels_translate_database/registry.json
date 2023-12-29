@@ -58,6 +58,15 @@
             }
         }
     },
+    "APD0.5": {
+        "null": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "d54aee1bbe904e141c7b30cef4dbb96b.tr3000database"
+                }
+            }
+        }
+    },
     "ATR 4k": {
         "null": {
             "selenium_deepl": {
@@ -346,6 +355,15 @@
             }
         }
     },
+    "Corrupted Love": {
+        "0.8.1a": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "24d84e3f150bac8c29bd9cba6f19dec0.tr3000database"
+                }
+            }
+        }
+    },
     "Cosy Cafe": {
         "0.6.1": {
             "google_gtx": {
@@ -356,6 +374,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "601aeb7911c3f47eaea0f5062d35055a.tr3000database"
+                }
+            }
+        }
+    },
+    "Couples": {
+        "0.16": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "f9c18311f1feb9dbfe5005f41898eedc.tr3000database"
                 }
             }
         }
@@ -392,6 +419,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "763b0b3a1806227beb1ca6a129cdb6f1.tr3000database"
+                }
+            }
+        },
+        "0.054": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "1f2ea6dffcddf16e68d6bdf2496595af.tr3000database"
                 }
             }
         }
@@ -561,6 +595,15 @@
             }
         }
     },
+    "Full Service": {
+        "1.34": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "93164601d3927bcb1a498bb89c894cbc.tr3000database"
+                }
+            }
+        }
+    },
     "Futa's World of NTR": {
         "1.1.3": {
             "selenium_deepl": {
@@ -625,6 +668,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "4d4939f5bde6c196a073ffeb17c4aae9.tr3000database"
+                }
+            }
+        },
+        "0.45": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "062153d6c2dfd365e630385a0f6e1296.tr3000database"
                 }
             }
         },
@@ -821,6 +871,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "e90dec6f729aa9868b75e4f5eda64fdb.tr3000database"
+                }
+            }
+        },
+        "0.8": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "4d8861b9d75b8188d29eb46ff2e80c98.tr3000database"
                 }
             }
         }
@@ -1231,6 +1288,15 @@
             "google_gtx": {
                 "en": {
                     "ru": "24e79c4e843f71a34fb0d7c3a0a626f6.tr3000database"
+                }
+            }
+        }
+    },
+    "Rise of the Outcast Hero": {
+        "0.01": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "e7c005fc1ace3107ad62fe312b369ec8.tr3000database"
                 }
             }
         }
