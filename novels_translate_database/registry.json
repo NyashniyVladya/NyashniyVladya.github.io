@@ -40,6 +40,15 @@
             }
         }
     },
+    "A Perfect Marriage": {
+        "0.7a": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "34698cae7e0bfd632144413fdb49acd5.tr3000database"
+                }
+            }
+        }
+    },
     "A Touch of Magic": {
         "0.1": {
             "selenium_deepl": {
@@ -108,6 +117,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "320dac622a98a8a94957cd3a728a68b1.tr3000database"
+                }
+            }
+        }
+    },
+    "Amy's Ecstasy": {
+        "0.45_Part1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "3fc3c4e5a334227c39026bfb49764604.tr3000database"
                 }
             }
         }
@@ -353,6 +371,13 @@
                     "ru-RU": "0dae9b7a5414051d59cc601ba2beffd4.tr3000database"
                 }
             }
+        },
+        "0.3.5": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "de617a0ab0eb07efd513313464052af4.tr3000database"
+                }
+            }
         }
     },
     "Corrupted Love": {
@@ -374,6 +399,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "601aeb7911c3f47eaea0f5062d35055a.tr3000database"
+                }
+            }
+        },
+        "0.7": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "ccabec42de940c3c4155932980a79161.tr3000database"
                 }
             }
         }
@@ -448,6 +480,15 @@
             }
         }
     },
+    "Depraved Eden": {
+        "0.12": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "70e7de7a44d2446d0d39190737163185.tr3000database"
+                }
+            }
+        }
+    },
     "Depth's Revival": {
         "Chapter10.5": {
             "selenium_deepl": {
@@ -514,6 +555,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "9eaff804a56ef6a1c1e30ba953091fff.tr3000database"
+                }
+            }
+        }
+    },
+    "Emma: Life paths": {
+        "0.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "a259882edcb70e22ef5c8db8ad7c7f50.tr3000database"
                 }
             }
         }
@@ -686,6 +736,15 @@
             }
         }
     },
+    "Gunpowder Cocktail Christmas Episode": {
+        "0.1.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "b70a68a3f32d7f3bc679b8ae939e0005.tr3000database"
+                }
+            }
+        }
+    },
     "HARD DAYS": {
         "v_0.3.5": {
             "selenium_deepl": {
@@ -785,6 +844,24 @@
             }
         }
     },
+    "Jennifer life": {
+        "version0.6": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "bdc931b46d09190119a592ca8379aaa9.tr3000database"
+                }
+            }
+        }
+    },
+    "Jessincheck": {
+        "0.4": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "96e43fdef17078e1b9a5e5b9660644d8.tr3000database"
+                }
+            }
+        }
+    },
     "Journey to Bliss": {
         "v0.01": {
             "selenium_deepl": {
@@ -799,6 +876,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "6f30607dc6e364a45573366f02f8e54d.tr3000database"
+                }
+            }
+        }
+    },
+    "LLS": {
+        "0.2": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "81d194ecc0a6d9414888a5dcc15c5a3f.tr3000database"
                 }
             }
         }
@@ -853,6 +939,15 @@
             "google_gtx": {
                 "en": {
                     "ru": "8a52db0090db24332e2cd998509a17f2.tr3000database"
+                }
+            }
+        }
+    },
+    "LineageorLegacy": {
+        "V.4.0.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "78835a559eee50f15a6f2819a0b76ca6.tr3000database"
                 }
             }
         }
@@ -1085,6 +1180,15 @@
             }
         }
     },
+    "Of Birds and Bees": {
+        "v07": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "c92bea0e00ee75d62e99cf8ebc0d9089.tr3000database"
+                }
+            }
+        }
+    },
     "Of Birds and BeesV06": {
         "Full": {
             "selenium_deepl": {
@@ -1110,6 +1214,13 @@
                     "ko-KO": "38ef8b453ad18e59c5e0bf841301967e.tr3000database"
                 }
             }
+        },
+        "V1.0_Final": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "0e396ae648c35bfa035b37580cf32548.tr3000database"
+                }
+            }
         }
     },
     "OnceinaLifetime": {
@@ -1126,6 +1237,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "cf8fb706f81fb768975a7f0f9a1ff5b4.tr3000database"
+                }
+            }
+        },
+        "v12.1_FULL": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "9d9a7aef086d67e07edc0b46808786e8.tr3000database"
                 }
             }
         }
@@ -1189,6 +1307,24 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "849cefdcbb26a7411404a68a31d443d8.tr3000database"
+                }
+            }
+        }
+    },
+    "Pineapple Express": {
+        "0.75": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "64d214d2289b02e579837a655126ec0c.tr3000database"
+                }
+            }
+        }
+    },
+    "Project Wonderful": {
+        "0.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "4173323f92d9ae50b3432a6dc7c92ce7.tr3000database"
                 }
             }
         }
@@ -1310,6 +1446,15 @@
             }
         }
     },
+    "SOPHIE: La fille de la zone": {
+        "v0_2.7": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "de44aa8c2af436ab681b7cf9cacd728d.tr3000database"
+                }
+            }
+        }
+    },
     "SS": {
         "0.12": {
             "selenium_deepl": {
@@ -1324,6 +1469,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "c038c502d32058aecc7c9225c0ee8a83.tr3000database"
+                }
+            }
+        },
+        "v.65": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "333e225a83078136815da265a41e9bfe.tr3000database"
                 }
             }
         }
@@ -1378,6 +1530,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "c29714ba32405f1a42e65a7c9426d5d7.tr3000database"
+                }
+            }
+        }
+    },
+    "Silver Lining": {
+        "0.6": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "c1b712d35ae05d3c1c7f48210118949f.tr3000database"
                 }
             }
         }
@@ -1567,6 +1728,15 @@
             }
         }
     },
+    "The Promise We Made": {
+        "Prologue": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "4ecdeb65e8ed96e09ca70828fb996e11.tr3000database"
+                }
+            }
+        }
+    },
     "The Swordbearer": {
         "0.6": {
             "google_gtx": {
@@ -1590,6 +1760,24 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "7523aa6fb715af8c2edf001ca72ae814.tr3000database"
+                }
+            }
+        }
+    },
+    "TheAuthor": {
+        "Ch.7": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "d7043cedce1d5eda921b9ace702bf1e1.tr3000database"
+                }
+            }
+        }
+    },
+    "TheGreyDream": {
+        "4": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "eb656488cb171331c1bd5ca82eff65d7.tr3000database"
                 }
             }
         }
@@ -1635,6 +1823,22 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "3cae8d941737feee3494378c1fe5d12d.tr3000database"
+                }
+            }
+        },
+        "0.4.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "b498ba183b5a262029c3a46aa4b7f732.tr3000database"
+                }
+            }
+        }
+    },
+    "TruthTrail": {
+        "0.0.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "7650f3ed1a0498d70656aadfe2faf55a.tr3000database"
                 }
             }
         }
@@ -1700,6 +1904,22 @@
                     "ru-RU": "4af2749964b8538c50855e8bd2f1f66f.tr3000database"
                 }
             }
+        },
+        "EP3": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "f6de8b845ec1531611fec7ad1508a53a.tr3000database"
+                }
+            }
+        }
+    },
+    "WCgW": {
+        "Ep1part3": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "a596b67bc84e856d1d02c5b56fd47972.tr3000database"
+                }
+            }
         }
     },
     "WVM": {
@@ -1725,6 +1945,24 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "558f41c6f77ac5a8ade0ec3db0413ccb.tr3000database"
+                }
+            }
+        }
+    },
+    "WiAB-Chapter3-BETA": {
+        "null": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "813d348f473773560e2687b65043c71c.tr3000database"
+                }
+            }
+        }
+    },
+    "Wife in the Building": {
+        "v0.3.0_Beta": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "00ef8850f81ffdb11a3662b8e4efd46f.tr3000database"
                 }
             }
         }
