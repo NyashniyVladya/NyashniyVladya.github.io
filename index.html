@@ -47,6 +47,9 @@
                 element = document.getElementById("downloadBoosty");
                 element.href = jsonResult.boostyLink;
 
+                element = document.getElementById("downloadPatreon");
+                element.href = jsonResult.patreonLink;
+
             };
 
         </script>
@@ -76,6 +79,7 @@
                 </div>
                 <div id="downloadLinks" style="margin-bottom: 15px">
                     <div><a id="downloadBoosty">Download from Boosty.</a></div>
+                    <div><a id="downloadPatreon">Download from Patreon.</a></div>
                 </div>
                 <div id="docLinks">
                     <h4 style="margin:auto"><a href="translatorDocumentation/tableOfContents/EN.html">Read documentation in English.</a></h4>
@@ -97,8 +101,12 @@
                     <img src="images/boosty/Color.png" height="30px" alt="Boosty Logo">
                     <div class="supportLinks">Support on Boosty</div>
                 </a>
+                <br>
+                <a href="https://www.patreon.com/join/NyashniyVladya">
+                    <img src="images/patreon/PATREON_SYMBOL_1_WHITE_RGB.png" height="30px" alt="Patreon Logo">
+                    <div class="supportLinks">Support on Patreon</div>
+                </a>
             </div>
-
             <div id="discordFrame" align="right" style="float: right; margin-top: auto; margin-left: auto;">
                 <iframe
                         src="https://discord.com/widget?id=939992812496232520&theme=dark"
