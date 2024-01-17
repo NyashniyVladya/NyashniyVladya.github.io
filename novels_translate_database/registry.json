@@ -371,6 +371,15 @@
             }
         }
     },
+    "Chap5.1": {
+        "1.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "03336649bfd821df112e4f7b4910306b.tr3000database"
+                }
+            }
+        }
+    },
     "Charlotte is Wet": {
         "0.01": {
             "selenium_deepl": {
@@ -807,6 +816,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "dae11d9dfaac8a8116045787f4f820c6.tr3000database"
+                }
+            }
+        }
+    },
+    "Hanna\nFutile Resistance": {
+        "Episode-4": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "7f113f219050cbb906d2df69fd9d328f.tr3000database"
                 }
             }
         }
