@@ -2083,6 +2083,15 @@
             }
         }
     },
+    "Waifu Academy": {
+        "0.10.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "9e3552c7c79e074da9ea66613238e428.tr3000database"
+                }
+            }
+        }
+    },
     "Where The Heart Is": {
         "Ep24": {
             "selenium_deepl": {
