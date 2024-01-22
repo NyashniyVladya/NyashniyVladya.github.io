@@ -202,6 +202,15 @@
             }
         }
     },
+    "Aupair": {
+        "null": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "2c95dfac4a6957fba7406d9ef03bc57e.tr3000database"
+                }
+            }
+        }
+    },
     "AwayFromHome": {
         "Episode[1-21]": {
             "google_gtx": {
@@ -1088,6 +1097,15 @@
             }
         }
     },
+    "LustAcademy-3": {
+        "3.6.1d": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "3ee8cf45d448759c40fc8915f66d939a.tr3000database"
+                }
+            }
+        }
+    },
     "Lustia": {
         "0.4.3a": {
             "selenium_deepl": {
@@ -1362,6 +1380,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "9d9a7aef086d67e07edc0b46808786e8.tr3000database"
+                }
+            }
+        }
+    },
+    "PH": {
+        "v.2312": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "e41442bfa8a91fd79080f01ed7895f18.tr3000database"
                 }
             }
         }
@@ -1905,6 +1932,13 @@
                     "ru-RU": "0b5db22f0c57a1d1e2e48df4f086dc61.tr3000database"
                 }
             }
+        },
+        "Chapter_24": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "55fa491e2d98472f063090f4939c9d8b.tr3000database"
+                }
+            }
         }
     },
     "The taming of the brat": {
@@ -1930,6 +1964,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "eb656488cb171331c1bd5ca82eff65d7.tr3000database"
+                }
+            }
+        }
+    },
+    "TheRestaurant": {
+        "null": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "d4fd2bab016862f0f8d8adc2a49dfb77.tr3000database"
                 }
             }
         }
