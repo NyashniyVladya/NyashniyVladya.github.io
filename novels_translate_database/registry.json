@@ -2242,6 +2242,13 @@
                     "ru-RU": "9e3552c7c79e074da9ea66613238e428.tr3000database"
                 }
             }
+        },
+        "0.11.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "5e1645d571e07994a84c024229b6dbfb.tr3000database"
+                }
+            }
         }
     },
     "Warmth": {
