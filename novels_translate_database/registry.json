@@ -227,6 +227,13 @@
                     "ru-RU": "90937bc67ab21fd0e22a1ccff43740dc.tr3000database"
                 }
             }
+        },
+        "0.1.0.": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "4749bfa7dae230c9446db95073ff0962.tr3000database"
+                }
+            }
         }
     },
     "Bad Hero Ep2": {
@@ -342,6 +349,13 @@
                     "ru": "2f6d6a9d9c3162e80aab18bdebb2026b.tr3000database"
                 }
             }
+        },
+        "0.04": {
+            "google_gtx": {
+                "en": {
+                    "ru": "0a2489f8c2a939c54f1927954ebf8673.tr3000database"
+                }
+            }
         }
     },
     "But im the bad guy": {
@@ -430,6 +444,13 @@
                     "ru-RU": "de617a0ab0eb07efd513313464052af4.tr3000database"
                 }
             }
+        },
+        "0.4": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "fa45bbdd2809e4804f8da3312a40b0d3.tr3000database"
+                }
+            }
         }
     },
     "Corrupted Kingdoms": {
@@ -476,6 +497,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "f9c18311f1feb9dbfe5005f41898eedc.tr3000database"
+                }
+            }
+        },
+        "0.18": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "28bffde54aab1555039a8b267012f1e7.tr3000database"
                 }
             }
         }
@@ -879,6 +907,15 @@
             }
         }
     },
+    "Her Desire": {
+        "v0.13": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "4e2fe8235bce6dad19a63a6b25b286f1.tr3000database"
+                }
+            }
+        }
+    },
     "Hero To Villain Remastered - Offical Version": {
         "0.3.1": {
             "selenium_deepl": {
@@ -983,6 +1020,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "debb0d863d279a3989b3529b499a2f53.tr3000database"
+                }
+            }
+        }
+    },
+    "KATE.S2ENG": {
+        "0.3": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "330f26a0a58f46748aa07b97c996c350.tr3000database"
                 }
             }
         }
@@ -1673,6 +1719,13 @@
                     "ru-RU": "ba6caa7a527179ee7ef736eb4c1afa56.tr3000database"
                 }
             }
+        },
+        "0.07": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "7c1389db8d3a5feca71f5f4c7294e9a9.tr3000database"
+                }
+            }
         }
     },
     "SOPHIE: La fille de la zone": {
@@ -1705,6 +1758,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "333e225a83078136815da265a41e9bfe.tr3000database"
+                }
+            }
+        },
+        "v.70": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "f45a57a7c1223f52c46cf0707ab5464e.tr3000database"
                 }
             }
         }
