@@ -558,6 +558,15 @@
             }
         }
     },
+    "DOOMINATION": {
+        "0.1.7": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "5a7793a0e5463cb249e6031710874500.tr3000database"
+                }
+            }
+        }
+    },
     "Deathable": {
         "0.3.2": {
             "selenium_deepl": {
@@ -2013,6 +2022,13 @@
                     "ru-RU": "a4e5a52f29016d4333163801bdb93735.tr3000database"
                 }
             }
+        },
+        "Update_15d": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "34b8a5030902471cb09b66e9c8f8d660.tr3000database"
+                }
+            }
         }
     },
     "The Golden Boy": {
@@ -2074,6 +2090,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "4ecdeb65e8ed96e09ca70828fb996e11.tr3000database"
+                }
+            }
+        },
+        "V0.2": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "eaa2e620d2db395155593d9d87421dde.tr3000database"
                 }
             }
         }
