@@ -1,9 +1,36 @@
 {
+    ".": {
+        "1.125_Patreon": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "8f3896ae62f0dcb219367eca15ac1d21.tr3000database"
+                }
+            }
+        }
+    },
     "53X Homecoming": {
         "0.2.8.1": {
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "ebce2e31c2b4f47046297198078cf002.tr3000database"
+                }
+            }
+        }
+    },
+    "A Couples Duet of Love & Lust": {
+        "0.11.3": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "c9a93730195c4f08e88bf189e7110540.tr3000database"
+                }
+            }
+        }
+    },
+    "A Family Venture": {
+        "0.08_V4_public": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "cd45b81908a6cde02f18a1d5d90bffa2.tr3000database"
                 }
             }
         }
@@ -54,6 +81,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "34698cae7e0bfd632144413fdb49acd5.tr3000database"
+                }
+            }
+        },
+        "0.7b": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "33a6b271d3096b1926a719e79837df5d.tr3000database"
                 }
             }
         }
@@ -153,6 +187,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "754baef054fc226a5ae04012bfb25a48.tr3000database"
+                }
+            }
+        }
+    },
+    "AnitasInternship": {
+        "0.28": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "37823a0677f97214b43c6c3bab5814ed.tr3000database"
                 }
             }
         }
@@ -421,6 +464,15 @@
             }
         }
     },
+    "City of Dreams": {
+        "0.3.2": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "62cfc2a4fd98cecc8e8033d56d47cfaa.tr3000database"
+                }
+            }
+        }
+    },
     "Come Home": {
         ".6.15.1": {
             "google_gtx": {
@@ -449,6 +501,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "fa45bbdd2809e4804f8da3312a40b0d3.tr3000database"
+                }
+            }
+        },
+        "0.4.5(a)": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "819dc50d3f19c0eca0edd8dfc4cfb2db.tr3000database"
                 }
             }
         }
@@ -504,6 +563,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "28bffde54aab1555039a8b267012f1e7.tr3000database"
+                }
+            }
+        },
+        "0.19": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "415201e48ca11e97d60ce7d13b694e74.tr3000database"
                 }
             }
         }
@@ -576,6 +642,15 @@
             }
         }
     },
+    "DeepDown": {
+        "1.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "25e9e4174cfd2c4be1d367d802dc1c41.tr3000database"
+                }
+            }
+        }
+    },
     "Defending Lydia Collier": {
         "v.0.15.8": {
             "selenium_deepl": {
@@ -624,6 +699,15 @@
             "google_gtx": {
                 "en": {
                     "ru": "20409cfe8e492dde0bbc03c1297a163f.tr3000database"
+                }
+            }
+        }
+    },
+    "Divine Heel": {
+        "0.1.4": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "cc4ecdfb0e8fe51ec579396600b1381b.tr3000database"
                 }
             }
         }
@@ -701,6 +785,24 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "bcdd758b5a8e3fa08f4f0581ac60ff31.tr3000database"
+                }
+            }
+        }
+    },
+    "Fallen": {
+        "{size=+15}{i}{color=#ffffff}v.0.03": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "e76de5db2de7f22fb78f6c1a3a797dac.tr3000database"
+                }
+            }
+        }
+    },
+    "Family at Home Remake": {
+        "0.02": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "cd325a75c3f10bd509dce780ba5afa0b.tr3000database"
                 }
             }
         }
@@ -793,6 +895,15 @@
             }
         }
     },
+    "Getting Intimate": {
+        "Ch1-Update1&2": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "1a683cf319ea3ae37316245fb8a759de.tr3000database"
+                }
+            }
+        }
+    },
     "GiBC": {
         "1.0": {
             "selenium_deepl": {
@@ -816,6 +927,15 @@
             "google_gtx": {
                 "en": {
                     "ru": "bdf6243d42aee45f61722398a3e63a25.tr3000database"
+                }
+            }
+        }
+    },
+    "Golden Mean": {
+        "0.4": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "28037e55d8ae9942de3be4841c0ab11b.tr3000database"
                 }
             }
         }
@@ -863,10 +983,33 @@
                 }
             }
         },
+        "0.48": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "58e4b78ee6e10fa8d289d924f2216e5d.tr3000database"
+                }
+            }
+        },
+        "0.49": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "82c75123ea6c09ae5ae514246a2f839f.tr3000database"
+                }
+            }
+        },
         "V0.16": {
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "db05dbc3ac92864bded530a67981d231.tr3000database"
+                }
+            }
+        }
+    },
+    "Growing things Up": {
+        "0.24c": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "1c841fc9b215bcac0130a36b4fa728aa.tr3000database"
                 }
             }
         }
@@ -885,6 +1028,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "dae11d9dfaac8a8116045787f4f820c6.tr3000database"
+                }
+            }
+        },
+        "v_0.3.8": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "ea70767616970d321f80f97fdc547b1a.tr3000database"
                 }
             }
         }
@@ -988,6 +1138,15 @@
             }
         }
     },
+    "Intertwined": {
+        "0.12": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "d4bdd8714c04e4a413c68114ad2624f2.tr3000database"
+                }
+            }
+        }
+    },
     "Isekai Brothel": {
         "0.22": {
             "selenium_deepl": {
@@ -1011,6 +1170,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "bdc931b46d09190119a592ca8379aaa9.tr3000database"
+                }
+            }
+        },
+        "version0.7": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "d597482dc67cf755cacaa3728dd811ac.tr3000database"
                 }
             }
         }
@@ -1074,6 +1240,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "ff1fd7d6e730f0881ea3f18a450b075d.tr3000database"
+                }
+            }
+        }
+    },
+    "Leaving DNA": {
+        "EpisodeThree": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "389b6ca2c7c663fcb1b730b753ba5d52.tr3000database"
                 }
             }
         }
@@ -1150,6 +1325,33 @@
             }
         }
     },
+    "Living Together": {
+        "0.3": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "110e998d630354e8cfe0ce7717035521.tr3000database"
+                }
+            }
+        }
+    },
+    "Long Story Short - Unofficial Ren'Py Port": {
+        "0.8b": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "3709fac7c8eec5e09d58fee1f0185e3c.tr3000database"
+                }
+            }
+        }
+    },
+    "Lord of Imagination": {
+        "ep4.5": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "23fa6ceb95c259b182a70631b5500176.tr3000database"
+                }
+            }
+        }
+    },
     "Lost & Found": {
         "0.8": {
             "selenium_deepl": {
@@ -1184,6 +1386,24 @@
             }
         }
     },
+    "Love and Ashes": {
+        "24Oct2023": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "8749415a80b80469b85033e4c2c00143.tr3000database"
+                }
+            }
+        }
+    },
+    "Lucky Paradox": {
+        "v0.9.2f": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "506dc76ab8b4cd82ba63e90c8e6aee12.tr3000database"
+                }
+            }
+        }
+    },
     "LustAcademy-3": {
         "3.6.1d": {
             "selenium_deepl": {
@@ -1191,9 +1411,23 @@
                     "ru-RU": "3ee8cf45d448759c40fc8915f66d939a.tr3000database"
                 }
             }
+        },
+        "3.7.1d": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "d844780dbffff8b6c72baa3efdb818a0.tr3000database"
+                }
+            }
         }
     },
     "Lustful College": {
+        "Zero.TwentySeven": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "15b6b3a34da0eb832a1c7c1926fe73be.tr3000database"
+                }
+            }
+        },
         "Zero.TwentySix": {
             "selenium_deepl": {
                 "en": {
@@ -1256,6 +1490,15 @@
             }
         }
     },
+    "Merry Christmas Kyle": {
+        "0.7": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "29b78d6e3bd199f1b61a046c25ff42b8.tr3000database"
+                }
+            }
+        }
+    },
     "MidLifeCrisis": {
         "0.34": {
             "selenium_deepl": {
@@ -1279,6 +1522,22 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "b669f81a4d9b02daa9574d1229419c4e.tr3000database"
+                }
+            }
+        },
+        "0.24": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "243c95ca3498feb610448b4dd0fb53b3.tr3000database"
+                }
+            }
+        }
+    },
+    "MoonShardENG": {
+        "0.6.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "5e66fab41a3e1c409595f1e996e221f9.tr3000database"
                 }
             }
         }
@@ -1324,6 +1583,15 @@
             }
         }
     },
+    "My Summer": {
+        "0.9": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "ba17b33c4957c0c9d0fe1375716f1777.tr3000database"
+                }
+            }
+        }
+    },
     "My Time with You": {
         "0.11rerendered": {
             "google_gtx": {
@@ -1338,6 +1606,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "338b7454c2adea3617b025c604627193.tr3000database"
+                }
+            }
+        }
+    },
+    "My prince": {
+        "s0.25": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "dd16088b182ce4c240404906f34e9bf6.tr3000database"
                 }
             }
         }
@@ -1376,6 +1653,13 @@
                     "ru-RU": "b7e6fe134763399df8378daae6698160.tr3000database"
                 }
             }
+        },
+        "0.15": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "3939324cb749ae3e04ebd2d543d1bfab.tr3000database"
+                }
+            }
         }
     },
     "New Antioch": {
@@ -1392,6 +1676,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "f4e298b80f54b3c7cf01807ab4d61c2b.tr3000database"
+                }
+            }
+        }
+    },
+    "NottodaySatan": {
+        "0.2": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "b48b3e9e94d31112f73339c925a89767.tr3000database"
                 }
             }
         }
@@ -1417,6 +1710,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "b6ff89104089c7b1812740d1943979ca.tr3000database"
+                }
+            }
+        },
+        "0.13": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "69d7d1ae52cac86d7e8395724a44a299.tr3000database"
                 }
             }
         }
@@ -1469,6 +1769,24 @@
             "google_gtx": {
                 "en": {
                     "ru": "ba72ca9767487c01e467fd92d29f47f4.tr3000database"
+                }
+            }
+        }
+    },
+    "Only A Dream": {
+        "1.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "f313b518f115b677537b507b83da3f78.tr3000database"
+                }
+            }
+        }
+    },
+    "OnlyHer": {
+        "0.5.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "03f0c03944ec92d17199656f357c97b7.tr3000database"
                 }
             }
         }
@@ -1550,6 +1868,13 @@
                     "ru-RU": "1159b27eaa246243796feb983391c874.tr3000database"
                 }
             }
+        },
+        "0.31": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "344fcc896128a69dd32de63ea153a8d9.tr3000database"
+                }
+            }
         }
     },
     "Pill King": {
@@ -1566,6 +1891,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "64d214d2289b02e579837a655126ec0c.tr3000database"
+                }
+            }
+        },
+        "0.9": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "518b1dc5120b1926501dc543a23c0003.tr3000database"
                 }
             }
         }
@@ -1638,6 +1970,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "cfeaa4542f07ecf35a90de741837476b.tr3000database"
+                }
+            }
+        },
+        "0.094.Beta": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "1d4a7d4d1709b7f6e48a0fddeeec4aca.tr3000database"
                 }
             }
         }
@@ -1814,6 +2153,15 @@
             }
         }
     },
+    "Sexverse": {
+        "0.7": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "30e4019d0b6592c64d2ecf32a83e247d.tr3000database"
+                }
+            }
+        }
+    },
     "Shadows of Deception": {
         "0.20": {
             "selenium_deepl": {
@@ -1841,6 +2189,15 @@
             }
         }
     },
+    "Sinful-Success": {
+        "Chapter-1-5": {
+            "google_gtx": {
+                "en": {
+                    "ru": "cdbfa0280a4fc1ce8297cfa696090cd5.tr3000database"
+                }
+            }
+        }
+    },
     "Single Again 1.21": {
         "1.21": {
             "selenium_deepl": {
@@ -1855,6 +2212,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "7c7e691bf0e9d44bd9576d1e17718743.tr3000database"
+                }
+            }
+        }
+    },
+    "SinsOfNight": {
+        "Release_1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "cdb2b360a919b58214c0bb7b8e140c73.tr3000database"
                 }
             }
         }
@@ -1898,6 +2264,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "d665a63103381c447435fb1f74fa152a.tr3000database"
+                }
+            }
+        }
+    },
+    "Stories of Submission: eNTeR the cuck": {
+        "1910.170421": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "1bc2aaa42abc0a68df50cd14c3493dbf.tr3000database"
                 }
             }
         }
@@ -1959,6 +2334,33 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "0f5e17b91fe401ed449908bf4f51e6d4.tr3000database"
+                }
+            }
+        }
+    },
+    "Superhard": {
+        "0.3.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "d758bdc2cf6781ddcb04f120a247acae.tr3000database"
+                }
+            }
+        }
+    },
+    "Take Over": {
+        "0.71": {
+            "google_gtx": {
+                "en": {
+                    "ru": "76b8f02ba6c3436c425f3706b48044fa.tr3000database"
+                }
+            }
+        }
+    },
+    "Taking Advantage": {
+        "0.04": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "eb7d4ee9274efab09053d8e3af035d41.tr3000database"
                 }
             }
         }
@@ -2076,6 +2478,15 @@
             }
         }
     },
+    "The Lust City": {
+        "1.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "7005facb0082c0d9d125d4c251a8968d.tr3000database"
+                }
+            }
+        }
+    },
     "The Power Of Truth": {
         "0.0.5": {
             "selenium_deepl": {
@@ -2122,6 +2533,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "55fa491e2d98472f063090f4939c9d8b.tr3000database"
+                }
+            }
+        },
+        "Chapter_25": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "499ea359f42624818d5a68291cf1857a.tr3000database"
                 }
             }
         }
@@ -2198,6 +2616,15 @@
             }
         }
     },
+    "Tomb Of Destiny": {
+        "Chapter_1_Public_1.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "9b0ac0e30998b2df06b040b1f3e0c230.tr3000database"
+                }
+            }
+        }
+    },
     "Tribulations of a Mage": {
         "0.3.0": {
             "selenium_deepl": {
@@ -2217,6 +2644,20 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "3c789422372e68d74483ccab30b22e74.tr3000database"
+                }
+            }
+        },
+        "0.6.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "5a1b100ee6a8942d4fc26734a0c98cfe.tr3000database"
+                }
+            }
+        },
+        "0.7.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "b472d8dc320f3282080a9473487c1e91.tr3000database"
                 }
             }
         }
@@ -2266,6 +2707,15 @@
             }
         }
     },
+    "Unveiling the Unknown": {
+        "0.8.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "cce5f9e0625b0280841106e136dc549b.tr3000database"
+                }
+            }
+        }
+    },
     "Victoria in Big City 0.45b": {
         "0.45b": {
             "selenium_deepl": {
@@ -2296,6 +2746,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "f6de8b845ec1531611fec7ad1508a53a.tr3000database"
+                }
+            }
+        },
+        "EP4": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "5e611cf136ac2fe5b86a36a05fbf19ae.tr3000database"
                 }
             }
         }
@@ -2339,6 +2796,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "d089cbcb48373da1f7a02e28ab872e4c.tr3000database"
+                }
+            }
+        }
+    },
+    "What a Legend": {
+        "0.6.02": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "2e4dcae04b1262b317308265a7f76f1d.tr3000database"
                 }
             }
         }
@@ -2406,11 +2872,29 @@
             }
         }
     },
+    "Yen's Grimoire": {
+        "v0.1.7": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "8d94e62913685f05543e8b9476e5b9d7.tr3000database"
+                }
+            }
+        }
+    },
     "Yesterday's Crossroads": {
         "v.0.3.0": {
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "ae236f5da66324d37ae064bd4b91610f.tr3000database"
+                }
+            }
+        }
+    },
+    "Young Again": {
+        "null": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "51cfb450e3c510526e240cdaa2a30125.tr3000database"
                 }
             }
         }
