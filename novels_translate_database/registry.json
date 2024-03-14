@@ -694,6 +694,15 @@
             }
         }
     },
+    "Destiny's Embrace": {
+        "0.3.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "d4122b19c4d0298024bcefde0041086f.tr3000database"
+                }
+            }
+        }
+    },
     "Diatima's Isekai": {
         "0.15": {
             "google_gtx": {
@@ -864,6 +873,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "93164601d3927bcb1a498bb89c894cbc.tr3000database"
+                }
+            }
+        }
+    },
+    "FurrHouse": {
+        "Chapter4": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "4e2853f9a8b89ed00108b74a7d6018d5.tr3000database"
                 }
             }
         }
@@ -1517,6 +1535,15 @@
             }
         }
     },
+    "Milfy Day": {
+        "0.7.7": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "259424bc41fb8bf752d43ff37892b5c2.tr3000database"
+                }
+            }
+        }
+    },
     "Milfylicious": {
         "0.23": {
             "selenium_deepl": {
@@ -1637,6 +1664,15 @@
             }
         }
     },
+    "NBNL": {
+        "0.14": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "78d2c37fd0e6be04b6ae9ed7ec25899a.tr3000database"
+                }
+            }
+        }
+    },
     "Naughty Lyanna - Season 2": {
         "0.18": {
             "selenium_deepl": {
@@ -1667,6 +1703,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "7c6d86b9a3b1b2b09c484eee72a6fae2.tr3000database"
+                }
+            }
+        }
+    },
+    "NewBeginningsInJapan": {
+        "V-0.5": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "c980c5421b4a728424bebe897be655fc.tr3000database"
                 }
             }
         }
