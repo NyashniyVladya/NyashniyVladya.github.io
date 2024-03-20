@@ -631,6 +631,13 @@
                     "ru-RU": "5a7793a0e5463cb249e6031710874500.tr3000database"
                 }
             }
+        },
+        "0.1.8": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "9ce491394d3e46176ac6c763d79be1ce.tr3000database"
+                }
+            }
         }
     },
     "Deathable": {
@@ -940,6 +947,15 @@
             }
         }
     },
+    "Girl In Charge": {
+        "0.32.1a": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "c4f74f9e2736fa86f81112b4545bfd6d.tr3000database"
+                }
+            }
+        }
+    },
     "Going for goal": {
         "0.06": {
             "google_gtx": {
@@ -1012,6 +1028,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "82c75123ea6c09ae5ae514246a2f839f.tr3000database"
+                }
+            }
+        },
+        "0.50": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "216d4ab49f4bd67a161df01efff7fb0a.tr3000database"
                 }
             }
         },
@@ -1330,6 +1353,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "78835a559eee50f15a6f2819a0b76ca6.tr3000database"
+                }
+            }
+        },
+        "V.4.2.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "d68398ff7ca892451e059780bd0be26b.tr3000database"
                 }
             }
         }
@@ -2302,6 +2332,13 @@
                     "ru-RU": "ac304c2df0c73cdcdbf069c211d43476.tr3000database"
                 }
             }
+        },
+        "2.2": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "db95cda07a21e9cfeecf76faf8b1d468.tr3000database"
+                }
+            }
         }
     },
     "Steven On The Run": {
@@ -2589,6 +2626,15 @@
             }
         }
     },
+    "The motel - December2023": {
+        "null": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "79afec19b864349361102613d4e21718.tr3000database"
+                }
+            }
+        }
+    },
     "The taming of the brat": {
         "v.94": {
             "selenium_deepl": {
@@ -2648,6 +2694,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "48b4e6a3e1fad0ef6a0d3db0abb19b1c.tr3000database"
+                }
+            }
+        },
+        "8.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "00e08750fca380f91240bf2e5bd55ebb.tr3000database"
                 }
             }
         }
@@ -2759,6 +2812,13 @@
                     "ru-RU": "cce5f9e0625b0280841106e136dc549b.tr3000database"
                 }
             }
+        },
+        "0.9.0a": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "53ead6614597f67fe60218f633a6649e.tr3000database"
+                }
+            }
         }
     },
     "Victoria in Big City 0.45b": {
@@ -2807,6 +2867,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "a596b67bc84e856d1d02c5b56fd47972.tr3000database"
+                }
+            }
+        },
+        "Ep2_part1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "06ecb4614cc36392aeebc1d56c68aab3.tr3000database"
                 }
             }
         }
