@@ -24,6 +24,13 @@
                     "ru-RU": "c9a93730195c4f08e88bf189e7110540.tr3000database"
                 }
             }
+        },
+        "0.12.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "11d599c95d19d7bfca49a2e36cb3214e.tr3000database"
+                }
+            }
         }
     },
     "A Family Venture": {
@@ -311,6 +318,11 @@
             "google_gtx": {
                 "en": {
                     "ru": "129c61c0989e639325b5e18df69ee96c.tr3000database"
+                }
+            },
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "1d2ffd335ef5bd02360afab6c476f6f4.tr3000database"
                 }
             }
         }
@@ -853,6 +865,24 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "552eaf57d2ca929c6a00c8518d396784.tr3000database"
+                }
+            }
+        }
+    },
+    "Fog_Of_War": {
+        "0.4.2": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "fc54d0a754e8ef10437688ed175bf2e2.tr3000database"
+                }
+            }
+        }
+    },
+    "Fractured Realms": {
+        "0.3": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "55cd65674b0949bef4b6c19bcecdbdcd.tr3000database"
                 }
             }
         }
@@ -1977,6 +2007,15 @@
             }
         }
     },
+    "Project Myriam Life and Explorations": {
+        "ch5.01a": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "1bd058fff165b63d183ca6f786d8e72f.tr3000database"
+                }
+            }
+        }
+    },
     "Project Wonderful": {
         "0.1": {
             "selenium_deepl": {
@@ -2215,6 +2254,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "c7d0f4bdfbb01b520feb90adc371062d.tr3000database"
+                }
+            }
+        }
+    },
+    "SerenityC2": {
+        "0.3": {
+            "google_client5": {
+                "en": {
+                    "ru": "080d9d467b2a308bf1c0483ef6bc47e5.tr3000database"
                 }
             }
         }
@@ -2758,6 +2806,13 @@
                     "ru-RU": "b472d8dc320f3282080a9473487c1e91.tr3000database"
                 }
             }
+        },
+        "0.9.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "a1c586ea077601637ac33a187db002f5.tr3000database"
+                }
+            }
         }
     },
     "TruthTrail": {
@@ -2792,6 +2847,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "faa20cfa0405f9b436990c3b0eb60da6.tr3000database"
+                }
+            }
+        }
+    },
+    "Unexpected.Opportunity": {
+        "0.6": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "34bb80a1a281c7f17b07f48a86fccb98.tr3000database"
                 }
             }
         }
