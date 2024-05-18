@@ -6,6 +6,13 @@
                     "ru-RU": "8f3896ae62f0dcb219367eca15ac1d21.tr3000database"
                 }
             }
+        },
+        "1.130_Patreon": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "8c56697c03dc0f1af428752aa8ffcb57.tr3000database"
+                }
+            }
         }
     },
     "3YoV": {
@@ -38,6 +45,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "11d599c95d19d7bfca49a2e36cb3214e.tr3000database"
+                }
+            }
+        },
+        "0.12.4": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "0187d559f687ac304ac4cf30b274e69d.tr3000database"
                 }
             }
         }
@@ -135,6 +149,15 @@
             }
         }
     },
+    "A Wife And Mother Vers. 0.200": {
+        "0.200": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "91410422ed7b70d4bb917f01eca5b870.tr3000database"
+                }
+            }
+        }
+    },
     "APD0.5": {
         "null": {
             "selenium_deepl": {
@@ -171,6 +194,15 @@
             }
         }
     },
+    "AWAM Aiden's Revenge 1.00": {
+        "1.00": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "b56332587ba17151c9f620007ab76f6a.tr3000database"
+                }
+            }
+        }
+    },
     "Adverse Effect": {
         "1.0": {
             "selenium_deepl": {
@@ -194,6 +226,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "320dac622a98a8a94957cd3a728a68b1.tr3000database"
+                }
+            }
+        }
+    },
+    "Alice_A_Hard_Life": {
+        "EP1-v1.5": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "4e0ef2bd3db665e555cb8eadf6fdf24c.tr3000database"
                 }
             }
         }
@@ -345,6 +386,15 @@
             }
         }
     },
+    "Beauty and the Thug": {
+        "0.3.5b": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "16c1e368adc2a94a463ebcf4ca76cb05.tr3000database"
+                }
+            }
+        }
+    },
     "Becoming The Hangman": {
         "0.25": {
             "selenium_deepl": {
@@ -429,6 +479,13 @@
                     "ru": "0a2489f8c2a939c54f1927954ebf8673.tr3000database"
                 }
             }
+        },
+        "0.05": {
+            "google_gtx": {
+                "en": {
+                    "ru": "b84234ae8664b755a94c3460ac18e982.tr3000database"
+                }
+            }
         }
     },
     "But im the bad guy": {
@@ -503,6 +560,15 @@
             }
         }
     },
+    "Circumstances": {
+        "0.4": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "ed5207e7e3e41fe78e202daaf6ca24e7.tr3000database"
+                }
+            }
+        }
+    },
     "City of Dreams": {
         "0.3.2": {
             "selenium_deepl": {
@@ -556,6 +622,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "819dc50d3f19c0eca0edd8dfc4cfb2db.tr3000database"
+                }
+            }
+        },
+        "0.4.5(b)SE": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "d8d5447f3a840fcfcb8a784fb49743a1.tr3000database"
                 }
             }
         }
@@ -627,6 +700,13 @@
                     "ru-RU": "34e4d234894d56a58673be54bf0a03d3.tr3000database"
                 }
             }
+        },
+        "0.21": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "596b1636fe380fcd647f96c337ce8d23.tr3000database"
+                }
+            }
         }
     },
     "Curse of the Night Stalker": {
@@ -691,6 +771,31 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "9ce491394d3e46176ac6c763d79be1ce.tr3000database"
+                }
+            }
+        },
+        "0.2.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "3a52956413e197f9bc79646053bb8f19.tr3000database"
+                }
+            }
+        }
+    },
+    "Dancing Colors": {
+        "EP1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "688c1c2fbcaf18d213120072bfc21140.tr3000database"
+                }
+            }
+        }
+    },
+    "Darker": {
+        "null": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "34ea4cf6d8f3efd9f37a9fac7b54ccf1.tr3000database"
                 }
             }
         }
@@ -853,6 +958,15 @@
             }
         }
     },
+    "Esteria": {
+        "Chapter5": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "de808a4742b688b143149fbe95a1fe10.tr3000database"
+                }
+            }
+        }
+    },
     "Eternum": {
         "0.6.2": {
             "google_gtx": {
@@ -872,6 +986,24 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "bcdd758b5a8e3fa08f4f0581ac60ff31.tr3000database"
+                }
+            }
+        }
+    },
+    "Expectations": {
+        "0.40": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "303a6498530b742b672a93e59c9c2fe8.tr3000database"
+                }
+            }
+        }
+    },
+    "Faded Bonds": {
+        "0.3": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "6a1e13f558ab810304a20ff0f452e4db.tr3000database"
                 }
             }
         }
@@ -904,6 +1036,13 @@
         }
     },
     "Fate and Life The Mystery of Vaulinhorn": {
+        "10.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "8aaa414176f780c14e8c6ad8e566680b.tr3000database"
+                }
+            }
+        },
         "8.0": {
             "selenium_deepl": {
                 "en": {
@@ -915,6 +1054,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "f337a8c327a03793c493fa944a94bb01.tr3000database"
+                }
+            }
+        }
+    },
+    "Fatima's Lust": {
+        "0.2": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "0f1a5681edd1dd1d885e1026c25a6102.tr3000database"
                 }
             }
         }
@@ -1070,6 +1218,15 @@
             }
         }
     },
+    "Girlfriend": {
+        "0.45": {
+            "google_gtx": {
+                "en": {
+                    "ru": "e3193d6d18a89d56d3e19df0a17a5d51.tr3000database"
+                }
+            }
+        }
+    },
     "Going for goal": {
         "0.06": {
             "google_gtx": {
@@ -1170,6 +1327,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "5bf9ca34e42cba2a804938d49c74d4aa.tr3000database"
+                }
+            }
+        },
+        "0.54": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "aefa193e20d52b98f83cbbb819824304.tr3000database"
                 }
             }
         },
@@ -1278,6 +1442,15 @@
             }
         }
     },
+    "Hillside v0.15": {
+        "0.15": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "fbc48fd0238e375900b8d45c78114253.tr3000database"
+                }
+            }
+        }
+    },
     "Homelander": {
         "0.03": {
             "google_gtx": {
@@ -1332,6 +1505,15 @@
             }
         }
     },
+    "Innocent Play": {
+        "0.2.2": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "014d4f3c4090e04a1b3673345a473713.tr3000database"
+                }
+            }
+        }
+    },
     "Intertwined": {
         "0.12": {
             "selenium_deepl": {
@@ -1368,6 +1550,15 @@
             }
         }
     },
+    "It's not a world for Alyssa": {
+        "1.2": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "e0a02fbf95046cc49f1baf013d25fa3a.tr3000database"
+                }
+            }
+        }
+    },
     "Jennifer life": {
         "version0.6": {
             "selenium_deepl": {
@@ -1384,11 +1575,27 @@
             }
         }
     },
+    "JessicasChoices": {
+        "0.8": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "bda5883de7c7d2f18b426686a4af0f55.tr3000database"
+                }
+            }
+        }
+    },
     "Jessincheck": {
         "0.4": {
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "96e43fdef17078e1b9a5e5b9660644d8.tr3000database"
+                }
+            }
+        },
+        "0.6": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "b1e386b31befe5966274a403927fc8de.tr3000database"
                 }
             }
         }
@@ -1425,6 +1632,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "6f30607dc6e364a45573366f02f8e54d.tr3000database"
+                }
+            }
+        }
+    },
+    "LIA": {
+        "0.4": {
+            "google_gtx": {
+                "en": {
+                    "ru": "b353d7c81b1a7c0213ef201c8bcff842.tr3000database"
                 }
             }
         }
@@ -1488,6 +1704,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "efa11cf121110ba5e27a12e8c1ea7281.tr3000database"
+                }
+            }
+        },
+        "v0.1.9": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "4d1c3a327ed60f76be3719534c6ec4f3.tr3000database"
                 }
             }
         }
@@ -1610,6 +1833,13 @@
                     "ru-RU": "4d8861b9d75b8188d29eb46ff2e80c98.tr3000database"
                 }
             }
+        },
+        "0.9": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "79ac4480a2b97167e2b1980515756e8e.tr3000database"
+                }
+            }
         }
     },
     "Love & Sex : Second Base - 23.9.0e": {
@@ -1669,6 +1899,13 @@
                     "ru-RU": "178c890086af7c68b93f82a3d434fc4b.tr3000database"
                 }
             }
+        },
+        "3.9.1d": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "21ba0cb1da360438c5ef70be13ea8d7d.tr3000database"
+                }
+            }
         }
     },
     "Lustful College": {
@@ -1683,6 +1920,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "a14f2f361322404dada1df79917dafd5.tr3000database"
+                }
+            }
+        }
+    },
+    "Lustful Voyage": {
+        "0.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "619e5732862c51fa44363d92dd985231.tr3000database"
                 }
             }
         }
@@ -1710,6 +1956,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "c66eba1265e7464ec728cecdb067a280.tr3000database"
+                }
+            }
+        }
+    },
+    "Maid to Please": {
+        "0.14.2": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "575d4a002d59a5746b43d519080b3fe6.tr3000database"
                 }
             }
         }
@@ -1811,6 +2066,15 @@
             }
         }
     },
+    "Move The Chains": {
+        "0.2": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "baa4c909070ab28b4102f76846745ee5.tr3000database"
+                }
+            }
+        }
+    },
     "Moving Out": {
         "Day-8b": {
             "google_gtx": {
@@ -1825,6 +2089,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "eff29f08c1a9b6c3e000ed9eb6b9bee6.tr3000database"
+                }
+            }
+        }
+    },
+    "My Bimbo Dream": {
+        "0.5.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "97ef3a36429280b7d413cfca812e5766.tr3000database"
                 }
             }
         }
@@ -1947,6 +2220,13 @@
                     "ru-RU": "3939324cb749ae3e04ebd2d543d1bfab.tr3000database"
                 }
             }
+        },
+        "0.25": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "2e9fcef431eeb280945a37731740bb5c.tr3000database"
+                }
+            }
         }
     },
     "New Antioch": {
@@ -1999,6 +2279,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "b48b3e9e94d31112f73339c925a89767.tr3000database"
+                }
+            }
+        }
+    },
+    "Ntr H Chronicles": {
+        "0.3": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "a46c2461bc20c6c1716b8dc35b264e22.tr3000database"
                 }
             }
         }
@@ -2126,6 +2415,13 @@
                     "ru-RU": "9d9a7aef086d67e07edc0b46808786e8.tr3000database"
                 }
             }
+        },
+        "v12.2_FULL": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "287ccda49d416169f739ba65c6081f16.tr3000database"
+                }
+            }
         }
     },
     "PH": {
@@ -2203,6 +2499,13 @@
                     "ru-RU": "4c4892c283009e7c380781fabb16f618.tr3000database"
                 }
             }
+        },
+        "0.33": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "bcfa9f3b39cc752de993c42468af11cc.tr3000database"
+                }
+            }
         }
     },
     "Perfect Family A Family Of Perverts": {
@@ -2242,6 +2545,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "480fa7a0d4d856b0a698257fd760a792.tr3000database"
+                }
+            }
+        },
+        "0.99": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "5370ab5f983c99845826f44e2d36fcac.tr3000database"
                 }
             }
         }
@@ -2450,6 +2760,13 @@
                     "ru-RU": "7c1389db8d3a5feca71f5f4c7294e9a9.tr3000database"
                 }
             }
+        },
+        "0.08.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "d697b15206cfbad8d286c40a7ef657d4.tr3000database"
+                }
+            }
         }
     },
     "SOPHIE: La fille de la zone": {
@@ -2518,6 +2835,13 @@
                     "ru-RU": "c7d0f4bdfbb01b520feb90adc371062d.tr3000database"
                 }
             }
+        },
+        "0.6": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "fc827fa2b03b430d9721d96172fc366b.tr3000database"
+                }
+            }
         }
     },
     "SerenityC2": {
@@ -2547,6 +2871,15 @@
             }
         }
     },
+    "Shadows Of Desire Unofficial Ren'py Port": {
+        "Cuckold": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "66c969a4630366a2f96cad24a573b5ff.tr3000database"
+                }
+            }
+        }
+    },
     "Shadows of Deception": {
         "0.20": {
             "selenium_deepl": {
@@ -2561,6 +2894,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "c29714ba32405f1a42e65a7c9426d5d7.tr3000database"
+                }
+            }
+        },
+        "1.7": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "6786aed21d799024b9aaf3a4da742306.tr3000database"
                 }
             }
         }
@@ -2841,11 +3181,29 @@
             }
         }
     },
+    "The Cure For Madness": {
+        "Chapter6": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "4856f92b3120e3c08be36a4cdc54d4ff.tr3000database"
+                }
+            }
+        }
+    },
     "The Daddy Plan": {
         "0.05": {
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "19a38af194772f2803460059a0dd2978.tr3000database"
+                }
+            }
+        }
+    },
+    "The East Block": {
+        "0.4": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "2116974a56842d3a5cff640288e7db29.tr3000database"
                 }
             }
         }
@@ -2966,6 +3324,22 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "eaa2e620d2db395155593d9d87421dde.tr3000database"
+                }
+            }
+        },
+        "V0.3": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "13c2b65a6b645256ad2ee8435ee6a9dc.tr3000database"
+                }
+            }
+        }
+    },
+    "The Restaurant": {
+        "0.2.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "f854663640657997f0284dc009ec498e.tr3000database"
                 }
             }
         }
@@ -3098,6 +3472,13 @@
         }
     },
     "Tomb Of Destiny": {
+        "Chapter-1-1.1_Chapter_2-0.1_Public": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "77399c7ef6beb65a5f2ac072bf4d5b1b.tr3000database"
+                }
+            }
+        },
         "Chapter_1_Public_1.0": {
             "selenium_deepl": {
                 "en": {
@@ -3196,6 +3577,15 @@
             "google_gtx": {
                 "en": {
                     "ru": "47a6bc0aa621cf53c7c4e225dff9327d.tr3000database"
+                }
+            }
+        }
+    },
+    "UNCONTROLLABLE_LUST": {
+        "0.12b": {
+            "google_gtx": {
+                "en": {
+                    "ru": "c436a0bde5f5c8ee82854c17794ebba1.tr3000database"
                 }
             }
         }
@@ -3366,6 +3756,15 @@
             }
         }
     },
+    "Westview Academy": {
+        "0.5.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "92cdf8e0f4bcc1de60f686b0790d0486.tr3000database"
+                }
+            }
+        }
+    },
     "What a Legend": {
         "0.6.02": {
             "selenium_deepl": {
@@ -3488,6 +3887,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "61024ae137c17e43c590ee6c6eda6811.tr3000database"
+                }
+            }
+        }
+    },
+    "{color=#a14242}N{/color}avigating {color=#a14242}T{/color}he {color=#a14242}R{/color}ift": {
+        "0.5": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "148b75d4ed62943803984ed0144b5ec1.tr3000database"
                 }
             }
         }
