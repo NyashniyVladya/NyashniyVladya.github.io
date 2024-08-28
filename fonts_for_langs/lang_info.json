@@ -99,10 +99,15 @@
                 "Thai"
             ]
         },
+        "NotoSerifSC": {
+            "filename": "fonts_for_langs/NotoSerifSC-Regular.ttf",
+            "langs": [
+                "Chinese (Simplified)"
+            ]
+        },
         "NotoSerifTC": {
             "filename": "fonts_for_langs/NotoSerifTC-Regular.otf",
             "langs": [
-                "Chinese (Simplified)",
                 "Chinese (Traditional)"
             ]
         },
