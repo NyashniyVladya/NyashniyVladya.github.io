@@ -72,6 +72,13 @@
                     "ru-RU": "f0d8306a67e9aa2020b9f60eec37c66a.tr3000database"
                 }
             }
+        },
+        "Episode-5": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "6f7dd33c366b4dd68324e2458939c908.tr3000database"
+                }
+            }
         }
     },
     "A Man For All - Episode 12 v0.30": {
@@ -203,6 +210,15 @@
             }
         }
     },
+    "Actual Roommates": {
+        "Ch.4-Public": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "6f34418e7232a2c35aab49ae19a31898.tr3000database"
+                }
+            }
+        }
+    },
     "Adverse Effect": {
         "1.0": {
             "selenium_deepl": {
@@ -235,6 +251,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "4e0ef2bd3db665e555cb8eadf6fdf24c.tr3000database"
+                }
+            }
+        }
+    },
+    "Almost Dead": {
+        "0.10": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "fcd85afad7fdc183268b0ebc47b1d4bc.tr3000database"
                 }
             }
         }
@@ -649,6 +674,13 @@
                     "ru-RU": "24d84e3f150bac8c29bd9cba6f19dec0.tr3000database"
                 }
             }
+        },
+        "0.8.6r": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "e29657e0095c4f43479f989aa19a0526.tr3000database"
+                }
+            }
         }
     },
     "Cosy Cafe": {
@@ -705,6 +737,20 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "596b1636fe380fcd647f96c337ce8d23.tr3000database"
+                }
+            }
+        },
+        "0.22": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "352dcc83393b654fee741e808064b3aa.tr3000database"
+                }
+            }
+        },
+        "0.23": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "e2e64f0629d74abcacd3f9b4f03b1bd7.tr3000database"
                 }
             }
         }
@@ -891,6 +937,20 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "12efa5a992ea5dbec3d78981ea0ac59f.tr3000database"
+                }
+            }
+        },
+        "0.1.7a": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "eb829c25d5126880674649e7a445764e.tr3000database"
+                }
+            }
+        },
+        "0.1.8": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "3aa82674c354c546103729c69dc88bf0.tr3000database"
                 }
             }
         }
@@ -1090,6 +1150,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "fc54d0a754e8ef10437688ed175bf2e2.tr3000database"
+                }
+            }
+        }
+    },
+    "Forbidden Passion v0.12.0: Premium SubscribeStar Edition": {
+        "null": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "001e468515da11bdbbee8d3067329506.tr3000database"
                 }
             }
         }
@@ -1337,6 +1406,34 @@
                 }
             }
         },
+        "0.55": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "9fd7d58b9d5cd26ad13db2c0eaf5367c.tr3000database"
+                }
+            }
+        },
+        "0.56": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "10fc54dc43a07acc55faa70421a55c61.tr3000database"
+                }
+            }
+        },
+        "0.57": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "c629c2348ed355ed8db09b4d6b01a6ff.tr3000database"
+                }
+            }
+        },
+        "0.58": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "4aa341e61fa6f32ab9337a13d3c112eb.tr3000database"
+                }
+            }
+        },
         "V0.16": {
             "selenium_deepl": {
                 "en": {
@@ -1350,6 +1447,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "1c841fc9b215bcac0130a36b4fa728aa.tr3000database"
+                }
+            }
+        }
+    },
+    "Guest House": {
+        "0.2.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "7981974ea049ce48027ff1dccde8ec67.tr3000database"
                 }
             }
         }
@@ -1548,6 +1654,13 @@
                     "ru-RU": "2e39888ca2c5921540070b75b546e513.tr3000database"
                 }
             }
+        },
+        "0.2.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "d1a8b5d4d5d61b8f5d5b97c00cd95538.tr3000database"
+                }
+            }
         }
     },
     "It's not a world for Alyssa": {
@@ -1670,6 +1783,13 @@
                     "ru-RU": "64f84f079541c992b0d0f0eca33b9d62.tr3000database"
                 }
             }
+        },
+        "0.4.5": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "d240dffa3ae559aaafb049d2355c9f30.tr3000database"
+                }
+            }
         }
     },
     "Leaving DNA": {
@@ -1754,6 +1874,13 @@
             "google_gtx": {
                 "en": {
                     "ru": "8a52db0090db24332e2cd998509a17f2.tr3000database"
+                }
+            }
+        },
+        "Day6_Part4": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "dc57049e2a880551cfc2fe21d6d71d51.tr3000database"
                 }
             }
         }
@@ -2044,6 +2171,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "243c95ca3498feb610448b4dd0fb53b3.tr3000database"
+                }
+            }
+        },
+        "0.26": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "84e483e99b7adfc65947a50a831b0091.tr3000database"
                 }
             }
         }
@@ -2506,6 +2640,13 @@
                     "ru-RU": "bcfa9f3b39cc752de993c42468af11cc.tr3000database"
                 }
             }
+        },
+        "0.34": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "f7c4a692f90372b3b59da8504b6709ac.tr3000database"
+                }
+            }
         }
     },
     "Perfect Family A Family Of Perverts": {
@@ -2604,6 +2745,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "9ecf67be0e21d003d00cb52ff71176ad.tr3000database"
+                }
+            }
+        },
+        "0.35": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "3d4384a0633d834ca621053e67df83fd.tr3000database"
                 }
             }
         }
@@ -2966,6 +3114,15 @@
             }
         }
     },
+    "Single Again 1.24.1": {
+        "1.24.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "8567c300c3de3144d3582faab76ca535.tr3000database"
+                }
+            }
+        }
+    },
     "SinsOfNight": {
         "Release_1": {
             "selenium_deepl": {
@@ -3062,6 +3219,20 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "c86f27e6f93bc592e7487f40e4b8d4b2.tr3000database"
+                }
+            }
+        },
+        "0.51.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "880f306ede516f5592aa25ea1ad6ff20.tr3000database"
+                }
+            }
+        },
+        "0.52.1": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "df1099e3a3240d4c2c79a594d3cf80f1.tr3000database"
                 }
             }
         }
@@ -3197,6 +3368,13 @@
                     "ru-RU": "19a38af194772f2803460059a0dd2978.tr3000database"
                 }
             }
+        },
+        "0.06": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "6f901dfdef7fe2f4889b71c8f4663bf6.tr3000database"
+                }
+            }
         }
     },
     "The East Block": {
@@ -3236,6 +3414,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "34b8a5030902471cb09b66e9c8f8d660.tr3000database"
+                }
+            }
+        },
+        "Update_19d": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "83d713f7afe025299c2e246d1f1a8ccc.tr3000database"
                 }
             }
         }
@@ -3281,6 +3466,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "66668611d643af915c345f2f9204ce92.tr3000database"
+                }
+            }
+        },
+        "ep5_up2": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "09451b38af1e475367e4dbdbbf736fd7.tr3000database"
                 }
             }
         }
@@ -3499,6 +3691,13 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "d919079d64413cf3c73791698e4d6ae5.tr3000database"
+                }
+            }
+        },
+        "0.16.0": {
+            "selenium_deepl": {
+                "en": {
+                    "ru-RU": "d4f10379845f04262e633b90c5caaf81.tr3000database"
                 }
             }
         },
