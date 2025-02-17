@@ -1,7 +1,14 @@
 {
-    "version": "3.19.6",
-	"versionName": null,
-    "boostyLink": "https://boosty.to/nyashniyvladya/posts/ee1e5bd7-9c87-44be-88df-b4e40d77fbab",
-    "patreonLink": "https://www.patreon.com/posts/translator3000-3-118825923",
-	"hfLink": "https://www.housefly.io/@vladya/K2znBIgEmkagwVuGuOEn3Q/translator3000-version-3196"
+    "version": "3.22.1",
+	"versionName": "Emperor's new clothes",
+    "boostyLink": "https://boosty.to/nyashniyvladya/posts/bb6269ff-4805-45fa-b4a6-c70d4dec862c",
+    "patreonLink": "https://www.patreon.com/posts/translator3000-3-122477664",
+	"hfLink": "https://www.housefly.io/@vladya/uFzSRl6Qa0KmDOg_qFBqIQ/translator3000-version-3221-emperors-new-clothes",
+	"betaInfo": {
+		"version": "3.21.35",
+		"versionName": "Novus Vultus",
+		"boostyLink": "https://boosty.to/nyashniyvladya/posts/a26a47fd-571e-4df5-89cc-2a340c74b587",
+		"patreonLink": "https://www.patreon.com/posts/beta-version-3-121183157",
+		"hfLink": null
+	}
 }
