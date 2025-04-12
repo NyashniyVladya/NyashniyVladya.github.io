@@ -5,7 +5,6 @@
 
 
 import pathlib
-import requests
 import json
 
 
@@ -13,7 +12,7 @@ BASEDIR = pathlib.Path(__file__).parent.resolve(True)
 VERSIONS = BASEDIR.joinpath("versions")
 JSON = BASEDIR.joinpath("versionsSummary.json")
 
-MAIN_URL = "https://nyashniyvladya.github.io/torBundles/versions"
+URL = "https://nyashniyvladya.github.io/torBundles/versions/{0}/{1}"
 
 
 def main():
@@ -23,9 +22,8 @@ def main():
     for version_dir in VERSIONS.iterdir():
         _version = tuple(map(int, version_dir.name.split('.')))
         _key = '.'.join(map(str, _version))
-        _dir_url = requests.compat.urljoin(MAIN_URL, version_dir.name)
         for bundle in version_dir.iterdir():
-            _url = requests.compat.urljoin(_dir_url, bundle.name)
+            _url = URL.format(version_dir.name, bundle.name)
             result.setdefault(_key, {})[bundle.name] = _url
 
     with JSON.open('w', encoding="utf_8") as _file:
