@@ -1,10 +1,10 @@
 {
     "14.0.9": {
-        "tor-expert-bundle-linux-i686-14.0.9.tar.gz": "https://nyashniyVladya.github.io/torBundles/tor-expert-bundle-linux-i686-14.0.9.tar.gz",
-        "tor-expert-bundle-linux-x86_64-14.0.9.tar.gz": "https://nyashniyVladya.github.io/torBundles/tor-expert-bundle-linux-x86_64-14.0.9.tar.gz",
-        "tor-expert-bundle-macos-aarch64-14.0.9.tar.gz": "https://nyashniyVladya.github.io/torBundles/tor-expert-bundle-macos-aarch64-14.0.9.tar.gz",
-        "tor-expert-bundle-macos-x86_64-14.0.9.tar.gz": "https://nyashniyVladya.github.io/torBundles/tor-expert-bundle-macos-x86_64-14.0.9.tar.gz",
-        "tor-expert-bundle-windows-i686-14.0.9.tar.gz": "https://nyashniyVladya.github.io/torBundles/tor-expert-bundle-windows-i686-14.0.9.tar.gz",
-        "tor-expert-bundle-windows-x86_64-14.0.9.tar.gz": "https://nyashniyVladya.github.io/torBundles/tor-expert-bundle-windows-x86_64-14.0.9.tar.gz"
+        "tor-expert-bundle-linux-i686-14.0.9.tar.gz": "https://nyashniyvladya.github.io/torBundles/tor-expert-bundle-linux-i686-14.0.9.tar.gz",
+        "tor-expert-bundle-linux-x86_64-14.0.9.tar.gz": "https://nyashniyvladya.github.io/torBundles/tor-expert-bundle-linux-x86_64-14.0.9.tar.gz",
+        "tor-expert-bundle-macos-aarch64-14.0.9.tar.gz": "https://nyashniyvladya.github.io/torBundles/tor-expert-bundle-macos-aarch64-14.0.9.tar.gz",
+        "tor-expert-bundle-macos-x86_64-14.0.9.tar.gz": "https://nyashniyvladya.github.io/torBundles/tor-expert-bundle-macos-x86_64-14.0.9.tar.gz",
+        "tor-expert-bundle-windows-i686-14.0.9.tar.gz": "https://nyashniyvladya.github.io/torBundles/tor-expert-bundle-windows-i686-14.0.9.tar.gz",
+        "tor-expert-bundle-windows-x86_64-14.0.9.tar.gz": "https://nyashniyvladya.github.io/torBundles/tor-expert-bundle-windows-x86_64-14.0.9.tar.gz"
     }
 }

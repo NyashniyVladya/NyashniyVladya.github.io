@@ -13,7 +13,7 @@ BASEDIR = pathlib.Path(__file__).parent.resolve(True)
 VERSIONS = BASEDIR.joinpath("versions")
 JSON = BASEDIR.joinpath("versionsSummary.json")
 
-MAIN_URL = "https://nyashniyVladya.github.io/torBundles/versions"
+MAIN_URL = "https://nyashniyvladya.github.io/torBundles/versions"
 
 
 def main():
