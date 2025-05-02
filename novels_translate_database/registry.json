@@ -165,6 +165,24 @@
             }
         }
     },
+    "A Wife's Phone": {
+        "0.7.0_revamp": {
+            "reverso": {
+                "eng": {
+                    "rus": "4ddebade7ece09900de966d72d4e735b.tr3000database"
+                }
+            }
+        }
+    },
+    "AOSM": {
+        "0.6": {
+            "reverso": {
+                "eng": {
+                    "rus": "4cd4c9ec95040ca8ee001406d718c2de.tr3000database"
+                }
+            }
+        }
+    },
     "APD0.5": {
         "null": {
             "selenium_deepl": {
@@ -291,6 +309,15 @@
             }
         }
     },
+    "Another Teen Titans Porn Game": {
+        "0.5": {
+            "reverso": {
+                "eng": {
+                    "rus": "22a35419e637d9c34d0e752d27129ed9.tr3000database"
+                }
+            }
+        }
+    },
     "Apocalust": {
         "0.06": {
             "selenium_deepl": {
@@ -366,6 +393,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "4749bfa7dae230c9446db95073ff0962.tr3000database"
+                }
+            }
+        }
+    },
+    "Bad Boy Liam V0.8": {
+        "0.8": {
+            "yandex_translate": {
+                "en": {
+                    "ru": "130eadf4e5c2813fcb0218ccf4ebf6e9.tr3000database"
                 }
             }
         }
@@ -472,6 +508,51 @@
             }
         }
     },
+    "Binder": {
+        "0.20.9": {
+            "reverso": {
+                "eng": {
+                    "rus": "1c1b3f54a0b1213d577ee51812387bda.tr3000database"
+                }
+            }
+        }
+    },
+    "Blackthorne Manor": {
+        "0.02": {
+            "reverso": {
+                "eng": {
+                    "rus": "e64bccb75c9b8e7828c8913ff0ca8386.tr3000database"
+                }
+            }
+        }
+    },
+    "Blossom of Pleasure": {
+        "0.414": {
+            "reverso": {
+                "eng": {
+                    "rus": "dbacd4f1f29758c89b9703ad09fb7607.tr3000database"
+                }
+            }
+        }
+    },
+    "Bonds Between": {
+        "0.2": {
+            "reverso": {
+                "eng": {
+                    "rus": "7525a7b203428773662d4774356f5b68.tr3000database"
+                }
+            }
+        }
+    },
+    "Bonds Of Love": {
+        "1.8": {
+            "reverso": {
+                "eng": {
+                    "rus": "9283982337103b8436964c5743ac768f.tr3000database"
+                }
+            }
+        }
+    },
     "Bright Lord": {
         "0.6c_Elite": {
             "selenium_deepl": {
@@ -513,11 +594,47 @@
             }
         }
     },
+    "BrothelVirgin": {
+        "1.0": {
+            "reverso": {
+                "eng": {
+                    "rus": "703dd299879f10a111ac173d5af4c163.tr3000database"
+                }
+            }
+        }
+    },
     "But im the bad guy": {
         "0.0565v3": {
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "6de1887430bddfa721e638073dab7dec.tr3000database"
+                }
+            }
+        }
+    },
+    "Call of Nature": {
+        "0.2.1": {
+            "reverso": {
+                "eng": {
+                    "rus": "7400eec454952e84aa621cfe4ccd8f2f.tr3000database"
+                }
+            }
+        }
+    },
+    "Cambion": {
+        "0.8": {
+            "reverso": {
+                "eng": {
+                    "rus": "bb113192e71b0c297df17f7cd548dd6d.tr3000database"
+                }
+            }
+        }
+    },
+    "CampMourningWood": {
+        "0.0.16.1": {
+            "reverso": {
+                "eng": {
+                    "rus": "751cf3ca73803e48a9f00675b53093f9.tr3000database"
                 }
             }
         }
@@ -529,6 +646,20 @@
                     "ko-KO": "99a946865746001433cbbd69a0d1903b.tr3000database"
                 }
             }
+        },
+        "0.29": {
+            "reverso": {
+                "eng": {
+                    "rus": "d9a2908bf69c280982a8197b161654b5.tr3000database"
+                }
+            }
+        },
+        "0.31": {
+            "reverso": {
+                "eng": {
+                    "rus": "b2339ea4b705934f6e7c0f050b6452f4.tr3000database"
+                }
+            }
         }
     },
     "Cartel Sim": {
@@ -536,6 +667,24 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "31dd88a9fcd1cb2fce0794f98c1ee60a.tr3000database"
+                }
+            }
+        }
+    },
+    "Casteen": {
+        "v0.1": {
+            "reverso": {
+                "eng": {
+                    "rus": "ff663905a786911395b5252bd1a7c38a.tr3000database"
+                }
+            }
+        }
+    },
+    "Ceno Trainer": {
+        "0.8.1": {
+            "reverso": {
+                "spa": {
+                    "rus": "7100b5bd155c1d59c6c379f264275b67.tr3000database"
                 }
             }
         }
@@ -599,6 +748,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "62cfc2a4fd98cecc8e8033d56d47cfaa.tr3000database"
+                }
+            }
+        }
+    },
+    "Class Pet": {
+        "0.1.4.3": {
+            "reverso": {
+                "eng": {
+                    "rus": "0cced3cdda628eb30e91a0f33f67f19d.tr3000database"
                 }
             }
         }
@@ -764,6 +922,15 @@
             }
         }
     },
+    "Cursed forest quest": {
+        "0.4.2": {
+            "reverso": {
+                "spa": {
+                    "rus": "f747dcf3b443f28807a4ba462e384724.tr3000database"
+                }
+            }
+        }
+    },
     "Curvy Moments": {
         "0.13e": {
             "selenium_deepl": {
@@ -801,6 +968,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "1f2ea6dffcddf16e68d6bdf2496595af.tr3000database"
+                }
+            }
+        }
+    },
+    "DILF Chronicles_3": {
+        "1.0": {
+            "reverso": {
+                "eng": {
+                    "rus": "d743c454438e8adb15dd1a2bb247f156.tr3000database"
                 }
             }
         }
@@ -873,6 +1049,15 @@
             }
         }
     },
+    "Demon Seed_4k": {
+        "0.2.0": {
+            "reverso": {
+                "eng": {
+                    "rus": "fd6f0efb2e7b0657092d81d180039b4a.tr3000database"
+                }
+            }
+        }
+    },
     "Depraved Eden": {
         "0.12": {
             "selenium_deepl": {
@@ -925,6 +1110,33 @@
             }
         }
     },
+    "DickCare": {
+        "0.12": {
+            "reverso": {
+                "eng": {
+                    "rus": "fd9fee6e6b627994dd53c495cc9889ed.tr3000database"
+                }
+            }
+        }
+    },
+    "DicksNight": {
+        "1.0": {
+            "reverso": {
+                "eng": {
+                    "rus": "a2991be722a8430a706fbde6e22877c8.tr3000database"
+                }
+            }
+        }
+    },
+    "DimitrescuTrial": {
+        "null": {
+            "reverso": {
+                "eng": {
+                    "rus": "026f56399fb2a3f42d8ba5a66a8ee4ee.tr3000database"
+                }
+            }
+        }
+    },
     "Divine Heel": {
         "0.1.4": {
             "selenium_deepl": {
@@ -969,6 +1181,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "3f50853a3aa34ff9277f93e5cc67b015.tr3000database"
+                }
+            }
+        }
+    },
+    "DoorsPart2": {
+        "0.4.0": {
+            "reverso": {
+                "eng": {
+                    "rus": "dc1853b75dc3d104ce7b4f891cc2acee.tr3000database"
                 }
             }
         }
@@ -1059,6 +1280,42 @@
             }
         }
     },
+    "Exploring the Big Apple": {
+        "Ep.7": {
+            "reverso": {
+                "eng": {
+                    "rus": "a1823ce462371f1f47a72a44e2ffd32d.tr3000database"
+                }
+            }
+        }
+    },
+    "Extra Credit": {
+        "0.10b": {
+            "reverso": {
+                "eng": {
+                    "rus": "cc57b5839fee5fde2724f7db36437937.tr3000database"
+                }
+            }
+        }
+    },
+    "FURTOWN": {
+        "0.13": {
+            "reverso": {
+                "eng": {
+                    "rus": "961e63e6ece08ea4dbfd6958b5253fdc.tr3000database"
+                }
+            }
+        }
+    },
+    "Facefuck Madness Reloaded": {
+        "0.11": {
+            "reverso": {
+                "eng": {
+                    "rus": "2a79b55c6db9e22df963ddc887b6186c.tr3000database"
+                }
+            }
+        }
+    },
     "Faded Bonds": {
         "0.3": {
             "selenium_deepl": {
@@ -1086,11 +1343,29 @@
             }
         }
     },
+    "Family of Choice": {
+        "1.0": {
+            "reverso": {
+                "eng": {
+                    "rus": "375d601d687d767b48eb0aa6187b6927.tr3000database"
+                }
+            }
+        }
+    },
     "Family trouble": {
         "0.9.2": {
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "0c220f8c7584c9c2a15b40398d554d22.tr3000database"
+                }
+            }
+        }
+    },
+    "Fantasy Date": {
+        "0.31": {
+            "reverso": {
+                "eng": {
+                    "rus": "a10a5b323416cc0eb2cb2d9a08c15a9c.tr3000database"
                 }
             }
         }
@@ -1123,6 +1398,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "0f1a5681edd1dd1d885e1026c25a6102.tr3000database"
+                }
+            }
+        }
+    },
+    "Femboy Propaganda": {
+        "0.1": {
+            "reverso": {
+                "eng": {
+                    "rus": "a6b0b0e1271a32206926cf48f54fa772.tr3000database"
                 }
             }
         }
@@ -1244,6 +1528,15 @@
             }
         }
     },
+    "Gazonga Chronicles": {
+        "0.3": {
+            "reverso": {
+                "eng": {
+                    "rus": "1babc400f13b67ae07defce67ff8b0b7.tr3000database"
+                }
+            }
+        }
+    },
     "Getting Intimate": {
         "Ch1-Update1&2": {
             "selenium_deepl": {
@@ -1292,6 +1585,24 @@
             "google_gtx": {
                 "en": {
                     "ru": "e3193d6d18a89d56d3e19df0a17a5d51.tr3000database"
+                }
+            }
+        }
+    },
+    "Goblin's TradeOff": {
+        "1.0": {
+            "reverso": {
+                "eng": {
+                    "rus": "8538fae08395e8032f33c1dcfcaccf0d.tr3000database"
+                }
+            }
+        }
+    },
+    "God_tier_Academy": {
+        "0.12": {
+            "reverso": {
+                "eng": {
+                    "rus": "bf29f04efa72975e124fa62998e0818d.tr3000database"
                 }
             }
         }
@@ -1521,11 +1832,27 @@
             }
         }
     },
+    "HelluvaGame": {
+        "0.1.0a": {
+            "reverso": {
+                "eng": {
+                    "rus": "a6357fc654b1088ac158f06a01e5aa55.tr3000database"
+                }
+            }
+        }
+    },
     "Her Desire": {
         "v0.13": {
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "4e2fe8235bce6dad19a63a6b25b286f1.tr3000database"
+                }
+            }
+        },
+        "v0.20": {
+            "reverso": {
+                "eng": {
+                    "rus": "80f0f98cbe703e6375ce2ece18020046.tr3000database"
                 }
             }
         }
@@ -1557,6 +1884,15 @@
             }
         }
     },
+    "Holiday for four": {
+        "1.0": {
+            "reverso": {
+                "eng": {
+                    "rus": "71d4f4400d4e3e416d848d4febb83ead.tr3000database"
+                }
+            }
+        }
+    },
     "Homelander": {
         "0.03": {
             "google_gtx": {
@@ -1584,11 +1920,29 @@
             }
         }
     },
+    "Huntress Trainer": {
+        "0.10": {
+            "reverso": {
+                "eng": {
+                    "rus": "4fdb9dba63962ee93defdad7147948fd.tr3000database"
+                }
+            }
+        }
+    },
     "Idol Island": {
         "0.04a": {
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "110302af179349d8336e52e7ec587cfc.tr3000database"
+                }
+            }
+        }
+    },
+    "ImoTsuyo": {
+        "v0.20": {
+            "reverso": {
+                "eng": {
+                    "rus": "414c284ecbbbdf50204d27985f1122d4.tr3000database"
                 }
             }
         }
@@ -1607,6 +1961,15 @@
             "google_gtx": {
                 "en": {
                     "ru": "ac377a3af5bb9158e29e6a0431fa5ad7.tr3000database"
+                }
+            }
+        }
+    },
+    "Industry Baby": {
+        "0.2.0": {
+            "reverso": {
+                "eng": {
+                    "rus": "6049cf41736a93b2cfa27a796c333edd.tr3000database"
                 }
             }
         }
@@ -1713,11 +2076,29 @@
             }
         }
     },
+    "Jimmy Awkward Adventures": {
+        "v0.22.9": {
+            "reverso": {
+                "eng": {
+                    "rus": "7d3f0737be0cbfda2cad11825c3cc43c.tr3000database"
+                }
+            }
+        }
+    },
     "Journey to Bliss": {
         "v0.01": {
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "debb0d863d279a3989b3529b499a2f53.tr3000database"
+                }
+            }
+        }
+    },
+    "Just Cousin Buck": {
+        "d3": {
+            "reverso": {
+                "eng": {
+                    "rus": "cb21754e8a6f67d7d8b090668c172b33.tr3000database"
                 }
             }
         }
@@ -1745,6 +2126,24 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "6f30607dc6e364a45573366f02f8e54d.tr3000database"
+                }
+            }
+        }
+    },
+    "King of Stormhill": {
+        "0.2b": {
+            "reverso": {
+                "eng": {
+                    "rus": "68a7ba20e124507b1ae0ab3624142152.tr3000database"
+                }
+            }
+        }
+    },
+    "Kingdom of Lust": {
+        "0.5.0+animated": {
+            "reverso": {
+                "eng": {
+                    "rus": "b063e8733c6fbadb53dadaa79c1f182c.tr3000database"
                 }
             }
         }
@@ -1919,11 +2318,29 @@
             }
         }
     },
+    "Living with Alya": {
+        "0.18": {
+            "reverso": {
+                "eng": {
+                    "rus": "277858a8a34384e914797c6828a55ce4.tr3000database"
+                }
+            }
+        }
+    },
     "Long Story Short - Unofficial Ren'Py Port": {
         "0.8b": {
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "3709fac7c8eec5e09d58fee1f0185e3c.tr3000database"
+                }
+            }
+        }
+    },
+    "Loot Line": {
+        "0.5": {
+            "reverso": {
+                "eng": {
+                    "rus": "3973d190795dc7a4c2b331354805acb1.tr3000database"
                 }
             }
         }
@@ -1969,6 +2386,15 @@
             }
         }
     },
+    "Lost in You": {
+        "0.12.1": {
+            "reverso": {
+                "eng": {
+                    "rus": "57514bb80ad7433204a8d2a5666e76d4.tr3000database"
+                }
+            }
+        }
+    },
     "Love & Sex : Second Base - 23.9.0e": {
         "23.9.0e": {
             "google_gtx": {
@@ -1983,6 +2409,42 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "8749415a80b80469b85033e4c2c00143.tr3000database"
+                }
+            }
+        }
+    },
+    "Love island revamp": {
+        "0.1": {
+            "reverso": {
+                "eng": {
+                    "rus": "039dc6bb9e0cf70fa14d2931cc367cc1.tr3000database"
+                }
+            }
+        }
+    },
+    "LoveDolls": {
+        "0.1Remaster": {
+            "reverso": {
+                "eng": {
+                    "rus": "9039a82486e969740a5c370a10b55e67.tr3000database"
+                }
+            }
+        }
+    },
+    "Lovephobia": {
+        "0.65": {
+            "reverso": {
+                "eng": {
+                    "rus": "7675e7df0e9e6ee7db53597126b99684.tr3000database"
+                }
+            }
+        }
+    },
+    "Loving Slaves": {
+        "1.0": {
+            "reverso": {
+                "eng": {
+                    "rus": "5630f8055b6d16dee7bdbc8d14ab948b.tr3000database"
                 }
             }
         }
@@ -2051,11 +2513,29 @@
             }
         }
     },
+    "Lustful Sin": {
+        "0.7.6": {
+            "reverso": {
+                "eng": {
+                    "rus": "544806584f61ab21df7d4b3059ef45d3.tr3000database"
+                }
+            }
+        }
+    },
     "Lustful Voyage": {
         "0.1": {
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "619e5732862c51fa44363d92dd985231.tr3000database"
+                }
+            }
+        }
+    },
+    "LustfulSociety": {
+        "0.3b": {
+            "reverso": {
+                "eng": {
+                    "rus": "e6dcfb4276d05ee3fb92315e73a7e5b1.tr3000database"
                 }
             }
         }
@@ -2123,6 +2603,15 @@
             }
         }
     },
+    "MemoryParadox": {
+        "BETA": {
+            "reverso": {
+                "eng": {
+                    "rus": "ea43119065e1f32651fb5403b6697492.tr3000database"
+                }
+            }
+        }
+    },
     "Merry Christmas Kyle": {
         "0.7": {
             "selenium_deepl": {
@@ -2146,6 +2635,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "e4b15bb70dfb1e7291c9cf974c4482d7.tr3000database"
+                }
+            }
+        }
+    },
+    "Milfania": {
+        "Episode-06.": {
+            "reverso": {
+                "eng": {
+                    "rus": "9eb1b0538fcf9a3ef81907bc8e1e8561.tr3000database"
                 }
             }
         }
@@ -2178,6 +2676,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "84e483e99b7adfc65947a50a831b0091.tr3000database"
+                }
+            }
+        }
+    },
+    "Mommy's Boy": {
+        "0.2.0": {
+            "reverso": {
+                "eng": {
+                    "rus": "92fe7cd7e4e193b1f587e55243a0a996.tr3000database"
                 }
             }
         }
@@ -2246,6 +2753,42 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "71a75dfc011256b33a5f577174cc4df7.tr3000database"
+                }
+            }
+        }
+    },
+    "My Hypnotized Family EP 2": {
+        "0.20": {
+            "reverso": {
+                "eng": {
+                    "rus": "784d78bf4ea337465f2310dbf61d1c51.tr3000database"
+                }
+            }
+        }
+    },
+    "My Life With 4 Succubus": {
+        "0.100-a": {
+            "reverso": {
+                "eng": {
+                    "rus": "9419bed3a2be2a0f28270ed36c344e56.tr3000database"
+                }
+            }
+        }
+    },
+    "My New MILF Neighbor": {
+        "1.0": {
+            "reverso": {
+                "eng": {
+                    "rus": "ffcc28d4625e65c439f93ca58ea2dc06.tr3000database"
+                }
+            }
+        }
+    },
+    "My New Paranormal Life": {
+        "0.4": {
+            "reverso": {
+                "eng": {
+                    "rus": "db916af129da1e4fc94761725af8afa4.tr3000database"
                 }
             }
         }
@@ -2331,11 +2874,36 @@
             }
         }
     },
+    "NSFW - A porn Anthology": {
+        "0.35": {
+            "reverso": {
+                "eng": {
+                    "rus": "a986569607fadde91f4be47b17cdf2ce.tr3000database"
+                }
+            }
+        }
+    },
     "Naughty Lyanna - Season 2": {
         "0.18": {
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "e95e690c4bdf984a5927b5cedb206133.tr3000database"
+                }
+            }
+        }
+    },
+    "Naughty Tail": {
+        "v0.1.3": {
+            "reverso": {
+                "eng": {
+                    "rus": "764a46c22070a416ec62f061857e5c46.tr3000database"
+                }
+            }
+        },
+        "v0.1.4": {
+            "reverso": {
+                "eng": {
+                    "rus": "e0104e7c9c456c7d6c3bec9740789c46.tr3000database"
                 }
             }
         }
@@ -2395,6 +2963,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "f42600cebdba161b370dd58560be17d7.tr3000database"
+                }
+            }
+        }
+    },
+    "No flying": {
+        "Prologue": {
+            "reverso": {
+                "eng": {
+                    "rus": "c395f9349375c40ad7a0e89411dd204e.tr3000database"
                 }
             }
         }
@@ -2697,6 +3274,15 @@
             }
         }
     },
+    "PokeSluts": {
+        "0.68": {
+            "reverso": {
+                "eng": {
+                    "rus": "8fcfe000933c943db940aa6c9f232ba9.tr3000database"
+                }
+            }
+        }
+    },
     "Project Myriam Life and Explorations": {
         "ch5.01a": {
             "selenium_deepl": {
@@ -2779,6 +3365,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "eb53af8343b09a0c763ef41bc0fbc12f.tr3000database"
+                }
+            }
+        }
+    },
+    "Rated 19": {
+        "0.2": {
+            "reverso": {
+                "eng": {
+                    "rus": "13b38e5ae9e17934fc302f4ba835ef08.tr3000database"
                 }
             }
         }
@@ -2967,6 +3562,33 @@
             }
         }
     },
+    "Saviour of the Wasteland": {
+        "1.0.3": {
+            "reverso": {
+                "eng": {
+                    "rus": "c99fe7af504457bcf73031b4b0f45f13.tr3000database"
+                }
+            }
+        }
+    },
+    "Sci-Futa": {
+        "1.0": {
+            "reverso": {
+                "eng": {
+                    "rus": "1ac9e11b7d472d679ccaa7eb4c94b2a4.tr3000database"
+                }
+            }
+        }
+    },
+    "SeductVille": {
+        "v0.1": {
+            "reverso": {
+                "eng": {
+                    "rus": "24527494ba4ce53edae344428195d8cb.tr3000database"
+                }
+            }
+        }
+    },
     "Seeds of Chaos": {
         "0.0.05": {
             "google_gtx": {
@@ -3008,6 +3630,13 @@
                     "ru-RU": "ffbabf5a5e6b0ac1a4fe30d54ec88a1a.tr3000database"
                 }
             }
+        },
+        "0.24.0b": {
+            "reverso": {
+                "eng": {
+                    "rus": "941bbb8b63120404b4910871f6ea44f5.tr3000database"
+                }
+            }
         }
     },
     "Sexverse": {
@@ -3037,6 +3666,15 @@
             }
         }
     },
+    "Shadows of Summer": {
+        "0.11": {
+            "reverso": {
+                "eng": {
+                    "rus": "fda4f921e1c2a3d3cdbe5dd7ff6c86ee.tr3000database"
+                }
+            }
+        }
+    },
     "Shard of My Soul": {
         "1.5": {
             "selenium_deepl": {
@@ -3049,6 +3687,42 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "6786aed21d799024b9aaf3a4da742306.tr3000database"
+                }
+            }
+        }
+    },
+    "Shattered": {
+        "0.23": {
+            "reverso": {
+                "eng": {
+                    "rus": "74354a1fd38a31026c8d0973d6b14d2a.tr3000database"
+                }
+            }
+        }
+    },
+    "Shattered Minds": {
+        "V0.17": {
+            "yandex_translate": {
+                "en": {
+                    "ru": "da2c4390604b7d6c82b645e04d31a429.tr3000database"
+                }
+            }
+        }
+    },
+    "Shellys Future Past": {
+        "Ep5.3": {
+            "reverso": {
+                "eng": {
+                    "rus": "3acfef2825c3d090640e062352051499.tr3000database"
+                }
+            }
+        }
+    },
+    "Short NTR Stories": {
+        "0.2": {
+            "reverso": {
+                "eng": {
+                    "rus": "0c44aa89368923a1b716dc38afdff919.tr3000database"
                 }
             }
         }
@@ -3141,6 +3815,15 @@
             }
         }
     },
+    "So see your path": {
+        "Demo_Prologue_v0.25": {
+            "reverso": {
+                "eng": {
+                    "rus": "9f2a0840168637c2ef81eb65bc467c33.tr3000database"
+                }
+            }
+        }
+    },
     "Sofias Dark Fantasies": {
         "1.0": {
             "selenium_deepl": {
@@ -3150,11 +3833,56 @@
             }
         }
     },
+    "Something Unlimited Gotham": {
+        "0.51": {
+            "reverso": {
+                "eng": {
+                    "rus": "5d7edd540ea70c3f89a82def0752a40b.tr3000database"
+                }
+            }
+        }
+    },
+    "Sonata Capriccio": {
+        "0.5": {
+            "reverso": {
+                "eng": {
+                    "rus": "415afb571803f29136d2f3ab240b1b4b.tr3000database"
+                }
+            }
+        }
+    },
+    "SotV_P2": {
+        "0.06": {
+            "reverso": {
+                "eng": {
+                    "rus": "bf79963c3ff531b7d12cd6b3a9e70ad5.tr3000database"
+                }
+            }
+        }
+    },
     "Sovereign": {
         "9.0": {
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "909fccea5700c5f96b60b53613eb0058.tr3000database"
+                }
+            }
+        }
+    },
+    "SpaceCorpsXXX_v2.9.1": {
+        "SpaceCorpsXXX_v2.9.1": {
+            "reverso": {
+                "eng": {
+                    "rus": "022929d9e1aa6dea04c3388fc8629edf.tr3000database"
+                }
+            }
+        }
+    },
+    "Step Sis Is Kinda Horny?!": {
+        "1.0": {
+            "reverso": {
+                "spa": {
+                    "rus": "6bec8a997e62a4db95e23c71879d8fb5.tr3000database"
                 }
             }
         }
@@ -3196,6 +3924,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "1bc2aaa42abc0a68df50cd14c3493dbf.tr3000database"
+                }
+            }
+        }
+    },
+    "Storm serpent chronicles": {
+        "0.12": {
+            "reverso": {
+                "eng": {
+                    "rus": "812e26462f3e5da4b939d8e4d8ca3e9a.tr3000database"
                 }
             }
         }
@@ -3298,6 +4035,24 @@
             }
         }
     },
+    "Supermodel": {
+        "1.3.0": {
+            "reverso": {
+                "eng": {
+                    "rus": "287ca0892f83a83d535ba2bf782c73ce.tr3000database"
+                }
+            }
+        }
+    },
+    "Surrendering to my crush": {
+        "1.29": {
+            "reverso": {
+                "eng": {
+                    "rus": "a2ab29a4f0704f636d703eeefaf3d667.tr3000database"
+                }
+            }
+        }
+    },
     "Take Over": {
         "0.71": {
             "google_gtx": {
@@ -3330,6 +4085,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "bc3b429d4aa405583498b01da09e1020.tr3000database"
+                }
+            }
+        }
+    },
+    "Tavern in the New World": {
+        "0.11": {
+            "reverso": {
+                "eng": {
+                    "rus": "775724b70ce19daac335b4a0b88d8625.tr3000database"
                 }
             }
         }
@@ -3373,6 +4137,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "6f901dfdef7fe2f4889b71c8f4663bf6.tr3000database"
+                }
+            }
+        }
+    },
+    "The Demon Lords Project": {
+        "0.12": {
+            "reverso": {
+                "eng": {
+                    "rus": "a858b35bcf5c9eb346e93cec267f49ef.tr3000database"
                 }
             }
         }
@@ -3448,6 +4221,24 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "42999682d215f3a39d4b4535e6db235e.tr3000database"
+                }
+            }
+        }
+    },
+    "The Lewd House Helping Hand": {
+        "0.3": {
+            "reverso": {
+                "spa": {
+                    "rus": "888c724ff0186feb7d8e5aac53e54caa.tr3000database"
+                }
+            }
+        }
+    },
+    "The Long Way": {
+        "0.14.0": {
+            "reverso": {
+                "eng": {
+                    "rus": "08c6d954780e5921a8d2c6f1a4809f25.tr3000database"
                 }
             }
         }
@@ -3536,11 +4327,29 @@
             }
         }
     },
+    "The Stowaway": {
+        "0.03": {
+            "reverso": {
+                "eng": {
+                    "rus": "b646e87a6ce41ae9d299c56ee0c01c73.tr3000database"
+                }
+            }
+        }
+    },
     "The Swordbearer": {
         "0.6": {
             "google_gtx": {
                 "en": {
                     "ru": "b2027d55db7c5c32796339bcbb22b283.tr3000database"
+                }
+            }
+        }
+    },
+    "The Unconventional Cure": {
+        "2.0": {
+            "reverso": {
+                "eng": {
+                    "rus": "3ab498a97311cf95f0b1368f73ad72ec.tr3000database"
                 }
             }
         }
@@ -3611,6 +4420,15 @@
             }
         }
     },
+    "ThePilgrimageCh2": {
+        "0.4Beta": {
+            "reverso": {
+                "eng": {
+                    "rus": "713ca8339729ceb43bc9ce87bf453c13.tr3000database"
+                }
+            }
+        }
+    },
     "TheRestaurant": {
         "null": {
             "selenium_deepl": {
@@ -3675,6 +4493,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "9b0ac0e30998b2df06b040b1f3e0c230.tr3000database"
+                }
+            }
+        }
+    },
+    "Training Slayer": {
+        "76.0": {
+            "reverso": {
+                "eng": {
+                    "rus": "6fdd6d2dca3bba6d55f55ce97ad207d7.tr3000database"
                 }
             }
         }
@@ -3771,6 +4598,15 @@
             }
         }
     },
+    "Twelve faces": {
+        "v3": {
+            "reverso": {
+                "eng": {
+                    "rus": "9c73a24a6f0e3721c4e363fced6ec9c7.tr3000database"
+                }
+            }
+        }
+    },
     "Twisted Memories": {
         "v0.7d": {
             "google_gtx": {
@@ -3823,6 +4659,13 @@
                     "ru-RU": "c0bf84fd7d8b3540a51dfd6e8a262245.tr3000database"
                 }
             }
+        },
+        "v0.55b": {
+            "reverso": {
+                "eng": {
+                    "rus": "2d7c94b08bb51869d7cc319c51266130.tr3000database"
+                }
+            }
         }
     },
     "Unveiling the Unknown": {
@@ -3851,6 +4694,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "d4724892744e3e241fe93ee2c9fa9a35.tr3000database"
+                }
+            }
+        }
+    },
+    "Venomous_Smiles": {
+        "up2_webp": {
+            "reverso": {
+                "eng": {
+                    "rus": "3718bc652c55626147f9ddda49c47835.tr3000database"
                 }
             }
         }
@@ -3905,6 +4757,15 @@
             }
         }
     },
+    "Vulgar Reverie": {
+        "0.1": {
+            "reverso": {
+                "eng": {
+                    "rus": "c43832539c3211ae8cb9bdf7d57bb30a.tr3000database"
+                }
+            }
+        }
+    },
     "WCgW": {
         "Ep1part3": {
             "selenium_deepl": {
@@ -3944,6 +4805,13 @@
                     "ru-RU": "5e1645d571e07994a84c024229b6dbfb.tr3000database"
                 }
             }
+        },
+        "0.12.5": {
+            "google_gtx": {
+                "en": {
+                    "ru": "9c6e38945bfd3d5491f28ec7939d2dd0.tr3000database"
+                }
+            }
         }
     },
     "Warmth": {
@@ -3960,6 +4828,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "92cdf8e0f4bcc1de60f686b0790d0486.tr3000database"
+                }
+            }
+        }
+    },
+    "What Remains : Migizi": {
+        "0.2": {
+            "reverso": {
+                "eng": {
+                    "rus": "bb27442377d7457f62ee4df5b4df5ba0.tr3000database"
                 }
             }
         }
@@ -3987,6 +4864,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "558f41c6f77ac5a8ade0ec3db0413ccb.tr3000database"
+                }
+            }
+        }
+    },
+    "Whispers of Desire v0.0.5public": {
+        "0.0.5public": {
+            "reverso": {
+                "eng": {
+                    "rus": "aa58b20ff49718db84d2ab67f1743171.tr3000database"
                 }
             }
         }
@@ -4036,6 +4922,24 @@
             }
         }
     },
+    "Witch out times 3": {
+        "0.7.0": {
+            "reverso": {
+                "eng": {
+                    "rus": "8677205d88d0896911e1629e7a8bbddb.tr3000database"
+                }
+            }
+        }
+    },
+    "World of Secrets": {
+        "0.6.2": {
+            "reverso": {
+                "eng": {
+                    "rus": "a01666c09aedf39e836721322438417c.tr3000database"
+                }
+            }
+        }
+    },
     "Yen's Grimoire": {
         "v0.1.7": {
             "selenium_deepl": {
@@ -4056,6 +4960,11 @@
     },
     "Young Again": {
         "null": {
+            "reverso": {
+                "eng": {
+                    "rus": "bf6f6a559dcdc1d821425ab9f4065f64.tr3000database"
+                }
+            },
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "51cfb450e3c510526e240cdaa2a30125.tr3000database"
@@ -4068,6 +4977,24 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "5b99a249395826989b7f61b12c37c669.tr3000database"
+                }
+            }
+        }
+    },
+    "detached": {
+        "0.15.0": {
+            "reverso": {
+                "eng": {
+                    "rus": "fc824e9d81c4edf64ea940faa19883d5.tr3000database"
+                }
+            }
+        }
+    },
+    "nhNaruto": {
+        "0.0.1a": {
+            "reverso": {
+                "eng": {
+                    "rus": "ed5278bea015a9be6adb6fe54276d0fc.tr3000database"
                 }
             }
         }
@@ -4095,6 +5022,15 @@
             "selenium_deepl": {
                 "en": {
                     "ru-RU": "148b75d4ed62943803984ed0144b5ec1.tr3000database"
+                }
+            }
+        }
+    },
+    "桜マンシオン": {
+        "0.2": {
+            "reverso": {
+                "eng": {
+                    "rus": "d407cf5d581593481efc791dfe3b750f.tr3000database"
                 }
             }
         }
