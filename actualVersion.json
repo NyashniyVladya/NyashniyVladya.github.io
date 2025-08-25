@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "3.30.12",
 	"versionName": "Rashguard",
     "boostyLink": "https://boosty.to/nyashniyvladya/posts/3ba6076f-d4e4-4857-b586-b9d1a4440a61",
@@ -10,11 +10,5 @@
 		"boostyLink": "https://boosty.to/nyashniyvladya/posts/a26a47fd-571e-4df5-89cc-2a340c74b587",
 		"patreonLink": "https://www.patreon.com/posts/beta-version-3-121183157",
 		"hfLink": null
-	},
-	"message": {
-		"russian": "Test 1. Hello, world! Russian lang.",
-		"english": "Test 1. Hello, world! English lang.",
-		"chuvash": "Test 1. Hello, world! Chuvash lang.",
-		"turkish": "Test 1. Hello, world! Turkish lang."
 	}
 }

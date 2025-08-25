@@ -1,0 +1,11 @@
+﻿[
+	{
+		"message_id": 1,
+		"message": {
+			"russian": "Привет! Это система уведомлений! В этом разделе будут сообщения от команды Translator3000, чтобы мы могли оставаться на связи и оперативно сообщать о новостях и событиях.",
+			"english": "Hi! It's a notification system! This section will contain messages from the Translator3000 team so that we can stay in contact and promptly report news and events.",
+			"chuvash": "Салам! Ку вӑл пӗлтерӳ системи! Ку пайра Translator3000 командинчен пӗлтерӳсем пулӗҫ, ҫапла май эпир ҫыхӑну тытса тӑма, хыпарсемпе пулӑмсем ҫинчен хӑвӑрт пӗлтерме пултаратпӑр.",
+			"turkish": "Merhaba! Bu bir bildirim sistemidir! Bu bölümde Translator3000 ekibinden gelen mesajlar yer alacak, böylece haber ve olaylar hakkında iletişimde kalabilir ve hızlı bir şekilde rapor verebiliriz."
+		}
+	}
+]
