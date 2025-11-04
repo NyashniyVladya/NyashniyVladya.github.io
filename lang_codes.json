@@ -1,465 +1,935 @@
 {
+    "Acehnese": [
+        "Acehnese",
+        "ace"
+    ],
     "Afrikaans": [
-        "af"
+        "Afrikaans",
+        "af",
+        "af_ZA"
     ],
     "Albanian": [
-        "sq"
+        "Albanian",
+        "sq",
+        "sq_AL"
     ],
     "Amharic": [
-        "am"
+        "Amharic",
+        "am",
+        "am_ET"
     ],
     "Arabic": [
-        "ar"
+        "Arabic",
+        "ar",
+        "ar_EG",
+        "ara"
     ],
     "Armenian": [
-        "hy"
+        "Armenian",
+        "hy",
+        "hy_AM"
     ],
     "Assamese": [
+        "Assamese",
         "as"
     ],
+    "Asturian": [
+        "Asturian",
+        "ast"
+    ],
     "Aymara": [
+        "Aymara",
         "ay"
     ],
     "Azerbaijani": [
-        "az"
+        "Azerbaijani",
+        "az",
+        "az_AZ"
+    ],
+    "Balinese": [
+        "Balinese",
+        "ban"
     ],
     "Bambara": [
+        "Bambara",
         "bm"
     ],
     "Bashkir": [
+        "Bashkir",
         "ba"
     ],
     "Basque": [
-        "eu"
+        "Basque",
+        "eu",
+        "eu_ES"
+    ],
+    "Batak Toba": [
+        "Batak Toba",
+        "bbc"
     ],
     "Belarusian": [
-        "be"
+        "Belarusian",
+        "be",
+        "be_BY"
     ],
     "Bengali": [
-        "bn"
+        "Bangla",
+        "Bengali",
+        "bn",
+        "bn_BD"
     ],
     "Bhojpuri": [
+        "Bhojpuri",
         "bho"
     ],
+    "Bikol": [
+        "Bikol",
+        "bik"
+    ],
+    "Bodo": [
+        "Bodo",
+        "brx"
+    ],
     "Bosnian": [
-        "bs"
+        "Bosnian",
+        "bs",
+        "bs_BA"
     ],
     "Bulgarian": [
-        "bg"
+        "Bulgarian",
+        "bg",
+        "bg_BG"
     ],
     "Burmese": [
+        "Burmese",
+        "Myanmar (Burmese)",
         "my"
     ],
+    "Cantonese (Traditional)": [
+        "Cantonese (Traditional)",
+        "yue"
+    ],
     "Catalan": [
-        "ca"
+        "Catalan",
+        "ca",
+        "ca_ES"
     ],
     "Cebuano": [
-        "ceb"
+        "Cebuano",
+        "ceb",
+        "ceb_PH"
+    ],
+    "Chhattisgarhi": [
+        "Chhattisgarhi",
+        "hne"
     ],
     "Chichewa": [
-        "ny"
+        "Chichewa",
+        "ny",
+        "ny_MW"
     ],
     "Chinese (Simplified)": [
-        "chinese",
+        "Chinese",
+        "Chinese (Simplified)",
+        "Chinese Simplified",
+        "chi",
         "zh",
-        "zh_cn"
+        "zh-CN",
+        "zh-Hans",
+        "zh-Hans_CN"
     ],
     "Chinese (Traditional)": [
-        "zh_tw"
-    ],
-    "Chuvash": [
-        "cv"
+        "Chinese",
+        "Chinese (Traditional)",
+        "Chinese Traditional",
+        "zh-Hant",
+        "zh-Hant_TW",
+        "zh-TW"
     ],
     "Corsican": [
-        "co"
+        "Corsican",
+        "co",
+        "co_FR"
     ],
     "Croatian": [
-        "hr"
+        "Croatian",
+        "hr",
+        "hr_HR"
     ],
     "Czech": [
-        "cs"
+        "Czech",
+        "cs",
+        "cs_CZ",
+        "cze"
     ],
     "Danish": [
-        "da"
+        "Danish",
+        "da",
+        "da_DK",
+        "dan"
+    ],
+    "Dari": [
+        "Dari",
+        "prs"
     ],
     "Dhivehi": [
+        "Dhivehi",
+        "Divehi",
         "dv"
     ],
     "Dogri": [
+        "Dogri",
         "doi"
     ],
     "Dutch": [
-        "nl"
-    ],
-    "Elvish (Sindarin)": [
-        "sjn"
-    ],
-    "Emoji": [
-        "emj"
+        "Dutch",
+        "dut",
+        "nl",
+        "nl_NL"
     ],
     "English": [
+        "English",
+        "English (United Kingdom)",
+        "GB",
+        "US",
         "en",
-        "en_gb",
-        "en_us",
-        "gb",
-        "us"
+        "en-GB",
+        "en-US",
+        "en_GB",
+        "eng"
     ],
     "Esperanto": [
-        "eo"
+        "Esperanto",
+        "eo",
+        "eo_WORLD",
+        "epo"
     ],
     "Estonian": [
-        "et"
+        "Estonian",
+        "et",
+        "et_EE"
     ],
     "Ewe": [
+        "Ewe",
         "ee"
     ],
+    "Faroese": [
+        "Faroese",
+        "fo"
+    ],
+    "Fijian": [
+        "Fijian",
+        "fj"
+    ],
     "Filipino": [
+        "Filipino",
+        "fil",
         "tl"
     ],
     "Finnish": [
-        "fi"
+        "Finnish",
+        "fi",
+        "fi_FI"
     ],
     "French": [
-        "fr"
+        "French",
+        "fr",
+        "fr_FR",
+        "fra"
     ],
     "Frisian": [
-        "fy"
+        "Frisian",
+        "fy",
+        "fy_NL"
+    ],
+    "Friulian": [
+        "Friulian",
+        "fur"
     ],
     "Galician": [
-        "gl"
+        "Galician",
+        "gl",
+        "gl_ES"
+    ],
+    "Ganda": [
+        "Ganda",
+        "lug"
     ],
     "Georgian": [
-        "ka"
+        "Georgian",
+        "ka",
+        "ka_GE"
     ],
     "German": [
-        "de"
+        "German",
+        "de",
+        "de_DE",
+        "ger"
     ],
     "Greek": [
-        "el"
+        "Greek",
+        "el",
+        "el_GR",
+        "gre"
     ],
     "Guarani": [
+        "Guarani",
         "gn"
     ],
     "Gujarati": [
-        "gu"
+        "Gujarati",
+        "gu",
+        "gu_IN"
     ],
     "Haitian": [
-        "creole",
-        "ht"
+        "Creole",
+        "Haitian",
+        "Haitian Creole",
+        "ht",
+        "ht_HT"
     ],
     "Hausa": [
-        "ha"
+        "Hausa",
+        "ha",
+        "ha_NE"
     ],
     "Hawaiian": [
-        "haw"
+        "Hawaiian",
+        "haw",
+        "haw_US"
     ],
     "Hebrew": [
+        "Hebrew",
         "he",
+        "he_IL",
+        "heb",
         "iw"
     ],
-    "Hill Mari": [
-        "mrj"
+    "Hiligaynon": [
+        "Hiligaynon",
+        "hil"
     ],
     "Hindi": [
-        "hi"
+        "Hindi",
+        "hi",
+        "hi_IN",
+        "hin"
     ],
     "Hmong": [
-        "hmn"
+        "Hmong",
+        "Hmong Daw",
+        "hmn",
+        "hmn_CN",
+        "mww"
     ],
     "Hungarian": [
-        "hu"
+        "Hungarian",
+        "hu",
+        "hu_HU",
+        "hun"
+    ],
+    "Iban": [
+        "Iban",
+        "iba"
     ],
     "Icelandic": [
-        "is"
+        "Icelandic",
+        "is",
+        "is_IS"
     ],
     "Igbo": [
-        "ig"
+        "Igbo",
+        "ig",
+        "ig_NG"
     ],
     "Ilocano": [
+        "Ilocano",
         "ilo"
     ],
     "Indonesian": [
-        "id"
+        "Indonesian",
+        "id",
+        "id_ID"
+    ],
+    "Inuinnaqtun": [
+        "Inuinnaqtun",
+        "ikt"
+    ],
+    "Inuktitut": [
+        "Inuktitut",
+        "iu"
     ],
     "Irish": [
-        "ga"
+        "Irish",
+        "ga",
+        "ga_IE"
     ],
     "Italian": [
-        "it"
+        "Italian",
+        "it",
+        "it_IT",
+        "ita"
+    ],
+    "Jamaican Patois": [
+        "Jamaican Patois",
+        "jam"
     ],
     "Japanese": [
-        "ja"
+        "Japanese",
+        "ja",
+        "ja_JP",
+        "jpn"
     ],
     "Javanese": [
+        "Javanese",
+        "jav",
         "jv",
+        "jv_ID",
         "jw"
     ],
+    "Kabuverdianu": [
+        "Kabuverdianu",
+        "kea"
+    ],
     "Kannada": [
-        "kn"
+        "Cannada",
+        "Kannada",
+        "kn",
+        "kn_IN"
+    ],
+    "Kapampangan": [
+        "Kapampangan",
+        "pam"
+    ],
+    "Kashmiri": [
+        "Kashmiri",
+        "ks"
     ],
     "Kazakh": [
-        "kk"
-    ],
-    "Kazakh (Latin)": [
-        "kazlat"
+        "Kazakh",
+        "kk",
+        "kk_KZ"
     ],
     "Khmer": [
-        "km"
+        "Khmer",
+        "km",
+        "km_KH"
     ],
     "Kinyarwanda": [
-        "rw"
+        "Kinyarwanda",
+        "rw",
+        "rw_RW"
+    ],
+    "Klingon (Latin)": [
+        "Klingon (Latin)",
+        "tlh-Latn"
     ],
     "Konkani": [
+        "Konkani",
         "gom"
     ],
     "Korean": [
-        "ko"
+        "Korean",
+        "ko",
+        "ko_KR",
+        "kor"
     ],
     "Krio": [
+        "Krio",
         "kri"
     ],
     "Kurdish (Kurmanji)": [
+        "Kurdish",
+        "Kurdish (Central)",
+        "Kurdish (Kurmanji)",
         "ku",
-        "kurdish"
-    ],
-    "Kurdish (Sorani)": [
-        "ckb"
+        "ku_IR"
     ],
     "Kyrgyz": [
-        "ky"
+        "Kyrgyz",
+        "ky",
+        "ky_KG"
     ],
     "Lao": [
-        "lo"
+        "Lao",
+        "lo",
+        "lo_LA"
     ],
     "Latin": [
-        "la"
+        "Latin",
+        "la",
+        "la_VAT"
     ],
     "Latvian": [
-        "lv"
+        "Latvian",
+        "lv",
+        "lv_LV"
+    ],
+    "Ligurian (Genoese)": [
+        "Ligurian (Genoese)",
+        "lij"
+    ],
+    "Limburgish": [
+        "Limburgish",
+        "lim"
     ],
     "Lingala": [
+        "Lingala",
         "ln"
     ],
     "Lithuanian": [
-        "lt"
+        "Lithuanian",
+        "lt",
+        "lt_LT"
+    ],
+    "Lombard": [
+        "Lombard",
+        "lmo"
+    ],
+    "Lower Sorbian": [
+        "Lower Sorbian",
+        "dsb"
     ],
     "Luganda": [
+        "Luganda",
         "lg"
     ],
     "Luxembourgish": [
-        "lb"
+        "Luxembourgish",
+        "lb",
+        "lb_LU"
     ],
     "Macedonian": [
-        "mk"
+        "Macedonian",
+        "mk",
+        "mk_MK"
     ],
     "Maithili": [
+        "Maithili",
         "mai"
     ],
     "Malagasy": [
-        "mg"
+        "Malagasy",
+        "mg",
+        "mg_MG"
     ],
     "Malay": [
-        "ms"
+        "Malay",
+        "ms",
+        "ms_MY"
     ],
     "Malayalam": [
-        "ml"
+        "Malayalam",
+        "ml",
+        "ml_IN"
     ],
     "Maltese": [
-        "mt"
+        "Maltese",
+        "mt",
+        "mt_MT"
     ],
     "Maori": [
-        "mi"
+        "Maori",
+        "M\u0101ori",
+        "mi",
+        "mi_NZ"
     ],
     "Marathi": [
-        "mr"
+        "Marathi",
+        "mr",
+        "mr_IN"
     ],
-    "Mari": [
-        "mhr"
+    "Marwari": [
+        "Marwari",
+        "mwr"
+    ],
+    "Mauritian Creole": [
+        "Mauritian Creole",
+        "mfe"
     ],
     "Meiteilon (Manipuri)": [
-        "mni_mtei"
+        "Meiteilon (Manipuri)",
+        "mni-Mtei"
+    ],
+    "Minangkabau (Latin)": [
+        "Minangkabau (Latin)",
+        "min"
     ],
     "Mizo": [
+        "Mizo",
         "lus"
     ],
     "Mongolian": [
-        "mn"
+        "Mongolian",
+        "mn",
+        "mn_MN"
+    ],
+    "Mongolian (Cyrillic)": [
+        "Mongolian (Cyrillic)",
+        "mn-Cyrl"
+    ],
+    "Mongolian (Traditional)": [
+        "Mongolian (Traditional)",
+        "mn-Mong"
     ],
     "Myanmar": [
-        "burmese",
-        "my"
+        "Burmese",
+        "Myanmar",
+        "my",
+        "my_MM"
     ],
     "Nepali": [
-        "ne"
+        "Nepali",
+        "ne",
+        "ne_NP"
     ],
     "Norwegian": [
+        "Bokmal",
+        "Norwegian",
         "nb",
-        "no"
+        "no",
+        "no_NO"
+    ],
+    "Norwegian Nynorsk": [
+        "Norwegian Nynorsk",
+        "nno"
     ],
     "Nyanja": [
-        "chichewa",
-        "ny"
+        "Chichewa",
+        "Nyanja",
+        "ny",
+        "nya"
+    ],
+    "Occitan": [
+        "Occitan",
+        "oc"
     ],
     "Odia": [
+        "Odia",
+        "Oriya",
         "or",
-        "oriya"
+        "or_OR"
     ],
     "Oromo": [
+        "Oromo",
         "om"
     ],
     "Papiamento": [
+        "Papiamento",
         "pap"
     ],
     "Pashto": [
-        "ps"
+        "Pashto",
+        "ps",
+        "ps_AF"
     ],
     "Persian": [
-        "fa"
+        "Persian",
+        "fa",
+        "fa_IR",
+        "per"
     ],
     "Polish": [
-        "pl"
+        "Polish",
+        "pl",
+        "pl_PL",
+        "pol"
     ],
     "Portuguese": [
-        "br",
-        "brazil",
-        "portugal",
+        "BR",
+        "Brazil",
+        "Brazilian",
+        "Portugal",
+        "Portuguese",
+        "Portuguese (Brazil)",
+        "Portuguese (Portugal)",
+        "por",
         "pt",
-        "pt_br"
+        "pt-BR",
+        "pt-PT",
+        "pt_PT"
     ],
     "Punjabi": [
-        "pa"
+        "Panjabi",
+        "Punjabi",
+        "pa",
+        "pa_PK"
     ],
     "Quechua": [
+        "Quechua",
         "qu"
     ],
+    "Queretaro Otomi": [
+        "Queretaro Otomi",
+        "otq"
+    ],
     "Romanian": [
-        "ro"
+        "Romanian",
+        "ro",
+        "ro_RO",
+        "rum"
+    ],
+    "Rundi": [
+        "Rundi",
+        "run"
     ],
     "Russian": [
-        "ru"
+        "Russian",
+        "ru",
+        "ru_RU",
+        "rus"
     ],
     "Samoan": [
-        "sm"
+        "Samoan",
+        "sm",
+        "sm_WS"
     ],
     "Sanskrit": [
+        "Sanskrit",
         "sa"
     ],
+    "Sardinian": [
+        "Sardinian",
+        "srd"
+    ],
     "Scottish Gaelic": [
+        "Gaelic",
+        "Scots Gaelic",
+        "Scottish Gaelic",
         "gd",
-        "scots gaelic"
+        "gd_GB"
     ],
     "Sepedi": [
+        "Sepedi",
+        "Sesotho sa Leboa",
         "nso"
     ],
     "Serbian": [
-        "sr"
+        "Serbian",
+        "Serbian (Cyrillic)",
+        "Serbian-Cyrillic",
+        "sr",
+        "sr-Cyrl",
+        "sr-Cyrl_RS"
     ],
     "Sesotho": [
-        "st"
+        "Sesotho",
+        "st",
+        "st_LS"
+    ],
+    "Setswana": [
+        "Setswana",
+        "tn"
+    ],
+    "Seychelles French Creole": [
+        "Seychelles French Creole",
+        "crs"
     ],
     "Shona": [
-        "sn"
+        "Shona",
+        "sn",
+        "sn_ZW"
+    ],
+    "Sicilian": [
+        "Sicilian",
+        "scn"
     ],
     "Sindhi": [
-        "sd"
+        "Sindhi",
+        "sd",
+        "sd_PK"
     ],
     "Sinhala": [
+        "Sinhala",
+        "Sinhalese",
         "si",
-        "sinhalese"
+        "si_LK"
     ],
     "Slovak": [
-        "sk"
+        "Slovak",
+        "sk",
+        "sk_SK",
+        "slo"
     ],
     "Slovenian": [
-        "sl"
+        "Slovenian",
+        "sl",
+        "sl_SI"
     ],
     "Somali": [
-        "so"
+        "Somali",
+        "so",
+        "so_SO"
     ],
     "Spanish": [
-        "es"
+        "Spanish",
+        "es",
+        "es_ES",
+        "spa"
     ],
     "Sundanese": [
-        "su"
+        "Sundanese",
+        "su",
+        "su_ID"
     ],
     "Swahili": [
-        "sw"
+        "Swahili",
+        "sw",
+        "sw_TZ"
     ],
     "Swedish": [
-        "sv"
+        "Swedish",
+        "sv",
+        "sv_SE",
+        "swe"
     ],
     "Tagalog": [
-        "filipino",
-        "tl"
+        "Filipino",
+        "Tagalog",
+        "tl",
+        "tl_PH"
+    ],
+    "Tahitian": [
+        "Tahitian",
+        "ty"
     ],
     "Tajik": [
-        "tg"
+        "Tajik",
+        "tg",
+        "tg_TJ",
+        "tgk"
     ],
     "Tamil": [
-        "ta"
+        "Tamil",
+        "ta",
+        "ta_IN"
     ],
     "Tatar": [
-        "tt"
+        "Tatar",
+        "tt",
+        "tt_TT"
     ],
     "Telugu": [
-        "te"
+        "Telugu",
+        "te",
+        "te_IN"
+    ],
+    "Tetum": [
+        "Tetum",
+        "tet"
     ],
     "Thai": [
-        "th"
+        "Thai",
+        "th",
+        "th_TH",
+        "tha"
+    ],
+    "Tibetan": [
+        "Tibetan",
+        "bo"
     ],
     "Tigrinya": [
+        "Tigrinya",
         "ti"
     ],
+    "Tok Pisin": [
+        "Tok Pisin",
+        "tpi"
+    ],
+    "Tongan": [
+        "Tongan",
+        "to"
+    ],
     "Tsonga": [
+        "Tsonga",
         "ts"
     ],
     "Turkish": [
-        "tr"
+        "Turkish",
+        "tr",
+        "tr_TR",
+        "tur"
     ],
     "Turkmen": [
-        "tk"
+        "Turkmen",
+        "tk",
+        "tk_TM"
     ],
     "Twi": [
+        "Twi",
         "ak"
     ],
     "Udmurt": [
+        "Udmurt",
+        "Udmurtian",
         "udm"
     ],
     "Ukrainian": [
+        "Ukrainian",
         "uk",
-        "ukranian"
+        "uk_UA",
+        "ukr"
+    ],
+    "Upper Sorbian": [
+        "Upper Sorbian",
+        "hsb"
     ],
     "Urdu": [
-        "ur"
+        "Urdu",
+        "ur",
+        "ur_PK"
     ],
     "Uyghur": [
-        "ug"
+        "Uyghur",
+        "ug",
+        "ug_CN"
     ],
     "Uzbek": [
-        "uz"
+        "Uzbek",
+        "Uzbek (Latin)",
+        "uz",
+        "uz_UZ"
     ],
-    "Uzbek (Cyrillic)": [
-        "uzbcyr"
+    "Venetian": [
+        "Venetian",
+        "vec"
     ],
     "Vietnamese": [
-        "vi"
+        "Vietnamese",
+        "vi",
+        "vi_VN"
+    ],
+    "Waray": [
+        "Waray",
+        "war"
     ],
     "Welsh": [
-        "cy"
+        "Welsh",
+        "cy",
+        "cy_GB"
     ],
     "Xhosa": [
-        "xh"
-    ],
-    "Yakut": [
-        "sah"
+        "Xhosa",
+        "xh",
+        "xh_ZA"
     ],
     "Yiddish": [
-        "yi"
+        "Yiddish",
+        "yi",
+        "yi_IL"
     ],
     "Yoruba": [
-        "yo"
+        "Yoruba",
+        "yo",
+        "yo_NG"
+    ],
+    "Yucatec Maya": [
+        "Yucatec Maya",
+        "yua"
     ],
     "Zulu": [
-        "zu"
+        "Zulu",
+        "zu",
+        "zu_ZA"
     ]
 }

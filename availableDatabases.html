@@ -5,7 +5,7 @@
 
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/styles.css">
-        <title>Translator3000. Available DBs.</title>
+        <title>Translator3000. Available DBs</title>
 
         <!-- Yandex.Metrika counter -->
         <script type="text/javascript" >
@@ -24,18 +24,8 @@
         <!-- /Yandex.Metrika counter -->
 
         <!-- Main JS. -->
+        <script type="text/javascript" src="utils.js"></script>
         <script type="text/javascript">
-
-            async function loadJSON(url) {
-                const response = await fetch(url);
-                let result;
-                if (response.ok) {
-                    result = await response.json();
-                    return result;
-                };
-                result = await response.text();
-                throw result;
-            };
 
             function _textSort(a, b) {
                 _a = a.toLowerCase();
