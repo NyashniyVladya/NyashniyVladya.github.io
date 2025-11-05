@@ -31,70 +31,67 @@
 
     <body>
 
-        <h1 align="center" style="margin-bottom: 100px">Translator3000</h1>
-        <br>
-        <div align="center" style="margin-bottom: 300px; display: block">
-
-            <div id="leftDiv" align="left" style="width: 61.8%; height: 100%; float: left"> <!-- Left div. -->
-
-                <div>Automatic translator for games made on the Ren'Py engine, with an easy installation and user-friendly interface.</div>
-                <br>
-                <div>Copy the translator file to the game folder and enjoy the translated game.</div>
-                <div>Read more <a href="docs.html">here</a>.</div>
-
-            </div>
-
-            <div id="rightDiv" align="right" style="height: 100%; float: right"> <!-- Right div. -->
-                <div style="margin-bottom: 5px">
+        <header style="border-bottom: none">
+            <h1>Translator3000</h1>
+        </header>
+        
+        <div class="container">
+        
+            
+            <section>
+                <p>Translator3000 — это удобный автоматический переводчик визуальных новелл, созданных на движке Ren'Py с лёгкой установкой и удобным интерфейсом! Скопируй файл переводчика в папку игры и наслаждайся переводом!</p>
+                <p>Подробнее <a href="docs.html" target="_blank" class="external-link">здесь</a>.</p>
+            </section>
+            
+            
+            <div class="nav-sidebar" style="width: auto"> <!-- Right div. -->
+                <section>
                     <div style="display: inline-block">Latest version:</div>
                     <div id="actualVersion" style="display: inline-block"></div>
                     <div id="actualVersionName" style="display: inline-block"></div>
-                </div>
-                <br>
-                <div id="downloadLinks" style="margin-bottom: 15px">
-                    <h4 style="margin:auto"><a id="downloadBoosty">Download from Boosty</a></h4>
+                </section>
+                <section>
+                    <h4><a id="downloadBoosty" target="_blank" class="external-link">Download from Boosty</a></h4>
+                    <h4><a id="downloadPatreon" target="_blank" class="external-link">Download from Patreon</a></h4>
+                </section>
+                <section>
+                    <h4><a href="docs.html" target="_blank" class="external-link">Read documentation</a></h4>
+                </section>
+            </div>
+
+
+            <div id="someLinks" align="left" style="width: 100%; margin-top: 10px; display: inline-flex">
+
+                <div id="suppportAndDiscordLinks" style="float: left; margin-top: auto; margin-right:auto;">
+                    <a href="https://boosty.to/nyashniyvladya">
+                        <img src="images/boosty/Color.png" height="30px" alt="Boosty Logo">
+                        <div class="supportLinks">Support on Boosty</div>
+                    </a>
                     <br>
-                    <h4 style="margin:auto"><a id="downloadPatreon">Download from Patreon</a></h4>
+                    <a href="https://www.patreon.com/join/NyashniyVladya">
+                        <img src="images/patreon/PATREON_SYMBOL_1_WHITE_RGB.png" height="30px" alt="Patreon Logo">
+                        <div class="supportLinks">Support on Patreon</div>
+                    </a>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="https://discord.gg/FqsQXNH6Fg">
+                        <img src="images/discord/icon_clyde_blurple_RGB.png" height="30px" alt="Discord Logo">
+                        <div class="communityLinks">Discord server</div>
+                    </a>
+                    <br>
+                    <a href="https://t.me/translator3000">
+                        <img src="images/telegram/Logo.svg" height="30px" alt="Telegram Logo">
+                        <div class="communityLinks">Telegram group</div>
+                    </a>
                 </div>
-                <br>
-                <div id="docLinks">
-                    <h4 style="margin:auto"><a href="docs.html">Read documentation</a></h4>
+                <div id="telegramQR" align="right" style="float: right; margin-top: auto;">
+                    <a href="https://t.me/translator3000">
+                        <img src="images/telegram/translatorQR.png" height="150px" alt="Telegram QR">
+                    </a>
                 </div>
+
             </div>
-
-        </div>
-
-        <div id="someLinks" align="left" style="width: 100%; margin-top: 10px; display: inline-flex">
-
-            <div id="suppportAndDiscordLinks" style="float: left; margin-top: auto; margin-right:auto;">
-                <a href="https://boosty.to/nyashniyvladya">
-                    <img src="images/boosty/Color.png" height="30px" alt="Boosty Logo">
-                    <div class="supportLinks">Support on Boosty</div>
-                </a>
-                <br>
-                <a href="https://www.patreon.com/join/NyashniyVladya">
-                    <img src="images/patreon/PATREON_SYMBOL_1_WHITE_RGB.png" height="30px" alt="Patreon Logo">
-                    <div class="supportLinks">Support on Patreon</div>
-                </a>
-                <br>
-                <br>
-                <br>
-                <a href="https://discord.gg/FqsQXNH6Fg">
-                    <img src="images/discord/icon_clyde_blurple_RGB.png" height="30px" alt="Discord Logo">
-                    <div class="communityLinks">Discord server</div>
-                </a>
-                <br>
-                <a href="https://t.me/translator3000">
-                    <img src="images/telegram/Logo.svg" height="30px" alt="Telegram Logo">
-                    <div class="communityLinks">Telegram group</div>
-                </a>
-            </div>
-            <div id="telegramQR" align="right" style="float: right; margin-top: auto;">
-                <a href="https://t.me/translator3000">
-                    <img src="images/telegram/translatorQR.png" height="150px" alt="Telegram QR">
-                </a>
-            </div>
-
         </div>
 
         <script type="text/javascript">
@@ -119,7 +116,6 @@
 
             });
         </script>
-
     </body>
 
 </html>
