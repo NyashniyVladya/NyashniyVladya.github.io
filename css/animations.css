@@ -1,9 +1,0 @@
-@charset "utf-8";
-/* CSS Document */
-
-
-@keyframes linkHover {
-    to {
-        color: rgba(62, 216, 255, 0.911);
-    }
-}

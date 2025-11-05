@@ -1,9 +1,9 @@
 <!doctype html>
-<html>
+<html lang="ru">
 
     <head>
 
-        <meta charset="utf-8">
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/styles.css">
         <title>Translator3000</title>
 
@@ -24,35 +24,7 @@
         <!-- /Yandex.Metrika counter -->
 
         <!-- Main JS. -->
-        <script type="text/javascript">
-
-            async function loadJSON(url) {
-                const response = await fetch(url);
-                let result;
-                if (response.ok) {
-                    result = await response.json();
-                    return result;
-                };
-                result = await response.text();
-                throw result;
-            };
-
-            function setActualVersionData(jsonResult) {
-
-                let element;
-
-                element = document.getElementById("actualVersion");
-                element.innerHTML = jsonResult.version;
-
-                element = document.getElementById("downloadBoosty");
-                element.href = jsonResult.boostyLink;
-
-                element = document.getElementById("downloadPatreon");
-                element.href = jsonResult.patreonLink;
-
-            };
-
-        </script>
+        <script type="text/javascript" src="utils.js"></script>
         <!-- /Main JS. -->
 
     </head>
@@ -60,15 +32,15 @@
     <body>
 
         <h1 align="center" style="margin-bottom: 100px">Translator3000</h1>
-
-        <div align="center" style="margin-bottom: 300px">
+        <br>
+        <div align="center" style="margin-bottom: 300px; display: block">
 
             <div id="leftDiv" align="left" style="width: 61.8%; height: 100%; float: left"> <!-- Left div. -->
 
                 <div>Automatic translator for games made on the Ren'Py engine, with an easy installation and user-friendly interface.</div>
                 <br>
                 <div>Copy the translator file to the game folder and enjoy the translated game.</div>
-                <div>Read more <a href="translatorDocumentation/FAQ/EN.html#where-to-begin">here</a>.</div>
+                <div>Read more <a href="docs.html">here</a>.</div>
 
             </div>
 
@@ -76,27 +48,25 @@
                 <div style="margin-bottom: 5px">
                     <div style="display: inline-block">Latest version:</div>
                     <div id="actualVersion" style="display: inline-block"></div>
+                    <div id="actualVersionName" style="display: inline-block"></div>
                 </div>
+                <br>
                 <div id="downloadLinks" style="margin-bottom: 15px">
-                    <div><a id="downloadBoosty">Download from Boosty.</a></div>
-                    <div><a id="downloadPatreon">Download from Patreon.</a></div>
+                    <h4 style="margin:auto"><a id="downloadBoosty">Download from Boosty</a></h4>
+                    <br>
+                    <h4 style="margin:auto"><a id="downloadPatreon">Download from Patreon</a></h4>
                 </div>
+                <br>
                 <div id="docLinks">
-                    <h4 style="margin:auto"><a href="translatorDocumentation/tableOfContents/EN.html">Read documentation in English.</a></h4>
-                    <h4 style="margin:auto"><a href="translatorDocumentation/tableOfContents/RU.html">Читать документацию на русском языке.</a></h4>
+                    <h4 style="margin:auto"><a href="docs.html">Read documentation</a></h4>
                 </div>
             </div>
-
-            <script type="text/javascript">
-                const actualVersionPromise = loadJSON("actualVersion.json");
-                actualVersionPromise.then(setActualVersionData);
-            </script>
 
         </div>
 
         <div id="someLinks" align="left" style="width: 100%; margin-top: 10px; display: inline-flex">
 
-            <div id="suppportAndDiscordLinks" style="float: left; margin-top: auto; margin-right: auto;">
+            <div id="suppportAndDiscordLinks" style="float: left; margin-top: auto; margin-right:auto;">
                 <a href="https://boosty.to/nyashniyvladya">
                     <img src="images/boosty/Color.png" height="30px" alt="Boosty Logo">
                     <div class="supportLinks">Support on Boosty</div>
@@ -106,21 +76,49 @@
                     <img src="images/patreon/PATREON_SYMBOL_1_WHITE_RGB.png" height="30px" alt="Patreon Logo">
                     <div class="supportLinks">Support on Patreon</div>
                 </a>
+                <br>
+                <br>
+                <br>
+                <a href="https://discord.gg/FqsQXNH6Fg">
+                    <img src="images/discord/icon_clyde_blurple_RGB.png" height="30px" alt="Discord Logo">
+                    <div class="communityLinks">Discord server</div>
+                </a>
+                <br>
+                <a href="https://t.me/translator3000">
+                    <img src="images/telegram/Logo.svg" height="30px" alt="Telegram Logo">
+                    <div class="communityLinks">Telegram group</div>
+                </a>
             </div>
-            <div id="discordFrame" align="right" style="float: right; margin-top: auto; margin-left: auto;">
-                <iframe
-                        src="https://discord.com/widget?id=939992812496232520&theme=dark"
-                        width="350"
-                        height="500"
-                        allowtransparency="true"
-                        frameborder="0"
-                        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-                >
-                    Update your browser.
-                </iframe>
+            <div id="telegramQR" align="right" style="float: right; margin-top: auto;">
+                <a href="https://t.me/translator3000">
+                    <img src="images/telegram/translatorQR.png" height="150px" alt="Telegram QR">
+                </a>
             </div>
 
         </div>
+
+        <script type="text/javascript">
+            const actualVersionPromise = loadJSON("actualVersion.json");
+            actualVersionPromise.then((jsonResult) => {
+
+                let element;
+
+                element = document.getElementById("actualVersion");
+                element.innerHTML = jsonResult.version;
+
+                if (jsonResult.versionName) {
+                    element = document.getElementById("actualVersionName");
+                    element.innerHTML = `(${jsonResult.versionName})`;
+                };
+
+                element = document.getElementById("downloadBoosty");
+                element.href = jsonResult.boostyLink;
+
+                element = document.getElementById("downloadPatreon");
+                element.href = jsonResult.patreonLink;
+
+            });
+        </script>
 
     </body>
 
