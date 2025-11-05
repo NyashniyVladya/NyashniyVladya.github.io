@@ -91,6 +91,156 @@ li {
     margin-bottom: 8px;
 }
 
+.hero-section {
+    text-align: center;
+    padding: 60px 0;
+    margin-bottom: 40px;
+}
+
+.hero-content h2 {
+    font-size: 2.2em;
+    border: none;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+.hero-content p {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+    color: aliceblue;
+}
+
+.subscription-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.subscription-buttons .support-link {
+    font-size: 1.2em;
+    padding: 15px 30px;
+    min-width: 200px;
+    text-align: center;
+}
+
+.how-it-works {
+    margin: 60px 0;
+}
+
+.steps-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.step {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+    padding: 30px 20px;
+    background: rgba(10,67,54,0.38);
+    border-radius: 10px;
+    border-left: 4px solid #4CAF50;
+}
+
+.step h3 {
+    color: #4CAF50;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.features {
+    margin: 60px 0;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.feature-card {
+    padding: 25px;
+    background: rgba(10,67,54,0.38);
+    border-radius: 10px;
+    border-left: 4px solid #2196f3;
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-card h4 {
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    color: #4CAF50;
+}
+
+.feature-link {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+}
+
+.feature-link:hover {
+    color: inherit;
+}
+
+.faq {
+    margin: 60px 0;
+}
+
+.faq-item {
+    margin: 25px 0;
+    padding: 20px;
+    background: rgba(10,67,54,0.38);
+    border-radius: 10px;
+    border-left: 4px solid #ffb300;
+    scroll-margin-top: 20px;
+}
+
+.faq-item h4 {
+    color: #ffb300;
+    margin-bottom: 10px;
+}
+
+.faq-link {
+    color: #ffb300;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.faq-link:hover {
+    color: #ffca28;
+    text-decoration: underline;
+}
+
+.faq-item ol, .faq-item ul {
+    margin: 10px 0;
+    padding-left: 25px;
+}
+
+.faq-item li {
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+.faq-item strong {
+    color: #4CAF50;
+}
+
+.faq-item em {
+    color: #ffb300;
+    font-style: italic;
+}
+
 .note {
     background-color: rgba(10,67,54,0.38);
     border-left: 4px solid #4CAF50;
@@ -177,6 +327,22 @@ li {
 
 .support-link.patreon:hover {
     background-color: #e9573f;
+}
+
+.support-link.discord {
+    background-color: #7289da;
+}
+
+.support-link.discord:hover {
+    background-color: #5b73c4;
+}
+
+.support-link.telegram {
+    background-color: #0088cc;
+}
+
+.support-link.telegram:hover {
+    background-color: #0077b3;
 }
 
 code {
@@ -315,6 +481,31 @@ a.external-link:hover {
         width: 100%;
         margin-bottom: 30px;
         max-height: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .steps-container {
+        flex-direction: column;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .support-links,
+    .subscription-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-content h2 {
+        font-size: 1.8em;
+    }
+
+    .subscription-buttons .support-link {
+        width: 100%;
+        max-width: 300px;
     }
 }
 

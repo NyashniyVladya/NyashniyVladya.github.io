@@ -1,121 +1,138 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
-
-    <head>
-
-		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/styles.css">
-        <title>Translator3000</title>
-
-        <!-- Yandex.Metrika counter -->
-        <script type="text/javascript" >
-           (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-           m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-           (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-           ym(88691983, "init", {
-                clickmap:true,
-                trackLinks:true,
-                accurateTrackBounce:true,
-                webvisor:true
-           });
-        </script>
-        <noscript><div><img src="https://mc.yandex.ru/watch/88691983" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-        <!-- /Yandex.Metrika counter -->
-
-        <!-- Main JS. -->
-        <script type="text/javascript" src="utils.js"></script>
-        <!-- /Main JS. -->
-
-    </head>
-
-    <body>
-
-        <header style="border-bottom: none">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator3000 - Переводчик визуальных новелл для Ren'Py</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
             <h1>Translator3000</h1>
+            <p class="subtitle">Переводчик визуальных новелл на движке Ren'Py с лёгкой установкой и удобным интерфейсом</p>
         </header>
-        
-        <div class="container">
-        
-            
-            <section>
-                <p>Translator3000 — это удобный автоматический переводчик визуальных новелл, созданных на движке Ren'Py с лёгкой установкой и удобным интерфейсом! Скопируй файл переводчика в папку игры и наслаждайся переводом!</p>
-                <p>Подробнее <a href="docs.html" target="_blank" class="external-link">здесь</a>.</p>
-            </section>
-            
-            
-            <div class="nav-sidebar" style="width: auto"> <!-- Right div. -->
-                <section>
-                    <div style="display: inline-block">Latest version:</div>
-                    <div id="actualVersion" style="display: inline-block"></div>
-                    <div id="actualVersionName" style="display: inline-block"></div>
-                </section>
-                <section>
-                    <h4><a id="downloadBoosty" target="_blank" class="external-link">Download from Boosty</a></h4>
-                    <h4><a id="downloadPatreon" target="_blank" class="external-link">Download from Patreon</a></h4>
-                </section>
-                <section>
-                    <h4><a href="docs.html" target="_blank" class="external-link">Read documentation</a></h4>
-                </section>
+
+        <section class="hero-section">
+            <div class="hero-content">
+                <h2>Переводите визуальные новеллы легко</h2>
+                <p>Загрузите файл Translator3000.rpa и играйте в любимую новеллу на своём языке</p>
+                <div class="subscription-buttons">
+                    <a href="https://boosty.to/nyashniyvladya" class="support-link boosty">Доступ через Boosty</a>
+                    <a href="https://www.patreon.com/join/NyashniyVladya" class="support-link patreon">Подписаться на Patreon</a>
+                </div>
             </div>
+        </section>
 
+        <section class="how-it-works">
+            <h2>Как это работает</h2>
+            <div class="steps-container">
+                <div class="step">
+                    <h3>1. Установите</h3>
+                    <p>Скачайте Translator3000.rpa и скопируйте файл в папку "game" в директории игры</p>
+                </div>
+                <div class="step">
+                    <h3>2. Запустите</h3>
+                    <p>Запустите игру - в меню появится интерфейс переводчика</p>
+                </div>
+                <div class="step">
+                    <h3>3. Настройте</h3>
+                    <p>В графическом интерфейсе настройте перевод как вам удобно</p>
+                </div>
+            </div>
+        </section>
 
-            <div id="someLinks" align="left" style="width: 100%; margin-top: 10px; display: inline-flex">
-
-                <div id="suppportAndDiscordLinks" style="float: left; margin-top: auto; margin-right:auto;">
-                    <a href="https://boosty.to/nyashniyvladya">
-                        <img src="images/boosty/Color.png" height="30px" alt="Boosty Logo">
-                        <div class="supportLinks">Support on Boosty</div>
-                    </a>
-                    <br>
-                    <a href="https://www.patreon.com/join/NyashniyVladya">
-                        <img src="images/patreon/PATREON_SYMBOL_1_WHITE_RGB.png" height="30px" alt="Patreon Logo">
-                        <div class="supportLinks">Support on Patreon</div>
-                    </a>
-                    <br>
-                    <br>
-                    <br>
-                    <a href="https://discord.gg/FqsQXNH6Fg">
-                        <img src="images/discord/icon_clyde_blurple_RGB.png" height="30px" alt="Discord Logo">
-                        <div class="communityLinks">Discord server</div>
-                    </a>
-                    <br>
-                    <a href="https://t.me/translator3000">
-                        <img src="images/telegram/Logo.svg" height="30px" alt="Telegram Logo">
-                        <div class="communityLinks">Telegram group</div>
+        <section class="features">
+            <h2>Преимущества</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h4>🚀 Легкая установка</h4>
+                    <p>Просто скопируйте один файл в папку игры - никаких сложных настроек.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🎮 Удобный интерфейс</h4>
+                    <p>Графический интерфейс прямо в игре для комфортной настройки перевода.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>👥 Активное сообщество</h4>
+                    <p>Присоединяйтесь к нашему сообществу, делитесь переводами и получайте помощь.</p>
+                </div>
+                <div class="feature-card">
+                    <a href="https://boosty.to/nyashniyvladya" class="feature-link">
+                        <h4>❤️ Поддержка проекта</h4>
+                        <p>Доступ по подписке помогает развивать проект и добавлять новые функции.</p>
                     </a>
                 </div>
-                <div id="telegramQR" align="right" style="float: right; margin-top: auto;">
-                    <a href="https://t.me/translator3000">
-                        <img src="images/telegram/translatorQR.png" height="150px" alt="Telegram QR">
-                    </a>
-                </div>
-
             </div>
-        </div>
+        </section>
 
-        <script type="text/javascript">
-            const actualVersionPromise = loadJSON("actualVersion.json");
-            actualVersionPromise.then((jsonResult) => {
+        <section class="faq">
+            <h2>Частые вопросы</h2>
 
-                let element;
+            <div class="faq-item" id="what-is">
+                <h4><a href="#what-is" class="faq-link">Что такое Translator3000?</a></h4>
+                <p>Translator3000 - автоматический переводчик игр (новелл), сделанных на движке Ren'Py, с лёгкой установкой и удобным интерфейсом. Хотите почитать новеллу, а у неё нет перевода на Ваш язык? Всё что нужно - скопировать файл Translator3000.rpa в папку с игрой.</p>
+            </div>
 
-                element = document.getElementById("actualVersion");
-                element.innerHTML = jsonResult.version;
+            <div class="faq-item" id="versions">
+                <h4><a href="#versions" class="faq-link">Какие версии переводчика существуют?</a></h4>
+                <p>
+                    <strong>Ознакомительная версия:</strong> доступна всем с ограниченным функционалом - <a href="https://github.com/NyashniyVladya/Translator3000/releases" class="external-link">скачать на GitHub</a><br>
+                    <strong>Основная версия:</strong> полный функционал с периодическими обновлениями, доступна по подписке на <a href="https://boosty.to/nyashniyvladya" class="external-link">Boosty</a> и <a href="https://www.patreon.com/join/NyashniyVladya" class="external-link">Patreon</a>
+                </p>
+            </div>
 
-                if (jsonResult.versionName) {
-                    element = document.getElementById("actualVersionName");
-                    element.innerHTML = `(${jsonResult.versionName})`;
-                };
+            <div class="faq-item" id="gui">
+                <h4><a href="#gui" class="faq-link">Как вызвать графический интерфейс переводчика?</a></h4>
+                <p>Комбинация клавиш <strong>Alt + ~</strong> (тильда). При желании эту комбинацию можно изменить в настройках.</p>
+            </div>
 
-                element = document.getElementById("downloadBoosty");
-                element.href = jsonResult.boostyLink;
+            <div class="faq-item" id="compatibility">
+                <h4><a href="#compatibility" class="faq-link">Игра не переводится/не запускается/работает некорректно</a></h4>
+                <p>Как сделана та или иная игра зависит от разработчика. В зависимости от реализации, могут быть конфликты в отдельных играх. Совместимость со всеми играми реализовать, к сожалению, не получится.</p>
+            </div>
 
-                element = document.getElementById("downloadPatreon");
-                element.href = jsonResult.patreonLink;
+            <div class="faq-item" id="report-bug">
+                <h4><a href="#report-bug" class="faq-link">Как сообщить об ошибке?</a></h4>
+                <p>
+                    Сообщения о ошибках принимаются только по последней актуальной версии.<br>
+                    Подготовьте:<br>
+                    • Лог файл (активируйте режим отладки)<br>
+                    • Информацию о настройках<br>
+                    • Файл traceback.txt (если есть)<br>
+                    • Описание действий, приведших к ошибке<br><br>
+                    Задавайте вопросы в <a href="https://discord.gg/FqsQXNH6Fg" class="external-link">Discord</a> или <a href="https://t.me/translator3000" class="external-link">Telegram</a>.
+                </p>
+            </div>
 
-            });
-        </script>
-    </body>
+            <div class="faq-item" id="no-answer">
+                <h4><a href="#no-answer" class="faq-link">Я не нашёл ответа на свой вопрос</a></h4>
+                <p>
+                    Посмотрите канал вопросов в <a href="https://discord.gg/FqsQXNH6Fg" class="external-link">Discord сообществе</a> или задайте вопрос в <a href="https://t.me/translator3000" class="external-link">Telegram</a>. Скорее всего, там уже отвечали на подобный вопрос.<br><br>
+                    <strong>Важно:</strong> задавайте вопросы именно на канале вопросов, а не в личных сообщениях. Это поможет другим пользователям с аналогичными проблемами.
+                </p>
+            </div>
 
+            <div class="note" id="support-notice">
+                <h4>Важная информация о поддержке</h4>
+                <p>Все отчёты об ошибках и техническая поддержка оказываются <strong>только по последней актуальной версии</strong> и только по ней без альтернатив и исключений. Это связано с тем, что над переводчиком постоянно ведётся работа, и ошибка, возникшая в более ранних версиях, может уже отсутствовать в более поздних.</p>
+            </div>
+        </section>
+
+        <section class="support-section">
+            <h2>Присоединяйтесь к сообществу</h2>
+            <p>Общайтесь с другими пользователями, делитесь готовыми переводами и получайте техническую поддержку</p>
+            <div class="support-links">
+                <a href="https://boosty.to/nyashniyvladya" class="support-link boosty">Boosty</a>
+                <a href="https://www.patreon.com/join/NyashniyVladya" class="support-link patreon">Patreon</a>
+                <a href="https://discord.gg/FqsQXNH6Fg" class="support-link discord">Discord</a>
+                <a href="https://t.me/translator3000" class="support-link telegram">Telegram</a>
+            </div>
+        </section>
+
+        <footer>
+            <p>Translator3000 &copy; 2024. Проект доступен по подписке на <a href="https://boosty.to/nyashniyvladya" class="external-link">Boosty</a> и <a href="https://www.patreon.com/join/NyashniyVladya" class="external-link">Patreon</a>.</p>
+        </footer>
+    </div>
+</body>
 </html>
