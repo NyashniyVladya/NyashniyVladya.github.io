@@ -5,23 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Translator3000 - Переводчик визуальных новелл для Ren'Py</title>
     <link rel="stylesheet" href="css/styles.css">
-
-	<!-- Yandex.Metrika counter -->
-	<script type="text/javascript" >
-	   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-	   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-	   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-	   ym(88691983, "init", {
-			clickmap:true,
-			trackLinks:true,
-			accurateTrackBounce:true,
-			webvisor:true
-	   });
-	</script>
-	<noscript><div><img src="https://mc.yandex.ru/watch/88691983" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-	<!-- /Yandex.Metrika counter -->
-
 </head>
 <body>
     <div class="container">
@@ -85,83 +68,92 @@
             </div>
         </section>
 
-        <section class="faq">
-            <h2>Частые вопросы</h2>
+<section class="faq">
+    <h2>Частые вопросы</h2>
+    
+    <div class="faq-item" id="what-is">
+        <h4><a href="#what-is" class="faq-link">Что такое Translator3000?</a></h4>
+        <p>Translator3000 - автоматический переводчик игр (новелл), сделанных на движке Ren'Py, с лёгкой установкой и удобным интерфейсом. Хотите почитать новеллу, а у неё нет перевода на Ваш язык? Всё что нужно - скопировать файл Translator3000.rpa в папку с игрой.</p>
+    </div>
 
-            <div class="faq-item" id="what-is">
-                <h4><a href="#what-is" class="faq-link">Что такое Translator3000?</a></h4>
-                <p>Translator3000 - автоматический переводчик игр (новелл), сделанных на движке Ren'Py, с лёгкой установкой и удобным интерфейсом. Хотите почитать новеллу, а у неё нет перевода на Ваш язык? Всё что нужно - скопировать файл Translator3000.rpa в папку с игрой.</p>
-            </div>
+    <div class="faq-item" id="versions">
+        <h4><a href="#versions" class="faq-link">Какие версии переводчика существуют?</a></h4>
+        <p>
+            <strong>Ознакомительная версия:</strong> доступна всем с ограниченным функционалом - <a href="https://github.com/NyashniyVladya/Translator3000/releases" class="external-link">скачать на GitHub</a><br>
+            <strong>Основная версия:</strong> полный функционал с периодическими обновлениями, доступна по подписке на <a href="https://boosty.to/nyashniyvladya" class="external-link">Boosty</a> и <a href="https://www.patreon.com/join/NyashniyVladya" class="external-link">Patreon</a>
+        </p>
+    </div>
 
-            <div class="faq-item" id="versions">
-                <h4><a href="#versions" class="faq-link">Какие версии переводчика существуют?</a></h4>
-                <p>
-                    <strong>Ознакомительная версия:</strong> доступна всем с ограниченным функционалом - <a href="https://github.com/NyashniyVladya/Translator3000/releases" class="external-link">скачать на GitHub</a><br>
-                    <strong>Основная версия:</strong> полный функционал с периодическими обновлениями, доступна по подписке на <a href="https://boosty.to/nyashniyvladya" class="external-link">Boosty</a> и <a href="https://www.patreon.com/join/NyashniyVladya" class="external-link">Patreon</a>
-                </p>
-            </div>
+    <div class="faq-item" id="mobile">
+        <h4><a href="#mobile" class="faq-link">Есть ли Translator3000 для Android, iOS или других мобильных систем?</a></h4>
+        <p>Нет. Переводчик доступен только для десктопных версий Windows, Linux и macOS. Мобильные платформы и эмуляторы не поддерживаются.</p>
+    </div>
 
-            <div class="faq-item" id="mobile">
-                <h4><a href="#mobile" class="faq-link">Есть ли Translator3000 для Android, iOS или других мобильных систем?</a></h4>
-                <p>Нет. Переводчик доступен только для десктопных версий Windows, Linux и macOS. Мобильные платформы и эмуляторы не поддерживаются.</p>
-            </div>
+    <div class="faq-item" id="manual-edit">
+        <h4><a href="#manual-edit" class="faq-link">Можно ли редактировать переводы вручную?</a></h4>
+        <p>Да, в Translator3000 есть функция ручного редактирования переводов через специальное окно редактируемого текста. Однако важно понимать: <strong>если вы вносите ручные правки в базу данных переводов или используете функцию ручного редактирования, то при возникновении ошибок трейсбеки и отчеты об ошибках не принимаются</strong>. Ручное редактирование выполняется на ваш страх и риск.</p>
+    </div>
 
-            <div class="faq-item" id="manual-edit">
-                <h4><a href="#manual-edit" class="faq-link">Можно ли редактировать переводы вручную?</a></h4>
-                <p>Да, в Translator3000 есть функция ручного редактирования переводов через специальное окно редактируемого текста. Однако важно понимать: <strong>если вы вносите ручные правки в базу данных переводов или используете функцию ручного редактирования, то при возникновении ошибок трейсбеки и отчеты об ошибках не принимаются</strong>. Ручное редактирование выполняется на ваш страх и риск.</p>
-            </div>
+    <div class="faq-item" id="tags-removal">
+        <h4><a href="#tags-removal" class="faq-link">Почему переводчик удаляет теги форматирования из игры?</a></h4>
+        <p>Translator3000 удаляет Ren'Py теги (цвет, курсив, жирный текст, а также текстовые теги вроде {w}/{nw} и подобные) по важной причине: эти теги нельзя экранировать при обращении к сервису перевода. Сервис может преобразовать тег {color=...} в {цвет=...}, что приведет к ошибке.</p>
+        
+        <p>Хотя можно было бы переводить текст частями (до и после тегов), это сильно ухудшило бы качество перевода, так как слова переводились бы без учета полного контекста.</p>
+        
+        <p>Поэтому было принято решение удалять теги для обеспечения корректной работы переводчика.</p>
+    </div>
 
-            <div class="faq-item" id="gui">
-                <h4><a href="#gui" class="faq-link">Как вызвать графический интерфейс переводчика?</a></h4>
-                <p>Комбинация клавиш <strong>Alt + ~</strong> (тильда). При желании эту комбинацию можно изменить в настройках.</p>
-            </div>
+    <div class="faq-item" id="gui">
+        <h4><a href="#gui" class="faq-link">Как вызвать графический интерфейс переводчика?</a></h4>
+        <p>Комбинация клавиш <strong>Alt + ~</strong> (тильда). При желании эту комбинацию можно изменить в настройках.</p>
+    </div>
 
-            <div class="faq-item" id="compatibility">
-                <h4><a href="#compatibility" class="faq-link">Игра не переводится/не запускается/работает некорректно</a></h4>
-                <p>Как сделана та или иная игра зависит от разработчика. В зависимости от реализации, могут быть конфликты в отдельных играх. Совместимость со всеми играми реализовать, к сожалению, не получится.</p>
-            </div>
+    <div class="faq-item" id="compatibility">
+        <h4><a href="#compatibility" class="faq-link">Игра не переводится/не запускается/работает некорректно</a></h4>
+        <p>Как сделана та или иная игра зависит от разработчика. В зависимости от реализации, могут быть конфликты в отдельных играх. Совместимость со всеми играми реализовать, к сожалению, не получится.</p>
+    </div>
 
-            <div class="faq-item" id="report-bug">
-                <h4><a href="#report-bug" class="faq-link">Как сообщить об ошибке?</a></h4>
-                <p>
-                    Сообщения о ошибках принимаются только по последней актуальной версии.<br>
-                    Подготовьте:<br>
-                    • Лог файл (активируйте режим отладки)<br>
-                    • Информацию о настройках<br>
-                    • Файл traceback.txt (если есть)<br>
-                    • Описание действий, приведших к ошибке<br><br>
-                    Задавайте вопросы в <a href="https://discord.gg/FqsQXNH6Fg" class="external-link">Discord</a> или <a href="https://t.me/translator3000" class="external-link">Telegram</a>.
-                </p>
-            </div>
+    <div class="faq-item" id="report-bug">
+        <h4><a href="#report-bug" class="faq-link">Как сообщить об ошибке?</a></h4>
+        <p>
+            Сообщения о ошибках принимаются только по последней актуальной версии.<br>
+            Подготовьте:<br>
+            • Лог файл (активируйте режим отладки)<br>
+            • Информацию о настройках<br>
+            • Файл traceback.txt (если есть)<br>
+            • Описание действий, приведших к ошибке<br><br>
+            Задавайте вопросы в <a href="https://discord.gg/FqsQXNH6Fg" class="external-link">Discord</a> или <a href="https://t.me/translator3000" class="external-link">Telegram</a>.
+        </p>
+    </div>
 
-            <div class="faq-item" id="no-answer">
-                <h4><a href="#no-answer" class="faq-link">Я не нашёл ответа на свой вопрос</a></h4>
-                <p>
-                    Посмотрите канал вопросов в <a href="https://discord.gg/FqsQXNH6Fg" class="external-link">Discord сообществе</a> или задайте вопрос в <a href="https://t.me/translator3000" class="external-link">Telegram</a>. Скорее всего, там уже отвечали на подобный вопрос.<br><br>
-                    <strong>Важно:</strong> задавайте вопросы именно на канале вопросов, а не в личных сообщениях. Это поможет другим пользователям с аналогичными проблемами.
-                </p>
-            </div>
+    <div class="faq-item" id="no-answer">
+        <h4><a href="#no-answer" class="faq-link">Я не нашёл ответа на свой вопрос</a></h4>
+        <p>
+            Посмотрите темы с вопросами в <a href="https://discord.gg/FqsQXNH6Fg" class="external-link">Discord сообществе</a> или <a href="https://t.me/translator3000" class="external-link">Telegram</a> - скорее всего, там уже отвечали на подобный вопрос. Если ответа нет, задайте свой вопрос в одном из этих сообществ.<br><br>
+            <strong>Важно:</strong> задавайте вопросы именно в общих каналах вопросов, а не в личных сообщениях. Это поможет другим пользователям с аналогичными проблемами.
+        </p>
+    </div>
 
-            <div class="faq-item" id="personal-contact">
-                <h4><a href="#personal-contact" class="faq-link">Мне всё ещё что-то непонятно, а в техподдержку писать не хочу. Можно написать вам лично?</a></h4>
-                <p>Нет. Все вопросы решаются только через официальные каналы техподдержки в Discord и Telegram.</p>
-            </div>
+    <div class="faq-item" id="personal-contact">
+        <h4><a href="#personal-contact" class="faq-link">Мне всё ещё что-то непонятно, а в техподдержку писать не хочу. Можно написать вам лично?</a></h4>
+        <p>Нет. Все вопросы решаются только через официальные каналы техподдержки в Discord и Telegram.</p>
+    </div>
 
-            <div class="faq-item" id="but-i-have">
-                <h4><a href="#but-i-have" class="faq-link">Но у меня...</a></h4>
-                <p>Нет.</p>
-            </div>
+    <div class="faq-item" id="but-i-have">
+        <h4><a href="#but-i-have" class="faq-link">Но у меня...</a></h4>
+        <p>Нет.</p>
+    </div>
 
-            <div class="faq-item" id="but">
-                <h4><a href="#but" class="faq-link">Но...</a></h4>
-                <p>Нет.</p>
-            </div>
+    <div class="faq-item" id="but">
+        <h4><a href="#but" class="faq-link">Но...</a></h4>
+        <p>Нет.</p>
+    </div>
 
-            <div class="note" id="support-notice">
-                <h4>Важная информация о поддержке</h4>
-                <p>Все отчёты об ошибках и техническая поддержка оказываются <strong>только по последней актуальной версии</strong> и только по ней без альтернатив и исключений. Это связано с тем, что над переводчиком постоянно ведётся работа, и ошибка, возникшая в более ранних версиях, может уже отсутствовать в более поздних.</p>
-            </div>
-        </section>
+    <div class="note" id="support-notice">
+        <h4>Важная информация о поддержке</h4>
+        <p>Все отчёты об ошибках и техническая поддержка оказываются <strong>только по последней актуальной версии</strong> и только по ней без альтернатив и исключений. Это связано с тем, что над переводчиком постоянно ведётся работа, и ошибка, возникшая в более ранних версиях, может уже отсутствовать в более поздних.</p>
+    </div>
+</section>
 
         <section class="support-section">
             <h2>Присоединяйтесь к сообществу</h2>
