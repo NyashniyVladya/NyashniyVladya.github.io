@@ -5,6 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Translator3000 - Переводчик визуальных новелл для Ren'Py</title>
     <link rel="stylesheet" href="css/styles.css">
+
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript" >
+	   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+	   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+	   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+	   ym(88691983, "init", {
+			clickmap:true,
+			trackLinks:true,
+			accurateTrackBounce:true,
+			webvisor:true
+	   });
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/88691983" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
+
 </head>
 <body>
     <div class="container">
@@ -33,7 +50,7 @@
                 </div>
                 <div class="step">
                     <h3>2. Запустите</h3>
-                    <p>Запустите игру - в меню появится интерфейс переводчика</p>
+                    <p>Запустите игру - интерфейс переводчика появится при начале новой игры или загрузке сохранения</p>
                 </div>
                 <div class="step">
                     <h3>3. Настройте</h3>
@@ -54,8 +71,10 @@
                     <p>Графический интерфейс прямо в игре для комфортной настройки перевода.</p>
                 </div>
                 <div class="feature-card">
-                    <h4>👥 Активное сообщество</h4>
-                    <p>Присоединяйтесь к нашему сообществу, делитесь переводами и получайте помощь.</p>
+                    <a href="https://t.me/translator3000" class="feature-link">
+                        <h4>👥 Активное сообщество</h4>
+                        <p>Присоединяйтесь к нашему сообществу, делитесь переводами и получайте помощь.</p>
+                    </a>
                 </div>
                 <div class="feature-card">
                     <a href="https://boosty.to/nyashniyvladya" class="feature-link">
@@ -80,6 +99,16 @@
                     <strong>Ознакомительная версия:</strong> доступна всем с ограниченным функционалом - <a href="https://github.com/NyashniyVladya/Translator3000/releases" class="external-link">скачать на GitHub</a><br>
                     <strong>Основная версия:</strong> полный функционал с периодическими обновлениями, доступна по подписке на <a href="https://boosty.to/nyashniyvladya" class="external-link">Boosty</a> и <a href="https://www.patreon.com/join/NyashniyVladya" class="external-link">Patreon</a>
                 </p>
+            </div>
+
+            <div class="faq-item" id="mobile">
+                <h4><a href="#mobile" class="faq-link">Есть ли Translator3000 для Android, iOS или других мобильных систем?</a></h4>
+                <p>Нет. Переводчик доступен только для десктопных версий Windows, Linux и macOS. Мобильные платформы и эмуляторы не поддерживаются.</p>
+            </div>
+
+            <div class="faq-item" id="manual-edit">
+                <h4><a href="#manual-edit" class="faq-link">Можно ли редактировать переводы вручную?</a></h4>
+                <p>Да, в Translator3000 есть функция ручного редактирования переводов через специальное окно редактируемого текста. Однако важно понимать: <strong>если вы вносите ручные правки в базу данных переводов или используете функцию ручного редактирования, то при возникновении ошибок трейсбеки и отчеты об ошибках не принимаются</strong>. Ручное редактирование выполняется на ваш страх и риск.</p>
             </div>
 
             <div class="faq-item" id="gui">
@@ -113,6 +142,21 @@
                 </p>
             </div>
 
+            <div class="faq-item" id="personal-contact">
+                <h4><a href="#personal-contact" class="faq-link">Мне всё ещё что-то непонятно, а в техподдержку писать не хочу. Можно написать вам лично?</a></h4>
+                <p>Нет. Все вопросы решаются только через официальные каналы техподдержки в Discord и Telegram.</p>
+            </div>
+
+            <div class="faq-item" id="but-i-have">
+                <h4><a href="#but-i-have" class="faq-link">Но у меня...</a></h4>
+                <p>Нет.</p>
+            </div>
+
+            <div class="faq-item" id="but">
+                <h4><a href="#but" class="faq-link">Но...</a></h4>
+                <p>Нет.</p>
+            </div>
+
             <div class="note" id="support-notice">
                 <h4>Важная информация о поддержке</h4>
                 <p>Все отчёты об ошибках и техническая поддержка оказываются <strong>только по последней актуальной версии</strong> и только по ней без альтернатив и исключений. Это связано с тем, что над переводчиком постоянно ведётся работа, и ошибка, возникшая в более ранних версиях, может уже отсутствовать в более поздних.</p>
@@ -127,11 +171,13 @@
                 <a href="https://www.patreon.com/join/NyashniyVladya" class="support-link patreon">Patreon</a>
                 <a href="https://discord.gg/FqsQXNH6Fg" class="support-link discord">Discord</a>
                 <a href="https://t.me/translator3000" class="support-link telegram">Telegram</a>
+                <a href="https://youtube.com/@Translator3000?sub_confirmation=1" class="support-link youtube">YouTube</a>
+                <a href="docs.html" class="support-link documentation">Документация</a>
             </div>
         </section>
 
         <footer>
-            <p>Translator3000 &copy; 2024. Проект доступен по подписке на <a href="https://boosty.to/nyashniyvladya" class="external-link">Boosty</a> и <a href="https://www.patreon.com/join/NyashniyVladya" class="external-link">Patreon</a>.</p>
+            <p>Проект доступен по подписке на <a href="https://boosty.to/nyashniyvladya" class="external-link">Boosty</a> и <a href="https://www.patreon.com/join/NyashniyVladya" class="external-link">Patreon</a>.</p>
         </footer>
     </div>
 </body>

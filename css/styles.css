@@ -512,3 +512,19 @@ a.external-link:hover {
 h2, h3, h4, h5 {
     scroll-margin-top: 20px;
 }
+
+.support-link.documentation {
+    background-color: #9c27b0;
+}
+
+.support-link.documentation:hover {
+    background-color: #7b1fa2;
+}
+
+.support-link.youtube {
+    background-color: #ff0000;
+}
+
+.support-link.youtube:hover {
+    background-color: #cc0000;
+}

@@ -2,8 +2,8 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
 	<title>Translator3000</title>
+    <link rel="stylesheet" href="css/styles.css">
 
 	<!-- Yandex.Metrika counter -->
 	<script type="text/javascript" >
@@ -117,7 +117,7 @@
             <h2>Введение</h2>
             <p>Translator3000 — это удобный автоматический переводчик визуальных новелл, созданных на движке Ren'Py с лёгкой установкой и удобным интерфейсом! Он использует современные сервисы перевода и систему облачных баз данных для обеспечения качественного перевода.</p>
         </section>
-        
+
         <section id="gui-note">
             <h2>Простой способ настройки</h2>
             <div class="gui-note">
@@ -151,11 +151,12 @@
                 <div class="support-links">
                     <a href="https://t.me/translator3000" target="_blank" class="support-link">Telegram-канал</a>
                     <a href="https://discord.gg/FqsQXNH6Fg" target="_blank" class="support-link">Discord-сервер</a>
+                    <a href="https://youtube.com/@Translator3000?sub_confirmation=1" target="_blank" class="support-link">YouTube-канал</a>
                 </div>
             </div>
         </section>
 
-        
+
         <section id="disclaimer">
             <h2>Важное примечание</h2>
             <div class="disclaimer">
@@ -164,7 +165,7 @@
                 <p><strong>Документация может обновляться раньше релиза новой версии программы.</strong> Если вы не нашли какой-то параметр в своей версии Translator3000, значит он будет добавлен в одном из следующих обновлений.</p>
             </div>
         </section>
-        
+
         <section id="terms">
             <h2>Термины и понятия</h2>
 
@@ -555,7 +556,7 @@
                     <strong>Допустимые значения:</strong> <code>true</code> или <code>false</code>
                 </div>
                 <p><strong>Значение по умолчанию:</strong> <code>true</code></p>
-                <p><strong>Описание:</strong> Показывать ли небольшую кнопку "развернуть графический интерфейс" в углу экрана, когда основное окно свёрнуто.</p>
+                <p><strong>Описание:</strong> Показывать ли небольшую кнопку "развернуть графический интерфейс" в углу экрана, когда основное окно свёрнуто. Позволяет вернуть интерфейс при помощи нажатия мышью на иконку, а не только через комбинацию клавиш.</p>
             </div>
 
             <div class="param-block" id="databaseDir">
@@ -742,17 +743,37 @@
                     <p><strong>Важно:</strong> Без конкретного указания технической поддержки в этом разделе не рекомендуется менять ничего вообще. Эти опции предназначены для исправления специфических проблем в отдельных играх и могут привести к нестабильной работе программы при неправильном использовании.</p>
                 </div>
 
-                <h4>fixGUI</h4>
+                <h4><span class="param-name">fixGUI</span> <span class="param-type">(булево)</span></h4>
+                <p><strong>Назначение:</strong> Исправляет проблему в играх, где подавляется слой на котором отображается переводчик. Опция отключает подавление слоёв, если таковое имеется.</p>
+                <div class="value-options">
+                    <strong>Допустимые значения:</strong> <code>true</code> или <code>false</code>
+                </div>
                 <p><strong>Значение по умолчанию:</strong> <code>false</code></p>
 
-                <h4>fixFont</h4>
+
+                <h4><span class="param-name">fixFont</span> <span class="param-type">(булево)</span></h4>
+                <p><strong>Назначение:</strong> Исправляет проблему в играх, где форсированно изменяется стиль выводимого текста из за чего не применяется выбранный пользователем шрифт, что приводит к отображанию "квадратиков" вместо текста. Опция применяет альтернативный метод изменения шрифта текста.</p>
+                <div class="value-options">
+                    <strong>Допустимые значения:</strong> <code>true</code> или <code>false</code>
+                </div>
                 <p><strong>Значение по умолчанию:</strong> <code>false</code></p>
 
-                <h4>fixDevMode</h4>
+
+                <h4><span class="param-name">fixDevMode</span> <span class="param-type">(булево)</span></h4>
+                <p><strong>Назначение:</strong> Исправляет проблему с множественным вызовом <code>renpy.restart_interaction()</code>, которая возникает из за того, что разработчик оставляет параметр <code>config.developer</code> включённым в релизной версии. Опция отключает параметр.</p>
+                <div class="value-options">
+                    <strong>Допустимые значения:</strong> <code>true</code> или <code>false</code>
+                </div>
                 <p><strong>Значение по умолчанию:</strong> <code>false</code></p>
 
-                <h4>forceRestartInNoFreeze</h4>
+
+                <h4><span class="param-name">forceRestartInNoFreeze</span> <span class="param-type">(булево)</span></h4>
+                <p><strong>Назначение:</strong> Если включено, изменяет поведение в режиме "No freeze", принудительно перерисовывая интерфейс после каждого обновления перевода. Если отключено - интерфейс перерисовывается избирательно, в зависимости от условий. Помогает в играх, где вывод текста производится нестандартыми способами.</p>
+                <div class="value-options">
+                    <strong>Допустимые значения:</strong> <code>true</code> или <code>false</code>
+                </div>
                 <p><strong>Значение по умолчанию:</strong> <code>false</code></p>
+
             </div>
         </section>
 
