@@ -1,0 +1,433 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Графический интерфейс - Translator3000</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m,e,t,r,i,k,a){
+            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+        })(window, document,'script','https://mc.webvisor.org/metrika/tag_ww.js?id=105189247', 'ym');
+
+        ym(105189247, 'init', {ssr:true, webvisor:true, trackHash:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/105189247" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "TechArticle",
+                "name": "Translator3000",
+                "applicationCategory": "DesignApplication",
+                "operatingSystem": "Windows, macOS, Linux",
+                "headline": "Графический интерфейс Translator3000 - Описание элементов управления",
+                "description": "Подробное описание графического интерфейса Translator3000 и всех элементов управления",
+                "url": "https://nyashniyvladya.github.io/gui.html",
+                "author": {
+                    "@type": "Person",
+                    "name": "NyashniyVladya",
+                    "url": "https://boosty.to/nyashniyvladya"
+                },
+                "publisher": {
+                    "@type": "Person",
+                    "name": "NyashniyVladya",
+                    "url": "https://boosty.to/nyashniyvladya"
+                },
+                "about": {
+                    "@type": "SoftwareApplication",
+                    "name": "Translator3000",
+                    "url": "https://boosty.to/nyashniyvladya"
+                },
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "offerCount": "2",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "name": "Уровень 1. Полный доступ.",
+                            "price": "350",
+                            "priceCurrency": "RUB",
+                            "availability": "https://schema.org/InStock",
+                            "url": "https://boosty.to/nyashniyvladya"
+                        },
+                        {
+                            "@type": "Offer",
+                            "name": "Уровень 2. Полный доступ + Доступ к бета версиям.",
+                            "price": "700",
+                            "priceCurrency": "RUB",
+                            "availability": "https://schema.org/InStock",
+                            "url": "https://boosty.to/nyashniyvladya"
+                        }
+                    ]
+                },
+                "featureList": "Перевод новелл, Встроенный редактор перевода, Графический интерфейс настроек, Поддержка облачных баз данных",
+                "applicationSubCategory": "Translation Software",
+                "releaseNotes": "Автоматический перевод визуальных новелл Ren'Py с поддержкой облачных баз данных переводов"
+            }
+        ]
+    }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Translator3000</h1>
+            <p class="subtitle">Графический интерфейс переводчика</p>
+            <p>Описание элементов управления и возможностей</p>
+        </header>
+
+        <div class="nav-sidebar">
+            <h3>Навигация</h3>
+            <ul>
+                <li><a href="index.html">Главная страница</a></li>
+                <li><a href="docs.html">Настройки</a></li>
+            </ul>
+            <h3>Содержание</h3>
+            <ul>
+                <li><a href="#intro">Введение</a></li>
+                <li><a href="#top-left">Левая верхняя группа</a>
+                    <ul class="nav-subsection">
+                        <li><a href="#back-button">Назад/Скрыть</a></li>
+                        <li><a href="#help-button">Справка</a></li>
+                        <li><a href="#theme-button">Переключить тему</a></li>
+                        <li><a href="#refresh-button">Обновить страницу</a></li>
+                    </ul>
+                </li>
+                <li><a href="#top-right">Правая верхняя группа</a>
+                    <ul class="nav-subsection">
+                        <li><a href="#language-button">Переключить язык</a></li>
+                        <li><a href="#messages-button">Сообщения</a></li>
+                        <li><a href="#transparency-bar">Прозрачность окна</a></li>
+                        <li><a href="#size-controls">Размер окна</a></li>
+                    </ul>
+                </li>
+                <li><a href="#center-left">Центральная группа (левая)</a>
+                    <ul class="nav-subsection">
+                        <li><a href="#backup-db">Бэкап БД</a></li>
+                        <li><a href="#clear-cache">Очистить кэш игры</a></li>
+                        <li><a href="#clear-all-cache">Очистить весь кэш</a></li>
+                        <li><a href="#edit-window">Окно редактирования</a></li>
+                        <li><a href="#edit-variables">Редактировать переменные</a></li>
+                        <li><a href="#translator-settings">Настройки переводчика</a></li>
+                        <li><a href="#statistics">Статистика</a></li>
+                        <li><a href="#support-buttons">Поддержка разработчика</a></li>
+                    </ul>
+                </li>
+                <li><a href="#center-right">Центральная группа (правая)</a>
+                    <ul class="nav-subsection">
+                        <li><a href="#work-modes">Режимы работы</a></li>
+                        <li><a href="#version-info">Информация о версии</a></li>
+                        <li><a href="#rescan-button">Перезапуск прескана</a></li>
+                        <li><a href="#social-buttons">Социальные сети</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <section id="intro">
+            <h2>Введение</h2>
+            <p>Графический интерфейс Translator3000 предоставляет удобный способ настройки всех параметров перевода без необходимости редактирования конфигурационных файлов. Интерфейс доступен во время игры по комбинации клавиш <strong>Alt + ~</strong> (тильда).</p>
+
+            <p>Эта документация дополняет <a href="docs.html" class="external-link">основную документацию по настройкам</a>, предоставляя визуальное руководство по использованию интерфейса Translator3000.</p>
+
+            <div class="note">
+                <p><strong>Рекомендация:</strong> Для большинства пользователей настройка через графический интерфейс является предпочтительным способом, так как она интуитивно понятна и не требует знания технических деталей.</p>
+            </div>
+        </section>
+
+        <section id="top-left">
+            <h2>Левая верхняя группа кнопок</h2>
+
+            <div class="param-block" id="back-button">
+                <h3><span class="param-name">Назад/Скрыть</span></h3>
+                <p><strong>Назначение:</strong> Универсальная кнопка навигации и управления окном.</p>
+                <p><strong>Функциональность:</strong></p>
+                <ul>
+                    <li>На страницах настроек - возврат на предыдущую страницу</li>
+                    <li>На главной странице - сворачивание окна интерфейса</li>
+                </ul>
+                <div class="note">
+                    <p><strong>Примечание:</strong> При включённой опции <code>useMinimizeButton</code> в настройках, эта кнопка останется единственной видимой на экране в свёрнутом состоянии и будет использоваться для разворачивания окна настроек.</p>
+                </div>
+            </div>
+
+            <div class="param-block" id="help-button">
+                <h3><span class="param-name">Справка</span></h3>
+                <p><strong>Назначение:</strong> Открывает документацию по Translator3000 в браузере по умолчанию.</p>
+                <p>Позволяет быстро получить доступ к полной документации, не прерывая игровой процесс.</p>
+            </div>
+
+            <div class="param-block" id="theme-button">
+                <h3><span class="param-name">Переключить тему</span></h3>
+                <p><strong>Назначение:</strong> Изменение цветовой схемы интерфейса переводчика.</p>
+                <p><strong>Доступные варианты:</strong></p>
+                <ul>
+                    <li>Тёмная тема (рекомендуется для ночной игры)</li>
+                    <li>Светлая тема (удобна при ярком освещении)</li>
+                </ul>
+                <p>Настройка темы влияет только на интерфейс Translator3000 и не изменяет оформление самой игры.</p>
+            </div>
+
+            <div class="param-block" id="refresh-button">
+                <h3><span class="param-name">Обновить страницу</span></h3>
+                <p><strong>Назначение:</strong> Принудительное обновление текущего экрана игры.</p>
+                <p><strong>Использование:</strong> В большинстве случаев автоматическое обновление работает корректно, но если экран по каким-либо причинам не обновился после перевода и отображает непереведённый текст, эта кнопка позволяет принудительно перерисовать интерфейс.</p>
+                <div class="note">
+                    <p><strong>Примечание:</strong> Для этой функции можно настроить комбинацию горячих клавиш через параметр <a href="docs.html#forceRestart" class="external-link">forceRestart</a> в объекте <code>keys</code> настроечного файла.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="top-right">
+            <h2>Правая верхняя группа</h2>
+
+            <div class="param-block" id="language-button">
+                <h3><span class="param-name">Переключить язык</span></h3>
+                <p><strong>Назначение:</strong> Изменение языка интерфейса Translator3000.</p>
+                <div class="important">
+                    <p><strong>Важно:</strong> Эта настройка изменяет только язык элементов управления переводчика, а не язык игры или направление перевода.</p>
+                </div>
+            </div>
+
+            <div class="param-block" id="messages-button">
+                <h3><span class="param-name">Сообщения</span></h3>
+                <p><strong>Назначение:</strong> Отображение или скрытие окна с сообщениями от команды Translator3000.</p>
+                <p>Через это окно пользователи получают важные уведомления об обновлениях, изменениях в работе сервисов и другой полезной информации.</p>
+                <p>Ответы на частые вопросы доступны на <a href="index.html#faq" class="external-link">главной странице</a>.</p>
+            </div>
+
+            <div class="param-block" id="transparency-bar">
+                <h3><span class="param-name">Регулятор прозрачности</span></h3>
+                <p><strong>Назначение:</strong> Настройка уровня прозрачности окна настроек переводчика.</p>
+                <p>Позволяет сделать интерфейс более или менее прозрачным для комфортного совмещения с игровым процессом.</p>
+            </div>
+
+            <div class="param-block" id="size-controls">
+                <h3><span class="param-name">Элементы управления размером</span></h3>
+                <p><strong>Назначение:</strong> Изменение размера окна настроек переводчика.</p>
+                <p>Включает кнопки для увеличения, уменьшения и восстановления стандартного размера окна интерфейса.</p>
+                <div class="note">
+                    <p><strong>Совет:</strong> Нажатие правой кнопкой мыши по кнопке увеличения (+) возвращает окно к стандартному размеру.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="center-left">
+            <h2>Центральная группа - Левая часть</h2>
+
+            <div class="param-block" id="backup-db">
+                <h3><span class="param-name">Сделать бэкап БД</span></h3>
+                <p><strong>Назначение:</strong> Создание резервной копии базы данных переводов.</p>
+                <p><strong>Особенности:</strong> Переводчик автоматически создаёт бэкапы при сохранении переводов, поэтому в большинстве случаев ручное создание бэкапа не требуется. Однако эта кнопка доступна для форсированного создания резервной копии при необходимости.</p>
+            </div>
+
+            <div class="param-block" id="clear-cache">
+                <h3><span class="param-name">Очистить кэш переводов игры</span></h3>
+                <p><strong>Назначение:</strong> Удаление сохранённых переводов для текущей игры.</p>
+                <p>Полезно при возникновении проблем с переводом или для освобождения места на диске.</p>
+                <div class="warning">
+                    <p><strong>Внимание:</strong> Это действие невозможно отменить. Все сохранённые переводы для текущей игры будут безвозвратно удалены.</p>
+                </div>
+            </div>
+
+            <div class="param-block" id="clear-all-cache">
+                <h3><span class="param-name">Очистить весь кэш переводов</span></h3>
+                <p><strong>Назначение:</strong> Полная очистка всех сохранённых переводов для всех игр.</p>
+                <div class="warning">
+                    <p><strong>Внимание:</strong> Это действие невозможно отменить. Все сохранённые переводы будут безвозвратно удалены.</p>
+                </div>
+            </div>
+
+            <div class="param-block" id="edit-window">
+                <h3><span class="param-name">Вывести окно редактирования текста</span></h3>
+                <p><strong>Назначение:</strong> Открытие специального окна для ручного редактирования машинного перевода.</p>
+                <p>Позволяет исправлять неточности перевода в реальном времени во время игры.</p>
+                <div class="important">
+                    <p><strong>Важное примечание:</strong> При использовании функции ручного редактирования пользователь теряет право на техническую поддержку. Отчёты об ошибках от пользователей, которые вносили изменения в переводы вручную, не принимаются.</p>
+                </div>
+                <div class="note">
+                    <p><strong>Совет:</strong> Для удобства частого использования этой функции можно назначить комбинацию горячих клавиш в настройках переводчика.</p>
+                </div>
+            </div>
+
+            <div class="param-block" id="edit-variables">
+                <h3><span class="param-name">Редактировать переменные игры</span></h3>
+                <p><strong>Назначение:</strong> Расширенная функция для изменения игровых переменных.</p>
+                <p><strong>Возможности:</strong></p>
+                <ul>
+                    <li>Изменение очков отношений с персонажами</li>
+                    <li>Корректировка игровой валюты и ресурсов</li>
+                    <li>Изменение других игровых параметров</li>
+                </ul>
+                <div class="note">
+                    <p><strong>Примечание:</strong> Эта функция сделана по просьбам подписчиков и не имеет прямого отношения к переводу. Может быть полезна для тех, кто хочет сэкономить время на фарминге ресурсов или быстро повысить отношения с персонажами.</p>
+                </div>
+            </div>
+
+            <div class="param-block" id="translator-settings">
+                <h3><span class="param-name">Настройки переводчика</span></h3>
+                <p><strong>Назначение:</strong> Доступ к расширенным и тонким настройкам перевода и функциональности Translator3000.</p>
+
+                <h4>Настроить параметры отображаемого текста</h4>
+                <p>Позволяет визуально настроить внешний вид отображаемого текста в игре.</p>
+                <p><strong>Соответствует параметру:</strong> <a href="docs.html#extraTextOptions" class="external-link">extraTextOptions</a> в настроечном файле</p>
+
+                <h4>Сбросить настройки уведомлений всплывающих окон</h4>
+                <p>В некоторых случаях (например, при завершении прескана) переводчик отправляет уведомления через API Windows, которые можно отключить. Если пользователь случайно отключил нужное уведомление, эта функция позволяет сбросить настройки и восстановить отображение всех уведомлений.</p>
+
+                <h4>Языковые настройки</h4>
+                <p><strong>Исходный язык игры:</strong> Соответствует параметру <a href="docs.html#gameLanguage" class="external-link">gameLanguage</a></p>
+                <p><strong>Направление перевода:</strong> Соответствует параметру <a href="docs.html#directionOfTranslation" class="external-link">directionOfTranslation</a></p>
+
+                <h4>Булевы параметры (включено/выключено)</h4>
+                <ul>
+                    <li><strong>Режим отладки:</strong> <a href="docs.html#_debug_mode" class="external-link">_debug_mode</a></li>
+                    <li><strong>Сохранять оригинал в истории:</strong> <a href="docs.html#originalInHistory" class="external-link">originalInHistory</a></li>
+                    <li><strong>Разделять предложения при переводе:</strong> <a href="docs.html#splitTextAsSentences" class="external-link">splitTextAsSentences</a></li>
+                    <li><strong>Подставлять переменные из загруженной базы данных:</strong> <a href="docs.html#addVariablesFromDB" class="external-link">addVariablesFromDB</a></li>
+                    <li><strong>Использовать видимую кнопку отображения переводчика:</strong> <a href="docs.html#useMinimizeButton" class="external-link">useMinimizeButton</a></li>
+                    <li><strong>Использовать альтернативный метод сортировки в предварительном сканировании:</strong> <a href="docs.html#alternativeSortMethod" class="external-link">alternativeSortMethod</a></li>
+                    <li><strong>Показывать альтернативные переводы:</strong> <a href="docs.html#displayAlternateTranslations" class="external-link">displayAlternateTranslations</a> + настройка горячих клавиш</li>
+                    <li><strong>Использовать режим "без задержки":</strong> <a href="docs.html#useNoFreezeLogic" class="external-link">useNoFreezeLogic</a></li>
+                </ul>
+
+                <h4>Показывать оригинал на экране</h4>
+                <p>Соответствует параметру <a href="docs.html#displayOriginal" class="external-link">displayOriginal</a> с возможностью настройки горячих клавиш для быстрого переключения.</p>
+
+                <h4>Блок выбора сервиса перевода</h4>
+                <p>Соответствует параметру <a href="docs.html#translationService" class="external-link">translationService</a></p>
+
+                <h4>Настройка комбинаций клавиш</h4>
+                <p>Соответствует объекту <a href="docs.html#keys" class="external-link">keys</a>, но с упрощённым интерфейсом - можно выбрать комбинацию непосредственным нажатием нужных клавиш, без необходимости ввода текстовых команд. Включает настройку для функции <a href="docs.html#forceRestart" class="external-link">forceRestart</a> (принудительное обновление страницы).</p>
+
+                <h4>Способ работы переводчика</h4>
+                <p>Соответствует параметру <a href="docs.html#workMethod" class="external-link">workMethod</a></p>
+
+                <h4>Частота запросов</h4>
+                <p>Соответствует параметру <a href="docs.html#requestsFrequency" class="external-link">requestsFrequency</a></p>
+
+                <div class="note">
+                    <p><strong>Преимущество графического интерфейса:</strong> Все эти настройки представлены в удобном визуальном формате с пояснениями, что значительно упрощает конфигурацию переводчика по сравнению с ручным редактированием файла настроек.</p>
+                </div>
+            </div>
+
+            <div class="param-block" id="statistics">
+                <h3><span class="param-name">Статистика</span></h3>
+                <p><strong>Назначение:</strong> Просмотр статистики по играм, запускавшимся с Translator3000.</p>
+                <p>Включает информацию о количестве переведённых строк, использованных сервисах перевода и другую полезную статистику.</p>
+            </div>
+
+            <div class="param-block" id="support-buttons">
+                <h3><span class="param-name">Кнопки поддержки разработчика</span></h3>
+                <p><strong>Назначение:</strong> Прямой доступ к страницам поддержки проекта.</p>
+
+                <h4>Поддержать разработчика через Boosty</h4>
+                <p>Открывает страницу проекта на <a href="https://boosty.to/nyashniyvladya" target="_blank" class="external-link">Boosty</a></p>
+
+                <h4>Поддержать разработчика через Patreon</h4>
+                <p>Открывает страницу проекта на <a href="https://www.patreon.com/join/NyashniyVladya" target="_blank" class="external-link">Patreon</a></p>
+
+                <div class="note">
+                    <p>Подписка даёт доступ к полной версии Translator3000 с регулярными обновлениями и технической поддержкой.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="center-right">
+            <h2>Центральная группа - Правая часть</h2>
+
+            <div class="param-block" id="work-modes">
+                <h3><span class="param-name">Режимы работы переводчика</span></h3>
+
+                <h4>1. Отключено</h4>
+                <p><strong>Описание:</strong> Переводчик полностью отключен и не выполняет никаких действий.</p>
+                <p>Игра работает в оригинальном режиме без вмешательства переводчика.</p>
+
+                <h4>2. Прескан (Предварительное сканирование)</h4>
+                <p><strong>Описание:</strong> Режим, при котором программа заранее собирает все текстовые строки из игры и переводит их.</p>
+                <p><strong>Особенности:</strong></p>
+                <ul>
+                    <li>Может занимать продолжительное время в зависимости от объёма текста</li>
+                    <li>После завершения предоставляет полностью переведённую игру</li>
+                    <li>Исключает необходимость ожидания перевода во время игры</li>
+                    <li>Создаёт файл для экспорта в облачную базу данных</li>
+                </ul>
+                <p><strong>Поведение после завершения:</strong></p>
+                <ul>
+                    <li>Если включена настройка <code>startTranslateAfterPrescan</code> - автоматически переходит в режим "Только БД"</li>
+                    <li>Если настройка отключена - остаётся в текущем состоянии</li>
+                </ul>
+                <p><strong>Расположение файла БД:</strong> В папке игры или в директории, указанной в параметре <code>databaseDir</code> настроечного файла.</p>
+                <p>Подробнее о технических аспектах каждого режима можно узнать в <a href="docs.html#basic-settings" class="external-link">документации по основным настройкам</a>.</p>
+
+                <h4>3. Только БД</h4>
+                <p><strong>Описание:</strong> Режим перевода исключительно из базы данных.</p>
+                <p><strong>Особенности:</strong></p>
+                <ul>
+                    <li>Не выполняет сетевые запросы к сервисам перевода</li>
+                    <li>Отображает оригинальный текст, если перевод не найден в базе данных</li>
+                    <li>Работает максимально быстро, так как не требует интернет-соединения</li>
+                </ul>
+
+                <h4>4. Рилтайм + БД</h4>
+                <p><strong>Описание:</strong> Комбинированный режим с сетевыми обращениями.</p>
+                <p><strong>Особенности:</strong></p>
+                <ul>
+                    <li>Сначала проверяет наличие перевода в локальной базе данных</li>
+                    <li>При отсутствии перевода обращается к сетевым сервисам</li>
+                    <li>Сохраняет полученные переводы в базу данных для последующего использования</li>
+                </ul>
+                <p><strong>Режим работы с сетью:</strong> Зависит от настройки <code>useNoFreezeLogic</code>:</p>
+                <ul>
+                    <li>Если включено - обращение к сети в отдельном потоке (игра не зависает)</li>
+                    <li>Если отключено - обращение в основном потоке (возможны кратковременные зависания)</li>
+                </ul>
+            </div>
+
+            <div class="param-block" id="version-info">
+                <h3><span class="param-name">Информация о версии</span></h3>
+                <p><strong>Назначение:</strong> Отображение текущей версии Translator3000 и информации о запущенной игре.</p>
+            </div>
+
+            <div class="param-block" id="rescan-button">
+                <h3><span class="param-name">Перезапуск предварительного сканирования</span></h3>
+                <p><strong>Назначение:</strong> Повторный запуск процесса прескана.</p>
+                <p><strong>Применение:</strong> Особенно полезно в случаях, когда прескан был выполнен до ввода динамических данных (таких как имя игрока), и необходимо перевести строки с этими данными.</p>
+            </div>
+
+            <div class="param-block" id="social-buttons">
+                <h3><span class="param-name">Социальные сети проекта</span></h3>
+
+                <h4>Discord</h4>
+                <p>Присоединяйтесь к <a href="https://discord.gg/FqsQXNH6Fg" target="_blank" class="external-link">Discord-сообществу</a> для обсуждения, помощи и обмена переводами.</p>
+
+                <h4>Telegram</h4>
+                <p>Подпишитесь на <a href="https://t.me/translator3000" target="_blank" class="external-link">Telegram-канал</a> для получения новостей и обновлений.</p>
+
+                <div class="note">
+                    <p>Сообщества - отличное место для получения помощи, обмена опытом и доступа к готовым базам переводов.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Документация может обновляться раньше выхода новых версий программы</p>
+            <p>
+                <a href="index.html">Главная</a> |
+                <a href="gui.html">Графический интерфейс</a> |
+                <a href="docs.html">Настройки</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

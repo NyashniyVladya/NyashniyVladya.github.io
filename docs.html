@@ -4,6 +4,79 @@
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Translator3000</title>
     <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m,e,t,r,i,k,a){
+            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+        })(window, document,'script','https://mc.webvisor.org/metrika/tag_ww.js?id=105189247', 'ym');
+
+        ym(105189247, 'init', {ssr:true, webvisor:true, trackHash:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/105189247" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "TechArticle",
+                "name": "Translator3000",
+                "applicationCategory": "DesignApplication",
+                "operatingSystem": "Windows, macOS, Linux",
+                "headline": "Документация Translator3000 - Настройки и параметры",
+                "description": "Полное руководство по настройке Translator3000 - переводчика визуальных новелл для Ren'Py",
+                "url": "https://nyashniyvladya.github.io/docs.html",
+                "author": {
+                    "@type": "Person",
+                    "name": "NyashniyVladya",
+                    "url": "https://boosty.to/nyashniyvladya"
+                },
+                "publisher": {
+                    "@type": "Person",
+                    "name": "NyashniyVladya",
+                    "url": "https://boosty.to/nyashniyvladya"
+                },
+                "about": {
+                    "@type": "SoftwareApplication",
+                    "name": "Translator3000",
+                    "url": "https://boosty.to/nyashniyvladya"
+                },
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "offerCount": "2",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "name": "Уровень 1. Полный доступ.",
+                            "price": "350",
+                            "priceCurrency": "RUB",
+                            "availability": "https://schema.org/InStock",
+                            "url": "https://boosty.to/nyashniyvladya"
+                        },
+                        {
+                            "@type": "Offer",
+                            "name": "Уровень 2. Полный доступ + Доступ к бета версиям.",
+                            "price": "700",
+                            "priceCurrency": "RUB",
+                            "availability": "https://schema.org/InStock",
+                            "url": "https://boosty.to/nyashniyvladya"
+                        }
+                    ]
+                },
+                "featureList": "Перевод новелл, Встроенный редактор перевода, Графический интерфейс настроек, Поддержка облачных баз данных",
+                "applicationSubCategory": "Translation Software",
+                "releaseNotes": "Автоматический перевод визуальных новелл Ren'Py с поддержкой облачных баз данных переводов"
+            }
+        ]
+    }
+    </script>
+
 </head>
 
 <body>
@@ -15,6 +88,11 @@
         </header>
 
         <div class="nav-sidebar">
+            <h3>Навигация</h3>
+            <ul>
+                <li><a href="index.html">Главная страница</a></li>
+                <li><a href="gui.html">Графический интерфейс</a></li>
+            </ul>
             <h3>Содержание</h3>
             <ul>
                 <li><a href="#intro">Введение</a></li>
@@ -71,6 +149,7 @@
                         <li><a href="#keys">keys</a></li>
                         <li><a href="#guiShow">guiShow</a></li>
                         <li><a href="#databaseTranslateSwitcher">databaseTranslateSwitcher</a></li>
+                        <li><a href="#forceRestart">forceRestart</a></li>
                     </ul>
                 </li>
                 <li><a href="#text-options">Настройки текста</a>
@@ -106,6 +185,7 @@
             <div class="gui-note">
                 <p><strong>Translator3000 намного удобнее настраивать через графический интерфейс!</strong></p>
                 <p>При запуске игры с активированным Translator3000 появляется удобное графическое меню, где можно настроить все основные параметры простым выбором из списка.</p>
+                <p>Подробное описание всех элементов графического интерфейса доступно в <a href="gui.html" class="external-link">отдельной документации по графическому интерфейсу</a>.</p>
                 <p>Настроечный файл, описание которого приводится в этой документации, предназначен в основном для:</p>
                 <ul>
                     <li>Общей информативности о возможностях программы</li>
@@ -145,7 +225,7 @@
             <div class="disclaimer">
                 <p><strong>Внимание!</strong> Данная документация описывает все возможные параметры конфигурации Translator3000.</p>
                 <p>В актуальной версии программы у вас могут отсутствовать некоторые параметры, указанные в этой документации. Это означает, что они появятся в будущих версиях программы.</p>
-                <p><strong>Документация может обновляться раньше релиза новой версии программы.</strong> Если вы не нашли какой-то параметр в своей версии Translator3000, значит он будет добавлен в одном из следующих обновлений.</p>
+                <p><strong>Документация может обновляться раньше выхода новых версий программы.</strong> Если вы не нашли какой-то параметр в своей версии Translator3000, значит он будет добавлен в одном из следующих обновлений.</p>
             </div>
         </section>
 
@@ -374,6 +454,7 @@
                     </ul>
                 </div>
                 <p><strong>Значение по умолчанию:</strong> <code>false</code></p>
+                <p>Для удобства частого использования этой функции рекомендуется настроить соответствующие горячие клавиши через <a href="gui.html#center-left" class="external-link">графический интерфейс</a>.</p>
             </div>
 
             <div class="param-block" id="displayAlternateTranslations">
@@ -384,6 +465,7 @@
                 </div>
                 <p><strong>Значение по умолчанию:</strong> <code>false</code></p>
                 <p><strong>Описание:</strong> Если <code>true</code> - показывается окно с альтернативными вариантами перевода от других сервисов (если перевод есть в базе данных).</p>
+                <p>Для удобства частого использования этой функции рекомендуется настроить соответствующие горячие клавиши через <a href="gui.html#center-left" class="external-link">графический интерфейс</a>.</p>
             </div>
 
             <div class="param-block" id="showEditWindow">
@@ -598,6 +680,12 @@
                 <p><strong>Формат:</strong> <code>null</code> (отключено), строка или объект</p>
                 <p><strong>Значение по умолчанию:</strong> <code>null</code></p>
 
+                <h4 id="forceRestart">forceRestart</h4>
+                <p><strong>Назначение:</strong> Принудительное обновление текущего экрана игры (аналогично функции "Обновить страницу" в графическом интерфейсе).</p>
+                <p><strong>Формат:</strong> <code>null</code> (отключено), строка или объект</p>
+                <p><strong>Значение по умолчанию:</strong> <code>null</code></p>
+                <p><strong>Использование:</strong> Полезно в случаях, когда экран по каким-либо причинам не обновился после перевода и отображает непереведённый текст. Позволяет принудительно перерисовать интерфейс.</p>
+
                 <div class="value-options">
                     <strong>Форматы назначения горячих клавиш:</strong>
                     <ul>
@@ -763,6 +851,11 @@
 
         <footer>
             <p>Документация может обновляться раньше выхода новых версий программы</p>
+            <p>
+                <a href="index.html">Главная</a> |
+                <a href="gui.html">Графический интерфейс</a> |
+                <a href="docs.html">Настройки</a>
+            </p>
         </footer>
     </div>
 </body>

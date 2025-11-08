@@ -5,12 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Translator3000 - Переводчик визуальных новелл для Ren'Py</title>
     <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m,e,t,r,i,k,a){
+            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+        })(window, document,'script','https://mc.webvisor.org/metrika/tag_ww.js?id=105189247', 'ym');
+
+        ym(105189247, 'init', {ssr:true, webvisor:true, trackHash:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/105189247" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "SoftwareApplication",
+                "name": "Translator3000",
+                "applicationCategory": "DesignApplication",
+                "operatingSystem": "Windows, macOS, Linux",
+                "description": "Translator3000 - переводчик визуальных новелл на движке Ren'Py с лёгкой установкой и удобным интерфейсом!",
+                "url": "https://nyashniyvladya.github.io/index.html",
+                "author": {
+                    "@type": "Person",
+                    "name": "NyashniyVladya",
+                    "url": "https://boosty.to/nyashniyvladya"
+                },
+                "publisher": {
+                    "@type": "Person",
+                    "name": "NyashniyVladya",
+                    "url": "https://boosty.to/nyashniyvladya"
+                },
+                "about": {
+                    "@type": "SoftwareApplication",
+                    "name": "Translator3000",
+                    "url": "https://boosty.to/nyashniyvladya"
+                },
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "offerCount": "2",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "name": "Уровень 1. Полный доступ.",
+                            "price": "350",
+                            "priceCurrency": "RUB",
+                            "availability": "https://schema.org/InStock",
+                            "url": "https://boosty.to/nyashniyvladya"
+                        },
+                        {
+                            "@type": "Offer",
+                            "name": "Уровень 2. Полный доступ + Доступ к бета версиям.",
+                            "price": "700",
+                            "priceCurrency": "RUB",
+                            "availability": "https://schema.org/InStock",
+                            "url": "https://boosty.to/nyashniyvladya"
+                        }
+                    ]
+                },
+                "featureList": "Перевод новелл, Встроенный редактор перевода, Графический интерфейс настроек, Поддержка облачных баз данных",
+                "applicationSubCategory": "Translation Software",
+                "releaseNotes": "Автоматический перевод визуальных новелл Ren'Py с поддержкой облачных баз данных переводов"
+            }
+        ]
+    }
+    </script>
 </head>
 <body>
     <div class="container">
         <header>
             <h1>Translator3000</h1>
             <p class="subtitle">Переводчик визуальных новелл на движке Ren'Py с лёгкой установкой и удобным интерфейсом</p>
+            <nav class="main-nav">
+                <a href="index.html">Главная</a> |
+                <a href="gui.html">Графический интерфейс</a> |
+                <a href="docs.html">Настройки</a>
+            </nav>
         </header>
 
         <section class="hero-section">
@@ -70,7 +146,7 @@
 
 <section class="faq">
     <h2>Частые вопросы</h2>
-    
+
     <div class="faq-item" id="what-is">
         <h4><a href="#what-is" class="faq-link">Что такое Translator3000?</a></h4>
         <p>Translator3000 - автоматический переводчик игр (новелл), сделанных на движке Ren'Py, с лёгкой установкой и удобным интерфейсом. Хотите почитать новеллу, а у неё нет перевода на Ваш язык? Всё что нужно - скопировать файл Translator3000.rpa в папку с игрой.</p>
@@ -97,9 +173,9 @@
     <div class="faq-item" id="tags-removal">
         <h4><a href="#tags-removal" class="faq-link">Почему переводчик удаляет теги форматирования из игры?</a></h4>
         <p>Translator3000 удаляет Ren'Py теги (цвет, курсив, жирный текст, а также текстовые теги вроде {w}/{nw} и подобные) по важной причине: эти теги нельзя экранировать при обращении к сервису перевода. Сервис может преобразовать тег {color=...} в {цвет=...}, что приведет к ошибке.</p>
-        
+
         <p>Хотя можно было бы переводить текст частями (до и после тегов), это сильно ухудшило бы качество перевода, так как слова переводились бы без учета полного контекста.</p>
-        
+
         <p>Поэтому было принято решение удалять теги для обеспечения корректной работы переводчика.</p>
     </div>
 
@@ -164,12 +240,18 @@
                 <a href="https://discord.gg/FqsQXNH6Fg" class="support-link discord">Discord</a>
                 <a href="https://t.me/translator3000" class="support-link telegram">Telegram</a>
                 <a href="https://youtube.com/@Translator3000?sub_confirmation=1" class="support-link youtube">YouTube</a>
-                <a href="docs.html" class="support-link documentation">Документация</a>
+                <a href="docs.html" class="support-link documentation">Настройки</a>
+                <a href="gui.html" class="support-link documentation">Графический интерфейс</a>
             </div>
         </section>
 
         <footer>
             <p>Проект доступен по подписке на <a href="https://boosty.to/nyashniyvladya" class="external-link">Boosty</a> и <a href="https://www.patreon.com/join/NyashniyVladya" class="external-link">Patreon</a>.</p>
+            <p>
+                <a href="index.html">Главная</a> |
+                <a href="gui.html">Графический интерфейс</a> |
+                <a href="docs.html">Настройки</a>
+            </p>
         </footer>
     </div>
 </body>

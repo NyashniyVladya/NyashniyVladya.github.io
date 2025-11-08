@@ -532,6 +532,25 @@ a.external-link:hover {
     text-decoration: underline;
 }
 
+.main-nav {
+    margin: 15px 0;
+    padding: 10px;
+    background: rgba(10,67,54,0.38);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.main-nav a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 1400px) {
     .nav-sidebar {
         position: static;
@@ -545,31 +564,31 @@ a.external-link:hover {
     .steps-container {
         flex-direction: column;
     }
-    
+
     .features-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .support-links,
     .subscription-buttons {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .hero-content h2 {
         font-size: 1.8em;
     }
-    
+
     .subscription-buttons .support-link {
         width: 100%;
         max-width: 300px;
     }
-    
+
     table {
         display: block;
         overflow-x: auto;
     }
-    
+
     th, td {
         padding: 8px 10px;
         font-size: 0.9em;

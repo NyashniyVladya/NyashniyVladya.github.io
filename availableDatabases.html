@@ -1,137 +1,152 @@
 <!doctype html>
 <html>
 
-    <head>
+<head>
 
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="css/styles.css">
-        <title>Translator3000. Available DBs</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
 
-        <!-- Main JS. -->
-        <script type="text/javascript" src="utils.js"></script>
-        <script type="text/javascript">
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m,e,t,r,i,k,a){
+            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+        })(window, document,'script','https://mc.webvisor.org/metrika/tag_ww.js?id=105189247', 'ym');
 
-            function _textSort(a, b) {
-                _a = a.toLowerCase();
-                _b = b.toLowerCase();
-                if (_a == _b) {
-                    if (a == b) {
-                        return 0;
-                    } else if (a > b) {
-                        return 1;
-                    } else {
-                        return (-1);
-                    }
-                } else if (_a > _b) {
+        ym(105189247, 'init', {ssr:true, webvisor:true, trackHash:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/105189247" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <title>Translator3000. Available DBs</title>
+
+    <!-- Main JS. -->
+    <script type="text/javascript" src="js/utils.js"></script>
+    <script type="text/javascript">
+
+        function _textSort(a, b) {
+            _a = a.toLowerCase();
+            _b = b.toLowerCase();
+            if (_a == _b) {
+                if (a == b) {
+                    return 0;
+                } else if (a > b) {
                     return 1;
                 } else {
                     return (-1);
+                }
+            } else if (_a > _b) {
+                return 1;
+            } else {
+                return (-1);
+            };
+        };
+
+        function setLangName(srcLang, dstLang, cellElement) {
+
+            const langTablePromise = loadJSON("lang_codes.json");
+
+            langTablePromise.then(jsonResult => {
+
+                function _textUnificator(lngData) {
+                    lngData = lngData.toLowerCase().trim();
+                    const parts = lngData.replaceAll("_", "-").split("-");
+                    if (parts.length == 2) {
+                        const a = parts[0];
+                        const b = parts[1];
+                        if (a == b) {
+                            lngData = a;
+                        };
+                    };
+                    return lngData.replaceAll("-", "_");
                 };
-            };
 
-            function setLangName(srcLang, dstLang, cellElement) {
-
-                const langTablePromise = loadJSON("lang_codes.json");
-
-                langTablePromise.then(jsonResult => {
-
-                    function _textUnificator(lngData) {
-                        lngData = lngData.toLowerCase().trim();
-                        const parts = lngData.replaceAll("_", "-").split("-");
-                        if (parts.length == 2) {
-                            const a = parts[0];
-                            const b = parts[1];
-                            if (a == b) {
-                                lngData = a;
-                            };
+                function getName(_lngData) {
+                    const lngData = _textUnificator(_lngData);
+                    for (const [langName, _variants] of Object.entries(jsonResult)) {
+                        let variants = [];
+                        variants.push(_textUnificator(langName));
+                        variants = variants.concat(_variants.map(_textUnificator));
+                        if (variants.includes(lngData)) {
+                            return langName;
                         };
-                        return lngData.replaceAll("-", "_");
                     };
+                    return _lngData;
+                };
 
-                    function getName(_lngData) {
-                        const lngData = _textUnificator(_lngData);
-                        for (const [langName, _variants] of Object.entries(jsonResult)) {
-                            let variants = [];
-                            variants.push(_textUnificator(langName));
-                            variants = variants.concat(_variants.map(_textUnificator));
-                            if (variants.includes(lngData)) {
-                                return langName;
-                            };
-                        };
-                        return _lngData;
-                    };
+                srcLang = getName(srcLang);
+                dstLang = getName(dstLang);
 
-                    srcLang = getName(srcLang);
-                    dstLang = getName(dstLang);
+                cellElement.innerHTML = `${srcLang} - ${dstLang}`;
 
-                    cellElement.innerHTML = `${srcLang} - ${dstLang}`;
+            });
+        };
 
-                });
-            };
+        function setTable(jsonResult) {
 
-            function setTable(jsonResult) {
+            const databaseTable = document.getElementById("databasesTable");
 
-                const databaseTable = document.getElementById("databasesTable");
+            const games = Object.keys(jsonResult).sort(_textSort);
+            games.forEach(gameName => {
+                const gameObject = jsonResult[gameName];
+                const versions = Object.keys(gameObject).sort(_textSort);
+                versions.forEach(version => {
+                    const versionObject = gameObject[version];
+                    const trServices = Object.keys(versionObject).sort(_textSort);
+                    trServices.forEach(trService => {
+                        const trServiceObject = versionObject[trService];
+                        const sourceLangs = Object.keys(trServiceObject).sort(_textSort);
+                        sourceLangs.forEach(sourceLang => {
+                            const sourceLangObject = trServiceObject[sourceLang];
+                            const destLangs = Object.keys(sourceLangObject).sort(_textSort);
+                            destLangs.forEach(destLang => {
 
-                const games = Object.keys(jsonResult).sort(_textSort);
-                games.forEach(gameName => {
-                    const gameObject = jsonResult[gameName];
-                    const versions = Object.keys(gameObject).sort(_textSort);
-                    versions.forEach(version => {
-                        const versionObject = gameObject[version];
-                        const trServices = Object.keys(versionObject).sort(_textSort);
-                        trServices.forEach(trService => {
-                            const trServiceObject = versionObject[trService];
-                            const sourceLangs = Object.keys(trServiceObject).sort(_textSort);
-                            sourceLangs.forEach(sourceLang => {
-                                const sourceLangObject = trServiceObject[sourceLang];
-                                const destLangs = Object.keys(sourceLangObject).sort(_textSort);
-                                destLangs.forEach(destLang => {
+                                const row = databaseTable.insertRow(-1);
 
-                                    const row = databaseTable.insertRow(-1);
+                                const gameNameCell = row.insertCell(0);
+                                const versionCell = row.insertCell(1);
+                                const serviceCell = row.insertCell(2);
+                                const directionCell = row.insertCell(3);
 
-                                    const gameNameCell = row.insertCell(0);
-                                    const versionCell = row.insertCell(1);
-                                    const serviceCell = row.insertCell(2);
-                                    const directionCell = row.insertCell(3);
+                                gameNameCell.innerHTML = gameName;
+                                versionCell.innerHTML = version;
+                                serviceCell.innerHTML = trService;
 
-                                    gameNameCell.innerHTML = gameName;
-                                    versionCell.innerHTML = version;
-                                    serviceCell.innerHTML = trService;
+                                directionCell.innerHTML = "Loading...";
+                                setLangName(sourceLang, destLang, directionCell);
 
-                                    directionCell.innerHTML = "Loading...";
-                                    setLangName(sourceLang, destLang, directionCell);
-
-                                });
                             });
                         });
                     });
                 });
-            };
+            });
+        };
 
-        </script>
-        <!-- /Main JS. -->
+    </script>
+    <!-- /Main JS. -->
 
-    </head>
+</head>
 
-    <body style="margin: 1%;">
+<body style="margin: 1%;">
 
-        <div>
-            <table id="databasesTable" border="5" cellpadding="20" cellspacing="5" align="center">
-                <tr>
-                    <td><h2>Game name</h3></td>
-                    <td><h2>Version</h2></td>
-                    <td><h2>Service</h2></td>
-                    <td><h2>Direction</h2></td>
-                </tr>
-            </table>
-        </div>
+    <div>
+        <table id="databasesTable" border="5" cellpadding="20" cellspacing="5" align="center">
+            <tr>
+                <td><h2>Game name</h3></td>
+                <td><h2>Version</h2></td>
+                <td><h2>Service</h2></td>
+                <td><h2>Direction</h2></td>
+            </tr>
+        </table>
+    </div>
 
-        <script type="text/javascript">
-            const databasesPromise = loadJSON("novels_translate_database/registry.json");
-            databasesPromise.then(setTable);
-        </script>
+    <script type="text/javascript">
+        const databasesPromise = loadJSON("novels_translate_database/registry.json");
+        databasesPromise.then(setTable);
+    </script>
 
-    </body>
+</body>
 
 </html>
