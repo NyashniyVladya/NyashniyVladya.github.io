@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Translator3000</title>
+    <title data-i18n="docs.meta.title">Translator3000 - Документация</title>
     <link rel="stylesheet" href="css/styles.css">
 
     <!-- Yandex.Metrika counter -->
@@ -84,661 +84,656 @@
 <body>
     <div class="container">
         <header>
-            <h1>Translator3000</h1>
-            <p class="subtitle">Переводчик визуальных новелл на движке Ren'Py с лёгкой установкой и удобным интерфейсом!</p>
-            <p>Документация</p>
+            <h1 data-i18n="docs.header.title">Translator3000</h1>
+            <p class="subtitle" data-i18n="docs.header.subtitle">Переводчик визуальных новелл на движке Ren'Py с лёгкой установкой и удобным интерфейсом!</p>
+            <p data-i18n="docs.header.description">Документация</p>
         </header>
 
         <div class="nav-sidebar">
-            <h3>Навигация</h3>
+            <h3 data-i18n="docs.nav.navigation">Навигация</h3>
             <ul>
-                <li><a href="index.html">Главная страница</a></li>
-                <li><a href="gui.html">Графический интерфейс</a></li>
+                <li><a href="index.html" data-i18n="nav.home">Главная страница</a></li>
+                <li><a href="gui.html" data-i18n="nav.gui">Графический интерфейс</a></li>
             </ul>
-            <h3>Содержание</h3>
+            <h3 data-i18n="docs.nav.contents">Содержание</h3>
             <ul>
-                <li><a href="#intro">Введение</a></li>
-                <li><a href="#gui-note">Простой способ настройки</a></li>
-                <li><a href="#support">Доступ к программе</a></li>
-                <li><a href="#disclaimer">Важное примечание</a></li>
-                <li><a href="#terms">Термины и понятия</a></li>
-                <li><a href="#basic-settings">Основные настройки</a>
+                <li><a href="#intro" data-i18n="docs.nav.intro">Введение</a></li>
+                <li><a href="#gui-note" data-i18n="docs.nav.gui_note">Простой способ настройки</a></li>
+                <li><a href="#support" data-i18n="docs.nav.support">Доступ к программе</a></li>
+                <li><a href="#disclaimer" data-i18n="docs.nav.disclaimer">Важное примечание</a></li>
+                <li><a href="#terms" data-i18n="docs.nav.terms">Термины и понятия</a></li>
+                <li><a href="#basic-settings" data-i18n="docs.nav.basic_settings">Основные настройки</a>
                     <ul class="nav-subsection">
-                        <li><a href="#gameLanguage">gameLanguage</a></li>
-                        <li><a href="#directionOfTranslation">directionOfTranslation</a></li>
-                        <li><a href="#modeOnStartup">modeOnStartup</a></li>
-                        <li><a href="#_debug_mode">_debug_mode</a></li>
+                        <li><a href="#gameLanguage" data-i18n="docs.nav.gameLanguage">gameLanguage</a></li>
+                        <li><a href="#directionOfTranslation" data-i18n="docs.nav.directionOfTranslation">directionOfTranslation</a></li>
+                        <li><a href="#modeOnStartup" data-i18n="docs.nav.modeOnStartup">modeOnStartup</a></li>
+                        <li><a href="#_debug_mode" data-i18n="docs.nav._debug_mode">_debug_mode</a></li>
                     </ul>
                 </li>
-                <li><a href="#translation-settings">Настройки перевода</a>
+                <li><a href="#translation-settings" data-i18n="docs.nav.translation_settings">Настройки перевода</a>
                     <ul class="nav-subsection">
-                        <li><a href="#translationService">translationService</a></li>
-                        <li><a href="#workMethod">workMethod</a></li>
-                        <li><a href="#autoSwitchOnAvailableDB">autoSwitchOnAvailableDB</a></li>
-                        <li><a href="#useNoFreezeLogic">useNoFreezeLogic</a></li>
-                        <li><a href="#requestsFrequency">requestsFrequency</a></li>
-                        <li><a href="#splitTextAsSentences">splitTextAsSentences</a></li>
-                        <li><a href="#googleHost">googleHost</a></li>
+                        <li><a href="#translationService" data-i18n="docs.nav.translationService">translationService</a></li>
+                        <li><a href="#workMethod" data-i18n="docs.nav.workMethod">workMethod</a></li>
+                        <li><a href="#autoSwitchOnAvailableDB" data-i18n="docs.nav.autoSwitchOnAvailableDB">autoSwitchOnAvailableDB</a></li>
+                        <li><a href="#useNoFreezeLogic" data-i18n="docs.nav.useNoFreezeLogic">useNoFreezeLogic</a></li>
+                        <li><a href="#requestsFrequency" data-i18n="docs.nav.requestsFrequency">requestsFrequency</a></li>
+                        <li><a href="#splitTextAsSentences" data-i18n="docs.nav.splitTextAsSentences">splitTextAsSentences</a></li>
+                        <li><a href="#googleHost" data-i18n="docs.nav.googleHost">googleHost</a></li>
                     </ul>
                 </li>
-                <li><a href="#display-settings">Настройки отображения</a>
+                <li><a href="#display-settings" data-i18n="docs.nav.display_settings">Настройки отображения</a>
                     <ul class="nav-subsection">
-                        <li><a href="#originalInHistory">originalInHistory</a></li>
-                        <li><a href="#displayOriginal">displayOriginal</a></li>
-                        <li><a href="#displayAlternateTranslations">displayAlternateTranslations</a></li>
-                        <li><a href="#showEditWindow">showEditWindow</a></li>
+                        <li><a href="#originalInHistory" data-i18n="docs.nav.originalInHistory">originalInHistory</a></li>
+                        <li><a href="#displayOriginal" data-i18n="docs.nav.displayOriginal">displayOriginal</a></li>
+                        <li><a href="#displayAlternateTranslations" data-i18n="docs.nav.displayAlternateTranslations">displayAlternateTranslations</a></li>
+                        <li><a href="#showEditWindow" data-i18n="docs.nav.showEditWindow">showEditWindow</a></li>
                     </ul>
                 </li>
-                <li><a href="#advanced-settings">Расширенные настройки</a>
+                <li><a href="#advanced-settings" data-i18n="docs.nav.advanced_settings">Расширенные настройки</a>
                     <ul class="nav-subsection">
-                        <li><a href="#seleniumStartMode">seleniumStartMode</a></li>
-                        <li><a href="#seleniumInputSplitMethod">seleniumInputSplitMethod</a></li>
-                        <li><a href="#deeplLoginData">deeplLoginData</a></li>
-                        <li><a href="#addVariablesFromDB">addVariablesFromDB</a></li>
-                        <li><a href="#startTranslateAfterPrescan">startTranslateAfterPrescan</a></li>
-                        <li><a href="#pathToChromeExe">pathToChromeExe</a></li>
-                        <li><a href="#alternativeSortMethod">alternativeSortMethod</a></li>
-                        <li><a href="#tlsMinorVersion">tlsMinorVersion</a></li>
-                        <li><a href="#useProxies">useProxies</a></li>
-                        <li><a href="#useProxyInSelenium">useProxyInSelenium</a></li>
-                        <li><a href="#customProxiesBridges">customProxiesBridges</a></li>
-                        <li><a href="#useMinimizeButton">useMinimizeButton</a></li>
-                        <li><a href="#databaseDir">databaseDir</a></li>
+                        <li><a href="#seleniumStartMode" data-i18n="docs.nav.seleniumStartMode">seleniumStartMode</a></li>
+                        <li><a href="#seleniumInputSplitMethod" data-i18n="docs.nav.seleniumInputSplitMethod">seleniumInputSplitMethod</a></li>
+                        <li><a href="#deeplLoginData" data-i18n="docs.nav.deeplLoginData">deeplLoginData</a></li>
+                        <li><a href="#addVariablesFromDB" data-i18n="docs.nav.addVariablesFromDB">addVariablesFromDB</a></li>
+                        <li><a href="#startTranslateAfterPrescan" data-i18n="docs.nav.startTranslateAfterPrescan">startTranslateAfterPrescan</a></li>
+                        <li><a href="#pathToChromeExe" data-i18n="docs.nav.pathToChromeExe">pathToChromeExe</a></li>
+                        <li><a href="#alternativeSortMethod" data-i18n="docs.nav.alternativeSortMethod">alternativeSortMethod</a></li>
+                        <li><a href="#tlsMinorVersion" data-i18n="docs.nav.tlsMinorVersion">tlsMinorVersion</a></li>
+                        <li><a href="#useProxies" data-i18n="docs.nav.useProxies">useProxies</a></li>
+                        <li><a href="#useProxyInSelenium" data-i18n="docs.nav.useProxyInSelenium">useProxyInSelenium</a></li>
+                        <li><a href="#customProxiesBridges" data-i18n="docs.nav.customProxiesBridges">customProxiesBridges</a></li>
+                        <li><a href="#useMinimizeButton" data-i18n="docs.nav.useMinimizeButton">useMinimizeButton</a></li>
+                        <li><a href="#databaseDir" data-i18n="docs.nav.databaseDir">databaseDir</a></li>
                     </ul>
                 </li>
-                <li><a href="#hotkeys">Горячие клавиши</a>
+                <li><a href="#hotkeys" data-i18n="docs.nav.hotkeys">Горячие клавиши</a>
                     <ul class="nav-subsection">
-                        <li><a href="#keys">keys</a></li>
-                        <li><a href="#guiShow">guiShow</a></li>
-                        <li><a href="#databaseTranslateSwitcher">databaseTranslateSwitcher</a></li>
-                        <li><a href="#forceRestart">forceRestart</a></li>
+                        <li><a href="#keys" data-i18n="docs.nav.keys">keys</a></li>
+                        <li><a href="#guiShow" data-i18n="docs.nav.guiShow">guiShow</a></li>
+                        <li><a href="#databaseTranslateSwitcher" data-i18n="docs.nav.databaseTranslateSwitcher">databaseTranslateSwitcher</a></li>
+                        <li><a href="#forceRestart" data-i18n="docs.nav.forceRestart">forceRestart</a></li>
                     </ul>
                 </li>
-                <li><a href="#text-options">Настройки текста</a>
+                <li><a href="#text-options" data-i18n="docs.nav.text_options">Настройки текста</a>
                     <ul class="nav-subsection">
-                        <li><a href="#extraTextOptions">extraTextOptions</a></li>
-                        <li><a href="#font">font</a></li>
-                        <li><a href="#size">size</a></li>
-                        <li><a href="#color">color</a></li>
-                        <li><a href="#outlines">outlines</a></li>
+                        <li><a href="#extraTextOptions" data-i18n="docs.nav.extraTextOptions">extraTextOptions</a></li>
+                        <li><a href="#font" data-i18n="docs.nav.font">font</a></li>
+                        <li><a href="#size" data-i18n="docs.nav.size">size</a></li>
+                        <li><a href="#color" data-i18n="docs.nav.color">color</a></li>
+                        <li><a href="#outlines" data-i18n="docs.nav.outlines">outlines</a></li>
                     </ul>
                 </li>
-                <li><a href="#api-settings">Настройки API</a>
+                <li><a href="#api-settings" data-i18n="docs.nav.api_settings">Настройки API</a>
                     <ul class="nav-subsection">
-                        <li><a href="#apiData">apiData</a></li>
-                        <li><a href="#deepL">deepL</a></li>
+                        <li><a href="#apiData" data-i18n="docs.nav.apiData">apiData</a></li>
+                        <li><a href="#deepL" data-i18n="docs.nav.deepL">deepL</a></li>
                     </ul>
                 </li>
-                <li><a href="#fix-options">Опции исправления</a>
+                <li><a href="#fix-options" data-i18n="docs.nav.fix_options">Опции исправления</a>
                     <ul class="nav-subsection">
-                        <li><a href="#_fixOptions">_fixOptions</a></li>
+                        <li><a href="#_fixOptions" data-i18n="docs.nav._fixOptions">_fixOptions</a></li>
                     </ul>
                 </li>
             </ul>
         </div>
 
         <section id="intro">
-            <h2>Введение</h2>
-            <p>Translator3000 — это удобный автоматический переводчик визуальных новелл, созданных на движке Ren'Py с лёгкой установкой и удобным интерфейсом! Он использует современные сервисы перевода и систему облачных баз данных для обеспечения качественного перевода.</p>
+            <h2 data-i18n="docs.intro.title">Введение</h2>
+            <p data-i18n="docs.intro.description">Translator3000 — это удобный автоматический переводчик визуальных новелл, созданных на движке Ren'Py с лёгкой установкой и удобным интерфейсом! Он использует современные сервисы перевода и систему облачных баз данных для обеспечения качественного перевода.</p>
         </section>
 
         <section id="gui-note">
-            <h2>Простой способ настройки</h2>
+            <h2 data-i18n="docs.gui_note.title">Простой способ настройки</h2>
             <div class="gui-note">
-                <p><strong>Translator3000 намного удобнее настраивать через графический интерфейс!</strong></p>
-                <p>При запуске игры с активированным Translator3000 появляется удобное графическое меню, где можно настроить все основные параметры простым выбором из списка.</p>
-                <p>Подробное описание всех элементов графического интерфейса доступно в <a href="gui.html" class="external-link">отдельной документации по графическому интерфейсу</a>.</p>
-                <p>Настроечный файл, описание которого приводится в этой документации, предназначен в основном для:</p>
+                <p data-i18n="docs.gui_note.emphasis"><strong>Translator3000 намного удобнее настраивать через графический интерфейс!</strong></p>
+                <p data-i18n="docs.gui_note.description">При запуске игры с активированным Translator3000 появляется удобное графическое меню, где можно настроить все основные параметры простым выбором из списка.</p>
+                <p data-i18n="docs.gui_note.link">Подробное описание всех элементов графического интерфейса доступно в <a href="gui.html" class="external-link">отдельной документации по графическому интерфейсу</a>.</p>
+                <p data-i18n="docs.gui_note.purpose">Настроечный файл, описание которого приводится в этой документации, предназначен в основном для:</p>
                 <ul>
-                    <li>Общей информативности о возможностях программы</li>
-                    <li>Продвинутых пользователей, предпочитающих ручную настройку</li>
-                    <li>Специфических случаев, когда графический интерфейс недоступен</li>
+                    <li data-i18n="docs.gui_note.purpose1">Общей информативности о возможностях программы</li>
+                    <li data-i18n="docs.gui_note.purpose2">Продвинутых пользователей, предпочитающих ручную настройку</li>
+                    <li data-i18n="docs.gui_note.purpose3">Специфических случаев, когда графический интерфейс недоступен</li>
                 </ul>
-                <p><strong>Рекомендуем сначала попробовать настроить переводчик через графический интерфейс!</strong></p>
+                <p data-i18n="docs.gui_note.recommendation"><strong>Рекомендуем сначала попробовать настроить переводчик через графический интерфейс!</strong></p>
             </div>
         </section>
-
-
 
         <section id="support">
-            <h2>Доступ к программе</h2>
+            <h2 data-i18n="docs.support.title">Доступ к программе</h2>
             <div class="support-section">
-                <h3>Translator3000 доступен по подписке</h3>
-                <p>Для получения доступа к Translator3000 необходимо оформить подписку на одной из платформ:</p>
+                <h3 data-i18n="docs.support.subscription_title">Translator3000 доступен по подписке</h3>
+                <p data-i18n="docs.support.subscription_description">Для получения доступа к Translator3000 необходимо оформить подписку на одной из платформ:</p>
                 <div class="support-links">
-                    <a href="https://boosty.to/nyashniyvladya" target="_blank" class="support-link boosty">Boosty</a>
-                    <a href="https://www.patreon.com/join/NyashniyVladya" target="_blank" class="support-link patreon">Patreon</a>
+                    <a href="https://boosty.to/nyashniyvladya" target="_blank" class="support-link boosty" data-i18n="buttons.boosty">Boosty</a>
+                    <a href="https://www.patreon.com/join/NyashniyVladya" target="_blank" class="support-link patreon" data-i18n="buttons.patreon">Patreon</a>
                 </div>
-                <p style="margin-top: 20px;">Подписка даёт доступ к последним версиям программы, обновлениям и технической поддержке.</p>
+                <p style="margin-top: 20px;" data-i18n="docs.support.subscription_note">Подписка даёт доступ к последним версиям программы, обновлениям и технической поддержке.</p>
 
-                <h4 style="margin-top: 25px;">Присоединяйтесь к нашему сообществу</h4>
-                <p>Обсуждайте переводы, делитесь базами данных и получайте помощь:</p>
+                <h4 style="margin-top: 25px;" data-i18n="docs.support.community_title">Присоединяйтесь к нашему сообществу</h4>
+                <p data-i18n="docs.support.community_description">Обсуждайте переводы, делитесь базами данных и получайте помощь:</p>
                 <div class="support-links">
-                    <a href="https://t.me/translator3000" target="_blank" class="support-link">Telegram-канал</a>
-                    <a href="https://discord.gg/FqsQXNH6Fg" target="_blank" class="support-link">Discord-сервер</a>
-                    <a href="https://youtube.com/@Translator3000?sub_confirmation=1" target="_blank" class="support-link">YouTube-канал</a>
+                    <a href="https://t.me/translator3000" target="_blank" class="support-link" data-i18n="buttons.telegram">Telegram-канал</a>
+                    <a href="https://discord.gg/FqsQXNH6Fg" target="_blank" class="support-link" data-i18n="buttons.discord">Discord-сервер</a>
+                    <a href="https://youtube.com/@Translator3000?sub_confirmation=1" target="_blank" class="support-link" data-i18n="buttons.youtube">YouTube-канал</a>
                 </div>
             </div>
         </section>
 
-
         <section id="disclaimer">
-            <h2>Важное примечание</h2>
+            <h2 data-i18n="docs.disclaimer.title">Важное примечание</h2>
             <div class="disclaimer">
-                <p><strong>Внимание!</strong> Данная документация описывает все возможные параметры конфигурации Translator3000.</p>
-                <p>В актуальной версии программы у вас могут отсутствовать некоторые параметры, указанные в этой документации. Это означает, что они появятся в будущих версиях программы.</p>
-                <p><strong>Документация может обновляться раньше выхода новых версий программы.</strong> Если вы не нашли какой-то параметр в своей версии Translator3000, значит он будет добавлен в одном из следующих обновлений.</p>
+                <p data-i18n="docs.disclaimer.warning"><strong>Внимание!</strong> Данная документация описывает все возможные параметры конфигурации Translator3000.</p>
+                <p data-i18n="docs.disclaimer.missing_params">В актуальной версии программы у вас могут отсутствовать некоторые параметры, указанные в этой документации. Это означает, что они появятся в будущих версиях программы.</p>
+                <p data-i18n="docs.disclaimer.update_note"><strong>Документация может обновляться раньше выхода новых версий программы.</strong> Если вы не нашли какой-то параметр в своей версии Translator3000, значит он будет добавлен в одном из следующих обновлений.</p>
             </div>
         </section>
 
         <section id="terms">
-            <h2>Термины и понятия</h2>
+            <h2 data-i18n="docs.terms.title">Термины и понятия</h2>
 
             <div class="term-block">
-                <h3><span class="term-name">Ren'Py</span></h3>
-                <p>Движок для создания визуальных новелл и игр с повествованием. Translator3000 специализируется на работе с играми, созданными на этом движке.</p>
+                <h3><span class="term-name" data-i18n="docs.terms.renpy.name">Ren'Py</span></h3>
+                <p data-i18n="docs.terms.renpy.description">Движок для создания визуальных новелл и игр с повествованием. Translator3000 специализируется на работе с играми, созданными на этом движке.</p>
             </div>
 
             <div class="term-block">
-                <h3><span class="term-name">Прескан (Предварительное сканирование)</span></h3>
-                <p>Режим работы переводчика, при котором программа заранее собирает все текстовые строки из игры и переводит их. Прескан может занимать продолжительное время, но после его завершения пользователь получает полностью переведённую игру без необходимости ожидания перевода каждой фразы во время игры.</p>
+                <h3><span class="term-name" data-i18n="docs.terms.prescan.name">Прескан (Предварительное сканирование)</span></h3>
+                <p data-i18n="docs.terms.prescan.description">Режим работы переводчика, при котором программа заранее собирает все текстовые строки из игры и переводит их. Прескан может занимать продолжительное время, но после его завершения пользователь получает полностью переведённую игру без необходимости ожидания перевода каждой фразы во время игры.</p>
             </div>
 
             <div class="term-block">
-                <h3><span class="term-name">Облачная база данных (БД)</span></h3>
-                <p>Система совместного использования переводов. Пользователи, которые уже перевели игру, могут поделиться своей базой данных переводов через <a href="https://t.me/translator3000" target="_blank" class="external-link">Telegram-канал</a> или <a href="https://discord.gg/FqsQXNH6Fg" target="_blank" class="external-link">Discord</a>. Это позволяет другим пользователям мгновенно получать готовый перевод игры без ожидания.</p>
-                <p>Посмотреть уже доступные в базе данных переводы можно <a href="availableDatabases.html" class="external-link">здесь</a>.</p>
+                <h3><span class="term-name" data-i18n="docs.terms.cloud_db.name">Облачная база данных (БД)</span></h3>
+                <p data-i18n="docs.terms.cloud_db.description">Система совместного использования переводов. Пользователи, которые уже перевели игру, могут поделиться своей базой данных переводов через <a href="https://t.me/translator3000" target="_blank" class="external-link">Telegram-канал</a> или <a href="https://discord.gg/FqsQXNH6Fg" target="_blank" class="external-link">Discord</a>. Это позволяет другим пользователям мгновенно получать готовый перевод игры без ожидания.</p>
+                <p data-i18n="docs.terms.cloud_db.link">Посмотреть уже доступные в базе данных переводы можно <a href="availableDatabases.html" class="external-link">здесь</a>.</p>
             </div>
 
             <div class="term-block">
-                <h3><span class="term-name">Selenium</span></h3>
-                <p>Инструмент для автоматизации веб-браузеров. В Translator3000 используется для работы с некоторыми сервисами перевода через эмуляцию действий реального пользователя в браузере.</p>
+                <h3><span class="term-name" data-i18n="docs.terms.selenium.name">Selenium</span></h3>
+                <p data-i18n="docs.terms.selenium.description">Инструмент для автоматизации веб-браузеров. В Translator3000 используется для работы с некоторыми сервисами перевода через эмуляцию действий реального пользователя в браузере.</p>
             </div>
 
             <div class="term-block">
-                <h3><span class="term-name">TLS (Transport Layer Security)</span></h3>
-                <p>Протокол защиты транспортного уровня, обеспечивающий безопасную передачу данных между программой и сервисами перевода. Настройки версий TLS влияют на совместимость с различными сервисами.</p>
+                <h3><span class="term-name" data-i18n="docs.terms.tls.name">TLS (Transport Layer Security)</span></h3>
+                <p data-i18n="docs.terms.tls.description">Протокол защиты транспортного уровня, обеспечивающий безопасную передачу данных между программой и сервисами перевода. Настройки версий TLS влияют на совместимость с различными сервисами.</p>
             </div>
 
             <div class="term-block">
-                <h3><span class="term-name">AutoProxy</span></h3>
-                <p>Автоматическая система прокси, используемая для обхода географических ограничений и обеспечения конфиденциальности. Может использоваться для доступа к сервисам перевода, заблокированным в определённых регионах.</p>
+                <h3><span class="term-name" data-i18n="docs.terms.autoproxy.name">AutoProxy</span></h3>
+                <p data-i18n="docs.terms.autoproxy.description">Автоматическая система прокси, используемая для обхода географических ограничений и обеспечения конфиденциальности. Может использоваться для доступа к сервисам перевода, заблокированным в определённых регионах.</p>
             </div>
 
             <div class="term-block">
-                <h3><span class="term-name">API (Application Programming Interface)</span></h3>
-                <p>Интерфейс программирования приложений. В контексте Translator3000 — это способ взаимодействия программы с различными сервисами машинного перевода.</p>
+                <h3><span class="term-name" data-i18n="docs.terms.api.name">API (Application Programming Interface)</span></h3>
+                <p data-i18n="docs.terms.api.description">Интерфейс программирования приложений. В контексте Translator3000 — это способ взаимодействия программы с различными сервисами машинного перевода.</p>
             </div>
         </section>
 
         <section id="basic-settings">
-            <h2>Основные настройки</h2>
+            <h2 data-i18n="docs.basic_settings.title">Основные настройки</h2>
 
             <div class="param-block" id="gameLanguage">
-                <h3><span class="param-name">gameLanguage</span> <span class="param-type">(строка или null)</span></h3>
-                <p><strong>Назначение:</strong> Исходный язык игры, с которого выполняется перевод.</p>
+                <h3><span class="param-name" data-i18n="docs.basic_settings.gameLanguage.name">gameLanguage</span> <span class="param-type" data-i18n="docs.basic_settings.gameLanguage.type">(строка или null)</span></h3>
+                <p data-i18n="docs.basic_settings.gameLanguage.purpose"><strong>Назначение:</strong> Исходный язык игры, с которого выполняется перевод.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> Название языка на английском или код языка (например, "en_GB", "ru_RU", "ja_JP"), или <code>null</code>
+                    <strong data-i18n="docs.basic_settings.gameLanguage.values_title">Допустимые значения:</strong> <span data-i18n="docs.basic_settings.gameLanguage.values">Название языка на английском или код языка (например, "en_GB", "ru_RU", "ja_JP"), или <code>null</code></span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>null</code></p>
+                <p data-i18n="docs.basic_settings.gameLanguage.default"><strong>Значение по умолчанию:</strong> <code>null</code></p>
                 <div class="note">
-                    <p><strong>Примечание:</strong> Если указано <code>null</code>, переводчик попытается определить язык игры автоматически. Однако для более быстрой и точной работы рекомендуется указать язык явно.</p>
+                    <p data-i18n="docs.basic_settings.gameLanguage.note"><strong>Примечание:</strong> Если указано <code>null</code>, переводчик попытается определить язык игры автоматически. Однако для более быстрой и точной работы рекомендуется указать язык явно.</p>
                 </div>
             </div>
 
             <div class="param-block" id="directionOfTranslation">
-                <h3><span class="param-name">directionOfTranslation</span> <span class="param-type">(строка или null)</span></h3>
-                <p><strong>Назначение:</strong> Целевой язык перевода.</p>
+                <h3><span class="param-name" data-i18n="docs.basic_settings.directionOfTranslation.name">directionOfTranslation</span> <span class="param-type" data-i18n="docs.basic_settings.directionOfTranslation.type">(строка или null)</span></h3>
+                <p data-i18n="docs.basic_settings.directionOfTranslation.purpose"><strong>Назначение:</strong> Целевой язык перевода.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> Название языка на английском или код языка (формат такой же, как в gameLanguage), или <code>null</code>
+                    <strong data-i18n="docs.basic_settings.directionOfTranslation.values_title">Допустимые значения:</strong> <span data-i18n="docs.basic_settings.directionOfTranslation.values">Название языка на английском или код языка (формат такой же, как в gameLanguage), или <code>null</code></span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>null</code></p>
+                <p data-i18n="docs.basic_settings.directionOfTranslation.default"><strong>Значение по умолчанию:</strong> <code>null</code></p>
                 <div class="note">
-                    <p><strong>Примечание:</strong> Если указано <code>null</code>, переводчик попытается определить целевой язык автоматически. Однако для более быстрой и точной работы рекомендуется указать язык явно.</p>
+                    <p data-i18n="docs.basic_settings.directionOfTranslation.note"><strong>Примечание:</strong> Если указано <code>null</code>, переводчик попытается определить целевой язык автоматически. Однако для более быстрой и точной работы рекомендуется указать язык явно.</p>
                 </div>
             </div>
 
             <div class="param-block" id="modeOnStartup">
-                <h3><span class="param-name">modeOnStartup</span> <span class="param-type">(строка)</span></h3>
-                <p><strong>Назначение:</strong> Режим работы программы при запуске.</p>
+                <h3><span class="param-name" data-i18n="docs.basic_settings.modeOnStartup.name">modeOnStartup</span> <span class="param-type" data-i18n="docs.basic_settings.modeOnStartup.type">(строка)</span></h3>
+                <p data-i18n="docs.basic_settings.modeOnStartup.purpose"><strong>Назначение:</strong> Режим работы программы при запуске.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong>
+                    <strong data-i18n="docs.basic_settings.modeOnStartup.values_title">Допустимые значения:</strong>
                     <ul>
-                        <li><code>"off"</code> - отключенное состояние (рекомендуется)</li>
-                        <li><code>"prescan"</code> - режим предварительного сканирования</li>
-                        <li><code>"db_only"</code> - режим перевода только из базы данных</li>
-                        <li><code>"realtime"</code> - режим перевода в реальном времени с обращением к сети</li>
+                        <li data-i18n="docs.basic_settings.modeOnStartup.value1"><code>"off"</code> - отключенное состояние (рекомендуется)</li>
+                        <li data-i18n="docs.basic_settings.modeOnStartup.value2"><code>"prescan"</code> - режим предварительного сканирования</li>
+                        <li data-i18n="docs.basic_settings.modeOnStartup.value3"><code>"db_only"</code> - режим перевода только из базы данных</li>
+                        <li data-i18n="docs.basic_settings.modeOnStartup.value4"><code>"realtime"</code> - режим перевода в реальном времени с обращением к сети</li>
                     </ul>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>"off"</code></p>
+                <p data-i18n="docs.basic_settings.modeOnStartup.default"><strong>Значение по умолчанию:</strong> <code>"off"</code></p>
                 <div class="warning">
-                    <p><strong>Внимание:</strong> В большинстве случаев этот параметр не следует менять со значения "off". Режим лучше включать через графический интерфейс переводчика.</p>
+                    <p data-i18n="docs.basic_settings.modeOnStartup.warning"><strong>Внимание:</strong> В большинстве случаев этот параметр не следует менять со значения "off". Режим лучше включать через графический интерфейс переводчика.</p>
                 </div>
             </div>
 
             <div class="param-block" id="_debug_mode">
-                <h3><span class="param-name">_debug_mode</span> <span class="param-type">(булево)</span></h3>
-                <p><strong>Назначение:</strong> Режим отладки для разработчика Translator3000.</p>
+                <h3><span class="param-name" data-i18n="docs.basic_settings._debug_mode.name">_debug_mode</span> <span class="param-type" data-i18n="docs.basic_settings._debug_mode.type">(булево)</span></h3>
+                <p data-i18n="docs.basic_settings._debug_mode.purpose"><strong>Назначение:</strong> Режим отладки для разработчика Translator3000.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> <code>true</code> или <code>false</code>
+                    <strong data-i18n="docs.basic_settings._debug_mode.values_title">Допустимые значения:</strong> <span data-i18n="docs.basic_settings._debug_mode.values"><code>true</code> или <code>false</code></span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>false</code></p>
+                <p data-i18n="docs.basic_settings._debug_mode.default"><strong>Значение по умолчанию:</strong> <code>false</code></p>
                 <div class="important">
-                    <p><strong>Важно:</strong> Включать только по просьбе технической поддержки. Отчёты об ошибках при самостоятельном включении этого режима не принимаются.</p>
+                    <p data-i18n="docs.basic_settings._debug_mode.important"><strong>Важно:</strong> Включать только по просьбе технической поддержки. Отчёты об ошибках при самостоятельном включении этого режима не принимаются.</p>
                 </div>
             </div>
         </section>
 
         <section id="translation-settings">
-            <h2>Настройки перевода</h2>
+            <h2 data-i18n="docs.translation_settings.title">Настройки перевода</h2>
 
             <div class="param-block" id="translationService">
-                <h3><span class="param-name">translationService</span> <span class="param-type">(строка или массив)</span></h3>
-                <p><strong>Назначение:</strong> Выбор службы машинного перевода.</p>
+                <h3><span class="param-name" data-i18n="docs.translation_settings.translationService.name">translationService</span> <span class="param-type" data-i18n="docs.translation_settings.translationService.type">(строка или массив)</span></h3>
+                <p data-i18n="docs.translation_settings.translationService.purpose"><strong>Назначение:</strong> Выбор службы машинного перевода.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong>
+                    <strong data-i18n="docs.translation_settings.translationService.values_title">Допустимые значения:</strong>
                     <ul>
-                        <li><code>"google_gtx"</code> - Google Translate (метод GTX)</li>
-                        <li><code>"google_client5"</code> - Google Translate (метод Client5)</li>
-                        <li><code>"google_rpc"</code> - Google Translate (метод RPC)</li>
-                        <li><code>"selenium_deepl"</code> - DeepL через Selenium</li>
-                        <li><code>"deepl_official"</code> - Официальный API DeepL (требуется ключ API)</li>
-                        <li><code>"yandex_translate"</code> - Yandex Translate</li>
-                        <li><code>"reverso"</code> - Reverso</li>
-                        <li><code>"bing"</code> - Microsoft Bing Translator</li>
-                        <li><code>"lingvanex"</code> - Lingvanex</li>
+                        <li data-i18n="docs.translation_settings.translationService.value1"><code>"google_gtx"</code> - Google Translate (метод GTX)</li>
+                        <li data-i18n="docs.translation_settings.translationService.value2"><code>"google_client5"</code> - Google Translate (метод Client5)</li>
+                        <li data-i18n="docs.translation_settings.translationService.value3"><code>"google_rpc"</code> - Google Translate (метод RPC)</li>
+                        <li data-i18n="docs.translation_settings.translationService.value4"><code>"selenium_deepl"</code> - DeepL через Selenium</li>
+                        <li data-i18n="docs.translation_settings.translationService.value5"><code>"deepl_official"</code> - Официальный API DeepL (требуется ключ API)</li>
+                        <li data-i18n="docs.translation_settings.translationService.value6"><code>"yandex_translate"</code> - Yandex Translate</li>
+                        <li data-i18n="docs.translation_settings.translationService.value7"><code>"reverso"</code> - Reverso</li>
+                        <li data-i18n="docs.translation_settings.translationService.value8"><code>"bing"</code> - Microsoft Bing Translator</li>
+                        <li data-i18n="docs.translation_settings.translationService.value9"><code>"lingvanex"</code> - Lingvanex</li>
                     </ul>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>"google_gtx"</code></p>
-                <p><strong>Важная особенность:</strong> Можно указать не одно значение, а массив из допустимых значений. В этом случае, если один из сервисов вызовет ошибку - будет последовательно использоваться следующий из списка.</p>
-                <p><strong>Пример использования массива:</strong> <code>["google_gtx", "yandex_translate", "bing"]</code></p>
+                <p data-i18n="docs.translation_settings.translationService.default"><strong>Значение по умолчанию:</strong> <code>"google_gtx"</code></p>
+                <p data-i18n="docs.translation_settings.translationService.feature"><strong>Важная особенность:</strong> Можно указать не одно значение, а массив из допустимых значений. В этом случае, если один из сервисов вызовет ошибку - будет последовательно использоваться следующий из списка.</p>
+                <p data-i18n="docs.translation_settings.translationService.example"><strong>Пример использования массива:</strong> <code>["google_gtx", "yandex_translate", "bing"]</code></p>
                 <div class="note">
-                    <p><strong>Примечание:</strong> Сервис <code>"deepl_official"</code> функционирует только при наличии действительного ключа API в разделе <code>apiData.deepL.authKey</code>.</p>
+                    <p data-i18n="docs.translation_settings.translationService.note"><strong>Примечание:</strong> Сервис <code>"deepl_official"</code> функционирует только при наличии действительного ключа API в разделе <code>apiData.deepL.authKey</code>.</p>
                 </div>
             </div>
 
             <div class="param-block" id="workMethod">
-                <h3><span class="param-name">workMethod</span> <span class="param-type">(строка)</span></h3>
-                <p><strong>Назначение:</strong> Режим функционирования переводчика.</p>
+                <h3><span class="param-name" data-i18n="docs.translation_settings.workMethod.name">workMethod</span> <span class="param-type" data-i18n="docs.translation_settings.workMethod.type">(строка)</span></h3>
+                <p data-i18n="docs.translation_settings.workMethod.purpose"><strong>Назначение:</strong> Режим функционирования переводчика.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong>
+                    <strong data-i18n="docs.translation_settings.workMethod.values_title">Допустимые значения:</strong>
                     <ul>
-                        <li><code>"dialogueOnly"</code> - перевод только диалогов и меню выбора (рекомендуется)</li>
-                        <li><code>"allText"</code> - попытка перевести весь текст на экране (бета-режим)</li>
+                        <li data-i18n="docs.translation_settings.workMethod.value1"><code>"dialogueOnly"</code> - перевод только диалогов и меню выбора (рекомендуется)</li>
+                        <li data-i18n="docs.translation_settings.workMethod.value2"><code>"allText"</code> - попытка перевести весь текст на экране (бета-режим)</li>
                     </ul>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>"dialogueOnly"</code></p>
+                <p data-i18n="docs.translation_settings.workMethod.default"><strong>Значение по умолчанию:</strong> <code>"dialogueOnly"</code></p>
                 <div class="warning">
-                    <p><strong>Внимание:</strong> Режим "allText" не рекомендуется к использованию. Включать только в крайнем случае и по совету технической поддержки.</p>
+                    <p data-i18n="docs.translation_settings.workMethod.warning"><strong>Внимание:</strong> Режим "allText" не рекомендуется к использованию. Включать только в крайнем случае и по совету технической поддержки.</p>
                 </div>
             </div>
 
             <div class="param-block" id="autoSwitchOnAvailableDB">
-                <h3><span class="param-name">autoSwitchOnAvailableDB</span> <span class="param-type">(булево)</span></h3>
-                <p><strong>Назначение:</strong> Автоматическое переключение на сервис перевода облачной базы данных.</p>
+                <h3><span class="param-name" data-i18n="docs.translation_settings.autoSwitchOnAvailableDB.name">autoSwitchOnAvailableDB</span> <span class="param-type" data-i18n="docs.translation_settings.autoSwitchOnAvailableDB.type">(булево)</span></h3>
+                <p data-i18n="docs.translation_settings.autoSwitchOnAvailableDB.purpose"><strong>Назначение:</strong> Автоматическое переключение на сервис перевода облачной базы данных.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> <code>true</code> или <code>false</code>
+                    <strong data-i18n="docs.translation_settings.autoSwitchOnAvailableDB.values_title">Допустимые значения:</strong> <span data-i18n="docs.translation_settings.autoSwitchOnAvailableDB.values"><code>true</code> или <code>false</code></span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>true</code></p>
-                <p><strong>Описание:</strong> Если сервис перевода облачной базы данных и сервис перевода, выбранный пользователем, отличаются, то при включении этого параметра произойдёт переключение на тот сервис, база данных которого имеется в облаке.</p>
+                <p data-i18n="docs.translation_settings.autoSwitchOnAvailableDB.default"><strong>Значение по умолчанию:</strong> <code>true</code></p>
+                <p data-i18n="docs.translation_settings.autoSwitchOnAvailableDB.description">Если сервис перевода облачной базы данных и сервис перевода, выбранный пользователем, отличаются, то при включении этого параметра произойдёт переключение на тот сервис, база данных которого имеется в облаке.</p>
             </div>
 
             <div class="param-block" id="useNoFreezeLogic">
-                <h3><span class="param-name">useNoFreezeLogic</span> <span class="param-type">(булево)</span></h3>
-                <p><strong>Назначение:</strong> Использование режима "без зависаний".</p>
+                <h3><span class="param-name" data-i18n="docs.translation_settings.useNoFreezeLogic.name">useNoFreezeLogic</span> <span class="param-type" data-i18n="docs.translation_settings.useNoFreezeLogic.type">(булево)</span></h3>
+                <p data-i18n="docs.translation_settings.useNoFreezeLogic.purpose"><strong>Назначение:</strong> Использование режима "без зависаний".</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> <code>true</code> или <code>false</code>
+                    <strong data-i18n="docs.translation_settings.useNoFreezeLogic.values_title">Допустимые значения:</strong> <span data-i18n="docs.translation_settings.useNoFreezeLogic.values"><code>true</code> или <code>false</code></span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>true</code></p>
-                <p><strong>Описание:</strong> Полезен для режима "в реальном времени". Для перевода строки не останавливает основной поток до завершения перевода, а создаёт параллельный поток, и игра не зависает, а просто показывается надпись "ожидайте", пока перевод не завершится.</p>
+                <p data-i18n="docs.translation_settings.useNoFreezeLogic.default"><strong>Значение по умолчанию:</strong> <code>true</code></p>
+                <p data-i18n="docs.translation_settings.useNoFreezeLogic.description">Полезен для режима "в реальном времени". Для перевода строки не останавливает основной поток до завершения перевода, а создаёт параллельный поток, и игра не зависает, а просто показывается надпись "ожидайте", пока перевод не завершится.</p>
             </div>
 
             <div class="param-block" id="requestsFrequency">
-                <h3><span class="param-name">requestsFrequency</span> <span class="param-type">(число с плавающей точкой или null)</span></h3>
-                <p><strong>Назначение:</strong> Максимально допустимая частота обращений к сервису перевода.</p>
+                <h3><span class="param-name" data-i18n="docs.translation_settings.requestsFrequency.name">requestsFrequency</span> <span class="param-type" data-i18n="docs.translation_settings.requestsFrequency.type">(число с плавающей точкой или null)</span></h3>
+                <p data-i18n="docs.translation_settings.requestsFrequency.purpose"><strong>Назначение:</strong> Максимально допустимая частота обращений к сервису перевода.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> Число (запросов в минуту) или <code>null</code> (автоматическая настройка)
+                    <strong data-i18n="docs.translation_settings.requestsFrequency.values_title">Допустимые значения:</strong> <span data-i18n="docs.translation_settings.requestsFrequency.values">Число (запросов в минуту) или <code>null</code> (автоматическая настройка)</span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>null</code></p>
+                <p data-i18n="docs.translation_settings.requestsFrequency.default"><strong>Значение по умолчанию:</strong> <code>null</code></p>
                 <div class="note">
-                    <p><strong>Примечание:</strong> Для некоторых сервисов, где частота жёстко ограничена, эта настройка игнорируется.</p>
+                    <p data-i18n="docs.translation_settings.requestsFrequency.note"><strong>Примечание:</strong> Для некоторых сервисов, где частота жёстко ограничена, эта настройка игнорируется.</p>
                 </div>
             </div>
 
             <div class="param-block" id="splitTextAsSentences">
-                <h3><span class="param-name">splitTextAsSentences</span> <span class="param-type">(булево)</span></h3>
-                <p><strong>Назначение:</strong> Обработка текста перед переводом.</p>
+                <h3><span class="param-name" data-i18n="docs.translation_settings.splitTextAsSentences.name">splitTextAsSentences</span> <span class="param-type" data-i18n="docs.translation_settings.splitTextAsSentences.type">(булево)</span></h3>
+                <p data-i18n="docs.translation_settings.splitTextAsSentences.purpose"><strong>Назначение:</strong> Обработка текста перед переводом.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> <code>true</code> или <code>false</code>
+                    <strong data-i18n="docs.translation_settings.splitTextAsSentences.values_title">Допустимые значения:</strong> <span data-i18n="docs.translation_settings.splitTextAsSentences.values"><code>true</code> или <code>false</code></span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>false</code></p>
-                <p><strong>Описание:</strong> Если <code>true</code> - предложения будут приведены к читаемому виду (удалены завершающие символы вне предложения).</p>
+                <p data-i18n="docs.translation_settings.splitTextAsSentences.default"><strong>Значение по умолчанию:</strong> <code>false</code></p>
+                <p data-i18n="docs.translation_settings.splitTextAsSentences.description">Если <code>true</code> - предложения будут приведены к читаемому виду (удалены завершающие символы вне предложения).</p>
                 <div class="warning">
-                    <p><strong>Внимание:</strong> В большинстве случаев этот параметр не нужен. Включать только по рекомендации технической поддержки.</p>
+                    <p data-i18n="docs.translation_settings.splitTextAsSentences.warning"><strong>Внимание:</strong> В большинстве случаев этот параметр не нужен. Включать только по рекомендации технической поддержки.</p>
                 </div>
             </div>
 
             <div class="param-block" id="googleHost">
-                <h3><span class="param-name">googleHost</span> <span class="param-type">(строка)</span></h3>
-                <p><strong>Назначение:</strong> Хост для сервиса google_rpc.</p>
+                <h3><span class="param-name" data-i18n="docs.translation_settings.googleHost.name">googleHost</span> <span class="param-type" data-i18n="docs.translation_settings.googleHost.type">(строка)</span></h3>
+                <p data-i18n="docs.translation_settings.googleHost.purpose"><strong>Назначение:</strong> Хост для сервиса google_rpc.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> Доменное имя Google-сервиса
+                    <strong data-i18n="docs.translation_settings.googleHost.values_title">Допустимые значения:</strong> <span data-i18n="docs.translation_settings.googleHost.values">Доменное имя Google-сервиса</span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>"translate.google.com"</code></p>
+                <p data-i18n="docs.translation_settings.googleHost.default"><strong>Значение по умолчанию:</strong> <code>"translate.google.com"</code></p>
                 <div class="note">
-                    <p><strong>Примечание:</strong> Используется в странах, где есть проблемы с доступом к основному сервису Google. В большинстве случаев не требует изменения.</p>
+                    <p data-i18n="docs.translation_settings.googleHost.note"><strong>Примечание:</strong> Используется в странах, где есть проблемы с доступом к основному сервису Google. В большинстве случаев не требует изменения.</p>
                 </div>
             </div>
         </section>
 
         <section id="display-settings">
-            <h2>Настройки отображения</h2>
+            <h2 data-i18n="docs.display_settings.title">Настройки отображения</h2>
 
             <div class="param-block" id="originalInHistory">
-                <h3><span class="param-name">originalInHistory</span> <span class="param-type">(булево)</span></h3>
-                <p><strong>Назначение:</strong> Отображение текста в истории диалогов игры.</p>
+                <h3><span class="param-name" data-i18n="docs.display_settings.originalInHistory.name">originalInHistory</span> <span class="param-type" data-i18n="docs.display_settings.originalInHistory.type">(булево)</span></h3>
+                <p data-i18n="docs.display_settings.originalInHistory.purpose"><strong>Назначение:</strong> Отображение текста в истории диалогов игры.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> <code>true</code> или <code>false</code>
+                    <strong data-i18n="docs.display_settings.originalInHistory.values_title">Допустимые значения:</strong> <span data-i18n="docs.display_settings.originalInHistory.values"><code>true</code> или <code>false</code></span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>false</code></p>
-                <p><strong>Описание:</strong> Если <code>true</code> - в истории показывается оригинальный текст, если <code>false</code> - переведённый.</p>
+                <p data-i18n="docs.display_settings.originalInHistory.default"><strong>Значение по умолчанию:</strong> <code>false</code></p>
+                <p data-i18n="docs.display_settings.originalInHistory.description">Если <code>true</code> - в истории показывается оригинальный текст, если <code>false</code> - переведённый.</p>
             </div>
 
             <div class="param-block" id="displayOriginal">
-                <h3><span class="param-name">displayOriginal</span> <span class="param-type">(булево или строка)</span></h3>
-                <p><strong>Назначение:</strong> Отображение окна с оригинальным текстом во время игры.</p>
+                <h3><span class="param-name" data-i18n="docs.display_settings.displayOriginal.name">displayOriginal</span> <span class="param-type" data-i18n="docs.display_settings.displayOriginal.type">(булево или строка)</span></h3>
+                <p data-i18n="docs.display_settings.displayOriginal.purpose"><strong>Назначение:</strong> Отображение окна с оригинальным текстом во время игры.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong>
+                    <strong data-i18n="docs.display_settings.displayOriginal.values_title">Допустимые значения:</strong>
                     <ul>
-                        <li><code>true</code> - окно отображается всегда</li>
-                        <li><code>false</code> - окно не отображается</li>
-                        <li><code>"choice_menu_only"</code> - окно отображается только для меню выбора</li>
+                        <li data-i18n="docs.display_settings.displayOriginal.value1"><code>true</code> - окно отображается всегда</li>
+                        <li data-i18n="docs.display_settings.displayOriginal.value2"><code>false</code> - окно не отображается</li>
+                        <li data-i18n="docs.display_settings.displayOriginal.value3"><code>"choice_menu_only"</code> - окно отображается только для меню выбора</li>
                     </ul>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>false</code></p>
-                <p>Для удобства частого использования этой функции рекомендуется настроить соответствующие горячие клавиши через <a href="gui.html#center-left" class="external-link">графический интерфейс</a>.</p>
+                <p data-i18n="docs.display_settings.displayOriginal.default"><strong>Значение по умолчанию:</strong> <code>false</code></p>
+                <p data-i18n="docs.display_settings.displayOriginal.hotkey_note">Для удобства частого использования этой функции рекомендуется настроить соответствующие горячие клавиши через <a href="gui.html#center-left" class="external-link">графический интерфейс</a>.</p>
             </div>
 
             <div class="param-block" id="displayAlternateTranslations">
-                <h3><span class="param-name">displayAlternateTranslations</span> <span class="param-type">(булево)</span></h3>
-                <p><strong>Назначение:</strong> Отображение альтернативных вариантов перевода.</p>
+                <h3><span class="param-name" data-i18n="docs.display_settings.displayAlternateTranslations.name">displayAlternateTranslations</span> <span class="param-type" data-i18n="docs.display_settings.displayAlternateTranslations.type">(булево)</span></h3>
+                <p data-i18n="docs.display_settings.displayAlternateTranslations.purpose"><strong>Назначение:</strong> Отображение альтернативных вариантов перевода.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> <code>true</code> или <code>false</code>
+                    <strong data-i18n="docs.display_settings.displayAlternateTranslations.values_title">Допустимые значения:</strong> <span data-i18n="docs.display_settings.displayAlternateTranslations.values"><code>true</code> или <code>false</code></span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>false</code></p>
-                <p><strong>Описание:</strong> Если <code>true</code> - показывается окно с альтернативными вариантами перевода от других сервисов (если перевод есть в базе данных).</p>
-                <p>Для удобства частого использования этой функции рекомендуется настроить соответствующие горячие клавиши через <a href="gui.html#center-left" class="external-link">графический интерфейс</a>.</p>
+                <p data-i18n="docs.display_settings.displayAlternateTranslations.default"><strong>Значение по умолчанию:</strong> <code>false</code></p>
+                <p data-i18n="docs.display_settings.displayAlternateTranslations.description">Если <code>true</code> - показывается окно с альтернативными вариантами перевода от других сервисов (если перевод есть в базе данных).</p>
+                <p data-i18n="docs.display_settings.displayAlternateTranslations.hotkey_note">Для удобства частого использования этой функции рекомендуется настроить соответствующие горячие клавиши через <a href="gui.html#center-left" class="external-link">графический интерфейс</a>.</p>
             </div>
 
             <div class="param-block" id="showEditWindow">
-                <h3><span class="param-name">showEditWindow</span> <span class="param-type">(булево)</span></h3>
-                <p><strong>Назначение:</strong> Отображение окна редактирования переведённого текста.</p>
+                <h3><span class="param-name" data-i18n="docs.display_settings.showEditWindow.name">showEditWindow</span> <span class="param-type" data-i18n="docs.display_settings.showEditWindow.type">(булево)</span></h3>
+                <p data-i18n="docs.display_settings.showEditWindow.purpose"><strong>Назначение:</strong> Отображение окна редактирования переведённого текста.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> <code>true</code> или <code>false</code>
+                    <strong data-i18n="docs.display_settings.showEditWindow.values_title">Допустимые значения:</strong> <span data-i18n="docs.display_settings.showEditWindow.values"><code>true</code> или <code>false</code></span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>false</code></p>
-                <p><strong>Описание:</strong> Позволяет пользователю исправлять машинный перевод в реальном времени.</p>
+                <p data-i18n="docs.display_settings.showEditWindow.default"><strong>Значение по умолчанию:</strong> <code>false</code></p>
+                <p data-i18n="docs.display_settings.showEditWindow.description">Позволяет пользователю исправлять машинный перевод в реальном времени.</p>
             </div>
         </section>
-
         <section id="advanced-settings">
-            <h2>Расширенные настройки</h2>
+            <h2 data-i18n="docs.advanced_settings.title">Расширенные настройки</h2>
 
             <div class="param-block" id="seleniumStartMode">
-                <h3><span class="param-name">seleniumStartMode</span> <span class="param-type">(строка)</span></h3>
-                <p><strong>Назначение:</strong> Режим показа браузера при использовании Selenium.</p>
+                <h3><span class="param-name" data-i18n="docs.advanced_settings.seleniumStartMode.name">seleniumStartMode</span> <span class="param-type" data-i18n="docs.advanced_settings.seleniumStartMode.type">(строка)</span></h3>
+                <p data-i18n="docs.advanced_settings.seleniumStartMode.purpose"><strong>Назначение:</strong> Режим показа браузера при использовании Selenium.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong>
+                    <strong data-i18n="docs.advanced_settings.seleniumStartMode.values_title">Допустимые значения:</strong>
                     <ul>
-                        <li><code>"hide"</code> - окно не отображается (рекомендуется)</li>
-                        <li><code>"minimized"</code> - окно отображается свёрнутым</li>
-                        <li><code>"default"</code> - окно отображается изначально</li>
+                        <li data-i18n="docs.advanced_settings.seleniumStartMode.value1"><code>"hide"</code> - окно не отображается (рекомендуется)</li>
+                        <li data-i18n="docs.advanced_settings.seleniumStartMode.value2"><code>"minimized"</code> - окно отображается свёрнутым</li>
+                        <li data-i18n="docs.advanced_settings.seleniumStartMode.value3"><code>"default"</code> - окно отображается изначально</li>
                     </ul>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>"hide"</code></p>
+                <p data-i18n="docs.advanced_settings.seleniumStartMode.default"><strong>Значение по умолчанию:</strong> <code>"hide"</code></p>
                 <div class="important">
-                    <p><strong>Важно:</strong> Рекомендуемым вариантом является "hide". В остальных случаях отчёты об ошибках не принимаются. Включать другие режимы только по просьбе технической поддержки.</p>
+                    <p data-i18n="docs.advanced_settings.seleniumStartMode.important"><strong>Важно:</strong> Рекомендуемым вариантом является "hide". В остальных случаях отчёты об ошибках не принимаются. Включать другие режимы только по просьбе технической поддержки.</p>
                 </div>
             </div>
 
             <div class="param-block" id="seleniumInputSplitMethod">
-                <h3><span class="param-name">seleniumInputSplitMethod</span> <span class="param-type">(строка)</span></h3>
-                <p><strong>Назначение:</strong> Способ ввода текста в Selenium.</p>
+                <h3><span class="param-name" data-i18n="docs.advanced_settings.seleniumInputSplitMethod.name">seleniumInputSplitMethod</span> <span class="param-type" data-i18n="docs.advanced_settings.seleniumInputSplitMethod.type">(строка)</span></h3>
+                <p data-i18n="docs.advanced_settings.seleniumInputSplitMethod.purpose"><strong>Назначение:</strong> Способ ввода текста в Selenium.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong>
+                    <strong data-i18n="docs.advanced_settings.seleniumInputSplitMethod.values_title">Допустимые значения:</strong>
                     <ul>
-                        <li><code>"all"</code> - текст вставляется сразу и весь</li>
-                        <li><code>"strings"</code> - текст вводится построчно</li>
-                        <li><code>"symbols"</code> - текст вводится посимвольно</li>
-                        <li><code>"humanTyping"</code> - текст вводится посимвольно с рандомизированной частотой для имитации реального человека</li>
+                        <li data-i18n="docs.advanced_settings.seleniumInputSplitMethod.value1"><code>"all"</code> - текст вставляется сразу и весь</li>
+                        <li data-i18n="docs.advanced_settings.seleniumInputSplitMethod.value2"><code>"strings"</code> - текст вводится построчно</li>
+                        <li data-i18n="docs.advanced_settings.seleniumInputSplitMethod.value3"><code>"symbols"</code> - текст вводится посимвольно</li>
+                        <li data-i18n="docs.advanced_settings.seleniumInputSplitMethod.value4"><code>"humanTyping"</code> - текст вводится посимвольно с рандомизированной частотой для имитации реального человека</li>
                     </ul>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>"strings"</code></p>
+                <p data-i18n="docs.advanced_settings.seleniumInputSplitMethod.default"><strong>Значение по умолчанию:</strong> <code>"strings"</code></p>
             </div>
 
             <div class="param-block" id="deeplLoginData">
-                <h3><span class="param-name">deeplLoginData</span> <span class="param-type">(массив или null)</span></h3>
-                <p><strong>Назначение:</strong> Данные для аутентификации в DeepL при использовании Selenium.</p>
+                <h3><span class="param-name" data-i18n="docs.advanced_settings.deeplLoginData.name">deeplLoginData</span> <span class="param-type" data-i18n="docs.advanced_settings.deeplLoginData.type">(массив или null)</span></h3>
+                <p data-i18n="docs.advanced_settings.deeplLoginData.purpose"><strong>Назначение:</strong> Данные для аутентификации в DeepL при использовании Selenium.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> <code>null</code> или массив из двух элементов [логин, пароль]
+                    <strong data-i18n="docs.advanced_settings.deeplLoginData.values_title">Допустимые значения:</strong> <span data-i18n="docs.advanced_settings.deeplLoginData.values"><code>null</code> или массив из двух элементов [логин, пароль]</span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>null</code></p>
+                <p data-i18n="docs.advanced_settings.deeplLoginData.default"><strong>Значение по умолчанию:</strong> <code>null</code></p>
             </div>
 
             <div class="param-block" id="addVariablesFromDB">
-                <h3><span class="param-name">addVariablesFromDB</span> <span class="param-type">(булево)</span></h3>
-                <p><strong>Назначение:</strong> Использование переменных значений из облачной базы данных.</p>
+                <h3><span class="param-name" data-i18n="docs.advanced_settings.addVariablesFromDB.name">addVariablesFromDB</span> <span class="param-type" data-i18n="docs.advanced_settings.addVariablesFromDB.type">(булево)</span></h3>
+                <p data-i18n="docs.advanced_settings.addVariablesFromDB.purpose"><strong>Назначение:</strong> Использование переменных значений из облачной базы данных.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> <code>true</code> или <code>false</code>
+                    <strong data-i18n="docs.advanced_settings.addVariablesFromDB.values_title">Допустимые значения:</strong> <span data-i18n="docs.advanced_settings.addVariablesFromDB.values"><code>true</code> или <code>false</code></span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>false</code></p>
-                <p><strong>Описание:</strong> Если <code>true</code> - переменные значения (например, имя пользователя) будут подставлены из облачной базы данных, чтобы пользователю не пришлось заново переводить строки, где его переменные значения отличаются.</p>
+                <p data-i18n="docs.advanced_settings.addVariablesFromDB.default"><strong>Значение по умолчанию:</strong> <code>false</code></p>
+                <p data-i18n="docs.advanced_settings.addVariablesFromDB.description">Если <code>true</code> - переменные значения (например, имя пользователя) будут подставлены из облачной базы данных, чтобы пользователю не пришлось заново переводить строки, где его переменные значения отличаются.</p>
             </div>
 
             <div class="param-block" id="startTranslateAfterPrescan">
-                <h3><span class="param-name">startTranslateAfterPrescan</span> <span class="param-type">(булево)</span></h3>
-                <p><strong>Назначение:</strong> Автоматический переход в режим перевода после прескана.</p>
+                <h3><span class="param-name" data-i18n="docs.advanced_settings.startTranslateAfterPrescan.name">startTranslateAfterPrescan</span> <span class="param-type" data-i18n="docs.advanced_settings.startTranslateAfterPrescan.type">(булево)</span></h3>
+                <p data-i18n="docs.advanced_settings.startTranslateAfterPrescan.purpose"><strong>Назначение:</strong> Автоматический переход в режим перевода после прескана.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> <code>true</code> или <code>false</code>
+                    <strong data-i18n="docs.advanced_settings.startTranslateAfterPrescan.values_title">Допустимые значения:</strong> <span data-i18n="docs.advanced_settings.startTranslateAfterPrescan.values"><code>true</code> или <code>false</code></span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>true</code></p>
-                <p><strong>Описание:</strong> Если <code>true</code>, переводчик перейдёт в режим "перевод только из БД" после завершения предварительного сканирования.</p>
+                <p data-i18n="docs.advanced_settings.startTranslateAfterPrescan.default"><strong>Значение по умолчанию:</strong> <code>true</code></p>
+                <p data-i18n="docs.advanced_settings.startTranslateAfterPrescan.description">Если <code>true</code>, переводчик перейдёт в режим "перевод только из БД" после завершения предвариного сканирования.</p>
             </div>
 
             <div class="param-block" id="pathToChromeExe">
-                <h3><span class="param-name">pathToChromeExe</span> <span class="param-type">(строка или null)</span></h3>
-                <p><strong>Назначение:</strong> Путь к исполняемому файлу браузера на движке Chromium.</p>
+                <h3><span class="param-name" data-i18n="docs.advanced_settings.pathToChromeExe.name">pathToChromeExe</span> <span class="param-type" data-i18n="docs.advanced_settings.pathToChromeExe.type">(строка или null)</span></h3>
+                <p data-i18n="docs.advanced_settings.pathToChromeExe.purpose"><strong>Назначение:</strong> Путь к исполняемому файлу браузера на движке Chromium.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> Путь к файлу или <code>null</code> (автоматическое определение)
+                    <strong data-i18n="docs.advanced_settings.pathToChromeExe.values_title">Допустимые значения:</strong> <span data-i18n="docs.advanced_settings.pathToChromeExe.values">Путь к файлу или <code>null</code> (автоматическое определение)</span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>null</code></p>
+                <p data-i18n="docs.advanced_settings.pathToChromeExe.default"><strong>Значение по умолчанию:</strong> <code>null</code></p>
                 <div class="note">
-                    <p><strong>Примечание:</strong> В большинстве случаев путь определяется автоматически. Указывать явно нужно только по просьбе технической поддержки.</p>
+                    <p data-i18n="docs.advanced_settings.pathToChromeExe.note"><strong>Примечание:</strong> В большинстве случаев путь определяется автоматически. Указывать явно нужно только по просьбе технической поддержки.</p>
                 </div>
             </div>
 
             <div class="param-block" id="alternativeSortMethod">
-                <h3><span class="param-name">alternativeSortMethod</span> <span class="param-type">(булево)</span></h3>
-                <p><strong>Назначение:</strong> Использование альтернативного метода сортировки строк.</p>
+                <h3><span class="param-name" data-i18n="docs.advanced_settings.alternativeSortMethod.name">alternativeSortMethod</span> <span class="param-type" data-i18n="docs.advanced_settings.alternativeSortMethod.type">(булево)</span></h3>
+                <p data-i18n="docs.advanced_settings.alternativeSortMethod.purpose"><strong>Назначение:</strong> Использование альтернативного метода сортировки строк.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> <code>true</code> или <code>false</code>
+                    <strong data-i18n="docs.advanced_settings.alternativeSortMethod.values_title">Допустимые значения:</strong> <span data-i18n="docs.advanced_settings.alternativeSortMethod.values"><code>true</code> или <code>false</code></span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>false</code></p>
-                <p><strong>Описание:</strong> Используется только в прескане в процессе изначальной сборки строк. Если <code>true</code> - переводчик будет пытаться отсортировать строки по порядку их следования в диалоге, что может дать более точный перевод с учётом контекста. Если <code>false</code> - порядок будет игнорироваться, и будет приоритет на уменьшение количества конечных запросов к сервису.</p>
+                <p data-i18n="docs.advanced_settings.alternativeSortMethod.default"><strong>Значение по умолчанию:</strong> <code>false</code></p>
+                <p data-i18n="docs.advanced_settings.alternativeSortMethod.description">Используется только в прескане в процессе изначальной сборки строк. Если <code>true</code> - переводчик будет пытаться отсортировать строки по порядку их следования в диалоге, что может дать более точный перевод с учётом контекста. Если <code>false</code> - порядок будет игнорироваться, и будет приоритет на уменьшение количества конечных запросов к сервису.</p>
             </div>
 
             <div class="param-block" id="tlsMinorVersion">
-                <h3><span class="param-name">tlsMinorVersion</span> <span class="param-type">(строка или объект)</span></h3>
-                <p><strong>Назначение:</strong> Указание допустимых версий TLS для сетевых запросов.</p>
+                <h3><span class="param-name" data-i18n="docs.advanced_settings.tlsMinorVersion.name">tlsMinorVersion</span> <span class="param-type" data-i18n="docs.advanced_settings.tlsMinorVersion.type">(строка или объект)</span></h3>
+                <p data-i18n="docs.advanced_settings.tlsMinorVersion.purpose"><strong>Назначение:</strong> Указание допустимых версий TLS для сетевых запросов.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong>
+                    <strong data-i18n="docs.advanced_settings.tlsMinorVersion.values_title">Допустимые значения:</strong>
                     <ul>
-                        <li><code>":auto:"</code> - автоматический выбор</li>
-                        <li>JSON-объект, где ключ - имя браузера ("Chrome", "Yandex", "Edge"), а значение - массив допустимых минорных версий TLS (0, 1, 2, 3)</li>
+                        <li data-i18n="docs.advanced_settings.tlsMinorVersion.value1"><code>":auto:"</code> - автоматический выбор</li>
+                        <li data-i18n="docs.advanced_settings.tlsMinorVersion.value2">JSON-объект, где ключ - имя браузера ("Chrome", "Yandex", "Edge"), а значение - массив допустимых минорных версий TLS (0, 1, 2, 3)</li>
                     </ul>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>":auto:"</code></p>
-                <p><strong>Пример:</strong> <code>{"Chrome": [1, 3]}</code> - допускаются протоколы TLS1.1 и TLS1.3</p>
+                <p data-i18n="docs.advanced_settings.tlsMinorVersion.default"><strong>Значение по умолчанию:</strong> <code>":auto:"</code></p>
+                <p data-i18n="docs.advanced_settings.tlsMinorVersion.example"><strong>Пример:</strong> <code>{"Chrome": [1, 3]}</code> - допускаются протоколы TLS1.1 и TLS1.3</p>
             </div>
 
             <div class="param-block" id="useProxies">
-                <h3><span class="param-name">useProxies</span> <span class="param-type">(булево, null или массив)</span></h3>
-                <p><strong>Назначение:</strong> Настройка использования прокси-серверов.</p>
+                <h3><span class="param-name" data-i18n="docs.advanced_settings.useProxies.name">useProxies</span> <span class="param-type" data-i18n="docs.advanced_settings.useProxies.type">(булево, null или массив)</span></h3>
+                <p data-i18n="docs.advanced_settings.useProxies.purpose"><strong>Назначение:</strong> Настройка использования прокси-серверов.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong>
+                    <strong data-i18n="docs.advanced_settings.useProxies.values_title">Допустимые значения:</strong>
                     <ul>
-                        <li><code>true</code> - прокси используют AutoProxy (включается везде)</li>
-                        <li><code>false</code> - прокси отключены</li>
-                        <li><code>null</code> - прокси используют AutoProxy, но включаются не во всех сервисах, а в выбранных разработчиком</li>
-                        <li>Массив собственных прокси пользователя в формате: <code>["socks5://127.0.0.1:12345", "https://some.proxies.org:12345"]</code></li>
+                        <li data-i18n="docs.advanced_settings.useProxies.value1"><code>true</code> - прокси используют AutoProxy (включается везде)</li>
+                        <li data-i18n="docs.advanced_settings.useProxies.value2"><code>false</code> - прокси отключены</li>
+                        <li data-i18n="docs.advanced_settings.useProxies.value3"><code>null</code> - прокси используют AutoProxy, но включаются не во всех сервисах, а в выбранных разработчиком</li>
+                        <li data-i18n="docs.advanced_settings.useProxies.value4">Массив собственных прокси пользователя в формате: <code>["socks5://127.0.0.1:12345", "https://some.proxies.org:12345"]</code></li>
                     </ul>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>false</code></p>
-                <p><strong>Поддерживаемые протоколы:</strong> HTTP, HTTPS, SOCKS5 и другие доступные протоколы.</p>
+                <p data-i18n="docs.advanced_settings.useProxies.default"><strong>Значение по умолчанию:</strong> <code>false</code></p>
+                <p data-i18n="docs.advanced_settings.useProxies.protocols"><strong>Поддерживаемые протоколы:</strong> HTTP, HTTPS, SOCKS5 и другие доступные протоколы.</p>
             </div>
 
             <div class="param-block" id="useProxyInSelenium">
-                <h3><span class="param-name">useProxyInSelenium</span> <span class="param-type">(булево)</span></h3>
-                <p><strong>Назначение:</strong> Использование прокси в браузере Selenium.</p>
+                <h3><span class="param-name" data-i18n="docs.advanced_settings.useProxyInSelenium.name">useProxyInSelenium</span> <span class="param-type" data-i18n="docs.advanced_settings.useProxyInSelenium.type">(булево)</span></h3>
+                <p data-i18n="docs.advanced_settings.useProxyInSelenium.purpose"><strong>Назначение:</strong> Использование прокси в браузере Selenium.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> <code>true</code> или <code>false</code>
+                    <strong data-i18n="docs.advanced_settings.useProxyInSelenium.values_title">Допустимые значения:</strong> <span data-i18n="docs.advanced_settings.useProxyInSelenium.values"><code>true</code> или <code>false</code></span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>false</code></p>
-                <p><strong>Описание:</strong> Настройка применяется только если прокси включены в том или ином виде в параметре <code>useProxies</code>. В ином случае настройка игнорируется.</p>
+                <p data-i18n="docs.advanced_settings.useProxyInSelenium.default"><strong>Значение по умолчанию:</strong> <code>false</code></p>
+                <p data-i18n="docs.advanced_settings.useProxyInSelenium.description">Настройка применяется только если прокси включены в том или ином виде в параметре <code>useProxies</code>. В ином случае настройка игнорируется.</p>
             </div>
 
             <div class="param-block" id="customProxiesBridges">
-                <h3><span class="param-name">customProxiesBridges</span> <span class="param-type">(массив или null)</span></h3>
-                <p><strong>Назначение:</strong> Список дополнительных мостов для AutoProxy.</p>
+                <h3><span class="param-name" data-i18n="docs.advanced_settings.customProxiesBridges.name">customProxiesBridges</span> <span class="param-type" data-i18n="docs.advanced_settings.customProxiesBridges.type">(массив или null)</span></h3>
+                <p data-i18n="docs.advanced_settings.customProxiesBridges.purpose"><strong>Назначение:</strong> Список дополнительных мостов для AutoProxy.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> Список мостов или <code>null</code>
+                    <strong data-i18n="docs.advanced_settings.customProxiesBridges.values_title">Допустимые значения:</strong> <span data-i18n="docs.advanced_settings.customProxiesBridges.values">Список мостов или <code>null</code></span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>null</code></p>
-                <p><strong>Описание:</strong> Если прокси включены в одном из режимов, где используется AutoProxy, в этом параметре можно указать дополнительные мосты для соединения. Если прокси не включены или AutoProxy не используется, настройка игнорируется.</p>
+                <p data-i18n="docs.advanced_settings.customProxiesBridges.default"><strong>Значение по умолчанию:</strong> <code>null</code></p>
+                <p data-i18n="docs.advanced_settings.customProxiesBridges.description">Если прокси включены в одном из режимов, где используется AutoProxy, в этом параметре можно указать дополнительные мосты для соединения. Если прокси не включены или AutoProxy не используется, настройка игнорируется.</p>
             </div>
 
             <div class="param-block" id="useMinimizeButton">
-                <h3><span class="param-name">useMinimizeButton</span> <span class="param-type">(булево)</span></h3>
-                <p><strong>Назначение:</strong> Отображение кнопки "развернуть графический интерфейс".</p>
+                <h3><span class="param-name" data-i18n="docs.advanced_settings.useMinimizeButton.name">useMinimizeButton</span> <span class="param-type" data-i18n="docs.advanced_settings.useMinimizeButton.type">(булево)</span></h3>
+                <p data-i18n="docs.advanced_settings.useMinimizeButton.purpose"><strong>Назначение:</strong> Отображение кнопки "развернуть графический интерфейс".</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> <code>true</code> или <code>false</code>
+                    <strong data-i18n="docs.advanced_settings.useMinimizeButton.values_title">Допустимые значения:</strong> <span data-i18n="docs.advanced_settings.useMinimizeButton.values"><code>true</code> или <code>false</code></span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>true</code></p>
-                <p><strong>Описание:</strong> Показывать ли небольшую кнопку "развернуть графический интерфейс" в углу экрана, когда основное окно свёрнуто. Позволяет вернуть интерфейс при помощи нажатия мышью на иконку, а не только через комбинацию клавиш.</p>
+                <p data-i18n="docs.advanced_settings.useMinimizeButton.default"><strong>Значение по умолчанию:</strong> <code>true</code></p>
+                <p data-i18n="docs.advanced_settings.useMinimizeButton.description">Показывать ли небольшую кнопку "развернуть графический интерфейс" в углу экрана, когда основное окно свёрнуто. Позволяет вернуть интерфейс при помощи нажатия мышью на иконку, а не только через комбинацию клавиш.</p>
             </div>
 
             <div class="param-block" id="databaseDir">
-                <h3><span class="param-name">databaseDir</span> <span class="param-type">(строка или null)</span></h3>
-                <p><strong>Назначение:</strong> Папка для сохранения облачных баз данных.</p>
+                <h3><span class="param-name" data-i18n="docs.advanced_settings.databaseDir.name">databaseDir</span> <span class="param-type" data-i18n="docs.advanced_settings.databaseDir.type">(строка или null)</span></h3>
+                <p data-i18n="docs.advanced_settings.databaseDir.purpose"><strong>Назначение:</strong> Папка для сохранения облачных баз данных.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> Путь к папке или <code>null</code>
+                    <strong data-i18n="docs.advanced_settings.databaseDir.values_title">Допустимые значения:</strong> <span data-i18n="docs.advanced_settings.databaseDir.values">Путь к папке или <code>null</code></span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>null</code></p>
-                <p><strong>Описание:</strong> Папка, куда будут записываться облачные базы данных после завершения прескана, чтобы потом пользователь мог ими поделиться. Если <code>null</code> - база данных записывается в папку игры. Рекомендуется указать конкретную папку, чтобы все БД были в одном месте и было удобно ими поделиться.</p>
+                <p data-i18n="docs.advanced_settings.databaseDir.default"><strong>Значение по умолчанию:</strong> <code>null</code></p>
+                <p data-i18n="docs.advanced_settings.databaseDir.description">Папка, куда будут записываться облачные базы данных после завершения прескана, чтобы потом пользователь мог ими поделиться. Если <code>null</code> - база данных записывается в папку игры. Рекомендуется указать конкретную папку, чтобы все БД были в одном месте и было удобно ими поделиться.</p>
             </div>
         </section>
-
         <section id="hotkeys">
-            <h2>Горячие клавиши</h2>
+            <h2 data-i18n="docs.hotkeys.title">Горячие клавиши</h2>
 
             <div class="note">
-                <p><strong>Примечание:</strong> В большинстве случаев удобнее настроить клавиши через графический интерфейс. Информация здесь представлена для ознакомления.</p>
+                <p data-i18n="docs.hotkeys.note"><strong>Примечание:</strong> В большинстве случаев удобнее настроить клавиши через графический интерфейс. Информация здесь представлена для ознакомления.</p>
             </div>
 
             <div class="param-block" id="keys">
-                <h3><span class="param-name">keys</span> <span class="param-type">(объект)</span></h3>
-                <p><strong>Назначение:</strong> Настройки горячие клавиши для управления программой.</p>
+                <h3><span class="param-name" data-i18n="docs.hotkeys.keys.name">keys</span> <span class="param-type" data-i18n="docs.hotkeys.keys.type">(объект)</span></h3>
+                <p data-i18n="docs.hotkeys.keys.purpose"><strong>Назначение:</strong> Настройки горячие клавиши для управления программой.</p>
 
-                <h4 id="guiShow">guiShow</h4>
-                <p><strong>Назначение:</strong> Показать/скрыть графический интерфейс.</p>
-                <p><strong>Формат:</strong> Объект с ключами <code>"extraKeys"</code> и <code>"mainKey"</code></p>
+                <h4 id="guiShow" data-i18n="docs.hotkeys.keys.guiShow.title">guiShow</h4>
+                <p data-i18n="docs.hotkeys.keys.guiShow.purpose"><strong>Назначение:</strong> Показать/скрыть графический интерфейс.</p>
+                <p data-i18n="docs.hotkeys.keys.guiShow.format"><strong>Формат:</strong> Объект с ключами <code>"extraKeys"</code> и <code>"mainKey"</code></p>
                 <ul>
-                    <li><code>"extraKeys"</code> - массив модификаторов (один или несколько из: "alt", "meta", "shift", "ctrl")</li>
-                    <li><code>"mainKey"</code> - основная клавиша в формате pygame</li>
+                    <li data-i18n="docs.hotkeys.keys.guiShow.extraKeys"><code>"extraKeys"</code> - массив модификаторов (один или несколько из: "alt", "meta", "shift", "ctrl")</li>
+                    <li data-i18n="docs.hotkeys.keys.guiShow.mainKey"><code>"mainKey"</code> - основная клавиша в формате pygame</li>
                 </ul>
-                <p><strong>Значение по умолчанию:</strong> <code>{"extraKeys": ["alt"], "mainKey": "BACKQUOTE"}</code></p>
-                <p><strong>Пример с несколькими модификаторами:</strong> <code>{"extraKeys": ["ctrl", "shift"], "mainKey": "K_T"}</code></p>
+                <p data-i18n="docs.hotkeys.keys.guiShow.default"><strong>Значение по умолчанию:</strong> <code>{"extraKeys": ["alt"], "mainKey": "BACKQUOTE"}</code></p>
+                <p data-i18n="docs.hotkeys.keys.guiShow.example"><strong>Пример с несколькими модификаторами:</strong> <code>{"extraKeys": ["ctrl", "shift"], "mainKey": "K_T"}</code></p>
                 <div class="note">
-                    <p><strong>Примечание:</strong> Все клавиши указываются в формате pygame. Буквенные клавиши должны начинаться с префикса "K_" и быть в верхнем регистре (например, "K_T", "K_A", "K_F1").</p>
+                    <p data-i18n="docs.hotkeys.keys.guiShow.note"><strong>Примечание:</strong> Все клавиши указываются в формате pygame. Буквенные клавиши должны начинаться с префикса "K_" и быть в верхнем регистре (например, "K_T", "K_A", "K_F1").</p>
                 </div>
 
-                <h4 id="databaseTranslateSwitcher">databaseTranslateSwitcher</h4>
-                <p><strong>Назначение:</strong> Переключение между режимами "перевод только из базы данных" и "отключено".</p>
-                <p><strong>Формат:</strong> <code>null</code> (отключено), строка или объект</p>
-                <p><strong>Значение по умолчанию:</strong> <code>null</code></p>
+                <h4 id="databaseTranslateSwitcher" data-i18n="docs.hotkeys.keys.databaseTranslateSwitcher.title">databaseTranslateSwitcher</h4>
+                <p data-i18n="docs.hotkeys.keys.databaseTranslateSwitcher.purpose"><strong>Назначение:</strong> Переключение между режимами "перевод только из базы данных" и "отключено".</p>
+                <p data-i18n="docs.hotkeys.keys.databaseTranslateSwitcher.format"><strong>Формат:</strong> <code>null</code> (отключено), строка или объект</p>
+                <p data-i18n="docs.hotkeys.keys.databaseTranslateSwitcher.default"><strong>Значение по умолчанию:</strong> <code>null</code></p>
 
-                <h4>displayOriginal</h4>
-                <p><strong>Назначение:</strong> Показать/скрыть оригинальный текст (аналогично параметру в основных настройках).</p>
-                <p><strong>Формат:</strong> <code>null</code> (отключено), строка или объект</p>
-                <p><strong>Значение по умолчанию:</strong> <code>null</code></p>
+                <h4 data-i18n="docs.hotkeys.keys.displayOriginal.title">displayOriginal</h4>
+                <p data-i18n="docs.hotkeys.keys.displayOriginal.purpose"><strong>Назначение:</strong> Показать/скрыть оригинальный текст (аналогично параметру в основных настройках).</p>
+                <p data-i18n="docs.hotkeys.keys.displayOriginal.format"><strong>Формат:</strong> <code>null</code> (отключено), строка или объект</p>
+                <p data-i18n="docs.hotkeys.keys.displayOriginal.default"><strong>Значение по умолчанию:</strong> <code>null</code></p>
 
-                <h4>displayAlternateTranslations</h4>
-                <p><strong>Назначение:</strong> Показать/скрыть альтернативные варианты перевода (аналогично параметру в основных настройках).</p>
-                <p><strong>Формат:</strong> <code>null</code> (отключено), строка или объект</p>
-                <p><strong>Значение по умолчанию:</strong> <code>null</code></p>
+                <h4 data-i18n="docs.hotkeys.keys.displayAlternateTranslations.title">displayAlternateTranslations</h4>
+                <p data-i18n="docs.hotkeys.keys.displayAlternateTranslations.purpose"><strong>Назначение:</strong> Показать/скрыть альтернативные варианты перевода (аналогично параметру в основных настройках).</p>
+                <p data-i18n="docs.hotkeys.keys.displayAlternateTranslations.format"><strong>Формат:</strong> <code>null</code> (отключено), строка или объект</p>
+                <p data-i18n="docs.hotkeys.keys.displayAlternateTranslations.default"><strong>Значение по умолчанию:</strong> <code>null</code></p>
 
-                <h4>editWindow</h4>
-                <p><strong>Назначение:</strong> Показать/скрыть окно редактирования текста (аналогично параметру "showEditWindow" в основных настройках).</p>
-                <p><strong>Формат:</strong> <code>null</code> (отключено), строка или объект</p>
-                <p><strong>Значение по умолчанию:</strong> <code>null</code></p>
+                <h4 data-i18n="docs.hotkeys.keys.editWindow.title">editWindow</h4>
+                <p data-i18n="docs.hotkeys.keys.editWindow.purpose"><strong>Назначение:</strong> Показать/скрыть окно редактирования текста (аналогично параметру "showEditWindow" в основных настройках).</p>
+                <p data-i18n="docs.hotkeys.keys.editWindow.format"><strong>Формат:</strong> <code>null</code> (отключено), строка или объект</p>
+                <p data-i18n="docs.hotkeys.keys.editWindow.default"><strong>Значение по умолчанию:</strong> <code>null</code></p>
 
-                <h4 id="forceRestart">forceRestart</h4>
-                <p><strong>Назначение:</strong> Принудительное обновление текущего экрана игры (аналогично функции "Обновить страницу" в графическом интерфейсе).</p>
-                <p><strong>Формат:</strong> <code>null</code> (отключено), строка или объект</p>
-                <p><strong>Значение по умолчанию:</strong> <code>null</code></p>
-                <p><strong>Использование:</strong> Полезно в случаях, когда экран по каким-либо причинам не обновился после перевода и отображает непереведённый текст. Позволяет принудительно перерисовать интерфейс.</p>
+                <h4 id="forceRestart" data-i18n="docs.hotkeys.keys.forceRestart.title">forceRestart</h4>
+                <p data-i18n="docs.hotkeys.keys.forceRestart.purpose"><strong>Назначение:</strong> Принудительное обновление текущего экрана игры (аналогично функции "Обновить страницу" в графическом интерфейсе).</p>
+                <p data-i18n="docs.hotkeys.keys.forceRestart.format"><strong>Формат:</strong> <code>null</code> (отключено), строка или объект</p>
+                <p data-i18n="docs.hotkeys.keys.forceRestart.default"><strong>Значение по умолчанию:</strong> <code>null</code></p>
+                <p data-i18n="docs.hotkeys.keys.forceRestart.usage"><strong>Использование:</strong> Полезно в случаях, когда экран по каким-либо причинам не обновился после перевода и отображает непереведённый текст. Позволяет принудительно перерисовать интерфейс.</p>
 
                 <div class="value-options">
-                    <strong>Форматы назначения горячих клавиш:</strong>
+                    <strong data-i18n="docs.hotkeys.keys.formats_title">Форматы назначения горячих клавиш:</strong>
                     <ul>
-                        <li><code>null</code> - комбинация отключена</li>
-                        <li>Строка с клавишей - используется указанная клавиша</li>
-                        <li>Объект с ключами "extraKeys" и "mainKey" - "extraKeys" это массив модификаторов, "mainKey" - основная клавиша</li>
+                        <li data-i18n="docs.hotkeys.keys.format1"><code>null</code> - комбинация отключена</li>
+                        <li data-i18n="docs.hotkeys.keys.format2">Строка с клавишей - используется указанная клавиша</li>
+                        <li data-i18n="docs.hotkeys.keys.format3">Объект с ключами "extraKeys" и "mainKey" - "extraKeys" это массив модификаторов, "mainKey" - основная клавиша</li>
                     </ul>
                 </div>
             </div>
         </section>
 
         <section id="text-options">
-            <h2>Дополнительные настройки текста</h2>
+            <h2 data-i18n="docs.text_options.title">Дополнительные настройки текста</h2>
 
             <div class="param-block" id="extraTextOptions">
-                <h3><span class="param-name">extraTextOptions</span> <span class="param-type">(объект)</span></h3>
-                <p><strong>Назначение:</strong> Дополнительные параметры отображения текста в игре.</p>
+                <h3><span class="param-name" data-i18n="docs.text_options.extraTextOptions.name">extraTextOptions</span> <span class="param-type" data-i18n="docs.text_options.extraTextOptions.type">(объект)</span></h3>
+                <p data-i18n="docs.text_options.extraTextOptions.purpose"><strong>Назначение:</strong> Дополнительные параметры отображения текста в игре.</p>
 
-                <h4 id="font">font</h4>
-                <p><strong>Назначение:</strong> Шрифт для отображения текста.</p>
+                <h4 id="font" data-i18n="docs.text_options.extraTextOptions.font.title">font</h4>
+                <p data-i18n="docs.text_options.extraTextOptions.font.purpose"><strong>Назначение:</strong> Шрифт для отображения текста.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong>
+                    <strong data-i18n="docs.text_options.extraTextOptions.font.values_title">Допустимые значения:</strong>
                     <ul>
-                        <li>Путь к файлу шрифта</li>
-                        <li><code>null</code> - шрифт не меняется</li>
-                        <li><code>":auto:"</code> - шрифт скачивается автоматически в зависимости от языка перевода</li>
+                        <li data-i18n="docs.text_options.extraTextOptions.font.value1">Путь к файлу шрифта</li>
+                        <li data-i18n="docs.text_options.extraTextOptions.font.value2"><code>null</code> - шрифт не меняется</li>
+                        <li data-i18n="docs.text_options.extraTextOptions.font.value3"><code>":auto:"</code> - шрифт скачивается автоматически в зависимости от языка перевода</li>
                     </ul>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>":auto:"</code></p>
+                <p data-i18n="docs.text_options.extraTextOptions.font.default"><strong>Значение по умолчанию:</strong> <code>":auto:"</code></p>
 
-                <h4 id="size">size</h4>
-                <p><strong>Назначение:</strong> Размер текста.</p>
-                <p><strong>Значение по умолчанию:</strong> <code>null</code></p>
-                <p><strong>Пример:</strong> <code>24</code> - размер текста 24 пикселя</p>
+                <h4 id="size" data-i18n="docs.text_options.extraTextOptions.size.title">size</h4>
+                <p data-i18n="docs.text_options.extraTextOptions.size.purpose"><strong>Назначение:</strong> Размер текста.</p>
+                <p data-i18n="docs.text_options.extraTextOptions.size.default"><strong>Значение по умолчанию:</strong> <code>null</code></p>
+                <p data-i18n="docs.text_options.extraTextOptions.size.example"><strong>Пример:</strong> <code>24</code> - размер текста 24 пикселя</p>
 
-                <h4 id="color">color</h4>
-                <p><strong>Назначение:</strong> Цвет текста в HEX-формате.</p>
-                <p><strong>Значение по умолчанию:</strong> <code>null</code></p>
-                <p><strong>Примеры:</strong></p>
+                <h4 id="color" data-i18n="docs.text_options.extraTextOptions.color.title">color</h4>
+                <p data-i18n="docs.text_options.extraTextOptions.color.purpose"><strong>Назначение:</strong> Цвет текста в HEX-формате.</p>
+                <p data-i18n="docs.text_options.extraTextOptions.color.default"><strong>Значение по умолчанию:</strong> <code>null</code></p>
+                <p data-i18n="docs.text_options.extraTextOptions.color.examples_title">Примеры:</p>
                 <ul>
-                    <li><code>"#ffffff"</code> - белый текст</li>
-                    <li><code>"#ff0000"</code> - красный текст</li>
-                    <li><code>"#00ff00"</code> - зелёный текст</li>
-                    <li><code>"#0000ff"</code> - синий текст</li>
+                    <li data-i18n="docs.text_options.extraTextOptions.color.example1"><code>"#ffffff"</code> - белый текст</li>
+                    <li data-i18n="docs.text_options.extraTextOptions.color.example2"><code>"#ff0000"</code> - красный текст</li>
+                    <li data-i18n="docs.text_options.extraTextOptions.color.example3"><code>"#00ff00"</code> - зелёный текст</li>
+                    <li data-i18n="docs.text_options.extraTextOptions.color.example4"><code>"#0000ff"</code> - синий текст</li>
                 </ul>
 
-                <h4 id="outlines">outlines</h4>
-                <p><strong>Назначение:</strong> Настройки обводки текста.</p>
-                <p><strong>Формат:</strong> Массив с массивами из 4 элементов: [Размер, цвет в HEX, смещение по X, смещение по Y]</p>
-                <p><strong>Значение по умолчанию:</strong> <code>null</code></p>
-                <p><strong>Примеры:</strong></p>
+                <h4 id="outlines" data-i18n="docs.text_options.extraTextOptions.outlines.title">outlines</h4>
+                <p data-i18n="docs.text_options.extraTextOptions.outlines.purpose"><strong>Назначение:</strong> Настройки обводки текста.</p>
+                <p data-i18n="docs.text_options.extraTextOptions.outlines.format"><strong>Формат:</strong> Массив с массивами из 4 элементов: [Размер, цвет в HEX, смещение по X, смещение по Y]</p>
+                <p data-i18n="docs.text_options.extraTextOptions.outlines.default"><strong>Значение по умолчанию:</strong> <code>null</code></p>
+                <p data-i18n="docs.text_options.extraTextOptions.outlines.examples_title">Примеры:</p>
                 <div class="pre-block">
 // Простая чёрная обводка толщиной 2 пикселя
 [[2, "#000000", 0, 0]]
@@ -756,22 +751,22 @@
 [[2, "#ff0000", 0, 0]]    // Красная обводка
                 </div>
 
-                <h4>italic</h4>
-                <p><strong>Назначение:</strong> Курсивное начертание текста.</p>
+                <h4 data-i18n="docs.text_options.extraTextOptions.italic.title">italic</h4>
+                <p data-i18n="docs.text_options.extraTextOptions.italic.purpose"><strong>Назначение:</strong> Курсивное начертание текста.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> <code>true</code> или <code>false</code>
+                    <strong data-i18n="docs.text_options.extraTextOptions.italic.values_title">Допустимые значения:</strong> <span data-i18n="docs.text_options.extraTextOptions.italic.values"><code>true</code> или <code>false</code></span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>false</code></p>
+                <p data-i18n="docs.text_options.extraTextOptions.italic.default"><strong>Значение по умолчанию:</strong> <code>false</code></p>
 
-                <h4>bold</h4>
-                <p><strong>Назначение:</strong> Жирное начертание текста.</p>
+                <h4 data-i18n="docs.text_options.extraTextOptions.bold.title">bold</h4>
+                <p data-i18n="docs.text_options.extraTextOptions.bold.purpose"><strong>Назначение:</strong> Жирное начертание текста.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> <code>true</code> или <code>false</code>
+                    <strong data-i18n="docs.text_options.extraTextOptions.bold.values_title">Допустимые значения:</strong> <span data-i18n="docs.text_options.extraTextOptions.bold.values"><code>true</code> или <code>false</code></span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>false</code></p>
+                <p data-i18n="docs.text_options.extraTextOptions.bold.default"><strong>Значение по умолчанию:</strong> <code>false</code></p>
 
                 <div class="note">
-                    <p><strong>Пример полной настройки текста:</strong></p>
+                    <p data-i18n="docs.text_options.extraTextOptions.full_example_title"><strong>Пример полной настройки текста:</strong></p>
                     <div class="pre-block">
 "extraTextOptions": {
     "font": ":auto:",
@@ -785,78 +780,73 @@
                 </div>
             </div>
         </section>
-
         <section id="api-settings">
-            <h2>Настройки API</h2>
+            <h2 data-i18n="docs.api_settings.title">Настройки API</h2>
 
             <div class="param-block" id="apiData">
-                <h3><span class="param-name">apiData</span> <span class="param-type">(объект)</span></h3>
-                <p><strong>Назначение:</strong> Данные для доступа к API сервисов перевода.</p>
+                <h3><span class="param-name" data-i18n="docs.api_settings.apiData.name">apiData</span> <span class="param-type" data-i18n="docs.api_settings.apiData.type">(объект)</span></h3>
+                <p data-i18n="docs.api_settings.apiData.purpose"><strong>Назначение:</strong> Данные для доступа к API сервисов перевода.</p>
 
-                <h4 id="deepL">deepL</h4>
-                <p><strong>Назначение:</strong> Настройки для DeepL API.</p>
+                <h4 id="deepL" data-i18n="docs.api_settings.apiData.deepL.title">deepL</h4>
+                <p data-i18n="docs.api_settings.apiData.deepL.purpose"><strong>Назначение:</strong> Настройки для DeepL API.</p>
 
-                <h5>endpoint</h5>
-                <p><strong>Назначение:</strong> Адрес API DeepL.</p>
-                <p><strong>Значение по умолчанию:</strong> <code>"https://api-free.deepl.com"</code></p>
+                <h5 data-i18n="docs.api_settings.apiData.deepL.endpoint.title">endpoint</h5>
+                <p data-i18n="docs.api_settings.apiData.deepL.endpoint.purpose"><strong>Назначение:</strong> Адрес API DeepL.</p>
+                <p data-i18n="docs.api_settings.apiData.deepL.endpoint.default"><strong>Значение по умолчанию:</strong> <code>"https://api-free.deepl.com"</code></p>
 
-                <h5>authKey</h5>
-                <p><strong>Назначение:</strong> Ключ авторизации для DeepL API.</p>
-                <p><strong>Значение по умолчанию:</strong> <code>null</code></p>
+                <h5 data-i18n="docs.api_settings.apiData.deepL.authKey.title">authKey</h5>
+                <p data-i18n="docs.api_settings.apiData.deepL.authKey.purpose"><strong>Назначение:</strong> Ключ авторизации для DeepL API.</p>
+                <p data-i18n="docs.api_settings.apiData.deepL.authKey.default"><strong>Значение по умолчанию:</strong> <code>null</code></p>
             </div>
         </section>
 
         <section id="fix-options">
-            <h2>Опции исправления проблем</h2>
+            <h2 data-i18n="docs.fix_options.title">Опции исправления проблем</h2>
 
             <div class="param-block" id="_fixOptions">
-                <h3><span class="param-name">_fixOptions</span> <span class="param-type">(объект)</span></h3>
-                <p><strong>Назначение:</strong> Специальные опции для исправления различных проблем в конкретных играх.</p>
+                <h3><span class="param-name" data-i18n="docs.fix_options._fixOptions.name">_fixOptions</span> <span class="param-type" data-i18n="docs.fix_options._fixOptions.type">(объект)</span></h3>
+                <p data-i18n="docs.fix_options._fixOptions.purpose"><strong>Назначение:</strong> Специальные опции для исправления различных проблем в конкретных играх.</p>
 
                 <div class="important">
-                    <p><strong>Важно:</strong> Без конкретного указания технической поддержки в этом разделе не рекомендуется менять ничего вообще. Эти опции предназначены для исправления специфических проблем в отдельных играх и могут привести к нестабильной работе программы при неправильном использовании.</p>
+                    <p data-i18n="docs.fix_options._fixOptions.important"><strong>Важно:</strong> Без конкретного указания технической поддержки в этом разделе не рекомендуется менять ничего вообще. Эти опции предназначены для исправления специфических проблем в отдельных играх и могут привести к нестабильной работе программы при неправильном использовании.</p>
                 </div>
 
-                <h4><span class="param-name">fixGUI</span> <span class="param-type">(булево)</span></h4>
-                <p><strong>Назначение:</strong> Исправляет проблему в играх, где подавляется слой на котором отображается переводчик. Опция отключает подавление слоёв, если таковое имеется.</p>
+                <h4><span class="param-name" data-i18n="docs.fix_options._fixOptions.fixGUI.name">fixGUI</span> <span class="param-type" data-i18n="docs.fix_options._fixOptions.fixGUI.type">(булево)</span></h4>
+                <p data-i18n="docs.fix_options._fixOptions.fixGUI.purpose"><strong>Назначение:</strong> Исправляет проблему в играх, где подавляется слой на котором отображается переводчик. Опция отключает подавление слоёв, если таковое имеется.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> <code>true</code> или <code>false</code>
+                    <strong data-i18n="docs.fix_options._fixOptions.fixGUI.values_title">Допустимые значения:</strong> <span data-i18n="docs.fix_options._fixOptions.fixGUI.values"><code>true</code> или <code>false</code></span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>false</code></p>
+                <p data-i18n="docs.fix_options._fixOptions.fixGUI.default"><strong>Значение по умолчанию:</strong> <code>false</code></p>
 
-
-                <h4><span class="param-name">fixFont</span> <span class="param-type">(булево)</span></h4>
-                <p><strong>Назначение:</strong> Исправляет проблему в играх, где форсированно изменяется стиль выводимого текста из за чего не применяется выбранный пользователем шрифт, что приводит к отображанию "квадратиков" вместо текста. Опция применяет альтернативный метод изменения шрифта текста.</p>
+                <h4><span class="param-name" data-i18n="docs.fix_options._fixOptions.fixFont.name">fixFont</span> <span class="param-type" data-i18n="docs.fix_options._fixOptions.fixFont.type">(булево)</span></h4>
+                <p data-i18n="docs.fix_options._fixOptions.fixFont.purpose"><strong>Назначение:</strong> Исправляет проблему в играх, где форсированно изменяется стиль выводимого текста из за чего не применяется выбранный пользователем шрифт, что приводит к отображанию "квадратиков" вместо текста. Опция применяет альтернативный метод изменения шрифта текста.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> <code>true</code> или <code>false</code>
+                    <strong data-i18n="docs.fix_options._fixOptions.fixFont.values_title">Допустимые значения:</strong> <span data-i18n="docs.fix_options._fixOptions.fixFont.values"><code>true</code> или <code>false</code></span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>false</code></p>
+                <p data-i18n="docs.fix_options._fixOptions.fixFont.default"><strong>Значение по умолчанию:</strong> <code>false</code></p>
 
-
-                <h4><span class="param-name">fixDevMode</span> <span class="param-type">(булево)</span></h4>
-                <p><strong>Назначение:</strong> Исправляет проблему с множественным вызовом <code>renpy.restart_interaction()</code>, которая возникает из за того, что разработчик оставляет параметр <code>config.developer</code> включённым в релизной версии. Опция отключает параметр.</p>
+                <h4><span class="param-name" data-i18n="docs.fix_options._fixOptions.fixDevMode.name">fixDevMode</span> <span class="param-type" data-i18n="docs.fix_options._fixOptions.fixDevMode.type">(булево)</span></h4>
+                <p data-i18n="docs.fix_options._fixOptions.fixDevMode.purpose"><strong>Назначение:</strong> Исправляет проблему с множественным вызовом <code>renpy.restart_interaction()</code>, которая возникает из за того, что разработчик оставляет параметр <code>config.developer</code> включённым в релизной версии. Опция отключает параметр.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> <code>true</code> или <code>false</code>
+                    <strong data-i18n="docs.fix_options._fixOptions.fixDevMode.values_title">Допустимые значения:</strong> <span data-i18n="docs.fix_options._fixOptions.fixDevMode.values"><code>true</code> или <code>false</code></span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>false</code></p>
+                <p data-i18n="docs.fix_options._fixOptions.fixDevMode.default"><strong>Значение по умолчанию:</strong> <code>false</code></p>
 
-
-                <h4><span class="param-name">forceRestartInNoFreeze</span> <span class="param-type">(булево)</span></h4>
-                <p><strong>Назначение:</strong> Если включено, изменяет поведение в режиме "No freeze", принудительно перерисовывая интерфейс после каждого обновления перевода. Если отключено - интерфейс перерисовывается избирательно, в зависимости от условий. Помогает в играх, где вывод текста производится нестандартыми способами.</p>
+                <h4><span class="param-name" data-i18n="docs.fix_options._fixOptions.forceRestartInNoFreeze.name">forceRestartInNoFreeze</span> <span class="param-type" data-i18n="docs.fix_options._fixOptions.forceRestartInNoFreeze.type">(булево)</span></h4>
+                <p data-i18n="docs.fix_options._fixOptions.forceRestartInNoFreeze.purpose"><strong>Назначение:</strong> Если включено, изменяет поведение в режиме "No freeze", принудительно перерисовывая интерфейс после каждого обновления перевода. Если отключено - интерфейс перерисовывается избирательно, в зависимости от условий. Помогает в играх, где вывод текста производится нестандартыми способами.</p>
                 <div class="value-options">
-                    <strong>Допустимые значения:</strong> <code>true</code> или <code>false</code>
+                    <strong data-i18n="docs.fix_options._fixOptions.forceRestartInNoFreeze.values_title">Допустимые значения:</strong> <span data-i18n="docs.fix_options._fixOptions.forceRestartInNoFreeze.values"><code>true</code> или <code>false</code></span>
                 </div>
-                <p><strong>Значение по умолчанию:</strong> <code>false</code></p>
-
+                <p data-i18n="docs.fix_options._fixOptions.forceRestartInNoFreeze.default"><strong>Значение по умолчанию:</strong> <code>false</code></p>
             </div>
         </section>
 
         <footer>
-            <p>Документация может обновляться раньше выхода новых версий программы</p>
+            <p data-i18n="docs.footer.notice">Документация может обновляться раньше выхода новых версий программы</p>
             <p>
-                <a href="index.html">Главная</a> |
-                <a href="gui.html">Графический интерфейс</a> |
-                <a href="docs.html">Настройки</a>
+                <a href="index.html" data-i18n="nav.home">Главная</a> |
+                <a href="gui.html" data-i18n="nav.gui">Графический интерфейс</a> |
+                <a href="docs.html" data-i18n="nav.settings">Настройки</a>
             </p>
         </footer>
     </div>
