@@ -2,3 +2,4 @@
 contest_calculator.html
 __pycache__
 *.pyc
+/py_modules/.spyproject

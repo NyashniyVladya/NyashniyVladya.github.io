@@ -77,10 +77,18 @@
         ]
     }
     </script>
+    <script src="js/i18n.js" type="module"></script>
 </head>
 <body>
     <div class="container">
+
         <header>
+            <div class="language-switcher">
+                <select id="languageSelect" class="lang-select">
+                    <option value="ru">🇷🇺 Русский</option>
+                    <option value="en">🇺🇸 English</option>
+                </select>
+            </div>
             <h1 data-i18n="header.title">Translator3000</h1>
             <p class="subtitle" data-i18n="header.subtitle">Переводчик визуальных новелл на движке Ren'Py с лёгкой установкой и удобным интерфейсом</p>
             <nav class="main-nav">

@@ -22,13 +22,28 @@
 
     <title>Translator3000. Available DBs</title>
 
-    <!-- Main JS. -->
-    <script type="text/javascript" src="js/utils.js"></script>
-    <script type="text/javascript">
+</head>
+
+<body style="margin: 1%;">
+
+    <div>
+        <table id="databasesTable" border="5" cellpadding="20" cellspacing="5" align="center">
+            <tr>
+                <td><h2>Game name</h3></td>
+                <td><h2>Version</h2></td>
+                <td><h2>Service</h2></td>
+                <td><h2>Direction</h2></td>
+            </tr>
+        </table>
+    </div>
+
+    <script type="module">
+
+        import * as utils from "./js/utils.js";
 
         function _textSort(a, b) {
-            _a = a.toLowerCase();
-            _b = b.toLowerCase();
+            const _a = a.toLowerCase();
+            const _b = b.toLowerCase();
             if (_a == _b) {
                 if (a == b) {
                     return 0;
@@ -46,7 +61,7 @@
 
         function setLangName(srcLang, dstLang, cellElement) {
 
-            const langTablePromise = loadJSON("lang_codes.json");
+            const langTablePromise = utils.loadJSON("lang_codes.json");
 
             langTablePromise.then(jsonResult => {
 
@@ -123,27 +138,7 @@
                 });
             });
         };
-
-    </script>
-    <!-- /Main JS. -->
-
-</head>
-
-<body style="margin: 1%;">
-
-    <div>
-        <table id="databasesTable" border="5" cellpadding="20" cellspacing="5" align="center">
-            <tr>
-                <td><h2>Game name</h3></td>
-                <td><h2>Version</h2></td>
-                <td><h2>Service</h2></td>
-                <td><h2>Direction</h2></td>
-            </tr>
-        </table>
-    </div>
-
-    <script type="text/javascript">
-        const databasesPromise = loadJSON("novels_translate_database/registry.json");
+        const databasesPromise = utils.loadJSON("novels_translate_database/registry.json");
         databasesPromise.then(setTable);
     </script>
 

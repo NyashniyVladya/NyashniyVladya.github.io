@@ -10,3 +10,5 @@ async function loadJSON(url) {
     result = await response.text();
     throw result;
 };
+
+export {loadJSON};
