@@ -537,7 +537,7 @@
     "gui.center_left.translator_settings.display_original_desc": "Соответствует параметру <a class=\"external-link\" href=\"docs.html#displayOriginal\">displayOriginal</a> с возможностью настройки горячих клавиш для быстрого переключения.",
     "gui.center_left.translator_settings.game_language": "<strong>Исходный язык игры:</strong> Соответствует параметру <a class=\"external-link\" href=\"docs.html#gameLanguage\">gameLanguage</a>",
     "gui.center_left.translator_settings.hotkeys": "Настройка комбинаций клавиш",
-    "gui.center_left.translator_settings.hotkeys_desc": "Соответствует объекту <a class=\"external-link\" href=\"docs.html#keys\">keys</a>, но с упрощённым интерфейсом - можно выбрать комбинацию непосредственным нажатием нужных клавиш, без необходимости ввода текстовых команд. Включает настройку для функции <a class=\"external-link\" href=\"docs.html#forceRestart\">forceRestart</a> (принудительное обновление страницы).",
+    "gui.center_left.translator_settings.hotkeys_desc": "Соответствует объекту <a class=\"external-link\" href=\"docs.html#keys\">keys</a>, но с упрощённым интерфейсом - можно выбрать комбинацию непосредственным нажатием нужных клавиш, без необходимости ввода текстовых команд.",
     "gui.center_left.translator_settings.language_settings": "Языковые настройки",
     "gui.center_left.translator_settings.name": "Настройки переводчика",
     "gui.center_left.translator_settings.notifications": "Сбросить настройки уведомлений всплывающих окон",

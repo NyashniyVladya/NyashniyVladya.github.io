@@ -4,7 +4,10 @@ import * as utils from "./utils.js";
 class Localizer {
 
     TAG_NAME = "data-i18n";
-    AVAILABLE_LOCALES = ["ru", ];
+    AVAILABLE_LOCALES = {
+		"en": "English",
+		"ru": "Russian"
+	};
 
     constructor() {
         this.locale = this.detectLocale();
@@ -28,9 +31,9 @@ class Localizer {
             console.debug(`Check variant: \"${variant}\"`);
             if (variant) {
                 variant = variant.trim().toLocaleLowerCase();
-                for (let lng of this.AVAILABLE_LOCALES) {
+                for (let lng in this.AVAILABLE_LOCALES) {
                     if (variant.startsWith(lng)) {
-                        return lng;
+                        return this.AVAILABLE_LOCALES[lng];
                     };
                 };
             };
